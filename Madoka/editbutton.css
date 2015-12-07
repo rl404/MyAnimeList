@@ -11,6 +11,7 @@ EDIT BUTTON
 }
 
 #list_surround table:nth-of-type(n+4) tbody small a:first-of-type {
+    visibility: hidden;
     opacity: 0;
 }
 
