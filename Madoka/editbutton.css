@@ -5,7 +5,7 @@ EDIT BUTTON
 */
 #list_surround table:nth-of-type(n+4) tbody div small {
     /*letter-spacing: 5px;*/
-    visibility: visible;
+    visibility: hidden;
     color: transparent !important;
     font-size: 14px;
 }
