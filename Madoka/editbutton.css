@@ -20,7 +20,7 @@ EDIT BUTTON
 }
 
 #list_surround table:nth-of-type(n+4) tbody:hover small a:first-of-type {  
-    visibility: visible; 
+    visibility: visible !important; 
     opacity: 1 !important;
     transition: all 0.4s ease 0s;
 }
