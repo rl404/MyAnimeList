@@ -66,8 +66,12 @@ tr:hover td.td1 a, tr:hover td.td1, tr:hover td.td2 a, tr:hover td.td2 {
     transition: all 0.4s ease 0s; 
 }
 
+td[class^='td']:nth-of-type(5) {
+    text-align: right;
+}
+/*
 small::before {content: "[";}
-small::after {content: "]";}
+small::after {content: "]";}*/
 /*
 
 SORTING 
