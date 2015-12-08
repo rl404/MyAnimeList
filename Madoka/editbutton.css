@@ -5,6 +5,7 @@ EDIT BUTTON
 */
 #list_surround table:nth-of-type(n+4) tbody div small {
     /*letter-spacing: 5px;*/
+    visibility: visible;
     color: transparent !important;
     font-size: 14px;
 }
@@ -18,7 +19,7 @@ EDIT BUTTON
 }
 
 #list_surround table:nth-of-type(n+4) tbody:hover small a:first-of-type {  
-    visibility: visible !important; 
+    visibility: visible; 
     opacity: 1 !important;
     transition: all 0.4s ease 0s;
 }
