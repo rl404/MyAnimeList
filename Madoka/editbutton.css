@@ -15,7 +15,7 @@ EDIT BUTTON
 }
 
 #list_surround table:nth-of-type(n+4) tbody small a:last-of-type {
-    display: none !important;
+    /*display: none !important;*/
 }
 
 #list_surround table:nth-of-type(n+4) tbody:hover small a:first-of-type {  
