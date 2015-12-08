@@ -4,9 +4,6 @@
 BODY{
     color: #1c327c;
     font-size: 14px;
-    background: url(http://signavatar.com/40499_v.gif) right;
-    background-size: cover;
-    background-attachment: fixed;
     background-color: #000000;    
 }
 /*
@@ -879,3 +876,9 @@ body{
     0% { background-position: 0 0, 0 0; }
     100% { background-position: -150px -300px, 150px -300px; }
 } 
+
+body{    
+    background: url(http://signavatar.com/40499_v.gif) right;
+    background-size: cover;
+    background-attachment: fixed;
+}
