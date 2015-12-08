@@ -5,14 +5,11 @@ EDIT BUTTON
 */
 #list_surround table:nth-of-type(n+4) tbody div small {
     /*letter-spacing: 5px;*/
-    display: none !important;
-    visibility: hidden !important; 
     color: transparent !important;
     font-size: 14px;
 }
 
 #list_surround table:nth-of-type(n+4) tbody small a:first-of-type {
-	display: none !important;
     opacity: 0;
 }
 
@@ -21,7 +18,7 @@ EDIT BUTTON
 }
 
 #list_surround table:nth-of-type(n+4) tbody:hover small a:first-of-type {  
-    visibility: hidden !important; 
+    visibility: visible !important; 
     opacity: 1 !important;
     transition: all 0.4s ease 0s;
 }
