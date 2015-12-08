@@ -682,7 +682,7 @@ If you want to change out the icon images themselves, you can scroll down throug
 }
 
 #mal\_cs\_powered a img {
-    background: url("http://i.imgur.com/fGTjBC3.png") no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
+    background: url("https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/myanimelist%20menu.png") no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
     border-radius: 3px 3px 3px 3px;
     display: block;
     height: 0;
@@ -724,7 +724,7 @@ If you want to change out the icon images themselves, you can scroll down throug
 }
 
 #mal\_cs\_powered #search #searchListButton {
-    background: url("http://i.imgur.com/XqsilHp.png") no-repeat scroll 0 0 transparent;
+    background: url("https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/search%20button.png") no-repeat scroll 0 0 transparent;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
@@ -736,42 +736,42 @@ If you want to change out the icon images themselves, you can scroll down throug
 }
 
 #mal\_cs\_listinfo {
-    background-image: url("http://i.imgur.com/UXZxrWI.png");
+    background-image: url("https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/list%20menu1.png");
     right: 106px;
 }
 
 #mal\_cs\_listinfo:hover {
-    background-image: url("http://i.imgur.com/VcVVnod.png");
+    background-image: url("https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/list%20menu2.png");
 }
 
 #mal\_cs\_links {
-    background-image: url("http://i.imgur.com/LpXWTzt.png");
+    background-image: url("https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/link%20menu1.png");
     right: 72px;
     z-index: 9;
 }
 
 #mal\_cs\_links:hover {
-    background-image: url("http://i.imgur.com/oPfKrOl.png");
+    background-image: url("https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/link%20menu2.png");
 }
 
 #mal\_cs\_otherlinks {
-    background-image: url("http://i.imgur.com/ogmX9qC.png");
+    background-image: url("https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/other%20menu1.png");
     right: 38px;
     z-index: 8;
 }
 
 #mal\_cs\_otherlinks:hover {
-    background-image: url("http://i.imgur.com/EEGHkbF.png");
+    background-image: url("https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/other%20menu2.png");
 }
 
 #mal\_cs\_powered {
-    background-image: url("http://i.imgur.com/ct4BVP5.png");
+    background-image: url("https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/power%20menu1.png");
     right: 4px !important;
     z-index: 7;
 }
 
 #mal\_cs\_powered:hover {
-    background-image: url("http://i.imgur.com/TUUWtaj.png");
+    background-image: url("https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/list%20menu2.png");
 }
 
 td#mal\_cs\_pic a img {
@@ -798,19 +798,6 @@ td#mal\_cs\_pic a img {
     position: absolute !important;
     border-radius: 4px;
 }               
-/*
-#mal\_cs\_listinfo:after{
-    background-image: url(http://i.imgur.com/856wzPZ.png);
-}
-#mal\_cs\_links:after{
-    background-image: url(http://i.imgur.com/rwvRyux.png);
-}
-#mal\_cs\_otherlinks:after{
-    background-image: url(http://i.imgur.com/fbWr1K4.png);
-} 
-#mal\_cs\_powered:after{
-    background-image: url(http://i.imgur.com/fKvpt1F.png);
-}*/
 
 #mal\_cs\_listinfo:after, 
 #mal\_cs\_links:after, 
@@ -876,8 +863,8 @@ Sparkle
 
 */
 body{
-    background-image: url(http://i.imgur.com/sWW0xCu.png),
-                    url(http://i.imgur.com/KzNIhqF.png);
+    background-image: url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
+                    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png);
     border-radius: 50em;
     animation: sparkle 15s linear infinite;
     -webkit-animation: sparkle 15s linear infinite;
