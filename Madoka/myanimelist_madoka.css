@@ -798,7 +798,7 @@ td#mal\_cs\_pic a img {
     position: absolute !important;
     border-radius: 4px;
 }               
-
+/*
 #mal\_cs\_listinfo:after{
     background-image: url(http://i.imgur.com/856wzPZ.png);
 }
@@ -810,7 +810,7 @@ td#mal\_cs\_pic a img {
 } 
 #mal\_cs\_powered:after{
     background-image: url(http://i.imgur.com/fKvpt1F.png);
-}
+}*/
 
 #mal\_cs\_listinfo:after, 
 #mal\_cs\_links:after, 
@@ -876,7 +876,8 @@ Sparkle
 
 */
 body{
-    background-image: url(http://i.imgur.com/sWW0xCu.png),url(http://i.imgur.com/KzNIhqF.png);
+    background-image: url(http://i.imgur.com/sWW0xCu.png),
+                    url(http://i.imgur.com/KzNIhqF.png);
     border-radius: 50em;
     animation: sparkle 15s linear infinite;
     -webkit-animation: sparkle 15s linear infinite;
