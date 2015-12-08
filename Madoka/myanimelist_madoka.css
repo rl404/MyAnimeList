@@ -4,6 +4,9 @@
 BODY{
     color: #1c327c;
     font-size: 14px;
+    /*background: url(http://signavatar.com/40499_v.gif) right;
+    background-size: cover;*/
+    background-attachment: fixed;
     background-color: #000000;    
 }
 /*
@@ -63,7 +66,7 @@ tr:hover td.td1 a, tr:hover td.td1, tr:hover td.td2 a, tr:hover td.td2 {
     transition: all 0.4s ease 0s; 
 }
 
-small::before {content: "[";}
+small::before {content: "[asd";}
 small::after {content: "]";}
 /*
 
@@ -878,7 +881,4 @@ body{
 } 
 
 body{    
-    background: url(http://signavatar.com/40499_v.gif) right;
-    background-size: cover;
-    background-attachment: fixed;
-}
+    
