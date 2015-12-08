@@ -1,6 +1,6 @@
 @import url(https://googledrive.com/host/0BxjwQr0BBXs-aDYxM2JlaFM2bnM);
-/*@import url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/editbutton.css);
-*/
+@import url(https://rawgit.com/rl404/MyAnimeList/master/Madoka/editbutton.css);
+
 BODY{
     color: #1c327c;
     font-size: 14px;
@@ -68,31 +68,6 @@ tr:hover td.td1 a, tr:hover td.td1, tr:hover td.td2 a, tr:hover td.td2 {
 
 small::before {content: "[";}
 small::after {content: "]";}
-/*
-
-EDIT BUTTON
-
-*/
-#list_surround table:nth-of-type(n+4) tbody div small {
-    /*letter-spacing: 5px;*/
-    visibility: visible;
-    color: transparent !important;
-    font-size: 14px;
-}
-
-#list_surround table:nth-of-type(n+4) tbody small a:first-of-type {
-    opacity: 0;
-}
-
-#list_surround table:nth-of-type(n+4) tbody small a:last-of-type {
-    display: none !important;
-}
-
-#list_surround table:nth-of-type(n+4) tbody:hover small a:first-of-type { 
-    visibility: visible; 
-    opacity: 1 !important;
-    transition: all 0.4s ease 0s;
-}
 /*
 
 SORTING 
