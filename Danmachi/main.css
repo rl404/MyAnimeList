@@ -1,0 +1,131 @@
+@import url(https://rawgit.com/rl404/MyAnimeList/master/Danmachi/topmenu.css);
+@import url(https://rawgit.com/rl404/MyAnimeList/master/Danmachi/tabcontent.css);
+@import url(https://rawgit.com/rl404/MyAnimeList/master/Danmachi/categorymenu.css);
+/* THEMES */
+@import url(https://rawgit.com/rl404/MyAnimeList/master/Danmachi/hestia.css); /* HESTIA */
+/*@import url(https://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Danmachi/Ais.css);*/ /* AIS */
+/*@import url(https://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Danmachi/Lili.css);*/ /* LILI */
+@font-face {
+	font-family: 'Caudex';
+	font-style: normal;
+	font-weight: 400;
+	src: url(http://fonts.gstatic.com/s/caudex/v6/tEyJJhH5jnB2yxr-0TBTSg.woff2) format('woff2'), 
+	url(http://fonts.gstatic.com/s/caudex/v6/C-hZH3TxxgxqDzJuctPSSw.woff) format('woff');
+}
+
+body {
+	font-family: 'Caudex', serif;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left top;
+	background-size: cover;
+}
+
+body, a, .td1, .td2 { font-size: 16px; }
+
+.td1, .td2  { vertical-align: top; }
+
+a { text-decoration: none; }
+
+#list_surround:before {
+	position: absolute;
+	display: block;
+	content: '';
+	left: 52px;
+	top: 158px;
+	width: 551px;
+	min-height: 271px;
+	height: calc(100% - 264px);
+	z-index: -1;
+}
+
+#list_surround:after {
+	pointer-events: none;
+	position: absolute;
+	display: block;
+	content: '';
+	left: 5px;
+	top: 40px;
+	width: 551px;
+	height: calc(100% - 264px);
+	/* Table borders */
+	background-clip: padding-box;
+	border-color: transparent;
+	border-style: solid; 
+	border-width: 118px 52px 111px 47px;
+	z-index: 1;
+}
+
+#list_surround {
+	position: relative;
+	left: 42%;
+	margin: 0 0 80px 0;
+	width: 551px;
+	padding: 118px 47px 111px 52px;
+}
+
+#list_surround br { display:none; }
+
+.animetitle + small {
+	font-size: 13px;
+	text-shadow: none;
+	text-transform: lowercase;
+}
+
+/* HEADERS */
+.header_title {
+	display: block;
+	height: 300px;
+}
+
+/* Headers pics */
+.header_cw span, .header_completed span, .header_onhold span, .header_dropped span, .header_ptw span {
+	position: absolute;
+	display: inline-block;
+	margin-top: 40px;
+	width: 551px;
+	height: 250px;
+	font-size: 0;
+	background-image: url(https://rawgit.com/rl404/MyAnimeList/master/Danmachi/images/title.png);
+	background-repeat: no-repeat;
+}
+
+.header_cw span { background-position: 0 0; }
+
+.header_completed span { background-position: 0 -250px; }
+
+.header_onhold span { background-position: 0 -500px; }
+
+.header_dropped span { background-position: 0 -750px; }
+
+.header_ptw span { background-position: 0 -1000px; }
+
+.category_totals {
+	position: relative;
+	display: inline-block;
+	margin-top: 4px; 
+	padding-top: 4px;
+	width: 540px;
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#grand_totals { display:none; }
+
+#copyright  {
+	pointer-events: none;
+	position: fixed;
+	display: block;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	line-height: 36px;
+	font-size: 12px;
+	text-align: center; 
+	color: #FFFFFF;
+	text-shadow: 0 0 .2em #000000;
+	z-index: 2;
+}
+
+#copyright:after { content: 'List designed by Hahaido'; }
