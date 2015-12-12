@@ -1,0 +1,85 @@
+#list_surround table tbody:hover td[class^='td']:last-child {
+	background: linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(85, 126, 194, 1) 100%);
+	background: -moz-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(85, 126, 194, 1) 100%);
+	background:  -webkit-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(85, 126, 194, 1) 100%);
+}
+
+tr:hover > .td1, tr:hover > .td2 { color: #FFFFFF !important; background-color: rgba(85, 126, 194, 1); }
+
+tr:hover > .td1 a, tr:hover > .td2 a { color: #FFFFFF; }
+
+/* EDIT */
+#list_surround table:nth-of-type(n+4) tbody div small { visibility: hidden; font-size: 0; }
+
+#list_surround table:nth-of-type(n+4) tbody small a:last-of-type { display: none !important; }
+
+#list_surround table:nth-of-type(n+4) tbody small a:first-of-type {
+	opacity: 0;
+	position: absolute !important;
+	display: block !important;
+	margin-left: 72px !important;
+	margin-top: -24px;
+	width: 48px;
+	line-height: 28px;
+	font-size: 16px;
+	text-align: center;
+	transition: opacity .5s ease-in 1s;
+	-webkit-transition: opacity .5s ease-in 1s;
+	z-index: 5;
+}
+
+#list_surround tr:hover small a:first-of-type { visibility: visible; opacity: 1 !important; color: #828282; background-color: rgb(255, 255, 255); }
+
+#list_surround small a:first-of-type:hover { background-color: rgb(199, 219, 252) !important; color: #FFFFFF !important; }
+
+/* SORT */
+#list_surround > table:nth-of-type(n+4) ~ .header_cw + table,
+#list_surround > table:nth-of-type(n+4) ~ .header_completed + table,
+#list_surround > table:nth-of-type(n+4) ~ .header_onhold + table,
+#list_surround > table:nth-of-type(n+4) ~ .header_dropped + table,
+#list_surround > table:nth-of-type(n+4) ~ .header_ptw + table {
+    display: none;
+} 
+
+.table_header span{ display: none; }
+
+/* Disable Tags in the Sort Options */
+.table_header:first-child { display:none; }
+
+.table_header[width="125"] { display: none !important; }
+
+.header_cw + table, .header_completed + table, .header_onhold + table,
+.header_dropped + table, .header_ptw + table {
+	position: absolute;
+	display: block;
+	left: 870px;
+	top: -280px;
+	width: 140px;
+	z-index: 5;
+}
+
+.table_header:nth-of-type(2) { background-position: 0 0; }
+.table_header:nth-of-type(3) { background-position: -26px 0; }
+.table_header:nth-of-type(4) { background-position: -52px 0; }
+
+.table_header:nth-of-type(2):hover { background-position: 0 -220px; }
+.table_header:nth-of-type(3):hover { background-position: -26px -220px; }
+.table_header:nth-of-type(4):hover { background-position: -52px -220px; }
+
+.table_header { 
+	display: inline-block;
+	margin-left: 14px;
+	width: 26px; 
+	height: 220px;
+	background-image: url(https://rawgit.com/rl404/MyAnimeList/master/Anohana/images/menu.png);
+	background-repeat: no-repeat;
+	transition: background-position .3s linear;
+	-webkit-transition: background-position .3s linear;
+}
+
+.table_header a { font-size: 0; }
+
+.table_header a:hover, .table_headerLink strong:hover {
+	color: #FFFFFF !important;
+	background-color: rgb(199, 219, 252);
+}

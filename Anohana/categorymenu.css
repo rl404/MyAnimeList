@@ -1,0 +1,64 @@
+/* RENDERS AND BACKGROUNDS */
+.status_selected:before {
+	pointer-events: none;
+	position: fixed;
+	display: inline-block;
+	content: '';
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	z-index: -4;
+}
+
+.status_not_selected, .status_selected {
+	position: absolute !important;  
+	display: inline-block;
+	width: 26px !important; 
+	height: 220px;
+}
+
+.status_not_selected a, .status_selected a {
+	position: fixed;
+	display: block;
+	left: 35px;
+	top: 65px;
+	width: 26px;
+	height: 220px;
+	background-image: url(https://rawgit.com/rl404/MyAnimeList/master/Anohana/images/menu2.png); 
+	background-repeat: no-repeat;
+	font-size: 0;
+	transition: background-position .3s linear;
+	-webkit-transition: background-position .3s linear;
+}
+
+/* Currently watching */
+.status_not_selected a[href*="status=1"]:hover, .status_selected a[href*="status=1"] { background-position: 0 -220px; }
+
+/* Completed */
+.status_not_selected a[href*="status=2"], .status_selected a[href*="status=2"] { left: 75px; }
+.status_not_selected a[href*="status=2"] { background-position: -26px 0; }
+.status_not_selected a[href*="status=2"]:hover, .status_selected a[href*="status=2"] { background-position: -26px -220px; }
+  
+/* On hold */
+.status_not_selected a[href*="status=3"], .status_selected a[href*="status=3"] { left: 115px; }
+.status_not_selected a[href*="status=3"] { background-position: -52px 0; }
+.status_not_selected a[href*="status=3"]:hover, .status_selected a[href*="status=3"] { background-position: -52px -220px; }
+
+/* Dropped */
+.status_not_selected a[href*="status=4"], .status_selected a[href*="status=4"] { left: 155px; }
+.status_not_selected a[href*="status=4"] { background-position: -78px 0; }
+.status_not_selected a[href*="status=4"]:hover, .status_selected a[href*="status=4"] { background-position: -78px -220px; }
+  
+/* Planned */
+.status_not_selected a[href*="status=6"], .status_selected a[href*="status=6"] { left: 195px; }
+.status_not_selected a[href*="status=6"] { background-position: -104px 0; }
+.status_not_selected a[href*="status=6"]:hover, .status_selected a[href*="status=6"] { background-position: -104px -220px; }
+  
+/* All */
+.status_not_selected a[href*="status=7"], .status_selected a[href*="status=7"] { left: 235px; }
+.status_not_selected a[href*="status=7"] { background-position: -130px 0; }
+.status_not_selected a[href*="status=7"]:hover, .status_selected a[href*="status=7"] { background-position: -130px -220px; }
