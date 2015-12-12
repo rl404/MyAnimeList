@@ -2,8 +2,8 @@
 @import url(https://rawgit.com/rl404/MyAnimeList/master/Danmachi/tabcontent.css);
 @import url(https://rawgit.com/rl404/MyAnimeList/master/Danmachi/categorymenu.css);
 /* THEMES */
-@import url(https://rawgit.com/rl404/MyAnimeList/master/Danmachi/hestia.css); /* HESTIA */
-/*@import url(https://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Danmachi/Ais.css);*/ /* AIS */
+/*@import url(https://rawgit.com/rl404/MyAnimeList/master/Danmachi/hestia.css); /* HESTIA */
+@import url(https://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Danmachi/Ais.css); /* AIS */
 /*@import url(https://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Danmachi/Lili.css);*/ /* LILI */
 @font-face {
 	font-family: 'Caudex';
