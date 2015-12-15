@@ -75,9 +75,14 @@ tr:hover > .td1 a, tr:hover > .td2 a { color: #FFFFFF; }
 	-webkit-transition: background-position .3s linear;
 }
 
-.table_header a { font-size: 0; }
+.table_header a { 
+	font-size: 0;
+	display: inline-block;
+	width: 26px; 
+	height: 220px;
+ }
 
 .table_header a:hover, .table_headerLink strong:hover {
 	color: #FFFFFF !important;
-	background-color: rgb(199, 219, 252);
+	background-color: transparent;
 }
