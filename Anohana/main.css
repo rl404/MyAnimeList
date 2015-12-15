@@ -16,7 +16,7 @@
 	opacity: 0;
 	position: absolute;
 	display: block !important;
-	margin-left: 578px !important;
+	margin-left: 730px !important;
 	margin-top: -61px !important;
 	width: 122px;
 	height: 122px;
@@ -29,9 +29,7 @@
 :hover + .hide {
 	visibility: visible; 
 	opacity: 1;
-	box-shadow: -4px 4px 8px #a5a5a5, -4px 4px 8px #a5a5a5;
-	animation: Slide_right_left linear 1s;
-        -webkit-animation: Slide_right_left linear 1s; 
+	box-shadow: -4px 4px 8px #a5a5a5, -4px 4px 8px #a5a5a5;	
 }
 
 #list_surround br { display: none; }
@@ -64,8 +62,8 @@ body:after {
 }
 
 body {
-        color: #828282;
-        font-size: 14px;
+    color: #828282;
+    font-size: 14px;
 	font-family: 'Kite One', sans-serif;
 	background-color: rgb(238, 244, 254) ;
 }
@@ -184,7 +182,7 @@ td[class^='td']:last-child { padding-right: 5px; text-align: right; }
 	z-index: 1;
 }
 
-#copyright:after { display: inline-block;  content: 'List designed by Hahaido.'; }
+#copyright:after { display: inline-block;  content: 'List designed by Hahaido. Modified by rl404. '; }
 
 @keyframes Slide {
 	0% { background-position: 0 0; }

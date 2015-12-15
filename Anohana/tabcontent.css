@@ -9,28 +9,26 @@ tr:hover > .td1, tr:hover > .td2 { color: #FFFFFF !important; background-color: 
 tr:hover > .td1 a, tr:hover > .td2 a { color: #FFFFFF; }
 
 /* EDIT */
-#list_surround table:nth-of-type(n+4) tbody div small { visibility: hidden; font-size: 0; }
+#list_surround table:nth-of-type(n+4) tbody div small { 
+	visibility: visible;
+    color: transparent !important;
+    font-size: 14px; 
+}
 
 #list_surround table:nth-of-type(n+4) tbody small a:last-of-type { display: none !important; }
 
 #list_surround table:nth-of-type(n+4) tbody small a:first-of-type {
-	opacity: 0;
-	position: absolute !important;
-	display: block !important;
-	margin-left: 72px !important;
-	margin-top: -24px;
-	width: 48px;
-	line-height: 28px;
-	font-size: 16px;
-	text-align: center;
-	transition: opacity .5s ease-in 1s;
-	-webkit-transition: opacity .5s ease-in 1s;
-	z-index: 5;
+	display: inline-block !important;
+    opacity: 0;
 }
 
-#list_surround tr:hover small a:first-of-type { visibility: visible; opacity: 1 !important; color: #828282; background-color: rgb(255, 255, 255); }
-
-#list_surround small a:first-of-type:hover { background-color: rgb(199, 219, 252) !important; color: #FFFFFF !important; }
+#list_surround table:nth-of-type(n+4) tbody:hover small a:first-of-type {  
+	display: inline-block !important;
+	position: relative !important;
+    visibility: visible; 
+    opacity: 1 !important;
+    transition: all 0.4s ease 0s;
+}
 
 /* SORT */
 #list_surround > table:nth-of-type(n+4) ~ .header_cw + table,
