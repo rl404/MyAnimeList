@@ -46,10 +46,10 @@ tr:hover > .td1 a, tr:hover > .td2 a { color: #FFFFFF; }
 
 .header_cw + table, .header_completed + table, .header_onhold + table,
 .header_dropped + table, .header_ptw + table {
-	position: absolute;
+	position: fixed;
 	display: block;
-	left: 870px;
-	top: -280px;
+	left: 1150px;
+	top: 65px;
 	width: 140px;
 	z-index: 5;
 }
