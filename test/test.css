@@ -1,0 +1,31 @@
+/*----- list style import -----*/
+@import "http://student.agh.edu.pl/~suski/malbetter.css";
+
+/*----- some minor stuff -----*/
+@import "http://student.agh.edu.pl/~suski/mal_anime_jest.css";
+@import "http://student.agh.edu.pl/~suski/str_data1.css";
+@import "http://student.agh.edu.pl/~suski/str_data2.css";
+@import "http://student.agh.edu.pl/~suski/str_data3.css";
+@import "http://student.agh.edu.pl/~suski/str_data4.css";
+@import "http://student.agh.edu.pl/~suski/str_data5.css";
+@import "http://student.agh.edu.pl/~suski/str_data6.css";
+
+body {background-color:#333;}
+#fancybox-wrap {
+position: fixed !important;
+top: 5% !important;
+bottom: 5%;
+left: 0px !important;
+right: 0px !important;
+width: 1100px !important;
+height: auto !important;
+margin: auto !important;
+}
+
+#fancybox-inner {
+bottom: 10px;
+width: 1080px !important;
+height: auto !important;
+}
+		
+  
