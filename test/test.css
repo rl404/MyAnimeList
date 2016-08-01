@@ -1,14 +1,15 @@
 /*----- list style import -----*/
+@import url(https://googledrive.com/host/0BxjwQr0BBXs-aDYxM2JlaFM2bnM);
 @import "http://student.agh.edu.pl/~suski/malbetter.css";
 
 /*----- some minor stuff -----*/
 @import "http://student.agh.edu.pl/~suski/mal_anime_jest.css";
-@import "http://student.agh.edu.pl/~suski/str_data1.css";
+/*@import "http://student.agh.edu.pl/~suski/str_data1.css";
 @import "http://student.agh.edu.pl/~suski/str_data2.css";
 @import "http://student.agh.edu.pl/~suski/str_data3.css";
 @import "http://student.agh.edu.pl/~suski/str_data4.css";
 @import "http://student.agh.edu.pl/~suski/str_data5.css";
-@import "http://student.agh.edu.pl/~suski/str_data6.css";
+@import "http://student.agh.edu.pl/~suski/str_data6.css";*/
 
 body {background-color:#333;}
 #fancybox-wrap {
