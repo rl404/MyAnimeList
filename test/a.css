@@ -496,9 +496,9 @@ box-shadow: 0px -5px 0px 0px #333 inset;}
 }
 
 #list_surround .hide + table:active tr, #list_surround .hide + table tr:hover, #list_surround table[class*=header] + table + table:active tr, #list_surround table[class*=header] + table + table tr:hover {
-//background-color:#3f4649 !important;
+/*//background-color:#3f4649 !important;*/
 background-color:#333;
-//background-image:url(https://dl.dropboxusercontent.com/s/6ag670ovfmep0ip/binding_gray.png);
+/*//background-image:url(https://dl.dropboxusercontent.com/s/6ag670ovfmep0ip/binding_gray.png);*/
 display:block;
 position:relative;
 left:0;
@@ -748,7 +748,7 @@ tr:hover .td1:nth-of-type(8):before, tr:hover .td2:nth-of-type(8):before {conten
 tr:hover .td1:nth-of-type(8), tr:hover .td2:nth-of-type(8) {margin-top:195px;}
 
 /*----- global columns -----*/
-
+/*
 tr:hover td[class*=td] div small a[title*="View"]:before {
 font-weight:400 !important;
 display:block;
@@ -807,7 +807,7 @@ text-align:left;
 overflow:visible !important;
 white-space:pre;
 }
-
+*/
 /*----- covers -----*/
 
 @keyframes covers {
