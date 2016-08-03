@@ -74,7 +74,7 @@ visibility:hidden;
 color:#000;
 }
 
-/*td[class*=td] div small a[title*="View"]:after {
+td[class*=td] div small a[title*="View"]:after {
 display:block;
 background-repeat:no-repeat;
 position:relative;
@@ -93,7 +93,7 @@ tr:hover td[class*=td] div small a[title*="View"]:after {
   color:#fff;
 }
 
-td[class*=td] div small a[title*="View"]:before {
+/*td[class*=td] div small a[title*="View"]:before {
 content:"error";
 white-space:pre;
 position:relative;
@@ -167,11 +167,11 @@ margin-left:auto;
 margin-right:auto;
 top:0px;
 background-color:rgba(255,255,255,.8);
-/*background-image:url("http://i.imgur.com/3Iloc5A.jpg");*/
+/*background-image:url("http://i.imgur.com/3Iloc5A.jpg");
 background-repeat:repeat;
 background-attachment:fixed;
 background-size:cover;
-background-position:center;
+background-position:center;*/
 box-shadow:inset 0px 0px 5px 0px #fff, 0px 0px 5px 0px #000;
 }
 
