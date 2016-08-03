@@ -1,17 +1,15 @@
-/*#list_surround {background-image:url("http://imageshack.us/a/img706/8349/19le.png");background-repeat:no-repeat;background-position:bottom center;padding-bottom:500px !important;}*/
-
 body {
 background-color:#f2f2f2 !important;
 font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,"Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
 font-size:13px;
-background-image:url("http://i.imgur.com/RjELe1P.jpg");
+background-image:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/test/images/bg.png);
 background-repeat:repeat;
 background-attachment:fixed;
 background-size:cover;
 background-position:center;
 }
 
-body:after {content:'Go and do some clickie clickie on anime below,\asome pretty cool stuff happens.\a\aUnless you are using Opera(ver<15), IE or some other strange stuff.\a If that is the case, then I have bad news for you...';
+/*body:after {content:'Go and do some clickie clickie on anime below,\asome pretty cool stuff happens.\a\aUnless you are using Opera(ver<15), IE or some other strange stuff.\a If that is the case, then I have bad news for you...';
 position:absolute;
 margin:0 auto;
 width:0px;
@@ -21,7 +19,7 @@ padding-left:10px;
 top:646px;
 white-space:pre;
 z-index:10;
-}
+}*/
 
 /*----- bar pic -----*/
 
