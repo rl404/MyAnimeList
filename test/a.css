@@ -167,7 +167,7 @@ margin-left:auto;
 margin-right:auto;
 top:0px;
 background-color:rgba(255,255,255,.9);
-/background-image:url("http://i.imgur.com/3Iloc5A.jpg");
+/*background-image:url("http://i.imgur.com/3Iloc5A.jpg");*/
 background-repeat:repeat;
 background-attachment:fixed;
 background-size:cover;
@@ -188,7 +188,7 @@ position:absolute;
 
 /*----- shinobu dame -----*/
 
-#list_surround:before {content:"so much useless data...";
+/*#list_surround:before {content:"so much useless data...";
 position:relative;
 width:150px;
 margin-right:90px;
@@ -206,11 +206,11 @@ background-image:url("http://student.agh.edu.pl/~suski/mal/shinobu.png");
 background-size:300px;
 background-position:bottom;
 float:right;
-}
+}*/
 
 /*----- column widths -----*/
 
-.td1:nth-child(1), .td2:nth-child(1), .table_header:nth-child(1) {width:20px;font-size:8px;}
+/*.td1:nth-child(1), .td2:nth-child(1), .table_header:nth-child(1) {width:20px;font-size:8px;}
 
 .td1:nth-child(2), .td2:nth-child(2), .table_header:nth-child(2) {
 min-width:530px; letter-spacing:0px; font-size:11px;}
@@ -247,7 +247,7 @@ content:'  Global     #Rank    #Popul';white-space:pre;font-weight:bold;letter-s
 .td1:nth-child(8), .td2:nth-child(8), .table_header:nth-child(8) {width:5%;}
 
 .td1:nth-child(6):last-child, .td2:nth-child(6):last-child, .table_header:nth-child(6):last-child {width:14%;padding-right:10%;}
-}
+}*/
 
 /*----- links -----*/
 
