@@ -93,15 +93,15 @@ tr:hover td[class*=td] div small a[title*="View"]:after {
   color:#fff;
 }
 
-/*td[class*=td] div small a[title*="View"]:before {
-content:"error";
+td[class*=td] div small a[title*="View"]:before {
+/*content:"error";*/
 white-space:pre;
 position:relative;
 top:-12px;
 right:182px;
 font-size:11px;
 visibility:visible;
-}*/
+}
 @media screen and (min-width:961px) {td[class*=td] div small a[title*="View"]:before {
 margin-right:-24px;
 right:22%;}
@@ -112,13 +112,13 @@ right:22%;}
 
 .td1, .td2, .table_header {
 height:20px;
-font-size:10px;
+font-size:13px;
 overflow:hidden;
 }
 .table_header {background-color:rgba(0,0,0,.4);color:#fff;}
 .table_header:first-of-type {box-shadow:-10px 0px 0px rgba(0,0,0,.4);}
 .table_header:last-of-type {box-shadow:10px 0px 0px rgba(0,0,0,.4);}
-.table_header a {color:#fff;}
+.table_header a {color:#fff !important;}
 .table_header:first-of-type {border-width:0px !important;}
 #list_surround table {margin-top:5px;margin-bottom:5px;}
 
