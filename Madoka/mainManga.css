@@ -469,7 +469,7 @@ If your tags/mini-reviews aren't hovering correctly or you need help understandi
 http://myanimelist.net/forum/?topicid=563993
 
 */
-td[class^='td']:nth-of-type(6) {
+td[class^='td']:nth-of-type(5) {
     visibility: hidden;
     position: fixed;
     bottom: 30px;
@@ -485,7 +485,7 @@ td[class^='td']:nth-of-type(6) {
 TAG TEXT COLOR
 
 */
-tr:hover td[class^='td']:nth-of-type(6) a {
+tr:hover td[class^='td']:nth-of-type(5) a {
     color: white !important;
 }
 /* 
@@ -493,7 +493,7 @@ tr:hover td[class^='td']:nth-of-type(6) a {
 OTHER SETTINGS 
 
 */
-:hover + .hide , tr:hover td[class^='td']:nth-of-type(6){
+:hover + .hide , tr:hover td[class^='td']:nth-of-type(5){
     visibility: visible;
     opacity: 1;
 }
