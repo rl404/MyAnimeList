@@ -856,7 +856,7 @@ Adjust this amount 50px at a time (more or less) if your columns are uneven in C
 */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     td[class^='td']:nth-of-type(2) {
-        width: 476px !important;}
+        width: 530px !important;}
 }              
 /*
 
