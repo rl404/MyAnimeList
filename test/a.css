@@ -184,7 +184,16 @@ position:absolute;
 
 #list_surround > table:nth-child(5) {margin-top:0px !important;}
 
-.category_totals {font-size:10px;text-align:right;padding-right:10px;}
+.category_totals {
+	font-size:10px;
+	text-align:right;
+	padding-right:10px;
+	color: rgba(0,0,0,0.5);
+}
+
+.category_totals:hover {
+	color: #000;
+}
 
 /*----- shinobu dame -----*/
 
