@@ -47,6 +47,15 @@ transform:rotate(12deg);
 width:93px;height:14px;border-radius:5px;
 border:1px solid #e00;box-shadow:0px 0px 1px #000;}
 
+/* Black rock shooter */
+#xmenu12079:after {content:"";
+left:350px;top:-15px; width:500px;height:100px;
+margin-top:-18px;margin-left:-100px;
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/brs.png");
+background-size: 400px;
+z-index:-5;}
+tr:hover #xmenu12079 {display:none;}
+
 /* Boku dake */
 .animetitle[href*="anime/31043/"]:after {content:"Baka na no?";
 position:absolute;
@@ -85,6 +94,23 @@ background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/sa
 background-size: 120px;
 z-index:-5;}
 tr:hover #xmenu10012 {display:none;}
+
+/* Neptune */
+.animetitle[href*="anime/16157/"]:after {content:"how many neps could a nepnep nep if a nepnep could nep neps?";
+position:absolute;
+margin-left:10px;
+margin-top:-2px;
+color:#0099ff;
+  width:220px;
+ text-align:center;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px #777;
+font-size:10px;
+pointer-events:none;
+transform:rotate(-8deg);
+-ms-transform:rotate(-8deg);
+-webkit-transform:rotate(-8deg);}
 
 /* Neon Genesis Evangelion */
 #xmenu30:after {content:"Rei x Rei x Rei OT3";
@@ -258,15 +284,6 @@ font-size:22px;color:#e00;
 width:165px;height:25px;border-radius:5px;
 border:1px solid #e00;box-shadow:0px 0px 1px #000;}
 tr:hover #xmenu15793:after {background-color:rgba(255,255,255,.8);z-index:11;}
-
-/*  */
-#xmenu16157:after {content:"how many neps could a nepnep nep if a nepnep could nep neps?";
-left:270px;top:-45px;
-margin-left:-10px;
-text-align:center;
-transform:rotate(-7deg);
--ms-transform:rotate(-7deg);
--webkit-transform:rotate(-7deg);}
 
 /*  */
 a.animetitle[href*="anime/16353/"] span {text-decoration:line-through}
