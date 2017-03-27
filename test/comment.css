@@ -90,7 +90,7 @@ transform:rotate(8deg);
 #xmenu10012:after {content:"";
 left:400px;top:-15px;width:120px;height:120px;
 margin-top:-18px;margin-left:-100px;
-background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/saberlion.png");
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/saberlion2.png");
 background-size: 120px;
 z-index:-5;}
 tr:hover #xmenu10012 {display:none;}
@@ -111,6 +111,15 @@ pointer-events:none;
 transform:rotate(-8deg);
 -ms-transform:rotate(-8deg);
 -webkit-transform:rotate(-8deg);}
+
+/*chuunibyou */
+#xmenu14741:after {content:"";
+left:100px;top:-10px;width:500px;height:500px;
+margin-top:-18px;margin-left:-100px;
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/takanashi.png");
+background-size: 300px;
+z-index:-5;opacity: 0.8;}
+tr:hover #xmenu14741 {display:none;}
 
 /* Neon Genesis Evangelion */
 #xmenu30:after {content:"Rei x Rei x Rei OT3";
