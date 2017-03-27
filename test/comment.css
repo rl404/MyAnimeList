@@ -1,3 +1,82 @@
+/* Absolute Duo */
+.animetitle[href*="anime/25397/"]:after {content:"Ja~";
+position:absolute;
+margin-left:10px;
+margin-top:-0px;
+color:#c68;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px #777;
+font-size:13px;
+pointer-events:none;
+transform:rotate(8deg);
+-ms-transform:rotate(8deg);
+-webkit-transform:rotate(8deg);}
+
+/* Bakemonogatari */
+.animetitle[href*="anime/5081/"]:after {content:".pptx";
+position:absolute;
+margin-left:10px;
+margin-top:-2px;
+color:orange;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px #777;
+font-size:13px;
+pointer-events:none;
+/* transform:rotate(8deg);
+-ms-transform:rotate(8deg);
+-webkit-transform:rotate(8deg);*/} 
+
+/* Beelzebub */
+.animetitle[href*="anime/9513/"]:after {content:"ZEBUL BLAST";
+position:absolute;
+margin-left:10px;
+margin-top:-0px;
+color:red;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px #777;
+font-size:13px;
+pointer-events:none;
+padding:7px;
+transform:rotate(12deg);
+-ms-transform:rotate(12deg);
+-webkit-transform:rotate(12deg);
+/*   background-color:rgba(255,255,255,.8); */
+width:93px;height:14px;border-radius:5px;
+border:1px solid #e00;box-shadow:0px 0px 1px #000;}
+
+/* Boku dake */
+.animetitle[href*="anime/31043/"]:after {content:"Baka na no?";
+position:absolute;
+margin-left:10px;
+margin-top:-0px;
+color:brown;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px #777;
+font-size:13px;
+pointer-events:none;
+transform:rotate(8deg);
+-ms-transform:rotate(8deg);
+-webkit-transform:rotate(8deg);}
+
+/* 5cm per second */
+.animetitle[href*="anime/1689/"]:after {content:"🌸";
+position:absolute;
+margin-left:10px;
+margin-top:-2px;
+color:brown;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px #777;
+font-size:13px;
+pointer-events:none;
+transform:rotate(8deg);
+-ms-transform:rotate(8deg);
+-webkit-transform:rotate(8deg);}
+
 /* Neon Genesis Evangelion */
 #xmenu30:after {content:"Rei x Rei x Rei OT3";
 left:270px;top:-45px;
