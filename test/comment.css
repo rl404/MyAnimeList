@@ -343,23 +343,6 @@ transform:rotate(-2deg);
 -ms-transform:rotate(-2deg);
 -webkit-transform:rotate(-2deg);}
 
-/* 
-#xmenu10165 {z-index:-1;}
-#xmenu10165:after {content:"";
-left:0px;top:-28px;width:100%;height:100px;
-padding:0px;
-background-image:url("http://imageshack.us/a/img407/8629/8h65.jpg");
-background-position:center;
-opacity:.35;}
-#list_surround table:hover #xmenu10165:after {opacity:1 !important;}
-.animetitle[href*="anime/10165/"] {line-height:100px;}
-#xmenu10165:before {top:30px;z-index:1;}
-tr:hover #xmenu10165:after {content:none;}
-tr:hover .animetitle[href*="anime/10165/"]
-{background-image:url("http://imageshack.us/a/img407/8629/8h65.jpg");background-position:center center;color:#fff !important;
-text-shadow:0px 0px 2px #000;border:1px solid #fff !important;height:38px !important;}
-#list_surround tr:hover td[class*=td] .animetitle[href*="anime/10165/"]:hover {color:#eee !important;} */
-
 /*  */
 #xmenu11597:after {content:"Fanservice.pptx";
 left:200px;top:-30px;
@@ -368,15 +351,6 @@ transform:rotate(4deg);
 -ms-transform:rotate(4deg);
 -webkit-transform:rotate(4deg);}
 a.animetitle[href*="anime/11597/"] span {text-decoration:line-through}
-
-/*  */
-#xmenu14131:after {content:"Panzer vor!";
-left:200px;top:-47px;
-margin-left:-80px;
-color:#090;
-transform:rotate(-5deg);
--ms-transform:rotate(-5deg);
--webkit-transform:rotate(-5deg);}
 
 /*  */
 #xmenu14293:after {content:"Lens Flares: The Movie";
