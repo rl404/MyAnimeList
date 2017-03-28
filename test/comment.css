@@ -204,6 +204,30 @@ margin-top:-20px;
 width:50px;height:45px;
 pointer-events:none;}
 
+/* Gakkougurashi */
+#xmenu24765:after {content:"";
+left:100px;top:-10px;width:25px;height:50px;
+margin-top:-40px;margin-left:-100px;
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/gg.png");
+background-size: 25px;
+z-index:-5;opacity: 1;}
+tr:hover #xmenu24765 {display:none;}
+
+/* Girl und panzer */
+.animetitle[href*="anime/14131/"]:after {content:"Panzer vor!";
+position:absolute;
+margin-left:10px;
+margin-top:-2px;
+color:green;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px #777;
+font-size:13px;
+pointer-events:none;
+transform:rotate(8deg);
+-ms-transform:rotate(8deg);
+-webkit-transform:rotate(8deg);}
+
 /* Neon Genesis Evangelion */
 #xmenu30:after {content:"Rei x Rei x Rei OT3";
 left:270px;top:-45px;
