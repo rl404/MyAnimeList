@@ -74,7 +74,7 @@ transform:rotate(8deg);
 -webkit-transform:rotate(8deg);}
 
 /* 5cm per second */
-.animetitle[href*="anime/1689/"]:after {content:"🌸";
+.animetitle[href*="anime/1689/"]:after {content:"";
 position:absolute;
 margin-left:10px;
 margin-top:-2px;
@@ -271,6 +271,40 @@ background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/kn
 background-size: 25px;
 z-index:-5;opacity: 1;}
 tr:hover #xmenu18153 {display:none;}
+
+/* monogatari 2nd */
+.animetitle[href*="anime/17074/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/os.png");
+background-size: 50px;
+position:absolute;
+margin-left:-200px;
+margin-top:-20px;
+width:50px;height:50px;
+pointer-events:none;}
+
+/* non non */
+.animetitle[href*="anime/17549/"]:after {content:"Nyanpasu~";
+position:absolute;
+margin-left:10px;
+margin-top:-2px;
+color: #7958a7;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px #777;
+font-size:13px;
+pointer-events:none;
+transform:rotate(8deg);
+-ms-transform:rotate(8deg);
+-webkit-transform:rotate(8deg);}
+
+/* nurarihyon */
+#xmenu7592:after {content:"";
+left:97px;top:-25px;width:50px;height:50px;
+margin-top:-24px;margin-left:-100px;
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/yo.png");
+background-size: 25px;
+z-index:-5;opacity: 1;}
+tr:hover #xmenu7592 {display:none;}
 
 /* yuru yuri */
 #xmenu10495:after {content:"";
