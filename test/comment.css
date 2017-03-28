@@ -149,6 +149,15 @@ transform:rotate(8deg);
 -ms-transform:rotate(8deg);
 -webkit-transform:rotate(8deg);}
 
+/* etotama */
+#xmenu28221:after {content:"";
+left:100px;top:-20px;width:50px;height:50px;
+margin-top:-35px;margin-left:-100px;
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/etotama.png");
+background-size: 35px;
+z-index:-5;opacity: 1;}
+tr:hover #xmenu28221 {display:none;}
+
 /* fate go */
 .animetitle[href*="anime/34321/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/shielder.png");
@@ -306,6 +315,15 @@ background-size: 25px;
 z-index:-5;opacity: 1;}
 tr:hover #xmenu7592 {display:none;}
 
+/* sakurasou */
+#xmenu13759:after {content:"";
+left:100px;top:-20px;width:50px;height:50px;
+margin-top:-40px;margin-left:-100px;
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/sakurasou.png");
+background-size: 25px;
+z-index:-5;opacity: 1;}
+tr:hover #xmenu13759 {display:none;}
+
 /* yuru yuri */
 #xmenu10495:after {content:"";
 left:100px;top:-25px;width:50px;height:50px;
@@ -324,130 +342,6 @@ color:#c68;
 transform:rotate(-4deg);
 -ms-transform:rotate(-4deg);
 -webkit-transform:rotate(-4deg);}
-
-/* Mushishi
-#xmenu457:after {content:"";
-left:350px;top:-15px;width:120px;height:120px;
-margin-top:-18px;margin-left:-100px;
-background-image:url("http://imageshack.us/a/img24/7553/5qdz.png");}
-tr:hover #xmenu457 {display:none;}
-.animetitle[href*="anime/457/"] {line-height:100px;}
-#xmenu457:before {top:30px;} */
-
-/* Suzumiya Haruhi no Yuuutsu
-#xmenu849:after {content:"";
-left:200px;top:10px;width:100px;height:160px;
-margin-top:-70px;
-background-image:url("http://imageshack.us/a/img138/6167/zqsa.png");}
-.animetitle[href*="anime/849/"] {line-height:100px;}
-#xmenu849:before {top:30px;} */
-
-/* Ookami to Koushinryou
-#xmenu2966:after {content:"";
-left:300px;top:20px;width:130px;height:120px;
-margin-left:100px;
-margin-top:-55px;
-background-image:url("http://imageshack.us/a/img43/2613/jqsc.png");
-background-position:20px -2px;}
-.animetitle[href*="anime/2966/"] {line-height:100px;}
-#xmenu2966:before {top:30px;} */
-
-/* Strike Witches */
-#xmenu3667:after {content:"Love is alive and well";
-left:200px;top:-35px;margin-left:-100px;
-transform:rotate(4deg);
--ms-transform:rotate(4deg);
--webkit-transform:rotate(4deg);}
-
-/* Bakemonogatari
-#xmenu5081:after {content:"";
-left:300px;top:27px;width:200px;height:80px;
-margin-top:-55px;
-background-image:url("http://imageshack.us/a/img69/7629/5uuj.png");
-background-size:200px;
-background-position:0px 0px;}
-.animetitle[href*="anime/5081/"] {line-height:100px;}
-#xmenu5081:before {top:30px;} */
-
-/* K-On! */
-#xmenu5680:after {content:"                         \2605\2605\2605\2605\2605\a\25c4\2022\2022  It's like a five star fast-food restaurant";
-left:220px;top:-50px;
-margin-left:-160px;
-transform:rotate(2deg);
--ms-transform:rotate(2deg);
--webkit-transform:rotate(2deg);
-width:360px;white-space:pre;}
-
-/* Suzumiya Haruhi no Shoushitsu
-#xmenu7311:after {content:"";
-left:350px;top:15px;width:55px;height:120px;
-margin-left:100px;
-margin-top:-55px;
-background-image:url("http://imageshack.us/a/img41/8830/y03i.png");}
-.animetitle[href*="anime/7311/"] {line-height:100px;}
-#xmenu7311:before {top:30px;} */
-
-/* Koe de Oshigoto! The Animation
-#xmenu8876:after {content:"";
-left:-150px;top:-28px;margin-left:350px;width:264px;height:80px;
-background-image:url("http://imageshack.us/a/img21/3137/xjcy.png");
-background-repeat:repeat;
-background-size:auto 100px;}
-tr:hover #xmenu8876:after {width:51px;z-index:11;margin-top:150px;margin-left:-320px;}
-.animetitle[href*="anime/8876/"] {line-height:100px;}
-#xmenu8876:before {top:30px;} */
-
-/* Mahou Shoujo Madoka Magica */
-#xmenu9756:after {content:"";
-left:-200px;top:-10px;
-margin-top:-50px;
-margin-left:600px;
-color:pink;
-/background-image:url("http://imageshack.us/a/img17/7736/9350.png");
-background-size:120px;
-height:160px;
-white-space:pre;}
-/.animetitle[href*="anime/9756/"] {line-height:100px;}
-.animetitle[href*="anime/9756/"]:after {content:"Mami x Loneliness OTP";
-position:absolute;
-margin-left:-30px;
-margin-top:-10px;
-color:#c68;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px #777;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
-/#xmenu9756:before {top:30px;}
-
-/*  */
-#xmenu9834:after {content:"trolling level: Enfinity";
-left:180px;top:-40px;
-margin-left:-100px;
-transform:rotate(-2deg);
--ms-transform:rotate(-2deg);
--webkit-transform:rotate(-2deg);}
-
-/*  */
-#xmenu11597:after {content:"Fanservice.pptx";
-left:200px;top:-30px;
-margin-left:-80px;
-transform:rotate(4deg);
--ms-transform:rotate(4deg);
--webkit-transform:rotate(4deg);}
-a.animetitle[href*="anime/11597/"] span {text-decoration:line-through}
-
-/*  */
-#xmenu14293:after {content:"Lens Flares: The Movie";
-left:100px;top:-26px;
-margin-left:50px;margin-top:-12px;
-transform:rotate(1deg);
--ms-transform:rotate(1deg);
--webkit-transform:rotate(1deg);}
-a.animetitle[href*="anime/14293/"] span {text-decoration:line-through}
 
 /*  */
 #xmenu15793:after {content:"SYMPHOGEAH!";
@@ -471,19 +365,3 @@ margin-left:-100px;
 transform:rotate(-1deg);
 -ms-transform:rotate(-1deg);
 -webkit-transform:rotate(-1deg);}
-
-/*  */
-#xmenu17265:after {content:"/glassesadjust";
-font-family:monospace;
-left:200px;top:-43px;
-margin-top:8px;
-margin-left:-100px;}
-
-/*  */
-#xmenu17549:after {content:"nyanpassu!";
-left:210px;top:-39px;
-margin-left:-80px;
-margin-top:12px;
-transform:rotate(6deg);
--ms-transform:rotate(6deg);
--webkit-transform:rotate(6deg);}
