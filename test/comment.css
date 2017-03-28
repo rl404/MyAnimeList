@@ -48,13 +48,15 @@ width:93px;height:14px;border-radius:5px;
 border:1px solid #e00;box-shadow:0px 0px 1px #000;}
 
 /* Black rock shooter */
-#xmenu12079:after {content:"";
-left:350px;top:-15px; width:500px;height:100px;
-margin-top:-18px;margin-left:-100px;
+.animetitle[href*="anime/12079/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/brs.png");
-background-size: 400px;
-z-index:-5;}
-tr:hover #xmenu12079 {display:none;}
+background-size: 100px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-2px;
+width:100px;height:20px;
+pointer-events:none;}
 
 /* Boku dake */
 .animetitle[href*="anime/31043/"]:after {content:"Baka na no?";
@@ -148,6 +150,17 @@ transform:rotate(8deg);
 -webkit-transform:rotate(8deg);}
 
 /* fate go */
+.animetitle[href*="anime/34321/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/shielder.png");
+background-size: 50px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-20px;
+width:50px;height:50px;
+pointer-events:none;}
+
+/* fate kaleid */
 .animetitle[href*="anime/14829/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/ilya.png");
 background-size: 50px;
