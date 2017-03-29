@@ -283,6 +283,16 @@ z-index: -5;
 width:50px;height:33px;
 pointer-events:none;}
 
+/* new game */
+#xmenu31953:after {content:"";
+left:100px;top:-20px;width:50px;height:100px;
+margin-top:-27px;margin-left:-100px;
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/newgame.png");
+background-size: 25px;
+z-index:-5;opacity: 1;}
+tr:hover #xmenu31953 {display:none;}
+
+
 /* hyouka */
 .animetitle[href*="anime/12189/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/hyouka.png");
