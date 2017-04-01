@@ -345,6 +345,36 @@ text-shadow:0px 0px 1px #777;
 font-size:13px;
 pointer-events:none;}
 
+/* kancolle */
+.animetitle[href*="anime/21511/"]:after {content:"Burning Love~";
+position:absolute;
+margin-left:10px;
+margin-top:-2px;
+color: red;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px #777;
+font-size:13px;
+pointer-events:none;
+transform:rotate(8deg);
+-ms-transform:rotate(8deg);
+-webkit-transform:rotate(8deg);}
+
+/* koyomimonogatari */
+.animetitle[href*="anime/32268/"]:after {content:"Arararagi.pptx";
+position:absolute;
+margin-left:10px;
+margin-top:-2px;
+color: black;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px #777;
+font-size:13px;
+pointer-events:none;
+transform:rotate(8deg);
+-ms-transform:rotate(8deg);
+-webkit-transform:rotate(8deg);}
+
 /* Gokukoku */
 .animetitle[href*="anime/21431/"]:after {content:"Neko-san ♪♪♪";
 position:absolute;
@@ -443,6 +473,49 @@ position:absolute;
 margin-left:10px;
 margin-top:-2px;
 color: #ff4da6;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px #777;
+font-size:13px;
+pointer-events:none;
+transform:rotate(8deg);
+-ms-transform:rotate(8deg);
+-webkit-transform:rotate(8deg);}
+
+/* masou gakuen hxh */
+.animetitle[href*="anime/31845/"]:after {content:"EROS!";
+position:absolute;
+margin-left:10px;
+margin-top:-5px;
+color: #ff4da6;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px #777;
+font-size:13px;
+pointer-events:none;
+transform:rotate(-8deg);
+-ms-transform:rotate(-8deg);
+-webkit-transform:rotate(-8deg);}
+
+/* love lab */
+a.animetitle[href*="anime/16353/"] span {text-decoration:line-through}
+.animetitle[href*="anime/16353/"]:after {content:"Rabu Rabo";
+position:absolute;
+margin-left:10px;
+margin-top:0px;
+color: orange;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px #777;
+font-size:13px;
+pointer-events:none;}
+
+/* machine doll */
+.animetitle[href*="anime/17247/"]:after {content:"Yaya~";
+position:absolute;
+margin-left:10px;
+margin-top:-2px;
+color: black;
 font-weight:bold;
 font-family:arial, sans-serif;
 text-shadow:0px 0px 1px #777;
@@ -600,11 +673,3 @@ width:165px;height:25px;border-radius:5px;
 border:1px solid #e00;box-shadow:0px 0px 1px #000;}
 tr:hover #xmenu15793:after {background-color:rgba(255,255,255,.8);z-index:11;}
 
-/*  */
-a.animetitle[href*="anime/16353/"] span {text-decoration:line-through}
-#xmenu16353:after {content:"Rabu Rabo";
-left:200px;top:-40px;
-margin-left:-100px;
-transform:rotate(-1deg);
--ms-transform:rotate(-1deg);
--webkit-transform:rotate(-1deg);}
