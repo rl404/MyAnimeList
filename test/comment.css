@@ -248,6 +248,39 @@ transform:rotate(8deg);
 -ms-transform:rotate(8deg);
 -webkit-transform:rotate(8deg);}
 
+/* monster musume */
+.animetitle[href*="anime/30307/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/miia.png");
+background-size: 80px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-20px;
+width:70px;height:45px;
+pointer-events:none;}
+
+/* kill la kill */
+.animetitle[href*="anime/18679/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/Scissor.png");
+background-size: 100px;
+z-index:-5;
+position:absolute;
+margin-left:-70px;
+margin-top:-10px;
+width:100px;height:20px;
+pointer-events:none;}
+
+/* kobayashi-san */
+.animetitle[href*="anime/33206/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/tohru.png");
+background-size: 50px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-20px;
+width:50px;height:45px;
+pointer-events:none;}
+
 /* Gochuumon */
 #xmenu21273:after {content:"";
 left:100px;top:-20px;width:50px;height:50px;
@@ -450,6 +483,15 @@ margin-left:10px;
 margin-top:-10px;
 width:50px;height:29px;
 pointer-events:none;}
+
+/* madoka */
+#xmenu9756:after {content:"";
+left:100px;top:-25px;width:100px;height:100px;
+margin-top:-5px;margin-left:-100px;
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/kyubey.png");
+background-size: 50px;
+opacity: 1;}
+tr:hover #xmenu9756 {display:none;}
 
 /* kyoukai no kanata */
 #xmenu18153:after {content:"";
