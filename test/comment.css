@@ -281,6 +281,15 @@ margin-top:-20px;
 width:50px;height:45px;
 pointer-events:none;}
 
+/* Himegoto */
+tr:hover .animetitle[href*="/22835/"]:hover::before{background-image: url('https://rawgit.com/rl404/MyAnimeList/master/test/images/trap.jpeg')}
+
+/* Mikakunin */
+tr:hover .animetitle[href*="/20541/"]:hover::before{
+	background-image: url('https://rawgit.com/rl404/MyAnimeList/master/test/images/mikakunin.gif');
+	background-size: 206px;
+}
+
 /* Gochuumon */
 #xmenu21273:after {content:"";
 left:100px;top:-20px;width:50px;height:50px;
@@ -304,6 +313,21 @@ pointer-events:none;
 transform:rotate(8deg);
 -ms-transform:rotate(8deg);
 -webkit-transform:rotate(8deg);}
+
+/* Nisemonogatari */
+.animetitle[href*="anime/11597/"]:after {content:"Imouto.pptx";
+position:absolute;
+margin-left:10px;
+margin-top:-2px;
+color: #e6e600;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px #777;
+font-size:13px;
+pointer-events:none;
+transform:rotate(-8deg);
+-ms-transform:rotate(-8deg);
+-webkit-transform:rotate(-8deg);}
 
 /* dxd */
 .animetitle[href*="anime/11617/"]:after {content:"Oppai";
@@ -492,6 +516,20 @@ background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/ky
 background-size: 50px;
 opacity: 1;}
 tr:hover #xmenu9756 {display:none;}
+.animetitle[href*="anime/9756/"]:hover::after {content:"Contract?";
+ position:absolute;
+margin-left:10px;
+margin-top:-2px;
+color:red;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px #777;
+font-size:13px;
+pointer-events:none;
+transform:rotate(8deg);
+-ms-transform:rotate(8deg);
+-webkit-transform:rotate(8deg);
+}
 
 /* kyoukai no kanata */
 #xmenu18153:after {content:"";
