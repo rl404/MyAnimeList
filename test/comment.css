@@ -248,6 +248,38 @@ transform:rotate(8deg);
 -ms-transform:rotate(8deg);
 -webkit-transform:rotate(8deg);}
 
+/* Ansatsu */
+.animetitle[href*="anime/24833/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/koro.png");
+background-size: 30px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-8px;
+width:30px;height:30px;
+pointer-events:none;}
+
+/* Arakawa under bridge */
+.animetitle[href*="anime/7647/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/bridge.png");
+background-size: 50px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-20px;
+width:50px;height:45px;
+pointer-events:none;}
+
+.animetitle[href*="anime/9074/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/bridge.png");
+background-size: 50px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-20px;
+width:100px;height:45px;
+pointer-events:none;}
+
 /* monster musume */
 .animetitle[href*="anime/30307/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/miia.png");
