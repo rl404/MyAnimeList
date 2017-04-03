@@ -432,6 +432,19 @@ text-shadow:0px 0px 1px #777;
 font-size:13px;
 pointer-events:none;}
 
+/* Akiba's trip */
+a.animetitle[href*="anime/34051/"] span {text-decoration:line-through}
+.animetitle[href*="anime/34051/"]:after {content:"Akiba Strip";
+position:absolute;
+margin-left:10px;
+margin-top:0px;
+color: blue;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px #777;
+font-size:13px;
+pointer-events:none;}
+
 /* kancolle */
 .animetitle[href*="anime/21511/"]:after {content:"Burning Love~";
 position:absolute;
