@@ -387,7 +387,7 @@ tr:hover #xmenu21273 {display:none;}
 /* angel beats */
 #xmenu6547:after {content:"";
 left:100px;top:-20px;width:200px;height:50px;
-margin-top:-13px;margin-left:-100px;
+margin-top:-12px;margin-left:-90px;
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/ab.png");
 background-size: 180px;
 z-index:-5;opacity: 1;}
