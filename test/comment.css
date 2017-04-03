@@ -259,6 +259,17 @@ margin-top:-8px;
 width:30px;height:30px;
 pointer-events:none;}
 
+/* anohana */
+.animetitle[href*="anime/9989/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/menma.png");
+background-size: 45px;
+z-index:-5;
+position:absolute;
+margin-left:5px;
+margin-top:-17px;
+width:50px;height:41px;
+pointer-events:none;}
+
 /* Arakawa under bridge */
 .animetitle[href*="anime/7647/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/bridge.png");
@@ -278,6 +289,17 @@ position:absolute;
 margin-left:10px;
 margin-top:-20px;
 width:100px;height:45px;
+pointer-events:none;}
+
+/* accel world */
+.animetitle[href*="anime/11759/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/accel.png");
+background-size: 50px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-20px;
+width:50px;height:50px;
 pointer-events:none;}
 
 /* monster musume */
@@ -330,6 +352,15 @@ background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/ch
 background-size: 25px;
 z-index:-5;opacity: 1;}
 tr:hover #xmenu21273 {display:none;}
+
+/* angel beats */
+#xmenu6547:after {content:"";
+left:100px;top:-20px;width:200px;height:50px;
+margin-top:-13px;margin-left:-100px;
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/ab.png");
+background-size: 180px;
+z-index:-5;opacity: 1;}
+tr:hover #xmenu6547 {display:none;}
 
 /* Hanamonogatari */
 .animetitle[href*="anime/21855/"]:after {content:"Suruga.pptx";
