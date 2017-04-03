@@ -291,6 +291,37 @@ margin-top:-20px;
 width:100px;height:45px;
 pointer-events:none;}
 
+/* ars nova */
+.animetitle[href*="anime/18893/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/arsnova3.png");
+background-size: 60px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-15px;
+width:60px;height:38px;
+pointer-events:none;}
+
+.animetitle[href*="anime/24921/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/arsnova.png");
+background-size: 70px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-15px;
+width:70px;height:40px;
+pointer-events:none;}
+
+.animetitle[href*="anime/24919/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/arsnova2.png");
+background-size: 60px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-15px;
+width:60px;height:40px;
+pointer-events:none;}
+
 /* accel world */
 .animetitle[href*="anime/11759/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/accel.png");
