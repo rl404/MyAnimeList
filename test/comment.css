@@ -14,19 +14,15 @@ transform:rotate(8deg);
 -webkit-transform:rotate(8deg);}
 
 /* Bakemonogatari */
-.animetitle[href*="anime/5081/"]:after {content:".pptx";
+.animetitle[href*="anime/5081/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/senjo.png");
+background-size: 45px;
+z-index:-5;
 position:absolute;
 margin-left:10px;
-margin-top:-2px;
-color:orange;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px #777;
-font-size:13px;
-pointer-events:none;
-/* transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);*/} 
+margin-top:-15px;
+width:45px;height:42px;
+pointer-events:none;}
 
 /* Beelzebub */
 .animetitle[href*="anime/9513/"]:after {content:"ZEBUL BLAST";
@@ -455,34 +451,74 @@ z-index:-5;opacity: 1;}
 tr:hover #xmenu6547 {display:none;}
 
 /* Hanamonogatari */
-.animetitle[href*="anime/21855/"]:after {content:"Suruga.pptx";
+.animetitle[href*="anime/21855/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/kanbaru.png");
+background-size: 45px;
+z-index:-5;
 position:absolute;
 margin-left:10px;
-margin-top:-2px;
-color: darkblue;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px #777;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+margin-top:-14px;
+width:45px;height:42px;
+pointer-events:none;}
+
+/* Fairy tail */
+.animetitle[href*="anime/6702/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/natsu.png");
+background-size: 45px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-14px;
+width:45px;height:42px;
+pointer-events:none;}
+
+/* plastic memories */
+.animetitle[href*="anime/27775/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/isla.png");
+background-size: 45px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-14px;
+width:45px;height:46px;
+pointer-events:none;}
+
+/* ika musume */
+.animetitle[href*="anime/8557/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/ika.png");
+background-size: 60px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-14px;
+width:60px;height:42px;
+pointer-events:none;}
+
+/* konosuba */
+.animetitle[href*="anime/30831/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/konosuba.png");
+background-size: 45px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-14px;
+width:45px;height:42px;
+pointer-events:none;}
+
 
 /* Nisemonogatari */
-.animetitle[href*="anime/11597/"]:after {content:"Imouto.pptx";
+.animetitle[href*="anime/11597/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/tsukihi.png"),
+					url("https://rawgit.com/rl404/MyAnimeList/master/test/images/karen.png");
+background-size: 40px,57px;
+background-repeat: no-repeat;
+background-position: left,right;
 position:absolute;
 margin-left:10px;
-margin-top:-2px;
-color: #e6e600;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px #777;
-font-size:13px;
-pointer-events:none;
-transform:rotate(-8deg);
--ms-transform:rotate(-8deg);
--webkit-transform:rotate(-8deg);}
+margin-top:-20px;
+z-index: -5;
+width:100px;height:50px;
+pointer-events:none;}
 
 /* Nyanko days */
 .animetitle[href*="anime/34148/"]:after {content:"Nya nya~";
@@ -616,19 +652,26 @@ transform:rotate(8deg);
 -webkit-transform:rotate(8deg);}
 
 /* koyomimonogatari */
-.animetitle[href*="anime/32268/"]:after {content:"Arararagi.pptx";
+.animetitle[href*="anime/32268/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/araragi.png");
+background-size: 40px;
+z-index:-5;
 position:absolute;
 margin-left:10px;
-margin-top:-2px;
-color: black;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px #777;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+margin-top:-20px;
+width:40px;height:50px;
+pointer-events:none;}
+
+/* nekomonogatari */
+.animetitle[href*="anime/15689/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/hanekawa.png");
+background-size: 50px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-15px;
+width:50px;height:41px;
+pointer-events:none;}
 
 /* Gokukoku */
 .animetitle[href*="anime/21431/"]:after {content:"Neko-san ♪♪♪";
@@ -805,13 +848,13 @@ transform:rotate(8deg);
 
 /* monogatari 2nd */
 .animetitle[href*="anime/17074/"]:after {content:"";
-background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/os.png");
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/shinobu.png");
 background-size: 50px;
 position:absolute;
-margin-left:-200px;
-margin-top:-20px;
+margin-left:10px;
+margin-top:-17px;
 z-index: -5;
-width:50px;height:50px;
+width:50px;height:46px;
 pointer-events:none;}
 
 /* non non */
@@ -879,13 +922,15 @@ z-index:-5;opacity: 1;}
 tr:hover #xmenu8769 {display:none;}
 
 /* sakurasou */
-#xmenu13759:after {content:"";
-left:100px;top:-20px;width:50px;height:50px;
-margin-top:-40px;margin-left:-100px;
+.animetitle[href*="anime/13759/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/sakurasou.png");
-background-size: 25px;
-z-index:-5;opacity: 1;}
-tr:hover #xmenu13759 {display:none;}
+background-size: 45px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-14px;
+width:45px;height:43px;
+pointer-events:none;}
 
 /* seitokai */
 #xmenu8675:after {content:"";
