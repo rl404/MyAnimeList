@@ -248,6 +248,67 @@ transform:rotate(8deg);
 -ms-transform:rotate(8deg);
 -webkit-transform:rotate(8deg);}
 
+/* Baka to test */
+.animetitle[href*="anime/6347/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/baka1.png");
+background-size: 40px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-17px;
+width:40px;height:50px;
+pointer-events:none;}
+
+.animetitle[href*="anime/8516/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/baka2.png");
+background-size: 40px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-20px;
+width:40px;height:50px;
+pointer-events:none;}
+
+.animetitle[href*="anime/24727/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/baka5.png");
+background-size: 33px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-15px;
+width:33px;height:49px;
+pointer-events:none;}
+
+.animetitle[href*="anime/7870/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/baka3.png");
+background-size: 45px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-15px;
+width:45px;height:50px;
+pointer-events:none;}
+
+.animetitle[href*="anime/9471/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/baka6.png");
+background-size: 50px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-8px;
+width:50px;height:30px;
+pointer-events:none;}
+
+.animetitle[href*="anime/7805/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/baka4.png");
+background-size: 30px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-15px;
+width:30px;height:48px;
+pointer-events:none;}
+
 /* Ansatsu */
 .animetitle[href*="anime/24833/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/koro.png");
