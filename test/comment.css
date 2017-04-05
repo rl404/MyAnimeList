@@ -481,6 +481,17 @@ margin-top:-14px;
 width:45px;height:46px;
 pointer-events:none;}
 
+/* musaigen */
+.animetitle[href*="anime/31442/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/musaigen.png");
+background-size: 45px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-20px;
+width:45px;height:48px;
+pointer-events:none;}
+
 /* ika musume */
 .animetitle[href*="anime/8557/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/ika.png");
@@ -526,6 +537,33 @@ margin-left:10px;
 margin-top:-20px;
 z-index: -5;
 width:100px;height:50px;
+pointer-events:none;}
+
+/* kimi no na wa */
+.animetitle[href*="anime/32281/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/taki1.png"),
+					url("https://rawgit.com/rl404/MyAnimeList/master/test/images/mitsuha1.png");
+background-size: 60px,60px;
+background-repeat: no-repeat;
+background-position: left,right;
+position:absolute;
+margin-left:10px;
+margin-top:-30px;
+z-index: -5;
+width:120px;height:60px;
+pointer-events:none;}
+
+.animetitle[href*="anime/32281/"]:hover::after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/taki.gif"),
+					url("https://rawgit.com/rl404/MyAnimeList/master/test/images/mitsuha.gif");
+background-size: 60px,60px;
+background-repeat: no-repeat;
+background-position: left,right;
+position:absolute;
+margin-left:10px;
+margin-top:-30px;
+z-index: -5;
+width:120px;height:60px;
 pointer-events:none;}
 
 /* rezero */
