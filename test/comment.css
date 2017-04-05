@@ -835,13 +835,15 @@ transform:rotate(8deg);
 }
 
 /* kyoukai no kanata */
-#xmenu18153:after {content:"";
-left:100px;top:-20px;width:50px;height:50px;
-margin-top:-30px;margin-left:-100px;
+.animetitle[href*="anime/18153/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/knk.png");
-background-size: 25px;
-z-index:-5;opacity: 1;}
-tr:hover #xmenu18153 {display:none;}
+background-size: 50px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-17px;
+width:50px;height:45px;
+pointer-events:none;}
 
 /* mirai nikki */
 #xmenu10620:after {content:"";
