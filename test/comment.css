@@ -514,6 +514,16 @@ margin-top:-23px;
 width:55px;height:53px;
 pointer-events:none;}
 
+.animetitle[href*="anime/32937/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/megumin.png");
+background-size: 70px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-23px;
+width:70px;height:52px;
+pointer-events:none;}
+
 /* sao 2 */
 .animetitle[href*="anime/21881/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/sinon.png");
@@ -523,6 +533,27 @@ position:absolute;
 margin-left:10px;
 margin-top:-20px;
 width:45px;height:47px;
+pointer-events:none;}
+ 
+/* Oregairu */
+.animetitle[href*="anime/14813/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/oregairu2.png");
+background-size: 40px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-20px;
+width:40px;height:45px;
+pointer-events:none;}
+
+.animetitle[href*="anime/23847/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/oregairu.png");
+background-size: 45px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-17px;
+width:45px;height:45px;
 pointer-events:none;}
 
 /* Nisemonogatari */
