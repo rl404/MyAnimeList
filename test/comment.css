@@ -396,14 +396,18 @@ width:70px;height:45px;
 pointer-events:none;}
 
 /* kill la kill */
+/* kill la kill */
 .animetitle[href*="anime/18679/"]:after {content:"";
-background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/kill.png");
-background-size: 50px;
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/kill.png"),
+					url("https://rawgit.com/rl404/MyAnimeList/master/test/images/kill2.png");
+background-size: 40px,37px;
+background-repeat: no-repeat;
+background-position: left,right;
 position:absolute;
 margin-left:10px;
-margin-top:-13px;
+margin-top:-18px;
 z-index: -5;
-width:50px;height:40px;
+width:85px;height:50px;
 pointer-events:none;}
 
 /* kobayashi-san */
@@ -664,6 +668,10 @@ margin-top:-23px;
 z-index: -5;
 width:50px;height:50px;
 pointer-events:none;}
+tr:hover .animetitle[href*="/21511/"]:hover::before{
+	background-image: url('https://rawgit.com/rl404/MyAnimeList/master/test/images/nagato.gif');
+	background-size: 206px;
+}
 
 /* koyomimonogatari */
 .animetitle[href*="anime/32268/"]:after {content:"";
