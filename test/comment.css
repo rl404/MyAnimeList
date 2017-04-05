@@ -566,6 +566,37 @@ z-index: -5;
 width:120px;height:60px;
 pointer-events:none;}
 
+/* gabriel drop out */
+.animetitle[href*="anime/33731/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/gabriel.png"),
+	url("https://rawgit.com/rl404/MyAnimeList/master/test/images/rap.png"),
+	url("https://rawgit.com/rl404/MyAnimeList/master/test/images/vig.png"),
+	url("https://rawgit.com/rl404/MyAnimeList/master/test/images/satan.png");
+background-size: 50px,50px,50px,50px;
+background-repeat: no-repeat;
+background-position: 0px,50px,100px,150px;
+position:absolute;
+margin-left:10px;
+margin-top:-25px;
+z-index: -5;
+width:200px;height:50px;
+pointer-events:none;}
+
+.animetitle[href*="anime/33731/"]:hover::after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/gabriel2.png"),
+	url("https://rawgit.com/rl404/MyAnimeList/master/test/images/rap2.png"),
+	url("https://rawgit.com/rl404/MyAnimeList/master/test/images/vig2.png"),
+	url("https://rawgit.com/rl404/MyAnimeList/master/test/images/satan2.png");
+background-size: 50px,50px,50px,50px;
+background-repeat: no-repeat;
+background-position: 0px,50px,100px,150px;
+position:absolute;
+margin-left:10px;
+margin-top:-25px;
+z-index: -5;
+width:200px;height:50px;
+pointer-events:none;}
+
 /* rezero */
 .animetitle[href*="anime/31240/"]:after {content:"";
 background-image: url("https://rawgit.com/rl404/MyAnimeList/master/test/images/rem.png"),
