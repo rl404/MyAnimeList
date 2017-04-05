@@ -499,6 +499,17 @@ margin-top:-23px;
 width:55px;height:53px;
 pointer-events:none;}
 
+/* sao 2 */
+.animetitle[href*="anime/21881/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/sinon.png");
+background-size: 45px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-20px;
+width:45px;height:47px;
+pointer-events:none;}
+
 /* Nisemonogatari */
 .animetitle[href*="anime/11597/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/tsukihi.png"),
