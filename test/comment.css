@@ -524,6 +524,17 @@ margin-top:-23px;
 width:70px;height:52px;
 pointer-events:none;}
 
+/* amagi park */
+.animetitle[href*="anime/22147/"]:after {content:"";
+background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/sento.png");
+background-size: 55px;
+z-index:-5;
+position:absolute;
+margin-left:10px;
+margin-top:-23px;
+width:55px;height:53px;
+pointer-events:none;}
+
 /* sao 2 */
 .animetitle[href*="anime/21881/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/sinon.png");
