@@ -1,0 +1,26 @@
+tr:hover .animetitle[href*="/19815/"]{
+background-image:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
+            url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
+			url('https://rawgit.com/rl404/MyAnimeList/master/test/images/ngnl.png');
+background-size: auto,auto,100%;	
+width:100%;
+height:400px;
+top: -15px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+border:1px;
+animation: sparkle 15s linear infinite;
+-webkit-animation: sparkle 15s linear infinite;}
+} 
+
+@keyframes sparkle {
+    0% { background-position: 0 0, 0 0,0 0; }
+    100% { background-position: -150px 300px, 150px 300px,0 0; }
+}
+
+@-webkit-keyframes sparkle {
+    0% { background-position: 0 0, 0 0,0 0; }
+    100% { background-position: -150px 300px, 150px 300px,0 0; }
+} 
