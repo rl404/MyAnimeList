@@ -525,8 +525,8 @@ pointer-events:auto !important;
 border-top:0px dashed #fff;
 border-bottom:0px dashed #fff;
 cursor:auto;
-animation:trli .5s !important;
--webkit-animation:trli .5s !important;
+animation:trli .2s !important;
+-webkit-animation:trli .2s !important;
 z-index:1 !important;
 }
 
@@ -535,7 +535,7 @@ z-index:1 !important;
 #list_surround .hide + table tr, #list_surround table[class*=header] + table + table tr {
 pointer-events:none;
 z-index:-1 !important;
-height:0px;animation:trba .5s !important;-webkit-animation:trba .5s !important;}
+height:0px;animation:trba .2s !important;-webkit-animation:trba .2s !important;}
 
 /*----- anime titles -----*/
 

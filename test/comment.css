@@ -1120,17 +1120,7 @@ background-size: 25px;
 z-index:-5;opacity: 1;}
 tr:hover #xmenu10495 {display:none;}
 
-
-/* Neon Genesis Evangelion */
-#xmenu30:after {content:"Rei x Rei x Rei OT3";
-left:270px;top:-45px;
-margin-left:-100px;
-color:#c68;
-transform:rotate(-4deg);
--ms-transform:rotate(-4deg);
--webkit-transform:rotate(-4deg);}
-
-/*  */
+/* Symphogear */
 #xmenu15793:after {content:"SYMPHOGEAH!";
 left:0px;top:-142px;
 margin-left:250px;
@@ -1142,5 +1132,5 @@ transform:rotate(12deg);
 font-size:22px;color:#e00;
 width:165px;height:25px;border-radius:5px;
 border:1px solid #e00;box-shadow:0px 0px 1px #000;}
-tr:hover #xmenu15793:after {background-color:rgba(255,255,255,.8);z-index:11;}
+tr:hover #xmenu15793:after {display:none;}
 
