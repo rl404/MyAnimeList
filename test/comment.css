@@ -396,7 +396,6 @@ width:70px;height:45px;
 pointer-events:none;}
 
 /* kill la kill */
-/* kill la kill */
 .animetitle[href*="anime/18679/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/kill.png"),
 					url("https://rawgit.com/rl404/MyAnimeList/master/test/images/kill2.png");
@@ -422,12 +421,14 @@ width:50px;height:45px;
 pointer-events:none;}
 
 /* Himegoto */
-tr:hover .animetitle[href*="/22835/"]:hover::before{background-image: url('https://rawgit.com/rl404/MyAnimeList/master/test/images/trap.jpeg')}
+tr:hover .animetitle[href*="/22835/"]:hover::before{
+background-image: url('https://rawgit.com/rl404/MyAnimeList/master/test/images/trap.jpeg')
+}
 
 /* Mikakunin */
 tr:hover .animetitle[href*="/20541/"]:hover::before{
-	background-image: url('https://rawgit.com/rl404/MyAnimeList/master/test/images/mikakunin.gif');
-	background-size: 206px;
+background-image: url('https://rawgit.com/rl404/MyAnimeList/master/test/images/mikakunin.gif');
+background-size: 206px;
 }
 
 /* Gochuumon */
@@ -597,7 +598,7 @@ pointer-events:none;}
 
 .animetitle[href*="anime/32281/"]:hover::after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/taki.gif"),
-					url("https://rawgit.com/rl404/MyAnimeList/master/test/images/mitsuha.gif");
+	url("https://rawgit.com/rl404/MyAnimeList/master/test/images/mitsuha.gif");
 background-size: 60px,60px;
 background-repeat: no-repeat;
 background-position: left,right;
@@ -780,8 +781,8 @@ z-index: -5;
 width:50px;height:50px;
 pointer-events:none;}
 tr:hover .animetitle[href*="/21511/"]:hover::before{
-	background-image: url('https://rawgit.com/rl404/MyAnimeList/master/test/images/nagato.gif');
-	background-size: 206px;
+background-image: url('https://rawgit.com/rl404/MyAnimeList/master/test/images/nagato.gif');
+background-size: 206px;
 }
 
 /* koyomimonogatari */
@@ -893,7 +894,7 @@ background-size: 50px;
 opacity: 1;}
 tr:hover #xmenu9756 {display:none;}
 .animetitle[href*="anime/9756/"]:hover::after {content:"Contract?";
- position:absolute;
+position:absolute;
 margin-left:10px;
 margin-top:-2px;
 color:red;
