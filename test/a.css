@@ -938,11 +938,13 @@ opacity: 0;
 @-moz-keyframes mymove /* Firefox */
 {
 0% {opacity: 1;}
-99% {opacity: 0}
+90% {opacity: 1;}
+99% {opacity: 0;}
 }
 
 @-webkit-keyframes mymove /* Chrome */
 {
-0% {opacity: 1; }
-99% {opacity: 0}
+0% {opacity: 1;}
+90% {opacity: 1;}
+99% {opacity: 0;}
 }
