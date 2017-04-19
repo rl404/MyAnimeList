@@ -876,56 +876,73 @@ position: fixed !important;
 top: 0 !important;
 width: 100% !Important;
 z-index: 101;
-color: transparent;
+color: #333;
 content: "Welcome to rl404's list";
 pointer-events: none;
-opacity: 1;
+opacity: 0;
 -moz-animation:mymove 5s; /* Firefox */
 -webkit-animation:mymove 5s; /* Chrome */
 }
 
-
-/*  ANIMATED INTRO LEFT SIDE (images and text)
-By default, these are the logos and text. The character name is a premade image generated at Cooltext.com. "content:" controls the rest of the text on the left. Padding top % can be lowered to bring the content text above the logo- it can be increased to move the content text down away from the logo. Increase or decrease the top % to lower or raise the logo itself down the page. 
-*/
 .header_cw span:before,
 .header_completed span:before,
 .header_onhold span:before,
 .header_dropped span:before,
 .header_ptw span:before{
-/* background: transparent url("http://i.imgur.com/Y91tQfV.png") no-repeat;
-background-position: 50% 10%;
-background-size: 80%; */
-content: "Loading . . ." !important;
-color: black !important;
+content: "Loading" !important;
+color: #333;
 font-size: 32px !important;
 font-family: Century Gothic;
 text-shadow: 1px 2px 3px white;
+padding-top: 46%;
 
-/* padding-top: 40%; */
-
-
-position: 50% 50%;
-text-align: center;
-height: 100%;
-width: 100%;
-/* bottom: 50px !important;
-left: 0 !important; */
+position: fixed;
+text-align: right;
+top: 0px;
+right: 15%;
 pointer-events: none;
-opacity: 1;
+opacity: 0;
 z-index: 110 !Important;
 -moz-animation:mymove 5s; /* Firefox */
 -webkit-animation:mymove 5s; /* Chrome */
 }
 
+.header_cw span:after,
+.header_completed span:after,
+.header_onhold span:after,
+.header_dropped span:after,
+.header_ptw span:after
+{
+background: transparent url("http://sig.grumpybumpers.com/host/rl405.gif") no-repeat;
+background-size: 15%;
+content: "";
+color: black !important;
+font-size: 32px !important;
+padding-top: 0%;
+text-align: right;
+
+background-position: 100% 100%;
+position: fixed;
+height: 100%;
+width: 100%;
+right: 0 !important;
+top: 0 !important;
+z-index: 110;
+pointer-events: none;
+opacity: 0;
+-moz-animation:mymove 5s; /* Firefox */
+-webkit-animation:mymove 5s; /* Chrome */
+}
+
+
 @-moz-keyframes mymove /* Firefox */
 {
-0% {opacity: 1}
+0% {opacity: 1;}
 99% {opacity: 0}
 }
 
 @-webkit-keyframes mymove /* Chrome */
 {
-0% {opacity: 1}
+0% {opacity: 1; }
 99% {opacity: 0}
 }
