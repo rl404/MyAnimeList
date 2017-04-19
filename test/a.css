@@ -880,8 +880,8 @@ color: #333;
 content: "Welcome to rl404's list";
 pointer-events: none;
 opacity: 0;
--moz-animation:mymove 3s; /* Firefox */
--webkit-animation:mymove 3s; /* Chrome */
+-moz-animation:mymove 5s; /* Firefox */
+-webkit-animation:mymove 5s; /* Chrome */
 }
 
 .header_cw span:before,
@@ -903,8 +903,8 @@ right: 15%;
 pointer-events: none;
 opacity: 0;
 z-index: 110 !Important;
--moz-animation:mymove 3s; /* Firefox */
--webkit-animation:mymove 3s; /* Chrome */
+-moz-animation:mymove 5s; /* Firefox */
+-webkit-animation:mymove 5s; /* Chrome */
 }
 
 .header_cw span:after,
@@ -930,8 +930,8 @@ top: 0 !important;
 z-index: 110;
 pointer-events: none;
 opacity: 0;
--moz-animation:mymove 3s; /* Firefox */
--webkit-animation:mymove 3s; /* Chrome */
+-moz-animation:mymove 5s; /* Firefox */
+-webkit-animation:mymove 5s; /* Chrome */
 }
 
 
