@@ -864,12 +864,12 @@ box-shadow:0px 0px 10px -4px #000 inset;
 .header_onhold:before,
 .header_dropped:before,
 .header_ptw:before {
-/* background-image: url("http://i.imgur.com/siL9m0H.jpg"); */
+display: block;
 background-color: #fcfefc;
 height: 30% !important;
 left: 0 !important;
 position: fixed !important;
-top: 0 !important;
+top: 0% !important;
 width: 100% !Important;
 z-index: 101;
 color: #333;
@@ -887,6 +887,7 @@ border-width: 0px 0 5px 0;
 .header_onhold span:before,
 .header_dropped span:before,
 .header_ptw span:before{
+display: block;
 content: "Loading" !important;
 background-color: #fcfefc;
 width:100%;
@@ -903,7 +904,7 @@ padding-top: 20%;
 padding-right: 15%; 
 text-align: right;
 right: 0 !important;
-top:50% !important;
+top: 0% !important;
 pointer-events: none;
 z-index: 110 !Important;
 -moz-animation:mymove2 7s; /* Firefox */
@@ -916,20 +917,19 @@ z-index: 110 !Important;
 .header_dropped span:after,
 .header_ptw span:after
 {
+display: block;
 background: transparent url("http://sig.grumpybumpers.com/host/rl405.gif") no-repeat;
 background-size: 15%;
 content: "";
 color: black !important;
 font-size: 32px !important;
-padding-top: 0%;
-text-align: right;
 
 background-position: 100% 95%;
 position: fixed;
-height: 100%;
+height: 50%;
 width: 100%;
 right: 0 !important;
-top: 0 !important;
+top: 50% !important;
 z-index: 110;
 pointer-events: none;
 -moz-animation:mymove2 7s; /* Firefox */
@@ -939,24 +939,28 @@ pointer-events: none;
 
 @-moz-keyframes mymove /* Firefox */
 {
-70% {background-position: -100% 0;}
-100% {display:none;}
+0% {top:0%;}
+70% {top: 0%;}
+100% {top:-55%; display:none;}
 }
 
 @-webkit-keyframes mymove /* Chrome */
 {
-70% {background-position: -100% 0;}
-100% {display:none;}
+0% {top:0%;}
+70% {top: 0%;}
+100% {top:-55%; display:none;}
 }
 
 @-moz-keyframes mymove2 /* Firefox */
 {
-70% {background-position: 100% 0;}
-100% {display:none;}
+0% {top:0%;}
+70% {top: 0%;}
+100% {top:100%; display:none;}
 }
 
 @-webkit-keyframes mymove2 /* Chrome */
 {
-70% {background-position: 100% 0;}
-100% {display:none;}
+0% {top:0%;}
+70% {top: 0%;}
+100% {top:100%; display:none;}
 }
