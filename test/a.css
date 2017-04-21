@@ -953,14 +953,14 @@ pointer-events: none;
 
 @-moz-keyframes mymove2 /* Firefox */
 {
-0% {top:0%;}
-70% {top: 0%;}
+0% {top:50%;}
+70% {top: 50%;}
 100% {top:100%; display:none;}
 }
 
 @-webkit-keyframes mymove2 /* Chrome */
 {
-0% {top:0%;}
-70% {top: 0%;}
+0% {top:50%;}
+70% {top: 50%;}
 100% {top:100%; display:none;}
 }
