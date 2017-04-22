@@ -4,16 +4,18 @@ background-image:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/imag
 			url('https://rawgit.com/rl404/MyAnimeList/master/test/images/ngnl.png');
 background-size: auto,auto,100%;	
 width:100%;
-height:400px;
+height:385px;
 top: -15px;
 min-width:935px;
 max-width:1237px;
 margin-left:auto;
 margin-right:auto;
 border:1px;
+padding-top: 35px;
 animation: sparkle 15s linear infinite;
 -webkit-animation: sparkle 15s linear infinite;
 }
+tr:hover .animetitle[href*="/19815/"]:before{top: 100px;}
 
 
 @keyframes sparkle {
@@ -30,12 +32,44 @@ animation: sparkle 15s linear infinite;
 tr:hover .animetitle[href*="/16782/"]{
 background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/rain.gif),
 			url('https://rawgit.com/rl404/MyAnimeList/master/test/images/gow.png');
-background-size:747px,100%;	
+background-size:684px,100%;	
 width:100%;
-height:400px;
+height:385px;
 top: -15px;
+padding-top: 35px;
 min-width:935px;
 max-width:1237px;
 margin-left:auto;
 margin-right:auto;
+} 
+tr:hover .animetitle[href*="/16782/"]:before{top: 100px;}
+
+/* Kotonoha no niwa */
+tr:hover .animetitle[href*="/2001/"]{
+background-image:url('https://rawgit.com/rl404/MyAnimeList/master/test/images/ttgl.png'),
+      url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ttgl2.gif);
+background-size:100%,200px;
+background-repeat: no-repeat;
+background-position: bottom center,-20% 100%; 
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;    
+animation: ttgl 15s linear ;
+-webkit-animation: ttgl 15s linear ;
+} 
+tr:hover .animetitle[href*="/2001/"]:before{top: 100px;}
+
+@keyframes ttgl {
+    0% { background-position: center, 100% 100%; }
+    100% { background-position: center, -20% 100%; }
+}
+
+@-webkit-keyframes ttgl {
+    0% { background-position: top center, 100% 100%; }
+    100% { background-position: bottom center, -20% 100%;}
 } 
