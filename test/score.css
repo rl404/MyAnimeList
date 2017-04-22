@@ -1,0 +1,25 @@
+#scoreval32, #scoreval31{
+/* 	visibility: hidden; */
+	position: relative;
+	left:-5px;
+}
+#scoreval32:after, #scoreval31:after{
+/* 	visibility: visible; */
+	position: absolute;
+/* 	top: 0; */
+	left: 7px;
+	text-align: left;
+	content: ".5";
+}
+
+tr:hover #scoreval32,tr:hover #scoreval31{
+	position: relative;
+/* 	left:-50px; */
+	font-size: 220px;
+}
+
+tr:hover #scoreval32:after,tr:hover #scoreval31:after{
+	position: absolute;
+	left:100px;
+	font-size: 100px;
+}

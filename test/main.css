@@ -4,7 +4,8 @@
 
 /*----- some minor stuff -----*/
 @import url(https://rawgit.com/rl404/MyAnimeList/master/test/comment.css);
-/*@import url(https://rawgit.com/rl404/MyAnimeList/master/test/special.css);*/
+/*@import url(https://rawgit.com/rl404/MyAnimeList/master/test/score.css);*/
+@import url(https://rawgit.com/rl404/MyAnimeList/master/test/special.css);
 
 body {background-color:#333;}
 #fancybox-wrap {
