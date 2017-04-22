@@ -529,18 +529,20 @@ width:100px;height:50px;
 pointer-events:none;}
 
 /* kimi no na wa */
-tr:hover .animetitle[href*="anime/32281/"]:after {content:"";
+.animetitle[href*="anime/32281/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/taki1.png"),
 	url("https://rawgit.com/rl404/MyAnimeList/master/test/images/mitsuha1.png");
 background-size: 60px,60px;
 background-repeat: no-repeat;
 background-position: left,right;
 position:absolute;
-margin-left:10px;
+margin-left:-220px;
 margin-top:-30px;
 z-index: -5;
-width:120px;height:60px;
+	opacity:0;
+width:300px;height:60px;
 pointer-events:none;}
+tr:hover .animetitle[href*="anime/32281/"]:after {opacity:1;}
 
 tr:hover .animetitle[href*="anime/32281/"]:hover::after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/taki.gif"),
@@ -549,10 +551,10 @@ background-size: 60px,60px;
 background-repeat: no-repeat;
 background-position: left,right;
 position:absolute;
-margin-left:10px;
+margin-left:-220px;
 margin-top:-30px;
 z-index: -5;
-width:120px;height:60px;
+width:300px;height:60px;
 pointer-events:none;}
 
 /* gabriel drop out */
