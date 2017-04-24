@@ -106,8 +106,8 @@ tr:hover .animetitle[href*="/4181/"]:before{top: 100px;}
 
 /* STEINS GATE */
 tr:hover .animetitle[href*="/9253/"]{
-background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/sg3.png),
-            url(https://rawgit.com/rl404/MyAnimeList/master/test/images/sg2.png),
+background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/sg3.gif),
+            url(https://rawgit.com/rl404/MyAnimeList/master/test/images/sg2.gif),
 			url(https://rawgit.com/rl404/MyAnimeList/master/test/images/sg.png);
 background-size: 200px,150px,100%;	
 background-repeat: no-repeat;
