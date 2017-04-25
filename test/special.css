@@ -151,7 +151,7 @@ tr:hover .animetitle[href*="/9253/"]:before{top: 100px;}
 /* UBW */
 tr:hover .animetitle[href*="/28701/"]{
 background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
-			url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw.png);
+			url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw.gif);
 background-size:100%,100%;	
 background-position: bottom;
 width:100%;
