@@ -179,3 +179,19 @@ margin-left:auto;
 margin-right:auto;
 } 
 tr:hover .animetitle[href*="/9756/"]:before{top: 100px;}
+
+/* guilty crown */
+tr:hover .animetitle[href*="/10793/"]{
+background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/gc.png);
+background-size:100%;	
+    opacity: 0.1;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/10793/"]:before{top: 100px;}
