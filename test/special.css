@@ -228,3 +228,20 @@ margin-left:auto;
 margin-right:auto;
 } 
 tr:hover .animetitle[href*="/10165/"]:before{top: 100px;}
+
+/* akame */
+tr:hover .animetitle[href*="/22199/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
+	url(https://rawgit.com/rl404/MyAnimeList/master/test/images/akame.gif);
+background-size:100%,100%;	
+background-position: bottom;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/22199/"]:before{top: 100px;}
