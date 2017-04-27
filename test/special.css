@@ -32,9 +32,10 @@ tr:hover .animetitle[href*="/19815/"]:before{top: 100px;}
 tr:hover .animetitle[href*="/16782/"]{
 background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/rain.gif),
     url(https://rawgit.com/rl404/MyAnimeList/master/test/images/rain.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/rain.gif),
 	url('https://rawgit.com/rl404/MyAnimeList/master/test/images/gow.png');
-background-size:747px,747px,100%;
-background-position: 0 0, 50% 0, center;
+background-size:747px 5000px,747px 1000px,747px,100%;
+background-position: 0 0, 50% 0,0 0, center
 width:100%;
 height:385px;
 top: -15px;
@@ -109,8 +110,8 @@ tr:hover .animetitle[href*="/4181/"]:before{top: 100px;}
 /* STEINS GATE */
 tr:hover .animetitle[href*="/9253/"]{
 background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/sg3.gif),
-            url(https://rawgit.com/rl404/MyAnimeList/master/test/images/sg2.gif),
-			url(https://rawgit.com/rl404/MyAnimeList/master/test/images/sg.png);
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/sg2.gif),
+	url(https://rawgit.com/rl404/MyAnimeList/master/test/images/sg.png);
 background-size: 0,0,100%;	
 background-repeat: no-repeat;
 background-position: 100% 200%,0% -50%, center;
@@ -151,7 +152,7 @@ tr:hover .animetitle[href*="/9253/"]:before{top: 100px;}
 /* UBW */
 tr:hover .animetitle[href*="/28701/"]{
 background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
-			url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw.gif);
+	url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw.gif);
 background-size:100%,100%;	
 background-position: bottom;
 width:100%;
@@ -199,9 +200,10 @@ tr:hover .animetitle[href*="/10793/"]:before{top: 100px;}
 tr:hover .animetitle[href*="/32/"]{
 background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/rain2.gif),
     url(https://rawgit.com/rl404/MyAnimeList/master/test/images/rain2.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/rain2.gif),
     url(https://rawgit.com/rl404/MyAnimeList/master/test/images/eva.png);
-background-size:747px,747px,100%;	
-background-position: 0 0, 50% 0, center;
+background-size:747px 5000px,747px 1000px,747px,100%;	
+background-position: 0 0, 50% 0,0 0, center;
 width:100%;
 height:385px;
 top: -15px;
@@ -268,8 +270,11 @@ tr:hover .animetitle[href*="/523/"]:before{top: 100px;}
 tr:hover .animetitle[href*="/1689/"]{
 background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
     url(https://rawgit.com/rl404/MyAnimeList/master/test/images/5cm2.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/5cm2.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/5cm2.gif),   
 	url(https://rawgit.com/rl404/MyAnimeList/master/test/images/5cm.png);
-background-size:100%,15%,100%;	 
+background-size:100%, 15%,30%,100%,100%;	 
+background-position: 0 0, 20% 0,0 0,0 0,left bottom; 
 background-position: left bottom;
 width:100%;
 height:385px;
