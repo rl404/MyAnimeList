@@ -112,7 +112,7 @@ tr:hover .animetitle[href*="/9253/"]{
 background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/sg3.gif),
     url(https://rawgit.com/rl404/MyAnimeList/master/test/images/sg2.gif),
 	url(https://rawgit.com/rl404/MyAnimeList/master/test/images/sg.png);
-background-size: 0,0,100%;	
+background-size: 200px,150px,100%;	
 background-repeat: no-repeat;
 background-position: 100% 200%,0% -50%, center;
 width:100%;
@@ -335,7 +335,7 @@ tr:hover .animetitle[href*="/10012/"]:before{top: 100px;}
 	    4530px 0,
 	    5285px 0,
 	    6040px 0;} 
-    100% {background-position: -6000px 100%, -5285px 0,
+    100% {background-position: -6000px 100%, 0 0,-5285px 0,
     	-4530px 0, 
 	    -3775px 0, 
 	    -3020px 0,
