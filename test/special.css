@@ -290,7 +290,8 @@ tr:hover .animetitle[href*="/1689/"]:before{top: 100px;}
 
 /* carnival phantasm */
 tr:hover .animetitle[href*="/10012/"]{
-background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/bersercar.png),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
 	url(https://rawgit.com/rl404/MyAnimeList/master/test/images/lion1.gif),
     url(https://rawgit.com/rl404/MyAnimeList/master/test/images/lion2.gif),
     url(https://rawgit.com/rl404/MyAnimeList/master/test/images/lion3.gif),
@@ -300,9 +301,9 @@ background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png)
     url(https://rawgit.com/rl404/MyAnimeList/master/test/images/lion7.gif),
     url(https://rawgit.com/rl404/MyAnimeList/master/test/images/lion1.gif),
     url(https://rawgit.com/rl404/MyAnimeList/master/test/images/lion2.gif);
-background-size:100%, 755px, 755px, 755px, 755px, 755px, 755px, 755px, 755px, 755px;	
+background-size:200px,100%, 755px, 755px, 755px, 755px, 755px, 755px, 755px, 755px, 755px;	
 background-repeat: no-repeat;
-background-position: 0 0, 0 0, 
+background-position: 150% 100%,0 0, 0 0, 
     755px 0, 
     1510px 0,
     2265px 0,
@@ -319,13 +320,13 @@ min-width:935px;
 max-width:1237px;
 margin-left:auto;
 margin-right:auto;    
-animation: cp 18s linear infinite;
--webkit-animation: cp 18s linear infinite;
+animation: cp 36s linear infinite;
+-webkit-animation: cp 72s linear infinite;
 } 
 tr:hover .animetitle[href*="/10012/"]:before{top: 100px;}
 
 @keyframes cp {
-    0% { background-position: 0 0, 0 0, 
+    0% { background-position: 150% 100%, 0 0, 0 0, 
 	    755px 0, 
 	    1510px 0,
 	    2265px 0,
@@ -334,7 +335,7 @@ tr:hover .animetitle[href*="/10012/"]:before{top: 100px;}
 	    4530px 0,
 	    5285px 0,
 	    6040px 0;} 
-    100% {background-position: 0 0, -5285px 0,
+    100% {background-position: -6000px 100%, -5285px 0,
     	-4530px 0, 
 	    -3775px 0, 
 	    -3020px 0,
@@ -346,7 +347,7 @@ tr:hover .animetitle[href*="/10012/"]:before{top: 100px;}
 }
 
 @-webkit-keyframes cp {
-    0% { background-position: 0 0, 0 0, 
+    0% { background-position: 150% 100%, 0 0, 0 0, 
 	    755px 0, 
 	    1510px 0,
 	    2265px 0,
@@ -355,7 +356,7 @@ tr:hover .animetitle[href*="/10012/"]:before{top: 100px;}
 	    4530px 0,
 	    5285px 0,
 	    6040px 0;} 
-    100% {background-position: 0 0, -5285px 0,
+    100% {background-position: -6000px 100%, 0 0, -5285px 0,
     	-4530px 0, 
 	    -3775px 0, 
 	    -3020px 0,

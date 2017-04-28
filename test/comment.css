@@ -99,7 +99,7 @@ margin-top:-10px;
 width:50px;height:40px;
 pointer-events:none;
 opacity:0;}
-tr:hover .animetitle[href*="anime/10012/"]:after {opacity:1;}
+tr:hover .animetitle[href*="anime/10012/"]:after {opacity:1;z-index:2;}
 
 /* Neptune */
 .animetitle[href*="anime/16157/"]:after {content:"";
