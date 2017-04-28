@@ -878,7 +878,7 @@ pointer-events: none;
 padding: 5%;
 border-style: solid;
 border-width: 0px 0 5px 0;
--moz-animation:mymove 7s; /* Firefox */
+animation:mymove 7s; /* Firefox */
 -webkit-animation:mymove 7s; /* Chrome */
 }
 
@@ -907,7 +907,7 @@ right: 0 !important;
 top: 100% !important;
 pointer-events: none;
 z-index: 110 !Important;
--moz-animation:mymove2 7s; /* Firefox */
+animation:mymove2 7s; /* Firefox */
 -webkit-animation:mymove2 7s; /* Chrome */
 }
 
@@ -932,12 +932,12 @@ right: 0 !important;
 top: 100% !important;
 z-index: 110;
 pointer-events: none;
--moz-animation:mymove2 7s; /* Firefox */
+animation:mymove2 7s; /* Firefox */
 -webkit-animation:mymove2 7s; /* Chrome */
 }
 
 
-@-moz-keyframes mymove /* Firefox */
+@keyframes mymove /* Firefox */
 {
 0% {top:0%;}
 70% {top: 0%;}
@@ -951,7 +951,7 @@ pointer-events: none;
 100% {top:-55%; display:none;}
 }
 
-@-moz-keyframes mymove2 /* Firefox */
+@keyframes mymove2 /* Firefox */
 {
 0% {top:50%;}
 70% {top: 50%;}
