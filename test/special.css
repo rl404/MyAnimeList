@@ -380,7 +380,7 @@ tr:hover .animetitle[href*="/5081/"]{
 background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/snow1.png),
     url(https://rawgit.com/rl404/MyAnimeList/master/test/images/snow1.png),
     url(https://rawgit.com/rl404/MyAnimeList/master/test/images/snow2.png),
-	url(hhttps://rawgit.com/rl404/MyAnimeList/master/test/images/bakemonogatari.png);
+	url(https://rawgit.com/rl404/MyAnimeList/master/test/images/bakemonogatari.png);
 background-size:auto,420px,1000px,100%;	
 width:100%;
 height:385px;
@@ -406,11 +406,12 @@ tr:hover .animetitle[href*="/5081/"]:before{top: 100px;}
     100% { background-position: 0 0,0 0, 0 0,right; }
 } 
 
+/* suzumiya haruhi no shoushitsu */
 tr:hover .animetitle[href*="/7311/"]{
 background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/snow1.png),
     url(https://rawgit.com/rl404/MyAnimeList/master/test/images/snow1.png),
     url(https://rawgit.com/rl404/MyAnimeList/master/test/images/snow2.png),
-	url(hhttps://rawgit.com/rl404/MyAnimeList/master/test/images/shns.png);
+	url(https://rawgit.com/rl404/MyAnimeList/master/test/images/shns.png);
 background-size:auto,420px,1000px,100%;	
 width:100%;
 height:385px;
@@ -423,3 +424,4 @@ margin-right:auto;
 animation: snow1 15s linear infinite;
 -webkit-animation: snow1 15s linear infinite;
 } 
+tr:hover .animetitle[href*="/7311/"]:before{top: 100px;}
