@@ -198,7 +198,8 @@ tr:hover .animetitle[href*="anime/22297/"]:after,
 tr:hover .animetitle[href*="anime/28701/"]:after {opacity:1;}
 
 /* fate zero */
-.animetitle[href*="anime/10087/"]:after {content:"";
+.animetitle[href*="anime/10087/"]:after,
+.animetitle[href*="anime/11741/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/test/images/gilg.png");
 background-size: 50px;
 z-index:-5;
@@ -208,7 +209,8 @@ margin-top:-20px;
 width:50px;height:45px;
 pointer-events:none;
 opacity:0;}
-tr:hover .animetitle[href*="anime/10087/"]:after {opacity:1;}
+tr:hover .animetitle[href*="anime/10087/"]:after,
+tr:hover .animetitle[href*="anime/11741/"]:after {opacity:1;}
 
 /* Girl und panzer */
 tr:hover .animetitle[href*="anime/14131/"]:after {content:"Panzer vor!";

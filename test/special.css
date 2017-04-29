@@ -457,3 +457,23 @@ margin-left:auto;
 margin-right:auto;
 } 
 tr:hover .animetitle[href*="/11597/"]:before{top: 100px;}
+
+/* fate zero */
+tr:hover .animetitle[href*="/11741/"]{
+background:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
+    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
+    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/fatezero.png) ;
+background-size:auto,420px,1000px,100%;	
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+    animation: sparkle2 15s linear infinite;
+-webkit-animation: sparkle2 15s linear infinite;
+} 
+tr:hover .animetitle[href*="/11741/"]:before{top: 100px;}
