@@ -182,7 +182,7 @@ margin-right:auto;
 } 
 tr:hover .animetitle[href*="/9756/"]:hover:before{background-image: url('https://myanimelist.cdn-dena.com/images/anime/11/55225.jpg')}
 tr:hover .animetitle[href*="/9756/"]:before{content:"NO!";
-background:url(http://i.imgur.com/1gfEZOb.gif) bottom no-repeat;
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/kyubey2.gif) bottom no-repeat;
 background-size: 206px,auto;top: 100px;
 color:red;
 padding-top: 50px; 
