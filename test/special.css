@@ -649,6 +649,21 @@ margin-right:auto;
 } 
 tr:hover .animetitle[href*="/19221/"]:hover:before{background: url('https://myanimelist.cdn-dena.com/images/anime/10/53235.jpg');}
 tr:hover .animetitle[href*="/19221/"]:before{
-background:url(url(https://rawgit.com/rl404/MyAnimeList/master/test/images/noucome.gif);) top no-repeat;
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/noucome.gif) top no-repeat;
 background-size:206px 291px;top: 100px;
 }
+
+/* outbreak */
+tr:hover .animetitle[href*="/19369/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/outbreak.png);
+background-size:100%;	
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/19369/"]:before{top: 100px;}
