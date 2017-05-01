@@ -429,7 +429,7 @@ tr:hover .animetitle[href*="/7311/"]:before{top: 100px;}
 tr:hover .animetitle[href*="/10620/"]{
 background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/mirainikki.png);
 background-size:100%;	
-box-shadow: inset 0px 0px 100px -40px rgba(255,0,0,0.5);
+box-shadow: inset 0px 0px 100px -20px rgba(255,0,0,0.5);
 width:100%;
 height:385px;
 top: -15px;
@@ -504,4 +504,91 @@ background-size:481px;top: 100px;
 color:red;
 padding-top: 50px; 
 height: 241px;
+}
+
+/* girl und panzer */
+tr:hover .animetitle[href*="/14131/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
+	url(https://rawgit.com/rl404/MyAnimeList/master/test/images/gup.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/gup.png) bottom;
+background-size:100%,2720px,100%;	
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+-moz-animation: scroll 60s linear infinite;
+-webkit-animation: scroll 60s linear infinite;
+} 
+tr:hover .animetitle[href*="/14131/"]:before{top: 100px;}
+
+@-moz-keyframes scroll{
+	0% { background-position: 0 0,0,bottom; }
+	100% { background-position: 0 0,-2720px,bottom; }
+}
+
+@-webkit-keyframes scroll{
+	0% { background-position: 0 0,0,bottom; }
+	100% { background-position: 0 0,-2720px,bottom; }
+}
+
+/* girls und panzer movie */
+tr:hover .animetitle[href*="/18617/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
+	url(https://rawgit.com/rl404/MyAnimeList/master/test/images/gup.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/gup.png) bottom;
+background-size:100%,819px,100%;	
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+-moz-animation: scroll2 60s linear infinite;
+-webkit-animation: scroll2 60s linear infinite;
+} 
+tr:hover .animetitle[href*="/18617/"]:before{top: 100px;}
+
+@-moz-keyframes scroll2{
+	0% { background-position: 0 0,0,bottom; }
+	100% { background-position: 0 0,-819px,bottom; }
+}
+
+@-webkit-keyframes scroll2{
+	0% { background-position: 0 0,0,bottom; }
+	100% { background-position: 0 0,-819px,bottom; }
+}
+
+/* girls und panzer arisu */
+tr:hover .animetitle[href*="/32740/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
+	url(https://rawgit.com/rl404/MyAnimeList/master/test/images/gup3.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/gup.png) bottom;
+background-size:100%,375px,100%;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+-moz-animation: scroll3 60s linear infinite;
+-webkit-animation: scroll3 60s linear infinite;
+} 
+tr:hover .animetitle[href*="/32740/"]:before{top: 100px;}
+
+@-moz-keyframes scroll3{
+	0% { background-position: 0 0,0,bottom; }
+	100% { background-position: 0 0,-375px,bottom; }
+}
+
+@-webkit-keyframes scroll3{
+	0% { background-position: 0 0,0,bottom; }
+	100% { background-position: 0 0,-375px,bottom; }
 }
