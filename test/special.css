@@ -150,7 +150,8 @@ tr:hover .animetitle[href*="/9253/"]:before{top: 100px;}
 } 
 
 /* UBW */
-tr:hover .animetitle[href*="/28701/"]{
+tr:hover .animetitle[href*="/28701/"],
+tr:hover .animetitle[href*="/22297/"]{
 background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
 	url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw.gif);
 background-size:100%,100%;	
@@ -164,7 +165,8 @@ max-width:1237px;
 margin-left:auto;
 margin-right:auto;
 } 
-tr:hover .animetitle[href*="/28701/"]:before{top: 100px;}
+tr:hover .animetitle[href*="/28701/"]:before,
+tr:hover .animetitle[href*="/22297/"]:before{top: 100px;}
 
 /* madoka */
 tr:hover .animetitle[href*="/9756/"]{
@@ -538,7 +540,7 @@ tr:hover .animetitle[href*="/14131/"]:before{top: 100px;}
 /* girls und panzer movie */
 tr:hover .animetitle[href*="/18617/"]{
 background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
-	url(https://rawgit.com/rl404/MyAnimeList/master/test/images/gup.gif),
+	url(https://rawgit.com/rl404/MyAnimeList/master/test/images/gup2.gif),
     url(https://rawgit.com/rl404/MyAnimeList/master/test/images/gup.png) bottom;
 background-size:100%,819px,100%;	
 width:100%;
@@ -549,8 +551,8 @@ min-width:935px;
 max-width:1237px;
 margin-left:auto;
 margin-right:auto;
--moz-animation: scroll2 60s linear infinite;
--webkit-animation: scroll2 60s linear infinite;
+-moz-animation: scroll2 30s linear infinite;
+-webkit-animation: scroll2 30s linear infinite;
 } 
 tr:hover .animetitle[href*="/18617/"]:before{top: 100px;}
 
@@ -578,8 +580,8 @@ min-width:935px;
 max-width:1237px;
 margin-left:auto;
 margin-right:auto;
--moz-animation: scroll3 60s linear infinite;
--webkit-animation: scroll3 60s linear infinite;
+-moz-animation: scroll3 10s linear infinite;
+-webkit-animation: scroll3 10s linear infinite;
 } 
 tr:hover .animetitle[href*="/32740/"]:before{top: 100px;}
 
@@ -611,7 +613,7 @@ tr:hover .animetitle[href*="/18671/"]:hover:before{background-image: url('https:
 tr:hover .animetitle[href*="/14741/"]:hover:before{background-image: url('https://myanimelist.cdn-dena.com/images/anime/12/46931.jpg')}
 tr:hover .animetitle[href*="/18671/"]:before,
 tr:hover .animetitle[href*="/14741/"]:before{
-background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/chuuni2.png)left center no-repeat,black;
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/chuuni.gif)left center no-repeat,black;
 background-size: 100%;top: 100px;
 }
 
@@ -667,3 +669,67 @@ margin-left:auto;
 margin-right:auto;
 } 
 tr:hover .animetitle[href*="/19369/"]:before{top: 100px;}
+
+/* akuma no riddle */
+tr:hover .animetitle[href*="/19429/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/anr.png);
+background-size:100%;	
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/19429/"]:before{top: 100px;}
+
+/* hanamonogatari */
+tr:hover .animetitle[href*="/21855/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/hanamonogatari.png) ;
+background-size:100%;	
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/21855/"]:before{top: 100px;}
+
+/* tokyo ghoul */
+tr:hover .animetitle[href*="/22319/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/rain2.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/rain2.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/rain2.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/tg.png);
+background-size:747px 5000px,747px 1000px,747px,100%;	
+background-position: 0 0, 50% 0,0 0, center;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/22319/"]:before{top: 100px;}
+
+tr:hover .animetitle[href*="anime/22319/"]:after {content:"1000 - 7";
+position:absolute;
+margin-left:10px;
+margin-top:-2px;
+color:red;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 5px #777;
+font-size:15px;
+pointer-events:none;
+transform:rotate(8deg);
+-ms-transform:rotate(8deg);
+-webkit-transform:rotate(8deg);}
+tr:hover .animetitle[href*="anime/22319/"]:hover:after{content: "";}
