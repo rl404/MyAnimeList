@@ -592,3 +592,63 @@ tr:hover .animetitle[href*="/32740/"]:before{top: 100px;}
 	0% { background-position: 0 0,0,bottom; }
 	100% { background-position: 0 0,-375px,bottom; }
 }
+
+/* chuunibyou */
+tr:hover .animetitle[href*="/18671/"],
+tr:hover .animetitle[href*="/14741/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/chuuni.png);
+background-size:100%;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/18671/"]:hover:before{background-image: url('https://myanimelist.cdn-dena.com/images/anime/7/56643.jpg')}
+tr:hover .animetitle[href*="/14741/"]:hover:before{background-image: url('https://myanimelist.cdn-dena.com/images/anime/12/46931.jpg')}
+tr:hover .animetitle[href*="/18671/"]:before,
+tr:hover .animetitle[href*="/14741/"]:before{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/chuuni2.png)left center no-repeat,black;
+background-size: 100%;top: 100px;
+}
+
+/* kill la kill */
+tr:hover .animetitle[href*="/18679/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/rain2.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/rain2.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/rain2.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/killlakill.png);
+background-size:747px 5000px,747px 1000px,747px,100%;	
+background-position: 0 0, 50% 0,0 0, center;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/18679/"]:before{top: 100px;}
+
+/* noucome */
+tr:hover .animetitle[href*="/19221/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/noucome.png);
+background-size:100%;	 
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;    
+} 
+tr:hover .animetitle[href*="/19221/"]:hover:before{background: url('https://myanimelist.cdn-dena.com/images/anime/10/53235.jpg');}
+tr:hover .animetitle[href*="/19221/"]:before{
+background:url(url(https://rawgit.com/rl404/MyAnimeList/master/test/images/noucome.gif);) top no-repeat;
+background-size:206px 291px;top: 100px;
+}
