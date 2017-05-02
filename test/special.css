@@ -803,3 +803,44 @@ tr:hover .animetitle[href*="/24439/"]:hover{
         url(https://rawgit.com/rl404/MyAnimeList/master/test/images/kekkai.png)center;
     background-size:100%;
 }
+
+/* tsukimonogatari */
+tr:hover .animetitle[href*="/28025/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/tsukimonogatari.png);
+background-size:100%;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+}
+
+/* monogatari 2nd season */
+tr:hover .animetitle[href*="/17074/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/monogatari2nd.png) ;
+background-size:100%;	
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+    -moz-animation: scroll5 30s linear infinite;
+-webkit-animation: scroll5 30s linear infinite;
+} 
+tr:hover .animetitle[href*="/17074/"]:before{top: 100px;}
+
+@-moz-keyframes scroll5{
+	0% { background-position: 0; }
+	100% { background-position: -1200px; }
+}
+
+@-webkit-keyframes scroll5{
+	0% { background-position: 0; }
+	100% { background-position: -1200px; }
+}
