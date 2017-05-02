@@ -733,3 +733,73 @@ transform:rotate(8deg);
 -ms-transform:rotate(8deg);
 -webkit-transform:rotate(8deg);}
 tr:hover .animetitle[href*="anime/22319/"]:hover:after{content: "";}
+
+/* shigatsu */
+tr:hover .animetitle[href*="/23273/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/5cm2.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/5cm2.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/5cm2.gif),   
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/shigatsu.png) ;
+background-size:100%, 15%,30%,100%,100%;	 
+background-position: 0 0, 20% 0,0 0,0 0,top; 	
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;    
+} 
+
+/* nanatsu no taizai */
+tr:hover .animetitle[href*="/23755/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/rain2.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/rain2.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/rain2.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/nnt.png) ;
+background-size:747px 5000px,747px 1000px,747px,2089px;	
+background-position:0, 50%, 0, 0;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+-moz-animation: scroll4 30s linear infinite;
+-webkit-animation: scroll4 30s linear infinite;
+} 
+tr:hover .animetitle[href*="/23755/"]:before{top: 100px;}
+
+@-moz-keyframes scroll4{
+	0% { background-position: 0, 50%, 0,0; }
+	100% { background-position: 0, 50%, 0,-2089px; }
+}
+
+@-webkit-keyframes scroll4{
+	0% { background-position: 0, 50%, 0,0; }
+	100% { background-position: 0, 50%, 0,-2089px; }
+}
+
+/* kekkai sensen */
+tr:hover .animetitle[href*="/24439/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
+    url(https://rawgit.com/rl404/MyAnimeList/master/test/images/kekkai.gif)center;
+background-size:100%;	 
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;    
+} 
+tr:hover .animetitle[href*="/24439/"]:hover{
+    background: url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
+        url(https://rawgit.com/rl404/MyAnimeList/master/test/images/kekkai.png)center;
+    background-size:100%;
+}
