@@ -859,3 +859,88 @@ margin-left:auto;
 margin-right:auto;
 } 
 tr:hover .animetitle[href*="/28999/"]:before{top: 100px;}
+
+/* grisaia no rakuen */
+tr:hover .animetitle[href*="/17729/"]{
+background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/rakuen.png);
+background-size:100%;	
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/17729/"]:before{top: 100px;}
+
+/* grisaia no kajitsu */
+tr:hover .animetitle[href*="/29095/"]{
+background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/kajitsu.png);
+background-size:100%;	
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/29095/"]:before{top: 100px;}
+
+/* grisaia 0 */
+tr:hover .animetitle[href*="/29093/"]{
+background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/grisaia0.png);
+background-size:100%;	
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/29093/"]:before{top: 100px;}
+
+/* overlord */
+tr:hover .animetitle[href*="/29803/"]{
+background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/overlord.png);
+background-size:100%;	
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/29803/"]:before{top: 100px;}
+
+/* one punch man */
+tr:hover .animetitle[href*="/30276/"]{
+background:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
+    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
+    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
+    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/opm.png) ;
+background-size:auto,420px,1000px,100%;	
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+    animation: sparkle2 15s linear infinite;
+-webkit-animation: sparkle2 15s linear infinite;
+} 
+tr:hover .animetitle[href*="/30276/"]:before{top: 100px;}
+tr:hover .animetitle[href*="/30276/"]:hover:before{background: url('https://myanimelist.cdn-dena.com/images/anime/12/76049.jpg');}
+tr:hover .animetitle[href*="/30276/"]:before{
+background:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/opm2.png) top no-repeat;
+background-size:206px 291px;top: 100px;
+}
