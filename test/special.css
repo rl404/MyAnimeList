@@ -925,7 +925,7 @@ tr:hover .animetitle[href*="/30276/"]{
 background:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
     url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
     url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
-    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/opm.png) ;
+    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/test/images/opm.png) ;
 background-size:auto,420px,1000px,100%;	
 width:100%;
 height:385px;
@@ -935,12 +935,119 @@ min-width:935px;
 max-width:1237px;
 margin-left:auto;
 margin-right:auto;
-    animation: sparkle2 15s linear infinite;
+animation: sparkle2 15s linear infinite;
 -webkit-animation: sparkle2 15s linear infinite;
 } 
 tr:hover .animetitle[href*="/30276/"]:before{top: 100px;}
 tr:hover .animetitle[href*="/30276/"]:hover:before{background: url('https://myanimelist.cdn-dena.com/images/anime/12/76049.jpg');}
 tr:hover .animetitle[href*="/30276/"]:before{
-background:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/opm2.png) top no-repeat;
+background:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/test/images/opm2.png) top no-repeat;
 background-size:206px 291px;top: 100px;
 }
+
+/* ansatsu */
+tr:hover .animetitle[href*="/24833/"]{
+background-image:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/test/images/ansatsu.png);
+background-size:100%;	
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/24833/"]:before{top: 100px;}
+
+/* ansatsu 2 */
+tr:hover .animetitle[href*="/30654/"]{
+background-image:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
+    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
+    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
+    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/test/images/ansatsu2.png);
+background-size:auto,420px,1000px,100%;	
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+animation: sparkle2 15s linear infinite;
+-webkit-animation: sparkle2 15s linear infinite;
+} 
+tr:hover .animetitle[href*="/30654/"]:before{top: 100px;}
+
+/* konosuba */
+tr:hover .animetitle[href*="/30831/"]{
+background:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/test/images/konosuba12.png)center;
+background-size:100%;	 
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;    
+} 
+tr:hover .animetitle[href*="/30831/"]:hover{
+    background: url(https://cdn.rawgit.com/rl404/MyAnimeList/master/test/images/konosuba11.png)center;
+    background-size:100%;
+}
+
+/* konosuba ova */
+tr:hover .animetitle[href*="/32380/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
+    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/test/images/konosubaova.gif)center;
+background-size:100%;	 
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;    
+} 
+tr:hover .animetitle[href*="/32380/"]:hover{
+    background: url(https://cdn.rawgit.com/rl404/MyAnimeList/master/test/images/konosubaova.png)center;
+    background-size:100%;
+}
+
+/* konosuba 2 */
+tr:hover .animetitle[href*="/32937/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
+    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/test/images/konosuba22.gif)center;
+background-size:100%;	 
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;    
+} 
+tr:hover .animetitle[href*="/32937/"]:hover{
+    background: url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
+        url(https://cdn.rawgit.com/rl404/MyAnimeList/master/test/images/konosuba21.gif)center;
+    background-size:100%;
+}
+
+/* owarimonogatari */
+tr:hover .animetitle[href*="/31181/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/owarimonogatari.png) center ;
+background-size:100%;	
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/31181/"]:before{top: 100px;}
