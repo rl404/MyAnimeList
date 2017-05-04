@@ -817,6 +817,7 @@ max-width:1237px;
 margin-left:auto;
 margin-right:auto;
 }
+tr:hover .animetitle[href*="/28025/"]:before{top: 100px;}
 
 /* monogatari 2nd season */
 tr:hover .animetitle[href*="/17074/"]{
@@ -1051,3 +1052,68 @@ margin-left:auto;
 margin-right:auto;
 } 
 tr:hover .animetitle[href*="/31181/"]:before{top: 100px;}
+
+/* flying witch */
+tr:hover .animetitle[href*="/31376/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/flyingwitch.png) ;
+background-size:100%;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+}
+tr:hover .animetitle[href*="/31376/"]:before{top: 100px;}
+
+/* sao os */
+tr:hover .animetitle[href*="/31765/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/saoos.png) center;
+background-size:100%;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+}
+tr:hover .animetitle[href*="/31765/"]:before{top: 100px;}
+
+/* konobi */
+tr:hover .animetitle[href*="/31952/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/konobi.png) center;
+background-size:100%;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+}
+tr:hover .animetitle[href*="/31952/"]:before{top: 100px;}
+tr:hover .animetitle[href*="/31952/"]:hover:before{background: url('https://myanimelist.cdn-dena.com/images/anime/3/80688.jpg');}
+tr:hover .animetitle[href*="/31952/"]:before{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/konobi.gif);
+background-size:206px 291px;top: 100px;
+}
+
+/* kimi no na wa */
+tr:hover .animetitle[href*="/32281/"]{
+background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/kiminonawa.png);
+background-size:100%;	
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/32281/"]:before{top: 100px;}
