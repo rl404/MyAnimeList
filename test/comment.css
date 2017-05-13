@@ -475,8 +475,8 @@ z-index:-5;
 position:absolute;
 margin-left:10px;
 margin-top:-14px;
-width:45px;height:42px;
-pointer-events:none;
+width:45px;height:42px
+;pointer-events:none;
 opacity:0;}
 tr:hover .animetitle[href*="anime/6702/"]:after {opacity:1;}
 

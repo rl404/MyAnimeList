@@ -1,3 +1,5 @@
+tr:hover .animetitle:after{z-index: 2;}
+
 /* Absolute Duo */
 tr:hover .animetitle[href*="anime/25397/"]:after {content:"Ja~";
 position:absolute;
@@ -975,4 +977,3 @@ transform:rotate(8deg);
 -ms-transform:rotate(8deg);
 -webkit-transform:rotate(8deg);}
 
-tr:hover .animetitle:after{z-index: 2;}
