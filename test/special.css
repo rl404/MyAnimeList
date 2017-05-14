@@ -329,7 +329,7 @@ min-width:935px;
 max-width:1237px;
 margin-left:auto;
 margin-right:auto;    
-animation: cp 36s linear infinite;
+animation: cp 72s linear infinite;
 -webkit-animation: cp 72s linear infinite;
 } 
 tr:hover .animetitle[href*="/10012/"]:before{top: 100px;}
@@ -343,7 +343,7 @@ tr:hover .animetitle[href*="/10012/"]:before{top: 100px;}
 	    3775px 0,
 	    4530px 0,
 	    5285px 0,
-	    6040px 0;} 
+	    6040px 0;}
     100% {background-position: -6000px 100%, 0 0,-5285px 0,
     	-4530px 0, 
 	    -3775px 0, 
@@ -352,7 +352,7 @@ tr:hover .animetitle[href*="/10012/"]:before{top: 100px;}
 	    -1510px 0,
 	    -755px 0,
 	    0px 0,
-	    755px 0;};
+	    755px 0;}
 }
 
 @-webkit-keyframes cp {
@@ -373,7 +373,7 @@ tr:hover .animetitle[href*="/10012/"]:before{top: 100px;}
 	    -1510px 0,
 	    -755px 0,
 	    0px 0,
-	    755px 0;};
+	    755px 0;}
 }
 
 /* bakemonogatari */

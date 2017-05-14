@@ -54,6 +54,7 @@ letter-spacing:20px;
 color:#333;
 text-shadow:1px 1px 0px rgba(255,255,255,.5), -1px 1px 0px rgba(255,255,255,.5);
 text-shadow:0px 0px 1px #000;
+z-index: -1;
 }
 
 /*----- More/Add/Edit links ----- */
@@ -192,8 +193,9 @@ position:absolute;
 	color: rgba(0,0,0,0.5);
 }
 
-.category_totals:hover {
-	color: #000;
+table:hover .category_totals:hover {
+	color: black;
+	transition: all 0.15s ease-in-out 0s;
 }
 
 /*----- shinobu dame -----*/
@@ -358,10 +360,34 @@ transition: all 0.15s ease-in-out 0s;
 /*----- credits -----*/
 
 #copyright:before {content:'Style created by dzikibambus and modified by rl404.\a';white-space:pre-wrap;}
-#copyright {padding:60px 0px 32px 0px;margin-top:-25px !important;color:#fff;font-weight:;text-shadow:0px 0px 0.5px #fff;}
-#copyright a {color:#fff;}
-#grand_totals + #copyright {margin-top:-40px !important;}
-#inlineContent{display:block !important;background-color:#333;height:100px;position:absolute;bottom:0px;width:100%;z-index:-1;}
+#copyright {
+	padding:50px 0px 50px 0px;
+	margin-top:-25px !important;
+	color:#fff;
+	text-shadow:0px 0px 0.5px #fff;
+background-color:#333;
+}
+#copyrght a {color:#fff;}
+#grand_totals + #copyright {margin-top:-20px !important;}
+/* #inlineContent{display:block !important;background-color:#333;height:100px;position:absolute;bottom:0px;width:100%;z-index:-1;} */
+#copyright:hover{
+	background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
+		url(https://rawgit.com/rl404/MyAnimeList/master/test/images/longkantai.png);
+	background-size: 100%,2160px;
+	background-position: 0 0, 0 0;
+	animation: cr 60s linear infinite;
+ 	-webkit-animation: cr 60s linear infinite;
+}
+
+@-webkit-keyframes cr {
+    0% {background-position:0 0, 0px 0;} 
+    100% {background-position: 0 0,-2160px 0;}
+}
+
+@keyframes cr {
+    0% {background-position:0 0, 0px 0;} 
+    100% {background-position: 0 0, -2160px 0;}
+}
 
 /*----- MAL strip -----*/
 
