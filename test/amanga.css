@@ -258,8 +258,8 @@ content:'  Global     #Rank    #Popul';white-space:pre;font-weight:bold;letter-s
 .td1:nth-child(7), .td2:nth-child(7), .table_header:nth-child(7) {width:8%;}
 .td1:nth-child(8), .td2:nth-child(8), .table_header:nth-child(8) {width:8%;}
 
-.td1:nth-child(5):last-child, .td2:nth-child(5):last-child, .table_header:nth-child(5):last-child {display:none;}
-.td1:nth-child(6):last-child, .td2:nth-child(6):last-child, .table_header:nth-child(6):last-child {display:none;}
+.td1:nth-child(5), .td2:nth-child(5), .table_header:nth-child(5) {display:none;}
+.td1:nth-child(6), .td2:nth-child(6), .table_header:nth-child(6) {display:none;}
 .td1:nth-child(7):last-child, .td2:nth-child(7):last-child, .table_header:nth-child(7):last-child {display:none;}
 } 
 
@@ -775,17 +775,16 @@ overflow:hidden;
 tr:hover .td1:nth-of-type(4):before, tr:hover .td2:nth-of-type(4):before {content:'Chapter: ';font-variant:small-caps;font-weight:bold;}
 tr:hover .td1:nth-of-type(4), tr:hover .td2:nth-of-type(4) {margin-top:75px;left:585px;}
 
-tr:hover .td1:nth-of-type(5):before, tr:hover .td2:nth-of-type(5):before {content:'Review: ';font-variant:small-caps;font-weight:bold;}
+tr:hover .td1:nth-of-type(5):before, tr:hover .td2:nth-of-type(5):before {content:'Volume: ';font-variant:small-caps;font-weight:bold;}
 tr:hover .td1:nth-of-type(5), tr:hover .td2:nth-of-type(5) {margin-top:105px;}
 
-tr:hover .td1:nth-of-type(6):before, tr:hover .td2:nth-of-type(6):before {content:'Review: ';font-variant:small-caps;font-weight:bold;}
-tr:hover .td1:nth-of-type(6), tr:hover .td2:nth-of-type(6) {margin-top:135px;height:180px;}
-tr:hover td[class*=td]:nth-child(6):last-child {width:300px;padding-right:0;}
+tr:hover .td1:nth-of-type(6):before, tr:hover .td2:nth-of-type(6):before {content:'Type: ';font-variant:small-caps;font-weight:bold;}
+tr:hover .td1:nth-of-type(6), tr:hover .td2:nth-of-type(6) {margin-top:135px;}
 
+tr:hover .td1:nth-of-type(7):before, tr:hover .td2:nth-of-type(7):before {content:'Review: ';font-variant:small-caps;font-weight:bold;}
+tr:hover .td1:nth-of-type(7), tr:hover .td2:nth-of-type(7) {margin-top:165px;height:180px;}
+tr:hover td[class*=td]:nth-child(7):last-child {width:300px;padding-right:0;}
 /*
-tr:hover .td1:nth-of-type(7):before, tr:hover .td2:nth-of-type(7):before {content:'Started: ';}
-tr:hover .td1:nth-of-type(7), tr:hover .td2:nth-of-type(7) {margin-top:165px;}
-
 tr:hover .td1:nth-of-type(8):before, tr:hover .td2:nth-of-type(8):before {content:'Finshed: ';}
 tr:hover .td1:nth-of-type(8), tr:hover .td2:nth-of-type(8) {margin-top:195px;}
 */
