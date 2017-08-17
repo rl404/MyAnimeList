@@ -2,7 +2,7 @@ body {
 background-color:#f2f2f2 !important;
 font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,"Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
 font-size:13px;
-/*background-image:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/bg.jpg);*/
+/*background-image:url(https://rawgit.com/rl404/MyAnimeList/master/expander/images/bg.jpg);*/
 background-image:url(http://sig.grumpybumpers.com/host/rl404.gif);
 background-repeat:repeat;
 background-attachment:fixed;
@@ -258,9 +258,7 @@ content:'  Global     #Rank    #Popul';white-space:pre;font-weight:bold;letter-s
 .td1:nth-child(7), .td2:nth-child(7), .table_header:nth-child(7) {width:8%;}
 .td1:nth-child(8), .td2:nth-child(8), .table_header:nth-child(8) {width:8%;}
 
-.td1:nth-child(5), .td2:nth-child(5), .table_header:nth-child(5) {display:none;}
-.td1:nth-child(6), .td2:nth-child(6), .table_header:nth-child(6) {display:none;}
-.td1:nth-child(7):last-child, .td2:nth-child(7):last-child, .table_header:nth-child(7):last-child {display:none;}
+.td1:nth-child(6):last-child, .td2:nth-child(6):last-child, .table_header:nth-child(6):last-child {display:none;}
 } 
 
 /*----- links -----*/
@@ -320,7 +318,7 @@ border-radius:18px;
 margin-top:10px;
 }
 
-#list_surround table:first-of-type td:nth-of-type(1) a:before {content:'R';}
+#list_surround table:first-of-type td:nth-of-type(1) a:before {content:'W';}
 #list_surround table:first-of-type td:nth-of-type(1) a:after {content:'Watching';}
 #list_surround table:first-of-type td:nth-of-type(2) a:before {content:'C';}
 #list_surround table:first-of-type td:nth-of-type(2) a:after {content:'Completed';}
@@ -331,7 +329,7 @@ margin-top:10px;
 #list_surround table:first-of-type td:nth-of-type(5) a:before {content:'P';}
 #list_surround table:first-of-type td:nth-of-type(5) a:after {content:'Planned';}
 #list_surround table:first-of-type td:nth-of-type(6) a:before {content:'A';}
-#list_surround table:first-of-type td:nth-of-type(6) a:after {content:'All Manga';}
+#list_surround table:first-of-type td:nth-of-type(6) a:after {content:'All Anime';}
 
 .status_selected a {
 background-color:#333 !important;
@@ -373,8 +371,8 @@ background-color:#333;
 #grand_totals + #copyright {margin-top:-20px !important;}
 /* #inlineContent{display:block !important;background-color:#333;height:100px;position:absolute;bottom:0px;width:100%;z-index:-1;} */
 #copyright:hover{
-	background:url(https://rawgit.com/rl404/MyAnimeList/master/test/images/ubw2.png),
-		url(https://rawgit.com/rl404/MyAnimeList/master/test/images/longkantai.png);
+	background:url(https://rawgit.com/rl404/MyAnimeList/master/expander/images/ubw2.png),
+		url(https://rawgit.com/rl404/MyAnimeList/master/expander/images/longkantai.png);
 	background-size: 100%,2160px;
 	background-position: 0 0, 0 0;
 	animation: cr 60s linear infinite;
@@ -772,19 +770,20 @@ text-align:left;
 overflow:hidden;
 }
 
-tr:hover .td1:nth-of-type(4):before, tr:hover .td2:nth-of-type(4):before {content:'Chapter: ';font-variant:small-caps;font-weight:bold;}
+tr:hover .td1:nth-of-type(4):before, tr:hover .td2:nth-of-type(4):before {content:'Type: ';font-variant:small-caps;font-weight:bold;}
 tr:hover .td1:nth-of-type(4), tr:hover .td2:nth-of-type(4) {margin-top:75px;left:585px;}
 
-tr:hover .td1:nth-of-type(5):before, tr:hover .td2:nth-of-type(5):before {content:'Volume: ';font-variant:small-caps;font-weight:bold;}
+tr:hover .td1:nth-of-type(5):before, tr:hover .td2:nth-of-type(5):before {content:'Progress: ';font-variant:small-caps;font-weight:bold;}
 tr:hover .td1:nth-of-type(5), tr:hover .td2:nth-of-type(5) {margin-top:105px;}
 
-tr:hover .td1:nth-of-type(6):before, tr:hover .td2:nth-of-type(6):before {content:'Type: ';font-variant:small-caps;font-weight:bold;}
-tr:hover .td1:nth-of-type(6), tr:hover .td2:nth-of-type(6) {margin-top:135px;}
+tr:hover .td1:nth-of-type(6):before, tr:hover .td2:nth-of-type(6):before {content:'Review: ';font-variant:small-caps;font-weight:bold;}
+tr:hover .td1:nth-of-type(6), tr:hover .td2:nth-of-type(6) {margin-top:135px;height:180px;}
+tr:hover td[class*=td]:nth-child(6):last-child {width:300px;padding-right:0;}
 
-tr:hover .td1:nth-of-type(7):before, tr:hover .td2:nth-of-type(7):before {content:'Review: ';font-variant:small-caps;font-weight:bold;}
-tr:hover .td1:nth-of-type(7), tr:hover .td2:nth-of-type(7) {margin-top:165px;height:180px;}
-tr:hover td[class*=td]:nth-child(7):last-child {width:300px;padding-right:0;}
 /*
+tr:hover .td1:nth-of-type(7):before, tr:hover .td2:nth-of-type(7):before {content:'Started: ';}
+tr:hover .td1:nth-of-type(7), tr:hover .td2:nth-of-type(7) {margin-top:165px;}
+
 tr:hover .td1:nth-of-type(8):before, tr:hover .td2:nth-of-type(8):before {content:'Finshed: ';}
 tr:hover .td1:nth-of-type(8), tr:hover .td2:nth-of-type(8) {margin-top:195px;}
 */
