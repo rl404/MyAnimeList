@@ -1,11 +1,11 @@
 /*----- list style import -----*/
-@import url(https://rawgit.com/rl404/MyAnimeList/master/expander/coveranime.css);
-@import url(https://rawgit.com/rl404/MyAnimeList/master/expander/aanime.css);
+@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/coveranime.css);
+@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/aanime.css);
 
 /*----- some minor stuff -----*/
-@import url(https://rawgit.com/rl404/MyAnimeList/master/expander/comment2.css);
-/*@import url(https://rawgit.com/rl404/MyAnimeList/master/expander/score.css);*/
-@import url(https://rawgit.com/rl404/MyAnimeList/master/expander/special.css);
+@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/comment2.css);
+/*@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/score.css);*/
+@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/special.css);
 
 body {background-color:#333;}
 #fancybox-wrap {
