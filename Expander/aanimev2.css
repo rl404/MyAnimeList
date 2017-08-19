@@ -122,7 +122,7 @@ overflow:hidden;
 }
 .table_header {background-color:rgba(0,0,0,.4);color:#fff;}
 .table_header:first-of-type {box-shadow:-10px 0px 0px rgba(0,0,0,.4);}
-.table_header:last-of-type {box-shadow:10px 0px 0px rgba(0,0,0,.4);}
+.table_header:nth-child(5){box-shadow:10px 0px 0px rgba(0,0,0,.4);}
 .table_header a {color:#fff !important;}
 .table_header:first-of-type {border-width:0px !important;}
 #list_surround table {margin-top:5px;margin-bottom:5px;}
@@ -172,6 +172,11 @@ margin-right:auto;
 top:0px;
 background-color:rgba(255,255,255,0);
 box-shadow:inset 0px 0px 5px 0px #fff, 0px 0px 5px 0px #000;
+background:	url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/80.png);
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat !important;
+background-size: 70% 100vh !important;
 }
 
 #list_surround:after {content:"";
@@ -807,7 +812,7 @@ padding-bottom: 50px;
 	background-position: center,center;
 	background-repeat: no-repeat,repeat !important;
 	background-size: 70%,cover !important;
-	height: calc(20px * 10 + 120px + 200px + 420px);
+	height: calc(30px * 10 + 50px + 420px);
 }
 
 .header_completed{
@@ -817,7 +822,7 @@ padding-bottom: 50px;
 	background-position: center,center;
 	background-repeat: no-repeat,repeat !important;
 	background-size: 70% 100vh,cover !important;
-	height: calc(20px * 1000 + 120px + 200px + 420px);
+	height: calc(30px * 543 + 50px + 420px);
 }
 
 .header_onhold{
@@ -827,7 +832,7 @@ padding-bottom: 50px;
 	background-position: center,center;
 	background-repeat: no-repeat,repeat !important;
 	background-size: 70% 100vh,cover !important;
-	height: calc(20px * 14 + 120px + 200px + 420px);
+	height: calc(30px * 13 + 50px + 420px);
 }
 
 .header_dropped{
@@ -837,7 +842,7 @@ padding-bottom: 50px;
 	background-position: center,center;
 	background-repeat: no-repeat,repeat !important;
 	background-size: 70% 100vh,cover !important;
-	height: calc(20px * 39 + 120px + 200px + 420px);
+	height: calc(30px * 33 + 75px + 420px);
 }
 
 .header_ptw{
@@ -847,5 +852,5 @@ padding-bottom: 50px;
 	background-position: center,center;
 	background-repeat: no-repeat,repeat !important;
 	background-size: 70% 100vh,cover !important;
-	height: calc(20px * 127 + 120px + 200px + 420px);
+	height: calc(30px * 93 + 70px + 420px);
 }
