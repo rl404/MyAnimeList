@@ -171,7 +171,7 @@ margin-left:auto;
 margin-right:auto;
 top:0px;
 background-color:rgba(255,255,255,0);
-box-shadow:inset 0px 0px 5px 0px #fff, 0px 0px 5px 0px #000;
+/*box-shadow:inset 0px 0px 5px 0px #fff, 0px 0px 5px 0px #000;*/
 background:	url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/80.png);
 background-attachment: fixed;
 background-position: center;
