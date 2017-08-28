@@ -256,9 +256,9 @@ body {
 	padding: 0px;
 	text-align: left;
 	text-transform: uppercase;
-	font-size: 15pt;
+	font-size: 2.5vh;
 	letter-spacing: 3.5px;
-	text-indent: 20px;
+/* 	text-indent: 20px; */
 	border-radius: 3px 3px 3px 3px;
 	overflow: hidden;
 	white-space: nowrap;
@@ -336,19 +336,19 @@ body {
 
 .status-button.watching::before {
 	content: 'Watching';
-	font-size: 15pt;
+	font-size: 2.5vh;
 	letter-spacing: 3.5px !important;
 }
 
 .status-button.reading::before {
 	content: 'Reading';
-	font-size: 15pt;
+	font-size: 2.5vh;
 	letter-spacing: 3.5px !important;
 }
 
 .status-button.plantowatch::before, .status-button.plantoread::before {
 	content: 'Planned';
-	font-size: 15pt;
+	font-size: 2.5vh;
 	letter-spacing: 3.5px !important;
 }
 
