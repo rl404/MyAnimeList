@@ -321,7 +321,7 @@ margin-top:10px;
 }
 
 #list_surround table:first-of-type td:nth-of-type(1) a:before {content:'R';}
-#list_surround table:first-of-type td:nth-of-type(1) a:after {content:'Watching';}
+#list_surround table:first-of-type td:nth-of-type(1) a:after {content:'Reading';}
 #list_surround table:first-of-type td:nth-of-type(2) a:before {content:'C';}
 #list_surround table:first-of-type td:nth-of-type(2) a:after {content:'Completed';}
 #list_surround table:first-of-type td:nth-of-type(3) a:before {content:'H';}
