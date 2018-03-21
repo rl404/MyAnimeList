@@ -1082,9 +1082,9 @@ margin-left:auto;
 margin-right:auto;    
 } 
 tr:hover .animetitle[href*="/32937/"]:hover{
-    background: url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-        url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Expander/images/konosuba21.gif)center;
-    background-size:100%;
+background: url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Expander/images/konosuba21.gif)center;
+background-size:100%;
 }
 
 /* owarimonogatari */
@@ -1101,6 +1101,22 @@ margin-left:auto;
 margin-right:auto;
 } 
 tr:hover .animetitle[href*="/31181/"]:before{top: 100px;}
+
+/* owarimonogatari 2 */
+tr:hover .animetitle[href*="/35247/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+    url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/owarimonogatari2.gif) top center ;
+background-size:100%;   
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/35247/"]:before{top: 100px;}
 
 /* flying witch */
 tr:hover .animetitle[href*="/31376/"]{
@@ -1231,3 +1247,38 @@ margin-left:auto;
 margin-right:auto;
 }
 tr:hover .animetitle[href*="/15689/"]:before{top: 100px;}
+
+/* Cromartie high school */
+tr:hover .animetitle[href*="/114/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+    url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/cromartie.gif) top center ;
+background-size:100%;   
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/114/"]:before{top: 100px;}
+
+/* Spirited away */
+tr:hover .animetitle[href*="/199/"]{
+background-image:url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/sa.png);
+background-size:747px 5000px,747px 1000px,747px,100%;
+background-position: 0 0, 50% 0,0 0, center;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/199/"]:before{top: 100px;}
