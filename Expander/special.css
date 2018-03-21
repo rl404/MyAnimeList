@@ -1,3 +1,5 @@
+/* size 1210x420 */
+
 /* No game no life */
 tr:hover .animetitle[href*="/19815/"]{
 background-image:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
@@ -1147,3 +1149,68 @@ margin-left:auto;
 margin-right:auto;
 } 
 tr:hover .animetitle[href*="/32281/"]:before{top: 100px;}
+
+/* Kizumonogatari 1 */
+tr:hover .animetitle[href*="/9260/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/kz1.png);
+background-size:100%;   
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;} 
+tr:hover .animetitle[href*="/9260/"]:before{top: 100px;}
+
+/* Kizumonogatari 2 */
+tr:hover .animetitle[href*="/31757/"]{
+background-image:url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/rain-30.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/rain-30.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/rain-30.gif),
+    url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/kz2.png);
+background-size:30%,50%,0,100%;
+background-position: 0 0, 50% 0,25% 0, center;
+background-repeat:repeat;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/31757/"]:before{top: 100px;}
+
+/* Kizumonogatari 3 */
+tr:hover .animetitle[href*="/31758/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/kz3.png) center ;
+background-size:100%;   
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/31758/"]:before{top: 100px;}
+
+/* Nekomonogatari */
+tr:hover .animetitle[href*="/15689/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/neko.gif) top center;
+background-size:100%;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+}
+tr:hover .animetitle[href*="/15689/"]:before{top: 100px;}
