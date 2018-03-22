@@ -1382,3 +1382,38 @@ tr:hover .animetitle[href*="/6211/"]:hover{
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
+/* Anohana */
+tr:hover .animetitle[href*="/9989/"]{
+background:url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+    url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/flower1.png),
+    url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/flower2.png),
+    url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/anohana.png);
+background-size:100%,150px,150px,100%;
+background-repeat: repeat;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+animation: snow2 15s linear infinite;
+} 
+tr:hover .animetitle[href*="/9989/"]:hover:before{content:''; 
+background-image: url('https://myanimelist.cdn-dena.com/images/anime/5/79697.jpg');
+}
+tr:hover .animetitle[href*="/9989/"]:before{content:'I found you ;_;';
+background:url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/anohana2.png);
+background-size: 206px,auto;
+top: 100px;
+color:#0D1B2B;
+padding-top: 10px; 
+height: 241px;
+}
+
+@keyframes snow2 {
+    0% { background-position: 0 0, 0 -300px,70px -300px, center; }
+    100% { background-position: 0 0,0 0,70px 0,center; }    
+}
