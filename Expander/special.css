@@ -1472,3 +1472,26 @@ animation: yuru 5s ease-out;
 	0% {background-position: -206px 0, 0 0,center;}
 	100% {background-position: 0 0, 0 0,center;}
 }
+
+@keyframes cp2 {
+    0% { background-position: 0 0, 0 0, 
+	    673px 0, 
+		1346px 0,
+		2019px 0,
+		2692px 0,
+		3365px 0,
+		4038px 0,
+		4711px 0,
+		5384px 0,
+		6057px 0;}
+    100% {background-position: 0 0, -5384px 0,
+    	-4711px 0,
+    	-4038px 0, 
+	    -3365px 0, 
+	    -2692px 0,
+	    -2019px 0,
+	    -1346px 0,
+	    -673px 0,
+	    0px 0,
+	    673px 0;}
+}
