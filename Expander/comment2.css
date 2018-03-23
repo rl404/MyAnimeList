@@ -43,6 +43,7 @@ width:93px;height:14px;border-radius:5px;
 border:1px solid #e00;box-shadow:0px 0px 1px #000;}
 
 /* Black rock shooter */
+tr:hover .animetitle[href*="anime/11285/"]:after,
 tr:hover .animetitle[href*="anime/12079/"]:after {content:"";
 background-image:url("https://rawgit.com/rl404/MyAnimeList/master/Expander/images/brs.png");
 background-size: 100px;
