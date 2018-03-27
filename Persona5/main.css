@@ -623,11 +623,16 @@ body:active #list-container:before {
   content: "Watching";
 }
 
+.status-button.reading:before {
+  content: "Reading";
+}
+
 .status-button.onhold:before {
   content: "Onhold";
 }
 
-.status-button.plantowatch:before {
+.status-button.plantowatch:before,
+.status-button.plantoread:before  {
   content: "Planned";
 }
 
