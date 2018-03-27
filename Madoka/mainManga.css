@@ -82,7 +82,7 @@ SORTING
     display: block !important;
     position: fixed;
     left: 1030px;
-    bottom: 150px !important;
+    bottom: 116px !important;
     color: #1683b4; 
     background-color: #0b0b0c;
     width: 98px !important;
@@ -106,27 +106,22 @@ SORTING
 }
 
 .table_header:nth-of-type(2){
-    bottom: 116px !important;
-    display: block !important;
-}
-
-.table_header:nth-of-type(3){
     bottom: 84px !important;
     display: block !important;
 }
 
-.table_header:nth-of-type(4){
+.table_header:nth-of-type(3){
     bottom: 52px !important;
     display: block !important;
 }
 
-.table_header:nth-of-type(5){
+.table_header:nth-of-type(4){
     bottom: 20px !important;
     display: block !important;
 }
 
-.table_header:nth-of-type(6) {
-    display: none
+.table_header:nth-of-type(5){
+    display: none;
 }
 
 .table_headerLink {
