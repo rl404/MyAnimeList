@@ -4,7 +4,8 @@
 @import url(https://rawgit.com/rl404/MyAnimeList/master/Anohana/topmenu.css);
 
 /* Cover */
-@import url(https://rawgit.com/rl404/MyAnimeList/master/Anohana/cover.css);
+@import url(https://rawgit.com/rl404/MyAnimeList/master/Anohana/coveranime.css);
+@import url(https://rawgit.com/rl404/MyAnimeList/master/Anohana/covermanga.css);
 
 /* Custom cursor */
 * { cursor: default; }

@@ -35,8 +35,8 @@
 #mal\_cs_otherlinks div:nth-child(2) { color: transparent !important; }
 
 #mal_cs_otherlinks div a[href*="history"], #mal_cs_otherlinks div a[href*="list/"],
-#mal_cs_otherlinks div a[href*="export"], #mal\_cs_otherlinks div a[href$="/forum/"], #mal\_cs_links div:last-of-type a:first-of-type, 
-#mal\_cs_links div a[href$="/"] { display: none !important; }
+#mal_cs_otherlinks div a[href*="export"], #mal\_cs_otherlinks div a[href$="/forum/"],  
+#mal\_cs_links div a[href$="/"] {display: none !important;}
 
 /* Log in, Create list, Learn more */
 #mal\_cs_otherlinks { 	
@@ -56,16 +56,16 @@
 #mal\_cs_otherlinks div a[href*="forum"] { border-bottom: solid 1px #a5a5a5; }
 
 #mal\_cs_listinfo div:last-of-type a, #mal\_cs_listinfo div:first-of-type a, 
-#mal_cs_links div a[href*="addtolist"],  #mal\_cs_links div:last-of-type a:last-of-type { 
+#mal_cs_links div a[href*="addtolist"],  #mal\_cs_links div:last-of-type a:first-of-type,#mal\_cs_links div:last-of-type a:last-of-type { 
 	position: absolute !important;
 	font-size: 0 !important;
 	color: transparent;
 }
 
 #mal\_cs_listinfo div:last-of-type a:after, #mal\_cs_listinfo div:first-of-type a:after, 
-#mal_cs_links div a[href*="addtolist"]:after,  #mal\_cs_links div:last-of-type a:last-of-type:after { 
+#mal_cs_links div a[href*="addtolist"]:after,  #mal\_cs_links div:last-of-type a:first-of-type:after, #mal\_cs_links div:last-of-type a:last-of-type:after { 
 	display: block;
-	width: 288px;
+/* 	width: 288px; */
 	font-size: 14px !important;
 }
 
@@ -80,8 +80,10 @@
 #mal\_cs_links div a[href*="addtolist"]:after { content: 'Add'; }
 
 /* MANGALIST */
-#mal\_cs_links div:last-of-type a:last-of-type  { top: -52px; }
+#mal\_cs_links div:last-of-type a:first-of-type  { top: -52px; width:138px;}
+#mal\_cs_links div:last-of-type a:last-of-type  { top: -52px; width:142px; left:142px; border-left: solid 1px #a5a5a5;}
 
+#mal\_cs_links div:last-of-type a:first-of-type:after { content: 'Anime'; }
 #mal\_cs_links div:last-of-type a:last-of-type:after { content: 'Manga'; }
 
 /* LOGOUT */
@@ -97,6 +99,7 @@
 	/* ADD */
 	#mal\_cs_links div a[href*="addtolist"] { top: -94px; }
 	/* MANGALIST */
+	#mal\_cs_links div:last-of-type a:first-of-type  { top: -56px; }
 	#mal\_cs_links div:last-of-type a:last-of-type  { top: -56px; }
 	/* LOGOUT */
 	#mal\_cs_listinfo div:last-of-type a { top: -18px; }
