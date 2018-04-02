@@ -4,6 +4,8 @@
 ![madokasample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/sample.png)
 ![Classic][classiclogo]
 
+**Based template**: [Daika-san](https://myanimelist.net/profile/Daika-san)
+
 **List type**: Anime and Manga list
 
 **Anime List recommended setting**:
@@ -29,6 +31,8 @@
 ![danmachisample3](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/sample3.png)
 ![Classic][classiclogo]
 
+**Based template**: [Hahaido](https://myanimelist.net/profile/Hahaido)
+
 **List type**: Anime and Manga list
 
 **Anime List recommended setting**:
@@ -45,7 +49,10 @@
 * **Ais theme**: `@import url(https://cdn.rawgit.com/rl404/MyAnimeList/4cdee19e/Danmachi/mainais.css);`
 
 ## Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai (Anohana)
+![anohanasample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/sample.png)
 ![Classic][classiclogo]
+
+**Based template**: [Hahaido](https://myanimelist.net/profile/Hahaido)
 
 **List type**: Anime and Manga list
 
@@ -58,6 +65,8 @@
 ## Expander
 ![expandersample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sample.png)
 ![Classic][classiclogo]
+
+**Based template**: [dzikibambus](https://myanimelist.net/profile/dzikibambus)
 
 **List type**: Anime and Manga list
 
@@ -81,7 +90,10 @@
 * **For manga**: `@import url(https://cdn.rawgit.com/rl404/MyAnimeList/4cdee19e/Expander/mainmanga.css);`
 
 ## Nier:Automata
+![niersample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/sample.png)
 ![Modern][modernlogo]
+
+**Based template**: [killingdyl](https://myanimelist.net/profile/killingdyl)
 
 **List type**: Anime and Manga list
 
@@ -104,7 +116,10 @@
 **How to use (for anime and manga)**: `@import url(https://cdn.rawgit.com/rl404/MyAnimeList/4cdee19e/NierAutomata/main.css);`
 
 ## Persona 5
+![personasample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/sample.png)
 ![Modern][modernlogo]
+
+**Based template**: [Kiokuzoku](https://myanimelist.net/profile/Kiokuzoku)
 
 **List type**: Anime and Manga list
 
@@ -123,7 +138,10 @@
 **How to use (for anime and manga)**: `@import url(https://cdn.rawgit.com/rl404/MyAnimeList/4cdee19e/Persona5/main.css);`
 
 ## Nhentai
+![nhentaisample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Nhentai/sample.png)
 ![Modern][modernlogo]
+
+**Based template**: [eroiyatsu](https://myanimelist.net/profile/eroiyatsu)
 
 **List type**: Manga list only
 
