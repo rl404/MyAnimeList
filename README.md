@@ -1,7 +1,7 @@
 # MyAnimeList List Design
 
 ## Mahou Shoujo Madoka★Magica
-![madokasample](https://cdn.rawgit.com/rl404/MyAnimeList/4cdee19e/Madoka/images/sample.png)
+![madokasample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/sample.png)
 ![Classic][classiclogo]
 
 **List type**: Anime and Manga list
@@ -24,9 +24,9 @@
 * **For manga**: `@import url(https://cdn.rawgit.com/rl404/MyAnimeList/4cdee19e/Madoka/mainmanga.css);`
 
 ## Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka (Danmachi)
-![danmachisample1](https://cdn.rawgit.com/rl404/MyAnimeList/4cdee19e/Danmachi/images/sample1.png)
-![danmachisample2](https://cdn.rawgit.com/rl404/MyAnimeList/4cdee19e/Danmachi/images/sample2.png)
-![danmachisample3](https://cdn.rawgit.com/rl404/MyAnimeList/4cdee19e/Danmachi/images/sample3.png)
+![danmachisample1](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/sample1.png)
+![danmachisample2](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/sample2.png)
+![danmachisample3](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/sample3.png)
 ![Classic][classiclogo]
 
 **List type**: Anime and Manga list
@@ -134,5 +134,5 @@
 
 **How to use**: `@import url(https://cdn.rawgit.com/rl404/MyAnimeList/4cdee19e/Nhentai/main.css);`
 
-[classiclogo]: https://rawgit.com/rl404/MyAnimeList/master/Images/classic.png
-[modernlogo]: https://rawgit.com/rl404/MyAnimeList/master/Images/modern.png
+[classiclogo]: https://raw.githubusercontent.com/rl404/MyAnimeList/master/Images/classic.png
+[modernlogo]: https://raw.githubusercontent.com/rl404/MyAnimeList/master/Images/modern.png
