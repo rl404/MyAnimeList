@@ -1,7 +1,7 @@
 # MyAnimeList List Design
 
 ## Mahou Shoujo Madoka★Magica
-![madokasample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/sample.png)
+![madokasample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/sample.gif)
 ![Classic][classiclogo]
 
 **Based template**: [Daika-san](https://myanimelist.net/profile/Daika-san)
@@ -137,7 +137,7 @@
 
 **How to use (for anime and manga)**: `@import url(https://cdn.rawgit.com/rl404/MyAnimeList/4cdee19e/Persona5/main.css);`
 
-## Nhentai
+## Nhentai (NSFW)
 ![nhentaisample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Nhentai/sample.png)
 ![Modern][modernlogo]
 
