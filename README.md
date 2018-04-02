@@ -56,6 +56,7 @@
 **How to use (for anime and manga)**: `@import url(https://cdn.rawgit.com/rl404/MyAnimeList/4cdee19e/Anohana/main.css);`
 
 ## Expander
+![expandersample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sample.png)
 ![Classic][classiclogo]
 
 **List type**: Anime and Manga list
