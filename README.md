@@ -5,15 +5,15 @@
 ## Table of Contents
 - Theme
   - [Mahou Shoujo Madoka★Magica](#mahou-shoujo-madokamagica)
-  - Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka (Danmachi)
-  - Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai (Anohana)
-  - Expander
-  - Nier:Automata
-  - Persona 5
-  - NHentai
-- Other
-  - Guides
-  - Useful links
+  - [Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka (Danmachi)](#dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-danmachi)
+  - [Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai (Anohana)](#ano-hi-mita-hana-no-namae-wo-bokutachi-wa-mada-shiranai-anohana)
+  - [Expander](#expander)
+  - [Nier:Automata](#nierautomata)
+  - [Persona 5](#persona-5)
+  - [NHentai](#nhentai-nsfw)
+- [Other](#other)
+  - [Guides](#guides)
+  - [Useful links](#useful-links)
 
 ## Mahou Shoujo Madoka★Magica
 ![madokasample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/sample.gif)
