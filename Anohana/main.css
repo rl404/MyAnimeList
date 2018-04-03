@@ -165,9 +165,9 @@ td[class^='td']:last-child { padding-right: 5px; text-align: right; }
 
 #list_surround:after, #copyright {
 	position: fixed;
-	right: 0;
+	left: 300px;
 	bottom: 0;
-	width: calc(100% - 300px);
+	width: 700px;
 }
 
 #list_surround:after {
