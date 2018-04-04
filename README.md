@@ -165,6 +165,7 @@
 - [x] Score
 - [x] Chapters
 - [x] Volumes
+- [x] Published Dates
 
 **How to use**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Nhentai/main.css);`
 

@@ -125,7 +125,7 @@ td[class^='td']:last-child { padding-right: 5px; text-align: right; }
 
 /* CURRENTLY WATCHING BACKGROUND */
 .status_selected:first-child:before {
-	background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgwatching);
+	background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgwatching.jpg);
 }
 
 /* COMPLETED BACKGROUND */

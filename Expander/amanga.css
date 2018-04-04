@@ -189,6 +189,8 @@ position:absolute;
 .category_totals {
 	font-size:10px;
 	text-align:right;
+	height:20px;
+	line-height:20px;
 	padding-right:10px;
 	color: rgba(0,0,0,0.5);
 }
