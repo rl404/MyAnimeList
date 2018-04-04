@@ -373,8 +373,8 @@ background-color:#333;
 #grand_totals + #copyright {margin-top:-20px !important;}
 /* #inlineContent{display:block !important;background-color:#333;height:100px;position:absolute;bottom:0px;width:100%;z-index:-1;} */
 #copyright:hover{
-	background:url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-		url(https://rawgit.com/rl404/MyAnimeList/master/Expander/images/longkantai.png);
+	background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+		url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/longkantai.png);
 	background-size: 100%,2160px;
 	background-position: 0 0, 0 0;
 	animation: cr 60s linear infinite;

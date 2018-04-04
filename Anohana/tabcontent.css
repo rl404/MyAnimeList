@@ -67,7 +67,7 @@ tr:hover > .td1 a, tr:hover > .td2 a { color: #FFFFFF; }
 	margin-left: 14px;
 	width: 26px; 
 	height: 220px;
-	background-image: url(https://rawgit.com/rl404/MyAnimeList/master/Anohana/images/menu.png);
+	background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/menu.png);
 	background-repeat: no-repeat;
 	transition: background-position .3s linear;
 	-webkit-transition: background-position .3s linear;

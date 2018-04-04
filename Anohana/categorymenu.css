@@ -28,7 +28,7 @@
 	top: 65px;
 	width: 26px;
 	height: 220px;
-	background-image: url(https://rawgit.com/rl404/MyAnimeList/master/Anohana/images/menu2.png); 
+	background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/menu2.png); 
 	background-repeat: no-repeat;
 	font-size: 0;
 	transition: background-position .3s linear;
