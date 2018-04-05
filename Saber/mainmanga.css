@@ -1,0 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:300|Crimson+Text);
+@import url(https://rawgit.com/rl404/MyAnimeList/master/Saber/main.css);
+
+/* TOP MENU BUTTONS */
+#mal\_cs_links div:last-of-type a:last-of-type { display: none !important; }
+

@@ -5,6 +5,7 @@
 ## Table of Contents
 - Theme
   - [Mahou Shoujo Madoka★Magica](#mahou-shoujo-madokamagica)
+  - [Saber](#saber)
   - [Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka (Danmachi)](#dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-danmachi)
   - [Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai (Anohana)](#ano-hi-mita-hana-no-namae-wo-bokutachi-wa-mada-shiranai-anohana)
   - [Expander](#expander)
@@ -39,6 +40,30 @@
 **How to use**
 * **For anime**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Madoka/mainanime.css);`
 * **For manga**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Madoka/mainmanga.css);`
+
+## Saber
+![madokasample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/sample.gif)
+![Classic][classiclogo]
+
+**Based template**: [Hahaido](https://myanimelist.net/profile/Hahaido)
+
+**List type**: Anime and Manga list
+
+**Anime List recommended setting**:
+- [x] Numbers
+- [x] Score
+- [x] Type
+- [x] Episodes
+
+**Manga List recommended setting**:
+- [x] Numbers
+- [x] Score
+- [x] Chapters
+- [x] Volumes
+
+**How to use**
+* **For anime**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Saber/mainanime.css);`
+* **For manga**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Saber/mainmanga.css);`
 
 ## Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka (Danmachi)
 ![danmachisample1](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/sample1.png)
