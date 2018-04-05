@@ -9,6 +9,7 @@
   - [Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka (Danmachi)](#dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-danmachi)
   - [Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai (Anohana)](#ano-hi-mita-hana-no-namae-wo-bokutachi-wa-mada-shiranai-anohana)
   - [Expander](#expander)
+  - [Bakemonogatari](#bakemonogatari)
   - [Nier:Automata](#nierautomata)
   - [Persona 5](#persona-5)
   - [NHentai](#nhentai-nsfw)
@@ -42,7 +43,7 @@
 * **For manga**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Madoka/mainmanga.css);`
 
 ## Saber
-![madokasample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/sample.gif)
+![sabersample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/sample.gif)
 ![Classic][classiclogo]
 
 **Based template**: [Hahaido](https://myanimelist.net/profile/Hahaido)
@@ -128,6 +129,32 @@
 **How to use**
 * **For anime**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/mainanime.css);`
 * **For manga**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/mainmanga.css);`
+
+## Bakemonogatari
+![bakemonosample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/sample.png)
+![Classic][classiclogo]
+
+**Based template**: [Kiokuzoku](https://myanimelist.net/profile/Kiokuzoku)
+
+**List type**: Anime and Manga list
+
+**Anime List recommended setting**:
+- [x] Numbers
+- [x] Score
+- [x] Type
+- [x] Episodes
+- [x] Rating
+- [x] Tags
+
+**Manga List recommended setting**:
+- [x] Numbers
+- [x] Score
+- [x] Chapters
+- [x] Volumes
+- [x] Tags
+- [x] Type
+
+**How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Bakemonogatari/main.css);`
 
 ## Nier:Automata
 ![niersample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/sample.png)
