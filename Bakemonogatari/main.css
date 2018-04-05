@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'FontAwesome';
-  src: url('https://rawgit.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.eot?v=4.4.0');
-  src: url('https://rawgit.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'),
-       url('https://rawgit.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'),
-       url('https://rawgit.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'),
-       url('https://rawgit.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'),
-       url('https://rawgit.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+  src: url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.eot?v=4.4.0');
+  src: url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'),
+       url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'),
+       url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'),
+       url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'),
+       url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
