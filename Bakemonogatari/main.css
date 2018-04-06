@@ -1,3 +1,9 @@
+/*
+ * BAKEMONOGATARI LAYOUT THEME
+ * List Designed by Kiokuzoku (https://myanimelist.net/profile/Kiokuzoku)
+ * Modified by rl404 (https://myanimelist.net/profile/rl404)
+ */
+
 @import url(https://rawgit.com/rl404/MyAnimeList/master/Bakemonogatari/coveranime.css);
 @import url(https://rawgit.com/rl404/MyAnimeList/master/Bakemonogatari/covermanga.css);
 
@@ -1280,7 +1286,7 @@ td[class^=td][width="90"]:before {
 }
 
 #copyright:before {
-  content: "©西尾維新／講談社・アニプレックス・シャフト | Layout by. Kiokuzoku.";
+  content: "©西尾維新／講談社・アニプレックス・シャフト | Layout by. Kiokuzoku. | Modified by. rl404.";
   display: block;
   height: 20px !important;
   margin-top: 5px;

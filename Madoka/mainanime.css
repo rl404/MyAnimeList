@@ -1,10 +1,14 @@
+/*
+ * MADOKA (ANIME) LAYOUT THEME
+ * List Designed by Daika-san (https://myanimelist.net/profile/Daika-san)
+ * Modified by rl404 (https://myanimelist.net/profile/rl404)
+ */
+
 @import url(https://rawgit.com/rl404/MyAnimeList/master/Madoka/coveranime.css);
 
 BODY{
     color: #1c327c;
     font-size: 14px;
-    /*background: url(http://signavatar.com/40499_v.gif) right;
-    background-size: cover;*/
     background-attachment: fixed;
     background-color: #000000;    
 }
@@ -60,7 +64,10 @@ tr:hover [class^=td]{
     -o-transition: .4s ease;
 } 
 
-tr:hover td.td1 a, tr:hover td.td1, tr:hover td.td2 a, tr:hover td.td2 {
+tr:hover td.td1 a, 
+tr:hover td.td1, 
+tr:hover td.td2 a, 
+tr:hover td.td2 {
     color: #FFFFFF;
     transition: all 0.4s ease 0s; 
 }
