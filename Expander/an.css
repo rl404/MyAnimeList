@@ -1,0 +1,43 @@
+/*
+ * EXPANDER (ANIME) LAYOUT THEME
+ * List Designed by dzikibambus (https://myanimelist.net/profile/dzikibambus)
+ * Modified by rl404 (https://myanimelist.net/profile/rl404)
+ */
+
+
+/*----- import -----*/
+@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/main.css);
+@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/coveranime.css);
+@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/comment2.css);
+/*@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/score.css);*/
+@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/special.css);
+
+/* FOR ANIME */
+body:after {
+  content:'Go and do some clickie clickie on anime below,\a especially anime with score 9 or higher \a some pretty cool stuff will happen. \a Also, don\'t forget to hover on something inside too.';
+  position:absolute;
+  right:80px;
+  top:553px;
+  white-space:pre;
+  z-index:10;
+  text-align:right;
+}
+
+@media screen and (min-width:961px) {
+	.td1:nth-child(6):last-child, .td2:nth-child(6):last-child, .table_header:nth-child(6):last-child {display:none;}
+}
+
+#list_surround table:first-of-type td:nth-of-type(1) a:before {content:'W';}
+#list_surround table:first-of-type td:nth-of-type(1) a:after {content:'Watching';}
+#list_surround table:first-of-type td:nth-of-type(6) a:before {content:'A';}
+#list_surround table:first-of-type td:nth-of-type(6) a:after {content:'All Anime';}
+
+tr:hover .td1:nth-of-type(4):before, tr:hover .td2:nth-of-type(4):before {content:'Type: ';font-variant:small-caps;font-weight:bold;}
+tr:hover .td1:nth-of-type(4), tr:hover .td2:nth-of-type(4) {margin-top:75px;left:585px;}
+
+tr:hover .td1:nth-of-type(5):before, tr:hover .td2:nth-of-type(5):before {content:'Progress: ';font-variant:small-caps;font-weight:bold;}
+tr:hover .td1:nth-of-type(5), tr:hover .td2:nth-of-type(5) {margin-top:105px;}
+
+tr:hover .td1:nth-of-type(6):before, tr:hover .td2:nth-of-type(6):before {content:'Review: ';font-variant:small-caps;font-weight:bold;}
+tr:hover .td1:nth-of-type(6), tr:hover .td2:nth-of-type(6) {margin-top:135px;height:180px;}
+tr:hover td[class*=td]:nth-child(6):last-child {width:300px;padding-right:0;}

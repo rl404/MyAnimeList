@@ -1,19 +1,5 @@
-/*
- * EXPANDER (MANGA) LAYOUT THEME
- * List Designed by dzikibambus (https://myanimelist.net/profile/dzikibambus)
- * Modified by rl404 (https://myanimelist.net/profile/rl404)
- */
-
-/*----- cover import -----*/
-@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/covermanga.css);
-
-/*----- some minor stuff -----*/
-/*@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/comment2.css);*/
-/*@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/score.css);*/
-/*@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/special.css);*/
-
-body {
-	background-color:#333;
+body { 
+	background-color:#333; 
 }
 
 #fancybox-wrap {
@@ -29,10 +15,10 @@ body {
 
 #fancybox-inner {
 	bottom: 10px;
-	width: 1080p	x !important;
+	width: 1080px !important;
 	height: auto !important;
 }
-		
+
 body {
 	background-color:#f2f2f2 !important;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,"Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
@@ -43,18 +29,6 @@ body {
 	background-size:cover;
 	background-position:center;
 }
-
-/*body:after {content:'Go and do some clickie clickie on anime below,\asome pretty cool stuff happens.\a\aUnless you are using Opera(ver<15), IE or some other strange stuff.\a If that is the case, then I have bad news for you...';
-position:absolute;
-margin:0 auto;
-width:0px;
-left:0px;
-right:900px;
-padding-left:10px;
-top:646px;
-white-space:pre;
-z-index:10;
-}*/
 
 /*----- bar pic -----*/
 
@@ -280,10 +254,6 @@ float:right;
 	.td1:nth-child(6), .td2:nth-child(6), .table_header:nth-child(6) {width:8%;}
 	.td1:nth-child(7), .td2:nth-child(7), .table_header:nth-child(7) {width:8%;}
 	.td1:nth-child(8), .td2:nth-child(8), .table_header:nth-child(8) {width:8%;}
-
-	.td1:nth-child(5), .td2:nth-child(5), .table_header:nth-child(5) {display:none;}
-	.td1:nth-child(6), .td2:nth-child(6), .table_header:nth-child(6) {display:none;}
-	.td1:nth-child(7):last-child, .td2:nth-child(7):last-child, .table_header:nth-child(7):last-child {display:none;}
 } 
 
 /*----- links -----*/
@@ -388,8 +358,6 @@ td small a {
 	margin-top:10px;
 }
 
-#list_surround table:first-of-type td:nth-of-type(1) a:before {content:'R';}
-#list_surround table:first-of-type td:nth-of-type(1) a:after {content:'Reading';}
 #list_surround table:first-of-type td:nth-of-type(2) a:before {content:'C';}
 #list_surround table:first-of-type td:nth-of-type(2) a:after {content:'Completed';}
 #list_surround table:first-of-type td:nth-of-type(3) a:before {content:'H';}
@@ -398,8 +366,6 @@ td small a {
 #list_surround table:first-of-type td:nth-of-type(4) a:after {content:'Dropped';}
 #list_surround table:first-of-type td:nth-of-type(5) a:before {content:'P';}
 #list_surround table:first-of-type td:nth-of-type(5) a:after {content:'Planned';}
-#list_surround table:first-of-type td:nth-of-type(6) a:before {content:'A';}
-#list_surround table:first-of-type td:nth-of-type(6) a:after {content:'All Manga';}
 
 #list_surround table:first-of-type td a:hover {
   background-size:auto 100%;
@@ -891,23 +857,6 @@ tr:hover .td1:nth-of-type(n+4), tr:hover .td2:nth-of-type(n+4) {
 	overflow:hidden;
 }
 
-tr:hover .td1:nth-of-type(4):before, tr:hover .td2:nth-of-type(4):before {content:'Chapter: ';font-variant:small-caps;font-weight:bold;}
-tr:hover .td1:nth-of-type(4), tr:hover .td2:nth-of-type(4) {margin-top:75px;left:585px;}
-
-tr:hover .td1:nth-of-type(5):before, tr:hover .td2:nth-of-type(5):before {content:'Volume: ';font-variant:small-caps;font-weight:bold;}
-tr:hover .td1:nth-of-type(5), tr:hover .td2:nth-of-type(5) {margin-top:105px;}
-
-tr:hover .td1:nth-of-type(6):before, tr:hover .td2:nth-of-type(6):before {content:'Type: ';font-variant:small-caps;font-weight:bold;}
-tr:hover .td1:nth-of-type(6), tr:hover .td2:nth-of-type(6) {margin-top:135px;}
-
-tr:hover .td1:nth-of-type(7):before, tr:hover .td2:nth-of-type(7):before {content:'Review: ';font-variant:small-caps;font-weight:bold;}
-tr:hover .td1:nth-of-type(7), tr:hover .td2:nth-of-type(7) {margin-top:165px;height:180px;}
-tr:hover td[class*=td]:nth-child(7):last-child {width:300px;padding-right:0;}
-/*
-tr:hover .td1:nth-of-type(8):before, tr:hover .td2:nth-of-type(8):before {content:'Finshed: ';}
-tr:hover .td1:nth-of-type(8), tr:hover .td2:nth-of-type(8) {margin-top:195px;}
-*/
-
 /*----- covers -----*/
 
 @keyframes covers {
@@ -1027,4 +976,3 @@ tr:hover .animetitle:before {
 }
 
 */
-
