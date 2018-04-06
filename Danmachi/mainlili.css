@@ -1,2 +1,32 @@
-@import url(https://rawgit.com/rl404/MyAnimeList/master/Danmachi/lili.css);
 @import url(https://rawgit.com/rl404/MyAnimeList/master/Danmachi/main.css);
+
+/* LILI THEME */
+#mal\_cs_otherlinks div a, #mal\_cs_listinfo div:last-of-type a, #mal\_cs_listinfo div:first-of-type a, 
+#mal_cs_links div a[href*="addtolist"], #mal\_cs_links div:last-of-type a:first-of-type, #mal\_cs_links div:last-of-type a:last-of-type { 
+	background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/lili/menu.png);
+}
+
+body, a { cursor: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/lili/cursor.png) 1 1, auto !important; }
+
+body {
+	background-color: rgb(199, 145, 121); 
+	background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/lili/bg.jpg);
+}
+
+body, a, .td1, .td2, .table_headerLink:hover, #list_surround table:nth-of-type(n+4) tbody small a:first-of-type:hover { color: #fee4cb; }
+
+#list_surround > table:first-of-type:before {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/lili/line.png) repeat-x;
+}
+
+#list_surround:before { background-color: rgba(199, 145, 121, .8); }
+
+#list_surround:after {
+	border-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/lili/table.png) 118 52 111 47 round;
+}
+
+tr:hover > .td1, tr:hover > .td2 { box-shadow: 0 1px 0 #7d2f35; }
+
+.table_headerLink, .animetitle + small,  #list_surround table:nth-of-type(n+4) tbody small a:first-of-type, .category_totals { color: #7d2f35; }
+
+.table_header:nth-of-type(3) .table_headerLink { box-shadow: inset 1px 0 0 #7d2f35, inset -1px 0 0 #7d2f35; }
