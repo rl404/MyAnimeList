@@ -1,4 +1,8 @@
-/*List Design by Killingdyl*/
+/*
+ * NIER:AUTOMATA LAYOUT THEME
+ * List Designed by killingdyl (https://myanimelist.net/profile/killingdyl)
+ * Modified by rl404 (https://myanimelist.net/profile/rl404)
+ */
 
 /* BACKGROUND */
 body {
@@ -21,7 +25,8 @@ body {
 	z-index: 10;
 }
 
-.header > :not(.header-menu), .header .header-menu > :not(.btn-menu) {
+.header > :not(.header-menu), 
+.header .header-menu > :not(.btn-menu) {
 	display: none;
 }
 
@@ -140,28 +145,6 @@ body {
 
 /* IMAGE BLOCK */
 
-/*.cover-block {
-	display: flex;
-	justify-content: center;
-	position: fixed;
-	width: auto;
-	overflow: hidden;
-	height: auto;
-	left: calc(50% + 50px + 125px);
-	right: 25px;
-	top: 190px;
-	bottom: 65px;
-	padding: 0px;
-	z-index: 3;
-}
-
-.cover-block .image-container {
-	display: flex;
-	align-items: center;
-	padding: 0px;
-	flex: none;
-}*/
-
 .cover-block {
 	display: flex;
 	position: fixed;
@@ -196,7 +179,9 @@ body {
 	z-index: -1;
 }
 
-.cover-block .image-container .btn-list-setting, .cover-block .image-container .btn-list-setting:hover, .cover-block .image-container:hover .btn-list-setting {
+.cover-block .image-container .btn-list-setting, 
+.cover-block .image-container .btn-list-setting:hover, 
+.cover-block .image-container:hover .btn-list-setting {
 	display: none;
 }
 
@@ -324,11 +309,15 @@ body {
 	left: calc(75px + (100% - 160px) * .172 * 4);
 }
 
-#status-menu .status-button.on.plantowatch::after, #status-menu .status-button.on.plantoread::after {
+#status-menu .status-button.on.plantowatch::after, 
+#status-menu .status-button.on.plantoread::after {
 	left: calc(75px + (100% - 160px) * .172 * 5);
 }
 
-.status-button.watching, .status-button.plantowatch, .status-button.reading, .status-button.plantoread {
+.status-button.watching, 
+.status-button.plantowatch, 
+.status-button.reading, 
+.status-button.plantoread {
 	overflow: hidden;
 	font-size: 0pt !important;
 	letter-spacing: -1px !important;
@@ -346,7 +335,8 @@ body {
 	letter-spacing: 3.5px !important;
 }
 
-.status-button.plantowatch::before, .status-button.plantoread::before {
+.status-button.plantowatch::before, 
+.status-button.plantoread::before {
 	content: 'Planned';
 	font-size: 2.5vh;
 	letter-spacing: 3.5px !important;
@@ -462,7 +452,9 @@ body {
 	padding: 0px;
 }
 
-.list-table .list-table-data a, .list-table .list-table-data a.edit-disabled, .list-table .list-table-data a:not(.edit-disabled):hover {
+.list-table .list-table-data a, 
+.list-table .list-table-data a.edit-disabled, 
+.list-table .list-table-data a:not(.edit-disabled):hover {
 	color: inherit;
 	text-decoration: none;
 }
@@ -486,7 +478,8 @@ body {
 	font-size: 6pt;
 }
 
-.list-table .list-table-data .tags .edit, .list-table .list-table-data .tags .edit:hover {
+.list-table .list-table-data .tags .edit, 
+.list-table .list-table-data .tags .edit:hover {
 	color: #d1cbb3 !important;
 	text-decoration: none;
 }
@@ -498,7 +491,8 @@ body {
 	margin-top: 5px;
 }
 
-.list-table .list-table-data .data.status.reading, .list-table .list-table-data .data.status.watching {
+.list-table .list-table-data .data.status.reading, 
+.list-table .list-table-data .data.status.watching {
 	background-color: #8c806a;
 }
 
@@ -514,7 +508,8 @@ body {
 	background-color: #eadfb1;
 }
 
-.list-table .list-table-data .data.status.plantoread, .list-table .list-table-data .data.status.plantowatch {
+.list-table .list-table-data .data.status.plantoread, 
+.list-table .list-table-data .data.status.plantowatch {
 	background-color: #ebe4d2;
 }
 

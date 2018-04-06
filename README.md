@@ -62,9 +62,7 @@
 - [x] Chapters
 - [x] Volumes
 
-**How to use**
-* **For anime**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Saber/mainanime.css);`
-* **For manga**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Saber/mainmanga.css);`
+**How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Saber/main.css);`
 
 ## Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka (Danmachi)
 ![danmachisample1](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/sample1.png)
