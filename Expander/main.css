@@ -132,7 +132,7 @@ td[class*=td] div small a[title*="View"]:before {
 	box-shadow:-10px 0px 0px rgba(0,0,0,.4);
 }
 
-.table_header:last-of-type {
+.table_header:nth-of-type(5) {
 	box-shadow:10px 0px 0px rgba(0,0,0,.4);
 }
 
