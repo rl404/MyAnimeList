@@ -12,14 +12,14 @@
 @import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/special.css);
 
 /* FOR ANIME */
-body:after {
-  content:'Go and do some clickie clickie on anime below,\a especially anime with score 9 or higher \a some pretty cool stuff will happen. \a Also, don\'t forget to hover on something inside too.';
-  position:absolute;
-  right:80px;
-  top:553px;
-  white-space:pre;
-  z-index:10;
-  text-align:right;
+#list_surround:before {
+	content:"Go and do some clickie clickie on anime below,\a especially anime with score 9 or higher \a some pretty cool stuff will happen. \a Also, don\'t forget to hover on something inside too.";
+	position:relative;
+	margin-right:10px;
+	top:10px;
+	float:right;
+	white-space:pre;
+	text-align:right;
 }
 
 @media screen and (min-width:961px) {
