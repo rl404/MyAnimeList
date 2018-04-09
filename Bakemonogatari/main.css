@@ -43,15 +43,41 @@ body {
 }
 
 #mal_control_strip td:first-of-type {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/6Y8T7HB.jpg) no-repeat center;
-  background-size: cover;
+  background-image: 
+    url(https://sig.grumpybumpers.com/host/rl404bake.gif),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/1.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/2.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/3.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/4.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/5.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/6.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/7.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/8.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/9.jpg);
+  background-position: 0,0,0,0,0,0,0,0,0,0;
+  background-size: 300px;
+  background-repeat:no-repeat;
   box-shadow: inset 10px 0 0 #fff, inset -10px 0 0 #fff, inset 0 1px 0 #efefef;
   height: 360px;
   padding: 0;
   position: absolute;
   top: 240px;
-  width: 360px;
+  width: 300px;
+  animation: profilescroll 10s ease-out;
 }
+
+@keyframes profilescroll {
+  0%  {background-position: 300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0;}
+  10% {background-position: 300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,0;}
+  20% {background-position: 300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,0,0;}
+  30% {background-position: 300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,0,0,0;}
+  40% {background-position: 300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,0,0,0,0;}
+  50% {background-position: 300px 0,300px 0,300px 0,300px 0,300px 0,0,0,0,0,0;}
+  60% {background-position: 300px 0,300px 0,300px 0,300px 0,0,0,0,0,0,0;}
+  70% {background-position: 300px 0,300px 0,300px 0,0,0,0,0,0,0,0;}
+  80% {background-position: 300px 0,300px 0,0,0,0,0,0,0,0,0;}
+  90% {background-position: 300px 0,0,0,0,0,0,0,0,0,0;}
+  100% {background-position: 0,0,0,0,0,0,0,0,0,0;}}
 
 #mal_cs_pic a {
   display: block;
@@ -291,7 +317,8 @@ body {
 }
 
 #mal_cs_otherlinks div:last-of-type {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/lZYhWqP.jpg), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/5mkTHSA.gif);
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/bakemono.gif), 
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/5mkTHSA.gif);
   background-position: right bottom, 360px 180px;
   background-repeat: no-repeat, repeat;
   background-size: cover, auto;
