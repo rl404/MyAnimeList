@@ -62,6 +62,7 @@ body {
   padding: 0;
   position: absolute;
   top: 240px;
+  left: 30px;
   width: 300px;
   animation: profilescroll 10s ease-out;
 }
