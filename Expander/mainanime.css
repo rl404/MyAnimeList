@@ -22,9 +22,11 @@
 	text-align:right;
 }
 
-@media screen and (min-width:961px) {
-	.td1:nth-child(6):last-child, .td2:nth-child(6):last-child, .table_header:nth-child(6):last-child {display:none;}
+.table_header:nth-of-type(5) {
+	box-shadow:10px 0px 0px rgba(0,0,0,.4);
 }
+
+.td1:nth-child(6):last-child, .td2:nth-child(6):last-child, .table_header:nth-child(6):last-child {display:none;}
 
 #list_surround table:first-of-type td:nth-of-type(1) a:before {content:'W';}
 #list_surround table:first-of-type td:nth-of-type(1) a:after {content:'Watching';}

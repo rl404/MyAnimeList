@@ -9,8 +9,10 @@
 @import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/covermanga.css);
 
 /* FOR MANGA */
-@media screen and (min-width:961px) {
-	.td1:nth-child(7):last-child, .td2:nth-child(7):last-child, .table_header:nth-child(7):last-child {display:none;}
+.td1:nth-child(7):last-child, .td2:nth-child(7):last-child, .table_header:nth-child(7):last-child {display:none;}
+
+.table_header:nth-of-type(6) {
+	box-shadow:10px 0px 0px rgba(0,0,0,.4);
 }
 
 #list_surround table:first-of-type td:nth-of-type(1) a:before {content:'R';}
