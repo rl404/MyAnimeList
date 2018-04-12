@@ -858,6 +858,16 @@ margin-top:-15px;
 width:50px;height:42px;
 pointer-events:none;}
 
+/* no game no life */
+tr:hover .animetitle[href*="anime/19815/"]:after {content:"";
+background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/jibril.png");
+background-size: 50px;
+position:absolute;
+margin-left:10px;
+margin-top:-20px;
+width:50px;height:50px;
+pointer-events:none;}
+
 /* non non */
 tr:hover .animetitle[href*="anime/17549/"]:after {content:"Nyanpasu~";
 position:absolute;

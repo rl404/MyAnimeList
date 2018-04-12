@@ -2,10 +2,12 @@
 
 /* No game no life */
 tr:hover .animetitle[href*="/19815/"]{
-background-image:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
-    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
+background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/shiro.png) no-repeat,
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
 	url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ngnl.png');
-background-size: 0,0,100%;	
+background-size: 200px,auto,420px,1000px,100%;	
 width:100%;
 height:385px;
 top: -15px;
@@ -15,20 +17,15 @@ margin-left:auto;
 margin-right:auto;
 border:1px;
 padding-top: 35px;
-animation: sparkle 15s linear infinite;
--webkit-animation: sparkle 15s linear infinite;
+animation: shiro 15s linear infinite;
 }
 tr:hover .animetitle[href*="/19815/"]:before{top: 100px;}
 
-@keyframes sparkle {
-    0% { background-position: 0 0, 0 0,0 0; }
-    100% { background-position: -150px 300px, 150px 300px,0 0; }
+@keyframes shiro {
+    0% { background-position: calc(100% + 200px) 100%,0 0,0 0, 0 0,top; }
+    50% { background-position: 100% 100%,0 -150px,0 -420px, 0 -1000px,top; }
+    100% { background-position: calc(100% + 600px) 100%,0 -300px, 0 -840px, 0px -2000px,top; }
 }
-
-@-webkit-keyframes sparkle {
-    0% { background-position: 0 0, 0 0,0 0; }
-    100% { background-position: -150px 300px, 150px 300px,0 0; }
-} 
 
 /* Angel beats */
 tr:hover .animetitle[href*="/6547/"]{
