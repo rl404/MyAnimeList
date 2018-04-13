@@ -1592,3 +1592,23 @@ margin-left:auto;
 margin-right:auto;
 } 
 tr:hover .animetitle[href*="/5681/"]:before{top: 100px;}
+
+/* Koe no katachi */
+tr:hover .animetitle[href*="/28851/"]{
+background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),   
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/koenokatachi2.png);
+background-size:100%, 15%,30%,100%,100%;     
+background-position: 0 0, 20% 0,0 0,0 0,center; 
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/28851/"]:before{top: 100px;}
