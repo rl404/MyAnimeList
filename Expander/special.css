@@ -142,7 +142,6 @@ max-width:1237px;
 margin-left:auto;
 margin-right:auto;
 animation: sparkle2 15s linear infinite;
--webkit-animation: sparkle2 15s linear infinite;
 } 
 tr:hover .animetitle[href*="/4181/"]:before{top: 100px;}
 
@@ -150,11 +149,6 @@ tr:hover .animetitle[href*="/4181/"]:before{top: 100px;}
     0% { background-position: 0 0, 0 0, 0 0,0 0; }
     100% { background-position: 0 -300px, 0px -840px, 0px -2000px,0 0; }
 }
-
-@-webkit-keyframes sparkle2 {
-    0% { background-position: 0 0,0 0, 0 0,0 0; }
-    100% { background-position: 0 -300px, 0px -840px, 0px -2000px,0 0; }
-} 
 
 /* STEINS GATE */
 tr:hover .animetitle[href*="/9253/"]{
@@ -1632,3 +1626,19 @@ margin-left:auto;
 margin-right:auto;
 } 
 tr:hover .animetitle[href*="/28851/"]:before{top: 100px;}
+
+/* Rezero */
+tr:hover .animetitle[href*="/31240/"]{
+background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rezero.png);
+background-size:100%;   
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+animation: rezero 5s linear;
+} 
+tr:hover .animetitle[href*="/31240/"]:before{top: 100px;}
