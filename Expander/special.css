@@ -106,12 +106,32 @@ tr:hover .animetitle[href*="/2001/"]:before{top: 100px;}
     100% { background-position: bottom center, -20% 100%;}
 } 
 
+/* Clannad */
+tr:hover .animetitle[href*="/2167/"]{
+background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),   
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/clannad.png);
+background-size:100%, 15%,30%,100%,100%;     
+background-position: 0 0, 20% 0,0 0,0 0,center; 
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/2167/"]:before{top: 100px;}
+
 /* clannad after story */
 tr:hover .animetitle[href*="/4181/"]{
 background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/star1.png),
     url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/star1.png),
     url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/star2.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/clannad.png);
+	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/clannadas.png);
 background-size:auto,420px,1000px,auto;	
 width:100%;
 height:385px;
