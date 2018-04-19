@@ -43,7 +43,6 @@ max-width:1237px;
 margin-left:auto;
 margin-right:auto;    
 animation: ab 15s linear ;
--webkit-animation: ab 15s linear ;
 } 
 tr:hover .animetitle[href*="/6547/"]:before{top: 100px;}
 
@@ -51,11 +50,6 @@ tr:hover .animetitle[href*="/6547/"]:before{top: 100px;}
     0% { background-position:100% 100%, bottom center; }
     100% { background-position: 100% 100%, top center ; }
 }
-
-@-webkit-keyframes ab {
-    0% { background-position:100% 100%, bottom center; }
-    100% { background-position: 100% 100%, top center ; }
-} 
 
 /* Kotonoha no niwa */
 tr:hover .animetitle[href*="/16782/"]{
@@ -1326,8 +1320,7 @@ min-width:935px;
 max-width:1237px;
 margin-left:auto;
 margin-right:auto;
-animation: ab 10s linear ;
--webkit-animation: ab 10s linear ;
+animation: ab 10s linear;
 } 
 tr:hover .animetitle[href*="/2104/"]:before{top: 100px;}
 tr:hover .animetitle[href*="/2104/"]:hover{
@@ -1657,3 +1650,31 @@ margin-right:auto;
 animation: rezero 5s linear;
 } 
 tr:hover .animetitle[href*="/31240/"]:before{top: 100px;}
+
+/* Nourin */
+tr:hover .animetitle[href*="/18095/"]{
+background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin1.png) center;
+background-size:100%;    
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto; 
+animation: nourin 10s linear infinite;   
+} 
+tr:hover .animetitle[href*="/18095/"]:hover:before{background-image: url('https://myanimelist.cdn-dena.com/images/anime/6/57563.jpg')}
+tr:hover .animetitle[href*="/18095/"]:before{
+background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin3.png);
+background-size:206px 291px;top: 100px;
+}
+
+@keyframes nourin {
+    0% { background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin1.png) center;}
+    45% { background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin2.png) center;}
+    50% { background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin2.png) center;}
+    95% { background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin1.png) center;}
+    100% { background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin1.png) center;}
+}
