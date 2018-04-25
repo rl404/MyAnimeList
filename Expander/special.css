@@ -1721,3 +1721,23 @@ margin-left:auto;
 margin-right:auto;    
 } 
 tr:hover .animetitle[href*="/13759/"]:before{top: 100px;}
+
+/* Railgun s2 */
+tr:hover .animetitle[href*="/16049/"]{
+background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/railgun.gif) center;
+background-size:100%,100%;  
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/16049/"]:before{top: 100px;}
+tr:hover .animetitle[href*="/16049/"]:hover{
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/railgun.png);
+    background-size:100%;
+}
