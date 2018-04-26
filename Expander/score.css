@@ -351,3 +351,28 @@ tr:hover #scoreval35507:after
 	font-size: 220px;
 	left:123px;
 }
+
+/* 10+ */
+#scoreval4181,
+#scoreval2001
+{
+	position: relative;
+	color:transparent;
+}
+#scoreval4181:after,
+#scoreval2001:after
+{
+	color:black;
+	position: absolute;
+	left: -7px;
+	text-align: left;
+	content: "10+";
+}
+tr:hover #scoreval4181:after,
+tr:hover #scoreval2001:after
+{
+	color:white;
+	position: absolute;
+	font-size: 220px;
+	left:-150px;
+}
