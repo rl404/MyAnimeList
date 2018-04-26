@@ -1,24 +1,352 @@
-#scoreval32, 
-#scoreval31 {
+/* .5 */
+#scoreval11111,
+#scoreval18893,
+#scoreval28805,
+#scoreval13535,
+#scoreval11285,
+#scoreval31043,
+#scoreval21405,
+#scoreval30091,
+#scoreval28999,
+#scoreval20031,
+#scoreval11843,
+#scoreval34299,
+#scoreval32887,
+#scoreval28221,
+#scoreval10087,
+#scoreval11741,
+#scoreval4725,
+#scoreval30544,
+#scoreval25183,
+#scoreval25907,
+#scoreval27631,
+#scoreval13411,
+#scoreval22835,
+#scoreval28825,
+#scoreval10408,
+#scoreval35557,
+#scoreval431,
+#scoreval34542,
+#scoreval28387,
+#scoreval34933,
+#scoreval19685,
+#scoreval22535,
+#scoreval28725,
+#scoreval8841,
+#scoreval16782,
+#scoreval33489,
+#scoreval10620,
+#scoreval8424,
+#scoreval32182,
+#scoreval30307,
+#scoreval23423,
+#scoreval31442,
+#scoreval34658,
+#scoreval31404,
+#scoreval22539,
+#scoreval30276,
+#scoreval12355,
+#scoreval31621,
+#scoreval8769,
+#scoreval10020,
+#scoreval35240,
+#scoreval34561,
+#scoreval31716,
+#scoreval35338,
+#scoreval12477,
+#scoreval30187,
+#scoreval29786,
+#scoreval28625,
+#scoreval28171,
+#scoreval10109,
+#scoreval8407,
+#scoreval24133,
+#scoreval16870,
+#scoreval4224,
+#scoreval34902,
+#scoreval30355,
+#scoreval18499,
+#scoreval12437
+{
 	position: relative;
 	left:-5px;
 }
-#scoreval32:after, 
-#scoreval31:after {
+
+#scoreval11111:after,
+#scoreval18893:after,
+#scoreval28805:after,
+#scoreval13535:after,
+#scoreval11285:after,
+#scoreval31043:after,
+#scoreval21405:after,
+#scoreval30091:after,
+#scoreval28999:after,
+#scoreval20031:after,
+#scoreval11843:after,
+#scoreval34299:after,
+#scoreval32887:after,
+#scoreval28221:after,
+#scoreval10087:after,
+#scoreval11741:after,
+#scoreval4725:after,
+#scoreval30544:after,
+#scoreval25183:after,
+#scoreval25907:after,
+#scoreval27631:after,
+#scoreval13411:after,
+#scoreval22835:after,
+#scoreval28825:after,
+#scoreval10408:after,
+#scoreval35557:after,
+#scoreval431:after,
+#scoreval34542:after,
+#scoreval28387:after,
+#scoreval34933:after,
+#scoreval19685:after,
+#scoreval22535:after,
+#scoreval28725:after,
+#scoreval8841:after,
+#scoreval16782:after,
+#scoreval33489:after,
+#scoreval10620:after,
+#scoreval8424:after,
+#scoreval32182:after,
+#scoreval30307:after,
+#scoreval23423:after,
+#scoreval31442:after,
+#scoreval34658:after,
+#scoreval31404:after,
+#scoreval22539:after,
+#scoreval30276:after,
+#scoreval12355:after,
+#scoreval31621:after,
+#scoreval8769:after,
+#scoreval10020:after,
+#scoreval35240:after,
+#scoreval34561:after,
+#scoreval31716:after,
+#scoreval35338:after,
+#scoreval12477:after,
+#scoreval30187:after,
+#scoreval29786:after,
+#scoreval28625:after,
+#scoreval28171:after,
+#scoreval10109:after,
+#scoreval8407:after,
+#scoreval24133:after,
+#scoreval16870:after,
+#scoreval4224:after,
+#scoreval34902:after,
+#scoreval30355:after,
+#scoreval18499:after,
+#scoreval12437:after
+{
 	position: absolute;
 	left: 7px;
 	text-align: left;
 	content: ".5";
 }
 
-tr:hover #scoreval32,
-tr:hover #scoreval31 {
+tr:hover #scoreval11111,
+tr:hover #scoreval18893,
+tr:hover #scoreval28805,
+tr:hover #scoreval13535,
+tr:hover #scoreval11285,
+tr:hover #scoreval31043,
+tr:hover #scoreval21405,
+tr:hover #scoreval30091,
+tr:hover #scoreval28999,
+tr:hover #scoreval20031,
+tr:hover #scoreval11843,
+tr:hover #scoreval34299,
+tr:hover #scoreval32887,
+tr:hover #scoreval28221,
+tr:hover #scoreval10087,
+tr:hover #scoreval11741,
+tr:hover #scoreval4725,
+tr:hover #scoreval30544,
+tr:hover #scoreval25183,
+tr:hover #scoreval25907,
+tr:hover #scoreval27631,
+tr:hover #scoreval13411,
+tr:hover #scoreval22835,
+tr:hover #scoreval28825,
+tr:hover #scoreval10408,
+tr:hover #scoreval35557,
+tr:hover #scoreval431,
+tr:hover #scoreval34542,
+tr:hover #scoreval28387,
+tr:hover #scoreval34933,
+tr:hover #scoreval19685,
+tr:hover #scoreval22535,
+tr:hover #scoreval28725,
+tr:hover #scoreval8841,
+tr:hover #scoreval16782,
+tr:hover #scoreval33489,
+tr:hover #scoreval10620,
+tr:hover #scoreval8424,
+tr:hover #scoreval32182,
+tr:hover #scoreval30307,
+tr:hover #scoreval23423,
+tr:hover #scoreval31442,
+tr:hover #scoreval34658,
+tr:hover #scoreval31404,
+tr:hover #scoreval22539,
+tr:hover #scoreval30276,
+tr:hover #scoreval12355,
+tr:hover #scoreval31621,
+tr:hover #scoreval8769,
+tr:hover #scoreval10020,
+tr:hover #scoreval35240,
+tr:hover #scoreval34561,
+tr:hover #scoreval31716,
+tr:hover #scoreval35338,
+tr:hover #scoreval12477,
+tr:hover #scoreval30187,
+tr:hover #scoreval29786,
+tr:hover #scoreval28625,
+tr:hover #scoreval28171,
+tr:hover #scoreval10109,
+tr:hover #scoreval8407,
+tr:hover #scoreval24133,
+tr:hover #scoreval16870,
+tr:hover #scoreval4224,
+tr:hover #scoreval34902,
+tr:hover #scoreval30355,
+tr:hover #scoreval18499,
+tr:hover #scoreval12437
+{
 	position: relative;
 	left:-90px;
 }
 
-tr:hover #scoreval32:after,
-tr:hover #scoreval31:after {
+tr:hover #scoreval11111:after,
+tr:hover #scoreval18893:after,
+tr:hover #scoreval28805:after,
+tr:hover #scoreval13535:after,
+tr:hover #scoreval11285:after,
+tr:hover #scoreval31043:after,
+tr:hover #scoreval21405:after,
+tr:hover #scoreval30091:after,
+tr:hover #scoreval28999:after,
+tr:hover #scoreval20031:after,
+tr:hover #scoreval11843:after,
+tr:hover #scoreval34299:after,
+tr:hover #scoreval32887:after,
+tr:hover #scoreval28221:after,
+tr:hover #scoreval10087:after,
+tr:hover #scoreval11741:after,
+tr:hover #scoreval4725:after,
+tr:hover #scoreval30544:after,
+tr:hover #scoreval25183:after,
+tr:hover #scoreval25907:after,
+tr:hover #scoreval27631:after,
+tr:hover #scoreval13411:after,
+tr:hover #scoreval22835:after,
+tr:hover #scoreval28825:after,
+tr:hover #scoreval10408:after,
+tr:hover #scoreval35557:after,
+tr:hover #scoreval431:after,
+tr:hover #scoreval34542:after,
+tr:hover #scoreval28387:after,
+tr:hover #scoreval34933:after,
+tr:hover #scoreval19685:after,
+tr:hover #scoreval22535:after,
+tr:hover #scoreval28725:after,
+tr:hover #scoreval8841:after,
+tr:hover #scoreval16782:after,
+tr:hover #scoreval33489:after,
+tr:hover #scoreval10620:after,
+tr:hover #scoreval8424:after,
+tr:hover #scoreval32182:after,
+tr:hover #scoreval30307:after,
+tr:hover #scoreval23423:after,
+tr:hover #scoreval31442:after,
+tr:hover #scoreval34658:after,
+tr:hover #scoreval31404:after,
+tr:hover #scoreval22539:after,
+tr:hover #scoreval30276:after,
+tr:hover #scoreval12355:after,
+tr:hover #scoreval31621:after,
+tr:hover #scoreval8769:after,
+tr:hover #scoreval10020:after,
+tr:hover #scoreval35240:after,
+tr:hover #scoreval34561:after,
+tr:hover #scoreval31716:after,
+tr:hover #scoreval35338:after,
+tr:hover #scoreval12477:after,
+tr:hover #scoreval30187:after,
+tr:hover #scoreval29786:after,
+tr:hover #scoreval28625:after,
+tr:hover #scoreval28171:after,
+tr:hover #scoreval10109:after,
+tr:hover #scoreval8407:after,
+tr:hover #scoreval24133:after,
+tr:hover #scoreval16870:after,
+tr:hover #scoreval4224:after,
+tr:hover #scoreval34902:after,
+tr:hover #scoreval30355:after,
+tr:hover #scoreval18499:after,
+tr:hover #scoreval12437:after
+{
+	position: absolute;
+	font-size: 220px;
+	left:123px;
+}
+
+/* .25 */
+#scoreval34427,
+#scoreval36548,
+#scoreval22273
+{
+	position: relative;
+	left:-8px;
+}
+#scoreval34427:after,
+#scoreval36548:after,
+#scoreval22273:after
+{
+	position: absolute;
+	left: 7px;
+	text-align: left;
+	content: ".25";
+}
+tr:hover #scoreval34427,
+tr:hover #scoreval36548,
+tr:hover #scoreval22273
+{
+	position: relative;
+	left:-190px;
+}
+tr:hover #scoreval34427:after,
+tr:hover #scoreval36548:after,
+tr:hover #scoreval22273:after
+{
+	position: absolute;
+	font-size: 220px;
+	left:123px;
+}
+
+/* .75 */
+#scoreval35507
+{
+	position: relative;
+	left:-8px;
+}
+#scoreval35507:after
+{
+	position: absolute;
+	left: 7px;
+	text-align: left;
+	content: ".75";
+}
+tr:hover #scoreval35507
+{
+	position: relative;
+	left:-190px;
+}
+tr:hover #scoreval35507:after
+{
 	position: absolute;
 	font-size: 220px;
 	left:123px;
