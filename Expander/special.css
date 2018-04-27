@@ -1855,3 +1855,30 @@ margin-left:auto;
 margin-right:auto;
 } 
 tr:hover .animetitle[href*="/32/"]:before{top: 100px;}
+
+/* Himegoto */
+tr:hover .animetitle[href*="/22835/"]{
+background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/himegoto.png);
+background-size:1525px;   
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+animation: himegoto 15s linear infinite;
+} 
+tr:hover .animetitle[href*="/22835/"]:before{
+    top: 100px;
+    background-image: url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/trap.jpeg');
+}
+tr:hover .animetitle[href*="/22835/"]:hover::before{
+background-image: url('https://myanimelist.cdn-dena.com/images/anime/8/75226.jpg')
+}
+
+@keyframes himegoto {
+    0% { background-position: 0;}
+    100% { background-position: -1525px;}
+}

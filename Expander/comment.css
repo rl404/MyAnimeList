@@ -360,11 +360,6 @@ margin-top:-20px;
 width:50px;height:45px;
 pointer-events:none;}
 
-/* Himegoto */
-tr:hover .animetitle[href*="/22835/"]:hover::before{
-background-image: url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/trap.jpeg')
-}
-
 /* Mikakunin */
 tr:hover .animetitle[href*="/20541/"]:hover::before{
 background-image: url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/mikakunin.gif');
