@@ -1615,9 +1615,9 @@ background-size:206px 291px;top: 100px;
 
 @keyframes nourin {
     0% { background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin1.png) center;}
-    45% { background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin2.png) center;}
+    45% { background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin1.png) center;}
     50% { background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin2.png) center;}
-    95% { background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin1.png) center;}
+    95% { background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin2.png) center;}
     100% { background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin1.png) center;}
 }
 
@@ -1791,4 +1791,24 @@ background-size:auto 291px;top: 100px;
 tr:hover .animetitle[href*="/16732/"]:hover{
     background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kiniro1.png);
     background-size:100%;  
+}
+
+/* Sabagebu */
+tr:hover .animetitle[href*="/20709/"]{
+background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sabagebu.gif)center;
+background-size:100%;    
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;    
+} 
+tr:hover .animetitle[href*="/20709/"]:before{top: 100px;}
+tr:hover .animetitle[href*="/20709/"]:hover{
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sabagebu.png)center;
+    background-size:100%;
 }
