@@ -364,7 +364,7 @@ tr:hover #scoreval35507:after
 {
 	color:black;
 	position: absolute;
-	left: -7px;
+	left: 0px;
 	text-align: left;
 	content: "10+";
 }
@@ -374,5 +374,6 @@ tr:hover #scoreval2001:after
 	color:white;
 	position: absolute;
 	font-size: 220px;
-	left:-150px;
+	top:20px;
+	left:-130px;
 }
