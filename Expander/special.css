@@ -1812,3 +1812,27 @@ tr:hover .animetitle[href*="/20709/"]:hover{
     background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sabagebu.png)center;
     background-size:100%;
 }
+
+/* Seitokai Yaku */
+tr:hover .animetitle[href*="/20847/"]{
+background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/seitokai2.png) center ;
+background-size:100%;   
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/20847/"]:hover:before{background:0, 0,url('https://myanimelist.cdn-dena.com/images/anime/9/56941.jpg') center;}
+tr:hover .animetitle[href*="/20847/"]:before{
+background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/seitokai.png) no-repeat,
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+    url('https://myanimelist.cdn-dena.com/images/anime/9/56941.jpg');
+background-position:0 0, 0 0,center;
+background-size: auto 291px,100%,auto;
+top: 100px;
+animation: yuru 5s ease-out;
+}
