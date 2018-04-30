@@ -1989,3 +1989,33 @@ color:red;
 padding-top: 50px; 
 height: 241px;
 }
+
+/* Voilet evergarden */
+tr:hover .animetitle[href*="/33352/"]{
+background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/violet.png);
+background-size:100%;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+}
+tr:hover .animetitle[href*="/33352/"]:before{top: 100px;}
+
+/* Centaur no nayami */
+tr:hover .animetitle[href*="/34525/"]{
+background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/centaur.png);
+background-size:100%;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+}
+tr:hover .animetitle[href*="/34525/"]:before{top: 100px;}
