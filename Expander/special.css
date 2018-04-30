@@ -1899,3 +1899,18 @@ margin-left:auto;
 margin-right:auto;
 } 
 tr:hover .animetitle[href*="/23421/"]:before{top: 100px;}
+
+/* Ars nova movie arpeggio */
+tr:hover .animetitle[href*="/24921/"]{
+background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/arpeggio.png) center;
+background-size:100%;   
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/24921/"]:before{top: 100px;}
