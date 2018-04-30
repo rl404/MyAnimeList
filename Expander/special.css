@@ -2034,3 +2034,33 @@ margin-left:auto;
 margin-right:auto;
 }
 tr:hover .animetitle[href*="/34599/"]:before{top: 100px;}
+
+/* Overlord 2 */
+tr:hover .animetitle[href*="/35073/"]{
+background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/overlord2.png);
+background-size:100%;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+}
+tr:hover .animetitle[href*="/35073/"]:before{top: 100px;}
+
+/* Mitsuboshi colors */
+tr:hover .animetitle[href*="/35078/"]{
+background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/colors.png);
+background-size:100%;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+}
+tr:hover .animetitle[href*="/35078/"]:before{top: 100px;}
