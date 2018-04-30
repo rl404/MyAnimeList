@@ -1952,3 +1952,18 @@ margin-left:auto;
 margin-right:auto;
 } 
 tr:hover .animetitle[href*="/32071/"]:before{top: 100px;}
+
+/* Blame movie */
+tr:hover .animetitle[href*="/32086/"]{
+background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/blame.png);
+background-size:100%;   
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+} 
+tr:hover .animetitle[href*="/32086/"]:before{top: 100px;}
