@@ -2064,3 +2064,18 @@ margin-left:auto;
 margin-right:auto;
 }
 tr:hover .animetitle[href*="/35078/"]:before{top: 100px;}
+
+/* Devilman crybaby */
+tr:hover .animetitle[href*="/35120/"]{
+background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/devilman.png);
+background-size:100%;
+width:100%;
+height:385px;
+top: -15px;
+padding-top: 35px;
+min-width:935px;
+max-width:1237px;
+margin-left:auto;
+margin-right:auto;
+}
+tr:hover .animetitle[href*="/35120/"]:before{top: 100px;}
