@@ -68,7 +68,34 @@ body:before {
 /*----- More/Add/Edit links ----- */
 
 .td1 div small, .td2 div small {color:transparent;}
+.td1:hover div a small, .td2:hover div a small {color:white;}
 td[class*=td] div small a:first-child {visibility:hidden;}
+
+.td1:hover div a small:hover, .td2:hover div a small:hover,
+tr:hover .td1:nth-of-type(6) input:hover, tr:hover .td2:nth-of-type(6) input {
+	transition:.2s;
+	box-shadow: 0px -1px 0px 0px #eee inset !important;
+}
+
+textarea.inputtext {
+	width:244px;
+	height:120px;
+	background-color:transparent;
+	color:white;
+	font-family: "Century Gothic";
+	font-size:13px;
+}
+
+tr:hover .td1:nth-of-type(6) input, tr:hover .td2:nth-of-type(6) input {
+	background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+	color:white;
+}
 
 /*----- additional content -----*/
 
@@ -850,6 +877,12 @@ tr:hover .td1:nth-of-type(n+4), tr:hover .td2:nth-of-type(n+4) {
 	border:none;
 	text-align:left;
 	overflow:hidden;
+}
+
+tr:hover .td1:nth-of-type(6), tr:hover .td2:nth-of-type(6) {
+	width:250px !important;
+	left:550px;
+	right:0px;
 }
 
 /*----- covers -----*/
