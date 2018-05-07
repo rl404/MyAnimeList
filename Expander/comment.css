@@ -31,14 +31,12 @@ margin-top:-0px;
 color:red;
 font-weight:bold;
 font-family:arial, sans-serif;
-text-shadow:0px 0px 1px #777;
 font-size:13px;
 pointer-events:none;
 padding:7px;
 transform:rotate(12deg);
 -ms-transform:rotate(12deg);
 -webkit-transform:rotate(12deg);
-/*   background-color:rgba(255,255,255,.8); */
 width:93px;height:14px;border-radius:5px;
 border:1px solid #e00;box-shadow:0px 0px 1px #000;}
 
@@ -61,7 +59,6 @@ margin-top:-0px;
 color:brown;
 font-weight:bold;
 font-family:arial, sans-serif;
-text-shadow:0px 0px 1px #777;
 font-size:13px;
 pointer-events:none;
 transform:rotate(8deg);
@@ -659,15 +656,14 @@ pointer-events:none;}
 
 /* Akiba's trip */
 tr:hover a.animetitle[href*="anime/34051/"] span {text-decoration:line-through}
-tr:hover .animetitle[href*="anime/34051/"]:after {content:"Akiba Strip";
+tr:hover .animetitle[href*="anime/34051/"]:after {content:"Akiba's Strip";
 position:absolute;
 margin-left:10px;
 margin-top:0px;
 color: blue;
 font-weight:bold;
 font-family:arial, sans-serif;
-text-shadow:0px 0px 1px #777;
-font-size:13px;
+font-size:15px;
 pointer-events:none;}
 
 /* kancolle */

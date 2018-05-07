@@ -721,9 +721,9 @@ tr:hover .td1 > small,
 tr:hover .td2 > small {
 	display:block;
 	position:absolute;
-	width:150px;
+	width:100%;
 	height:20px;
-	left:780px;
+	text-align:center;
 	top:66px;
 	font-weight:bold;
 	color:#eee;
@@ -735,8 +735,7 @@ tr:hover td[class*=td] div small a:first-child {
 	position:absolute;
 	width:50px;
 	height:25px;
-	left:0px;
-	right:500px;
+	right:207px;
 	margin:0 auto;
 	top:78px;
 	font-weight:bold;
