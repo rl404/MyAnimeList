@@ -908,6 +908,8 @@ tr:hover .td1:nth-of-type(6), tr:hover .td2:nth-of-type(6) {
 	width:250px !important;
 	left:550px;
 	right:0px;
+	text-align: justify;
+    text-justify: inter-word;
 }
 
 /*----- covers -----*/
