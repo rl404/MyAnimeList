@@ -1,5 +1,6 @@
 /* .5 */
 #scoreval11111,
+#scoreval790,
 #scoreval18893,
 #scoreval28805,
 #scoreval13535,
@@ -73,6 +74,7 @@
 }
 
 #scoreval11111:after,
+#scoreval790:after,
 #scoreval18893:after,
 #scoreval28805:after,
 #scoreval13535:after,
@@ -148,6 +150,7 @@
 }
 
 tr:hover #scoreval11111,
+tr:hover #scoreval790,
 tr:hover #scoreval18893,
 tr:hover #scoreval28805,
 tr:hover #scoreval13535,
@@ -221,6 +224,7 @@ tr:hover #scoreval12437
 }
 
 tr:hover #scoreval11111:after,
+tr:hover #scoreval790:after,
 tr:hover #scoreval18893:after,
 tr:hover #scoreval28805:after,
 tr:hover #scoreval13535:after,
