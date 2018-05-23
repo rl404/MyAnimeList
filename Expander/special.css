@@ -86,7 +86,6 @@ max-width:1237px;
 margin-left:auto;
 margin-right:auto;    
 animation: ttgl 15s linear ;
--webkit-animation: ttgl 15s linear ;
 } 
 tr:hover .animetitle[href*="/2001/"]:before{top: 100px;}
 
@@ -95,10 +94,6 @@ tr:hover .animetitle[href*="/2001/"]:before{top: 100px;}
     100% { background-position: bottom center, -20% 100%; }
 }
 
-@-webkit-keyframes ttgl {
-    0% { background-position: top center, 130% 100%; }
-    100% { background-position: bottom center, -20% 100%;}
-} 
 
 /* Clannad */
 tr:hover .animetitle[href*="/2167/"]{
@@ -162,7 +157,6 @@ margin-right:auto;
 border:1px;
 padding-top: 35px;
 animation: sg 12s linear infinite;
--webkit-animation: sg 12s linear infinite;
 }
 tr:hover .animetitle[href*="/9253/"]:before{top: 100px;}
 
@@ -175,16 +169,6 @@ tr:hover .animetitle[href*="/9253/"]:before{top: 100px;}
     98% { background-position: 100% 200%,0% 0%, center; }
     100% {background-position: 100% 200%,0% -50%, center;}
 }
-
-@-webkit-keyframes sg {
-    0% { background-position: 100% 200%,0% -50%, center;}
-    16.5% { background-position: 100% 100%,0% -50%, center; }
-    33.2% { background-position: 100% 100%,0% -50%, center; }
-    50% { background-position: 100% 200%,0% -50%, center; }
-    54% { background-position: 100% 200%,0% 0%, center; }
-    98% { background-position: 100% 200%,0% 0%, center; }
-    100% {background-position: 100% 200%,0% -50%, center;}
-} 
 
 /* UBW */
 tr:hover .animetitle[href*="/28701/"],
@@ -428,8 +412,7 @@ tr:hover .animetitle[href*="/5081/"]:before{top: 100px;}
 
 @keyframes snow1 {
     0% { background-position: 0 -300px, 0px -840px, 0px -2000px,right; }
-    100% { background-position: 0 0, 0 0, 0 0,right; }
-    
+    100% { background-position: 0 0, 0 0, 0 0,right; }    
 }
 
 /* suzumiya haruhi no shoushitsu */
@@ -557,11 +540,11 @@ min-width:935px;
 max-width:1237px;
 margin-left:auto;
 margin-right:auto;
--moz-animation: scroll 60s linear infinite;
+animation: scroll 60s linear infinite;
 } 
 tr:hover .animetitle[href*="/14131/"]:before{top: 100px;}
 
-@-moz-keyframes scroll{
+@keyframes scroll{
 	0% { background-position: 0 0,0,bottom; }
 	100% { background-position: 0 0,-2720px,bottom; }
 }
@@ -580,11 +563,11 @@ min-width:935px;
 max-width:1237px;
 margin-left:auto;
 margin-right:auto;
--moz-animation: scroll2 30s linear infinite;
+animation: scroll2 30s linear infinite;
 } 
 tr:hover .animetitle[href*="/18617/"]:before{top: 100px;}
 
-@-moz-keyframes scroll2{
+@keyframes scroll2{
 	0% { background-position: 0 0,0,bottom; }
 	100% { background-position: 0 0,-819px,bottom; }
 }
@@ -603,11 +586,11 @@ min-width:935px;
 max-width:1237px;
 margin-left:auto;
 margin-right:auto;
--moz-animation: scroll3 10s linear infinite;
+animation: scroll3 10s linear infinite;
 } 
 tr:hover .animetitle[href*="/32740/"]:before{top: 100px;}
 
-@-moz-keyframes scroll3{
+@keyframes scroll3{
 	0% { background-position: 0 0,0,bottom; }
 	100% { background-position: 0 0,-375px,bottom; }
 }
@@ -792,11 +775,11 @@ min-width:935px;
 max-width:1237px;
 margin-left:auto;
 margin-right:auto;
--moz-animation: scroll4 30s linear infinite;
+animation: scroll4 30s linear infinite;
 } 
 tr:hover .animetitle[href*="/23755/"]:before{top: 100px;}
 
-@-moz-keyframes scroll4{
+@keyframes scroll4{
 	0% { background-position: 0, 50%, 0,0; }
 	100% { background-position: 0, 50%, 0,-2089px; }
 }
@@ -849,11 +832,11 @@ min-width:935px;
 max-width:1237px;
 margin-left:auto;
 margin-right:auto;
--moz-animation: scroll5 30s linear infinite;
+animation: scroll5 30s linear infinite;
 } 
 tr:hover .animetitle[href*="/17074/"]:before{top: 100px;}
 
-@-moz-keyframes scroll5{
+@keyframes scroll5{
 	0% { background-position: 0; }
 	100% { background-position: -1200px; }
 }
@@ -949,7 +932,6 @@ max-width:1237px;
 margin-left:auto;
 margin-right:auto;
 animation: sparkle2 15s linear infinite;
--webkit-animation: sparkle2 15s linear infinite;
 } 
 tr:hover .animetitle[href*="/30276/"]:before{top: 100px;}
 tr:hover .animetitle[href*="/30276/"]:hover:before{background: url('https://myanimelist.cdn-dena.com/images/anime/12/76049.jpg');}
@@ -989,7 +971,6 @@ max-width:1237px;
 margin-left:auto;
 margin-right:auto;
 animation: sparkle2 15s linear infinite;
--webkit-animation: sparkle2 15s linear infinite;
 } 
 tr:hover .animetitle[href*="/30654/"]:before{top: 100px;}
 
