@@ -1771,10 +1771,6 @@ tr:hover .animetitle[href*="/16732/"]:before{
 background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kiniro.gif);
 background-size:auto 291px;top: 100px;
 }
-tr:hover .animetitle[href*="/16732/"]:hover{
-    background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kiniro1.png);
-    background-size:100%;  
-}
 
 /* Sabagebu */
 tr:hover .animetitle[href*="/20709/"]{
