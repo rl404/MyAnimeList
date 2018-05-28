@@ -437,7 +437,8 @@ tr:hover .animetitle[href*="/7311/"]:before{top: 100px;}
 
 /* mirai nikki */
 tr:hover .animetitle[href*="/10620/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/mirainikki.png);
+background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/mirainikki2.png),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/mirainikki.png);
 background-size:100%;	
 box-shadow: inset 0px 0px 100px -20px rgba(255,0,0,0.5);
 width:100%;
@@ -450,7 +451,8 @@ margin-left:auto;
 margin-right:auto;} 
 tr:hover .animetitle[href*="/10620/"]:before{top: 100px;}
 tr:hover .animetitle[href*="/10620/"]:hover{   
-	background: none;
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/mirainikki.png);
+    background-size:100%;
 	box-shadow: inset 0px 0px 0px 0px;  
 }
 
@@ -494,8 +496,7 @@ min-width:935px;
 max-width:1237px;
 margin-left:auto;
 margin-right:auto;
-    animation: sparkle2 15s linear infinite;
--webkit-animation: sparkle2 15s linear infinite;
+animation: sparkle2 15s linear infinite;
 } 
 tr:hover .animetitle[href*="/11741/"]:before{top: 100px;}
 
