@@ -1,439 +1,251 @@
 /* size 1210x420 */
+tr:hover td div small a[id*="xmenu"] {
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    color: transparent;
+    top: 0px;
+}
 
 /* No game no life */
-tr:hover .animetitle[href*="/19815/"]{
-background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/shiro.png) no-repeat,
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
-	url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ngnl.png');
-background-size: 200px,auto,420px,1000px,100%;	
-width:100%;
-height:385px;
-top: -15px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-border:1px;
-padding-top: 35px;
-animation: shiro 15s linear infinite;
+tr:hover #xmenu19815 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/shiro.png) no-repeat,
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
+    	url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ngnl.png');
+    background-size: 200px, auto, 420px, 1000px, 100%;	
+    width: 100%;
+    border: 1px;
+    animation: shiro 15s linear infinite;
 }
-tr:hover .animetitle[href*="/19815/"]:before{top: 100px;}
 
 @keyframes shiro {
-    0% { background-position: calc(100% + 200px) 100%,0 0,0 0, 0 0,top; }
-    50% { background-position: 100% 100%,0 -150px,0 -420px, 0 -1000px,top; }
-    100% { background-position: calc(100% + 600px) 100%,0 -300px, 0 -840px, 0px -2000px,top; }
+    0% { background-position: calc(100% + 200px) 100%, 0 0, 0 0, 0 0, top; }
+    50% { background-position: 100% 100%, 0 -150px, 0 -420px, 0 -1000px, top; }
+    100% { background-position: calc(100% + 600px) 100%, 0 -300px, 0 -840px, 0px -2000px, top; }
 }
 
 /* Angel beats */
-tr:hover .animetitle[href*="/6547/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ab.png);
-background-size:100%,100%;
-background-repeat: no-repeat;
-background-position: 100% 100%, top center; 
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;    
-animation: ab 15s linear ;
+tr:hover #xmenu6547 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ab.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 100%, top center;
+    animation: ab 15s linear ;
 } 
-tr:hover .animetitle[href*="/6547/"]:before{top: 100px;}
 
 @keyframes ab {
-    0% { background-position:100% 100%, bottom center; }
-    100% { background-position: 100% 100%, top center ; }
+    0% { background-position: 100% 100%, bottom center; }
+    100% { background-position: 100% 100%, top center; }
 }
 
 /* Kotonoha no niwa */
-tr:hover .animetitle[href*="/16782/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
-	url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gow.png');
-background-size:747px 5000px,747px 1000px,747px,100%;
-background-position: 0 0, 50% 0,0 0, center;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu16782 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
+    	url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gow.png');
+    background-size: 747px 5000px, 747px 1000px, 747px, 100%;
+    background-position: 0 0, 50% 0, 0 0, center;
 } 
-tr:hover .animetitle[href*="/16782/"]:before{top: 100px;}
 
 /* Gurren Lagann */
-tr:hover .animetitle[href*="/2001/"]{
-background-image:url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ttgl.png'),
-  	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ttgl2.gif);
-background-size:100%,200px;
-background-repeat: no-repeat;
-background-position: bottom center,-20% 100%; 
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;    
-animation: ttgl 15s linear ;
+tr:hover #xmenu2001 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ttgl.png),
+      	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ttgl2.gif);
+    background-size: 100%, 200px;
+    background-repeat: no-repeat;
+    background-position: bottom center,-20% 100%; 
+    animation: ttgl 15s linear ;
 } 
-tr:hover .animetitle[href*="/2001/"]:before{top: 100px;}
 
 @keyframes ttgl {
     0% { background-position: top center, 130% 100%; }
     100% { background-position: bottom center, -20% 100%; }
 }
 
-
 /* Clannad */
-tr:hover .animetitle[href*="/2167/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),   
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/clannad.png);
-background-size:100%, 15%,30%,100%,100%;     
-background-position: 0 0, 20% 0,0 0,0 0,center; 
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu2167 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),   
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/clannad.png);
+    background-size: 100%, 15%, 30%, 100%, 100%;     
+    background-position: 0 0, 20% 0, 0 0, 0 0, center;
 } 
-tr:hover .animetitle[href*="/2167/"]:before{top: 100px;}
 
 /* clannad after story */
-tr:hover .animetitle[href*="/4181/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/star1.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/star1.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/star2.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/clannadas.png);
-background-size:auto,420px,1000px,auto;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-animation: sparkle2 15s linear infinite;
+tr:hover #xmenu4181 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/star1.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/star1.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/star2.png),
+    	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/clannadas.png);
+    background-size: auto, 420px, 1000px, auto;	
+    animation: sparkle2 15s linear infinite;
 } 
-tr:hover .animetitle[href*="/4181/"]:before{top: 100px;}
 
 @keyframes sparkle2 {
-    0% { background-position: 0 0, 0 0, 0 0,0 0; }
-    100% { background-position: 0 -300px, 0px -840px, 0px -2000px,0 0; }
+    0% { background-position: 0 0, 0 0, 0 0, 0 0; }
+    100% { background-position: 0 -300px, 0px -840px, 0px -2000px, 0 0; }
 }
 
 /* STEINS GATE */
-tr:hover .animetitle[href*="/9253/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sg3.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sg2.gif),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sg.png);
-background-size: 200px,150px,100%;	
-background-repeat: no-repeat;
-background-position: 100% 200%,0% -50%, center;
-width:100%;
-height:385px;
-top: -15px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-border:1px;
-padding-top: 35px;
-animation: sg 12s linear infinite;
+tr:hover #xmenu9253 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sg3.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sg2.gif),
+    	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sg.png);
+    background-size: 200px, 150px, 100%;	
+    background-repeat: no-repeat;
+    background-position: 100% 200%, 0% -50%, center;
+    animation: sg 12s linear infinite;
 }
-tr:hover .animetitle[href*="/9253/"]:before{top: 100px;}
 
 @keyframes sg {
-    0% { background-position: 100% 200%,0% -50%, center;}
-    16.5% { background-position: 100% 100%,0% -50%, center; }
-    33.2% { background-position: 100% 100%,0% -50%, center; }
-    50% { background-position: 100% 200%,0% -50%, center; }
-    54% { background-position: 100% 200%,0% 0%, center; }
-    98% { background-position: 100% 200%,0% 0%, center; }
-    100% {background-position: 100% 200%,0% -50%, center;}
+    0% { background-position: 100% 200%, 0% -50%, center;}
+    16.5% { background-position: 100% 100%, 0% -50%, center; }
+    33.2% { background-position: 100% 100%, 0% -50%, center; }
+    50% { background-position: 100% 200%, 0% -50%, center; }
+    54% { background-position: 100% 200%, 0% 0%, center; }
+    98% { background-position: 100% 200%, 0% 0%, center; }
+    100% {background-position: 100% 200%, 0% -50%, center;}
 }
 
 /* UBW */
-tr:hover .animetitle[href*="/28701/"],
-tr:hover .animetitle[href*="/22297/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw.gif);
-background-size:100%,100%;	
-background-position: bottom;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu28701,
+tr:hover #xmenu22297 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+    	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw.gif);
+    background-size: 100%, 100%;	
+    background-position: bottom;
 } 
-tr:hover .animetitle[href*="/28701/"]:before,
-tr:hover .animetitle[href*="/22297/"]:before{top: 100px;}
 
 /* madoka */
-tr:hover .animetitle[href*="/9756/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kyubey.gif)left center ;
-background-size:100%,50%;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu9756 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kyubey.gif) left center ;
+    background-size: 100%, 50%;
 } 
-tr:hover .animetitle[href*="/9756/"]:hover:before{content:"";background-image: url('https://myanimelist.cdn-dena.com/images/anime/11/55225.jpg')}
-tr:hover .animetitle[href*="/9756/"]:before{content:"NO!";
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kyubey2.gif) bottom no-repeat;
-background-size: 206px,auto;top: 100px;
-color:red;
-padding-top: 50px; 
-height: 241px;
+
+tr:hover .animetitle[href*="/9756/"]:hover:before {
+    content:"NO!";
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kyubey2.gif) bottom no-repeat;
+    background-size: 206px, auto;
+    color: red;
+    padding-top: 50px; 
+    height: 241px;
 }
 
 /* guilty crown */
-tr:hover .animetitle[href*="/10793/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gc.gif);
-background-size:100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu10793 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gc.gif);
+    background-size: 100%;
 } 
-tr:hover .animetitle[href*="/10793/"]:before{top: 100px;}
 
 /* Neon Genesis Eva */
-tr:hover .animetitle[href*="/30/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/neon.png) center ;
-background-size:100%;   
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-} 
-tr:hover .animetitle[href*="/30/"]:before{top: 100px;}
+tr:hover #xmenu30 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/neon.png) center ;
+    background-size: 100%; 
+}
 
 /* end of eva */
-tr:hover .animetitle[href*="/32/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/eva.png);
-background-size:747px 5000px,747px 1000px,747px,100%;	
-background-position: 0 0, 50% 0,0 0, center;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu32 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/eva.png);
+    background-size: 747px 5000px, 747px 1000px, 747px, 100%;	
+    background-position: 0 0, 50% 0, 0 0, center;
 } 
-tr:hover .animetitle[href*="/32/"]:before{top: 100px;}
 
 /* nichijou */
-tr:hover .animetitle[href*="/10165/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nichijou.gif) left center;
-background-size:100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu10165 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nichijou.gif) left center;
+    background-size: 100%;	
+    width: 100%;
 } 
-tr:hover .animetitle[href*="/10165/"]:before{top: 100px;}
 
 /* akame */
-tr:hover .animetitle[href*="/22199/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/akame.gif);
-background-size:100%,100%;	
-background-position: bottom;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu22199 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+    	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/akame.gif);
+    background-size: 100%, 100%;	
+    background-position: bottom;
 } 
-tr:hover .animetitle[href*="/22199/"]:before{top: 100px;}
 
 /* totoro */
-tr:hover .animetitle[href*="/523/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/totoro.png);
-background-size:747px 5000px,747px 1000px,747px,100%;	
-background-position: 0 0, 50% 0,0 0, center;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu523 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
+    	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/totoro.png);
+    background-size: 747px 5000px, 747px 1000px, 747px, 100%;	
+    background-position: 0 0, 50% 0, 0 0, center;
 } 
-tr:hover .animetitle[href*="/523/"]:before{top: 100px;}
 
 /* 5cm */
-tr:hover .animetitle[href*="/1689/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),   
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm.png);
-background-size:100%, 15%,30%,100%,100%;	 
-background-position: 0 0, 20% 0,0 0,0 0,left bottom; 
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu1689 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),   
+    	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm.png);
+    background-size: 100%, 15%, 30%, 100%, 100%;	 
+    background-position: 0 0, 20% 0, 0 0, 0 0, left bottom;
 } 
-tr:hover .animetitle[href*="/1689/"]:before{top: 100px;}
 
 /* carnival phantasm */
-tr:hover .animetitle[href*="/10012/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/bersercar.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion1.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion3.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion4.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion5.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion6.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion7.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion1.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion2.gif);
-background-size:200px,100%, 755px, 755px, 755px, 755px, 755px, 755px, 755px, 755px, 755px;	
-background-repeat: no-repeat;
-background-position: 150% 100%,0 0, 0 0, 
-    755px 0, 
-    1510px 0,
-    2265px 0,
-    3020px 0,
-    3775px 0,
-    4530px 0,
-    5285px 0,
-    6040px 0;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;    
-animation: cp 72s linear infinite;
+tr:hover #xmenu10012 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/bersercar.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+    	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion1.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion3.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion4.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion5.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion6.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion7.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion1.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/lion2.gif);
+    background-size: 200px, 100%, 755px, 755px, 755px, 755px, 755px, 755px, 755px, 755px, 755px;	
+    background-repeat: no-repeat;
+    background-position: 150% 100%, 0 0, 0 0, 755px 0, 1510px 0, 2265px 0, 3020px 0, 3775px 0, 4530px 0, 5285px 0, 6040px 0;
+    animation: cp 72s linear infinite;
 } 
-tr:hover .animetitle[href*="/10012/"]:before{top: 100px;}
 
 @keyframes cp {
-    0% { background-position: 150% 100%, 0 0, 0 0, 
-	    755px 0, 
-	    1510px 0,
-	    2265px 0,
-	    3020px 0,
-	    3775px 0,
-	    4530px 0,
-	    5285px 0,
-	    6040px 0;}
-    100% {background-position: -6000px 100%, 0 0,-5285px 0,
-    	-4530px 0, 
-	    -3775px 0, 
-	    -3020px 0,
-	    -2265px 0,
-	    -1510px 0,
-	    -755px 0,
-	    0px 0,
-	    755px 0;}
+    0% { background-position: 150% 100%, 0 0, 0 0, 755px 0, 1510px 0, 2265px 0, 3020px 0, 3775px 0, 4530px 0, 5285px 0, 6040px 0;}
+    100% {background-position: -6000px 100%, 0 0, -5285px 0, -4530px 0, -3775px 0, -3020px 0, -2265px 0, -1510px 0, -755px 0, 0px 0, 755px 0;}
 }
 
 /* bakemonogatari */
-tr:hover .animetitle[href*="/5081/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow1.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow1.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow2.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/bakemonogatari.png);
-background-size:auto,420px,1000px,100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-animation: snow1 15s linear infinite;
+tr:hover #xmenu5081 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow1.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow1.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow2.png),
+    	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/bakemonogatari.png);
+    background-size: auto, 420px, 1000px, 100%;
+    animation: snow1 15s linear infinite;
 } 
-tr:hover .animetitle[href*="/5081/"]:before{top: 100px;}
 
 @keyframes snow1 {
-    0% { background-position: 0 -300px, 0px -840px, 0px -2000px,right; }
-    100% { background-position: 0 0, 0 0, 0 0,right; }    
+    0% { background-position: 0 -300px, 0px -840px, 0px -2000px, right; }
+    100% { background-position: 0 0, 0 0, 0 0, right; }    
 }
 
 /* suzumiya haruhi no shoushitsu */
-tr:hover .animetitle[href*="/7311/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow1.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow1.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow2.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/shns.png);
-background-size:auto,420px,1000px,100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-animation: snow1 15s linear infinite;
--webkit-animation: snow1 15s linear infinite;
+tr:hover #xmenu7311 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow1.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow1.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow2.png),
+    	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/shns.png);
+    background-size: auto, 420px, 1000px, 100%;
+    animation: snow1 15s linear infinite;
 } 
-tr:hover .animetitle[href*="/7311/"]:before{top: 100px;}
 
 /* mirai nikki */
 tr:hover .animetitle[href*="/10620/"]{
@@ -482,209 +294,118 @@ background-size:206px;
 }
 
 /* fate zero */
-tr:hover .animetitle[href*="/11741/"]{
-background:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
-    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
-    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/fatezero.png) ;
-background-size:auto,420px,1000px,100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-animation: sparkle2 15s linear infinite;
+tr:hover #xmenu11741 {
+    background: url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
+        url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
+        url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/fatezero.png) ;
+    background-size: auto, 420px, 1000px, 100%;	
+    animation: sparkle2 15s linear infinite;
 } 
-tr:hover .animetitle[href*="/11741/"]:before{top: 100px;}
 
 /* yozakura no quartet */
-tr:hover .animetitle[href*="/18497/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),   
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/yq.png) ;
-background-size:100%, 15%,30%,100%,100%;	 
-background-position: 0 0, 20% 0,0 0,0 0,top; 	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;    
+tr:hover #xmenu18497 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),   
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/yq.png) ;
+    background-size: 100%, 15%, 30%, 100%, 100%;	 
+    background-position: 0 0, 20% 0, 0 0, 0 0, top; 
 } 
-tr:hover .animetitle[href*="/18497/"]:hover:before{background: url('https://myanimelist.cdn-dena.com/images/anime/5/52563.jpg');}
-tr:hover .animetitle[href*="/18497/"]:before{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/yq2.gif) center center no-repeat;
-background-size:481px;top: 100px;
-color:red;
-padding-top: 50px; 
-height: 241px;
+tr:hover .animetitle[href*="/18497/"]:hover:before {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/yq2.gif) center center no-repeat;
+    background-size: 481px;
+    padding-top: 50px; 
+    height: 241px;
 }
 
 /* girl und panzer */
-tr:hover .animetitle[href*="/14131/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gup.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gup.png) bottom;
-background-size:100%,2720px,100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-animation: scroll 60s linear infinite;
+tr:hover #xmenu14131 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+    	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gup.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gup.png) bottom;
+    background-size: 100%, 2720px, 100%;
+    animation: scroll 60s linear infinite;
 } 
-tr:hover .animetitle[href*="/14131/"]:before{top: 100px;}
 
-@keyframes scroll{
-	0% { background-position: 0 0,0,bottom; }
-	100% { background-position: 0 0,-2720px,bottom; }
+@keyframes scroll {
+	0% { background-position: 0 0, 0, bottom; }
+	100% { background-position: 0 0, -2720px, bottom; }
 }
 
 /* girls und panzer movie */
-tr:hover .animetitle[href*="/18617/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gup2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gup.png) bottom;
-background-size:100%,819px,100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-animation: scroll2 30s linear infinite;
+tr:hover #xmenu18617 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+    	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gup2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gup.png) bottom;
+    background-size: 100%, 819px, 100%;	
+    animation: scroll2 30s linear infinite;
 } 
-tr:hover .animetitle[href*="/18617/"]:before{top: 100px;}
 
-@keyframes scroll2{
-	0% { background-position: 0 0,0,bottom; }
-	100% { background-position: 0 0,-819px,bottom; }
+@keyframes scroll2 {
+	0% { background-position: 0 0, 0, bottom; }
+	100% { background-position: 0 0, -819px, bottom; }
 }
 
 /* girls und panzer arisu */
-tr:hover .animetitle[href*="/32740/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gup3.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gup.png) bottom;
-background-size:100%,375px,100%;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-animation: scroll3 10s linear infinite;
+tr:hover #xmenu32740 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+    	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gup3.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gup.png) bottom;
+    background-size: 100%, 375px, 100%;
+    animation: scroll3 10s linear infinite;
 } 
-tr:hover .animetitle[href*="/32740/"]:before{top: 100px;}
 
-@keyframes scroll3{
-	0% { background-position: 0 0,0,bottom; }
-	100% { background-position: 0 0,-375px,bottom; }
+@keyframes scroll3 {
+	0% { background-position: 0 0, 0, bottom; }
+	100% { background-position: 0 0, -375px, bottom; }
 }
 
 /* chuunibyou */
-tr:hover .animetitle[href*="/18671/"],
-tr:hover .animetitle[href*="/14741/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/chuuni.png);
-background-size:100%;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-} 
-tr:hover .animetitle[href*="/18671/"]:hover:before{background-image: url('https://myanimelist.cdn-dena.com/images/anime/7/56643.jpg')}
-tr:hover .animetitle[href*="/14741/"]:hover:before{background-image: url('https://myanimelist.cdn-dena.com/images/anime/12/46931.jpg')}
-tr:hover .animetitle[href*="/18671/"]:before,
-tr:hover .animetitle[href*="/14741/"]:before{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/chuuni.gif)left center no-repeat,black;
-background-size: 100%;top: 100px;
+tr:hover #xmenu18671,
+tr:hover #xmenu14741 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/chuuni.png);
+    background-size: 100%;
+}
+
+tr:hover .animetitle[href*="/18671/"]:hover:before,
+tr:hover .animetitle[href*="/14741/"]:hover:before {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/chuuni.gif) left center no-repeat, black;
+    background-size: 100%;
 }
 
 /* kill la kill */
-tr:hover .animetitle[href*="/18679/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/killlakill.png);
-background-size:747px 5000px,747px 1000px,747px,100%;	
-background-position: 0 0, 50% 0,0 0, center;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu18679 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/killlakill.png);
+    background-size: 747px 5000px ,747px 1000px, 747px, 100%;	
+    background-position: 0 0, 50% 0, 0 0, center;
 } 
-tr:hover .animetitle[href*="/18679/"]:before{top: 100px;}
 
 /* noucome */
-tr:hover .animetitle[href*="/19221/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/noucome.png);
-background-size:100%;	 
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;    
+tr:hover #xmenu19221 {
+    background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/noucome.png);
+    background-size: 100%; 
 } 
-tr:hover .animetitle[href*="/19221/"]:hover:before{background: url('https://myanimelist.cdn-dena.com/images/anime/10/53235.jpg');}
-tr:hover .animetitle[href*="/19221/"]:before{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/noucome.gif) top no-repeat;
-background-size:206px 291px;top: 100px;
+tr:hover .animetitle[href*="/19221/"]:hover:before{
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/noucome.gif) top no-repeat;
+    background-size: 206px 291px;
 }
 
 /* outbreak */
-tr:hover .animetitle[href*="/19369/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/outbreak.png);
-background-size:100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu19369 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/outbreak.png);
+    background-size: 100%;
 } 
-tr:hover .animetitle[href*="/19369/"]:before{top: 100px;}
 
 /* akuma no riddle */
-tr:hover .animetitle[href*="/19429/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/anr.png);
-background-size:100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu19429 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/anr.png);
+    background-size: 100%;	
 } 
-tr:hover .animetitle[href*="/19429/"]:before{top: 100px;}
 
 /* hanamonogatari */
 tr:hover .animetitle[href*="/21855/"]{
@@ -708,81 +429,55 @@ background-size:100%;
 
 
 /* tokyo ghoul */
-tr:hover .animetitle[href*="/22319/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/tg.png);
-background-size:747px 5000px,747px 1000px,747px,100%;	
-background-position: 0 0, 50% 0,0 0, center;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu22319 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/tg.png);
+    background-size: 747px 5000px, 747px 1000px, 747px, 100%;	
+    background-position: 0 0, 50% 0, 0 0, center;
 } 
-tr:hover .animetitle[href*="/22319/"]:before{top: 100px;}
 
-tr:hover .animetitle[href*="anime/22319/"]:after {content:"1000 - 7";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color:red;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 5px #777;
-font-size:15px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
-tr:hover .animetitle[href*="anime/22319/"]:hover:after{content: "";}
+tr:hover .animetitle[href*="anime/22319/"]:hover:after {
+    content: "1000 - 7";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: red;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 5px black;
+    font-size: 15px;
+    pointer-events: none;
+    transform: rotate(8deg);
+}
+tr:hover .animetitle[href*="anime/22319/"]:after { content: ""; }
 
 /* shigatsu */
-tr:hover .animetitle[href*="/23273/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),   
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/shigatsu.png) ;
-background-size:100%, 15%,30%,100%,100%;	 
-background-position: 0 0, 20% 0,0 0,0 0,top; 	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;    
+tr:hover #xmenu23273 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),   
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/shigatsu.png) ;
+    background-size: 100%, 15%, 30%, 100%, 100%;	 
+    background-position: 0 0, 20% 0, 0 0, 0 0, top;
 } 
 
 /* nanatsu no taizai */
-tr:hover .animetitle[href*="/23755/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nnt.png) ;
-background-size:747px 5000px,747px 1000px,747px,2089px;	
-background-position:0, 50%, 0, 0;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-animation: scroll4 30s linear infinite;
+tr:hover #xmenu23755 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nnt.png) ;
+    background-size: 747px 5000px, 747px 1000px, 747px, 2089px;	
+    background-position:0, 50%, 0, 0;
+    animation: scroll4 30s linear infinite;
 } 
-tr:hover .animetitle[href*="/23755/"]:before{top: 100px;}
 
-@keyframes scroll4{
-	0% { background-position: 0, 50%, 0,0; }
-	100% { background-position: 0, 50%, 0,-2089px; }
+@keyframes scroll4 {
+	0% { background-position: 0, 50%, 0, 0; }
+	100% { background-position: 0, 50%, 0, -2089px; }
 }
 
 /* kekkai sensen */
@@ -807,173 +502,82 @@ tr:hover .animetitle[href*="/24439/"]:hover{
 }
 
 /* tsukimonogatari */
-tr:hover .animetitle[href*="/28025/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/tsukimonogatari.png);
-background-size:100%;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu28025 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/tsukimonogatari.png);
+    background-size: 100%;
 }
-tr:hover .animetitle[href*="/28025/"]:before{top: 100px;}
 
 /* monogatari 2nd season */
-tr:hover .animetitle[href*="/17074/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/monogatari2nd.png) ;
-background-size:100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-animation: scroll5 30s linear infinite;
-} 
-tr:hover .animetitle[href*="/17074/"]:before{top: 100px;}
+tr:hover #xmenu17074 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/monogatari2nd.png) ;
+    background-size: 100%;
+    animation: scroll5 30s linear infinite;
+}
 
-@keyframes scroll5{
+@keyframes scroll5 {
 	0% { background-position: 0; }
 	100% { background-position: -1200px; }
 }
 
 /* charlotte */
-tr:hover .animetitle[href*="/28999/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/charlotte.png) ;
-background-size:100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu28999 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/charlotte.png) ;
+    background-size: 100%;	
 } 
-tr:hover .animetitle[href*="/28999/"]:before{top: 100px;}
 
 /* grisaia no rakuen */
-tr:hover .animetitle[href*="/17729/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rakuen.png);
-background-size:100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu17729 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rakuen.png);
+    background-size: 100%;
 } 
-tr:hover .animetitle[href*="/17729/"]:before{top: 100px;}
 
 /* grisaia no kajitsu */
-tr:hover .animetitle[href*="/29095/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kajitsu.png);
-background-size:100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu29095 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kajitsu.png);
+    background-size: 100%;	
 } 
-tr:hover .animetitle[href*="/29095/"]:before{top: 100px;}
 
 /* grisaia 0 */
-tr:hover .animetitle[href*="/29093/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/grisaia0.png);
-background-size:100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu29093 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/grisaia0.png);
+    background-size: 100%;
 } 
-tr:hover .animetitle[href*="/29093/"]:before{top: 100px;}
 
 /* overlord */
-tr:hover .animetitle[href*="/29803/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/overlord.png);
-background-size:100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu29803 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/overlord.png);
+    background-size:100%;
 } 
-tr:hover .animetitle[href*="/29803/"]:before{top: 100px;}
 
 /* one punch man */
-tr:hover .animetitle[href*="/30276/"]{
-background:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
-    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
-    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
-    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Expander/images/opm.png) ;
-background-size:auto,420px,1000px,100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-animation: sparkle2 15s linear infinite;
+tr:hover #xmenu30276 {
+    background: url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
+        url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
+        url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
+        url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Expander/images/opm.png) ;
+    background-size: auto, 420px, 1000px, 100%;	
+    animation: sparkle2 15s linear infinite;
 } 
-tr:hover .animetitle[href*="/30276/"]:before{top: 100px;}
-tr:hover .animetitle[href*="/30276/"]:hover:before{background: url('https://myanimelist.cdn-dena.com/images/anime/12/76049.jpg');}
-tr:hover .animetitle[href*="/30276/"]:before{
-background:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Expander/images/opm2.png) top no-repeat;
-background-size:206px 291px;top: 100px;
+tr:hover .animetitle[href*="/30276/"]:hover:before {
+    background: url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Expander/images/opm2.png) top no-repeat;
+    background-size: 206px 291px;
 }
 
 /* ansatsu */
-tr:hover .animetitle[href*="/24833/"]{
-background-image:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Expander/images/ansatsu.png);
-background-size:100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu24833 {
+    background: url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Expander/images/ansatsu.png);
+    background-size: 100%;
 } 
-tr:hover .animetitle[href*="/24833/"]:before{top: 100px;}
 
 /* ansatsu 2 */
-tr:hover .animetitle[href*="/30654/"]{
-background-image:url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
-    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
-    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
-    url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Expander/images/ansatsu2.png);
-background-size:auto,420px,1000px,100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-animation: sparkle2 15s linear infinite;
+tr:hover #xmenu30654 {
+    background: url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
+        url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
+        url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Madoka/images/star2.png),
+        url(https://cdn.rawgit.com/rl404/MyAnimeList/master/Expander/images/ansatsu2.png);
+    background-size: auto, 420px, 1000px, 100%;	
+    animation: sparkle2 15s linear infinite;
 } 
-tr:hover .animetitle[href*="/30654/"]:before{top: 100px;}
 
 /* konosuba */
 tr:hover .animetitle[href*="/30831/"]{
@@ -1036,200 +640,92 @@ background-size:100%;
 }
 
 /* owarimonogatari */
-tr:hover .animetitle[href*="/31181/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/owarimonogatari.png) center ;
-background-size:100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu31181 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/owarimonogatari.png) center ;
+	background-size: 100%;	
 } 
-tr:hover .animetitle[href*="/31181/"]:before{top: 100px;}
 
 /* owarimonogatari 2 */
-tr:hover .animetitle[href*="/35247/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/owarimonogatari2.gif) top center ;
-background-size:100%;   
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu35247 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/owarimonogatari2.gif) top center ;
+	background-size: 100%;
 } 
-tr:hover .animetitle[href*="/35247/"]:before{top: 100px;}
 
 /* flying witch */
-tr:hover .animetitle[href*="/31376/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/flyingwitch.png) ;
-background-size:100%;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu31376 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/flyingwitch.png) ;
+	background-size: 100%;
 }
-tr:hover .animetitle[href*="/31376/"]:before{top: 100px;}
 
 /* sao os */
-tr:hover .animetitle[href*="/31765/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/saoos.png) center;
-background-size:100%;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu31765 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/saoos.png) center;
+	background-size: 100%;
 }
-tr:hover .animetitle[href*="/31765/"]:before{top: 100px;}
 
 /* konobi */
-tr:hover .animetitle[href*="/31952/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/konobi.png) center;
-background-size:100%;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu31952 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/konobi.png) center;
+	background-size: 100%;
 }
-tr:hover .animetitle[href*="/31952/"]:before{top: 100px;}
-tr:hover .animetitle[href*="/31952/"]:hover:before{background: url('https://myanimelist.cdn-dena.com/images/anime/3/80688.jpg');}
-tr:hover .animetitle[href*="/31952/"]:before{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/konobi.gif);
-background-size:206px 291px;top: 100px;
+tr:hover .animetitle[href*="/31952/"]:hover:before {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/konobi.gif);
+	background-size: 206px 291px;
 }
 
 /* kimi no na wa */
-tr:hover .animetitle[href*="/32281/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kiminonawa.png);
-background-size:100%;	
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu32281 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kiminonawa.png);
+	background-size: 100%;
 } 
-tr:hover .animetitle[href*="/32281/"]:before{top: 100px;}
 
 /* Kizumonogatari 1 */
-tr:hover .animetitle[href*="/9260/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kz1.png);
-background-size:100%;   
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;} 
-tr:hover .animetitle[href*="/9260/"]:before{top: 100px;}
+tr:hover #xmenu9260 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kz1.png);
+	background-size: 100%;
+} 
 
 /* Kizumonogatari 2 */
-tr:hover .animetitle[href*="/31757/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain-30.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain-30.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain-30.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kz2.png);
-background-size:30%,50%,0,100%;
-background-position: 0 0, 50% 0,25% 0, center;
-background-repeat:repeat;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu31757 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain-30.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain-30.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain-30.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kz2.png);
+	background-size: 30%, 50%, 0, 100%;
+	background-position: 0 0, 50% 0, 25% 0, center;
+	background-repeat: repeat;
 } 
-tr:hover .animetitle[href*="/31757/"]:before{top: 100px;}
 
 /* Kizumonogatari 3 */
-tr:hover .animetitle[href*="/31758/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kz3.png) center ;
-background-size:100%;   
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu31758 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kz3.png) center ;
+	background-size: 100%; 
 } 
-tr:hover .animetitle[href*="/31758/"]:before{top: 100px;}
 
 /* Nekomonogatari */
-tr:hover .animetitle[href*="/15689/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/neko.gif) top center;
-background-size:100%;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu15689 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+		url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/neko.gif) top center;
+	background-size:100%;
 }
-tr:hover .animetitle[href*="/15689/"]:before{top: 100px;}
 
 /* Cromartie high school */
-tr:hover .animetitle[href*="/114/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/cromartie.gif) top center ;
-background-size:100%;   
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu114 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/cromartie.gif) top center ;
+	background-size:100%;  
 } 
-tr:hover .animetitle[href*="/114/"]:before{top: 100px;}
 
 /* Spirited away */
-tr:hover .animetitle[href*="/199/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sa.png);
-background-size:747px 5000px,747px 1000px,747px,100%;
-background-position: 0 0, 50% 0,0 0, center;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu199 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sa.png);
+	background-size: 747px 5000px, 747px 1000px, 747px, 100%;
+	background-position: 0 0, 50% 0, 0 0, center;
 } 
-tr:hover .animetitle[href*="/199/"]:before{top: 100px;}
 
 /* seto no hayanome */
 tr:hover .animetitle[href*="/2104/"]{
@@ -1277,24 +773,14 @@ background-size:100%;
 }
 
 /* Eva 2 */
-tr:hover .animetitle[href*="/3784/"]{
-background-image:
-url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/eva2.png);
-background-size:747px 5000px,747px 1000px,747px,100%;
-background-position: 0 0,0 0, 50% 0,0 0,center;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu3784 {
+	background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/eva2.png);
+	background-size: 747px 5000px, 747px 1000px, 747px, 100%;
+	background-position: 0 0, 0 0, 50% 0, 0 0, center;
 } 
-tr:hover .animetitle[href*="/3784/"]:before{top: 100px;}
 
 /* tokyo mag */
 tr:hover .animetitle[href*="/6211/"]{
@@ -1308,8 +794,7 @@ min-width:935px;
 max-width:1237px;
 margin-left:auto;
 margin-right:auto;
-animation: shake2 0.5s !important; 
-animation-iteration-count: infinite !important; 
+animation: shake2 0.5s infinite !important; 
 } 
 tr:hover .animetitle[href*="/6211/"]:before{top: 100px;}
 tr:hover .animetitle[href*="/6211/"]:hover{
@@ -1331,377 +816,211 @@ tr:hover .animetitle[href*="/6211/"]:hover{
 }
 
 /* Anohana */
-tr:hover .animetitle[href*="/9989/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/flower1.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/flower2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/anohana.png);
-background-size:100%,150px,150px,100%;
-background-repeat: repeat;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-animation: snow2 15s linear infinite;
+tr:hover #xmenu9989 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/flower1.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/flower2.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/anohana.png);
+	background-size: 100%, 150px, 150px, 100%;
+	background-repeat: repeat;
+	animation: snow2 15s linear infinite;
 } 
-tr:hover .animetitle[href*="/9989/"]:hover:before{content:''; 
-background-image: url('https://myanimelist.cdn-dena.com/images/anime/5/79697.jpg');
-}
-tr:hover .animetitle[href*="/9989/"]:before{content:'I found you ;_;';
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/anohana2.png);
-background-size: 206px;
-top: 100px;
-color:#0D1B2B;
-padding-top: 10px; 
-height: 281px;
+
+tr:hover .animetitle[href*="/9989/"]:hover:before {
+	content: 'I found you ;_;';
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/anohana2.png);
+	background-size: 206px;
+	color: #0D1B2B;
+	padding-top: 10px; 
+	height: 281px;
 }
 
 @keyframes snow2 {
-    0% { background-position: 0 0, 0 -300px,70px -300px, center; }
-    100% { background-position: 0 0,0 0,70px 0,center; }    
+    0% { background-position: 0 0, 0 -300px, 70px -300px, center; }
+    100% { background-position: 0 0, 0 0, 70px 0, center; }    
 }
 
 /* yuru yuri */
-tr:hover .animetitle[href*="/10495/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y1.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y2.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y3.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y4.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y5.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y6.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y7.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y8.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y1.png),
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y2.png);
-background-size:100%, 673px,673px,673px,673px,673px,673px,673px,673px,673px,673px;	
-background-repeat: no-repeat;
-background-position: 0 0, 0 0, 
-    673px 0, 
-    1346px 0,
-    2019px 0,
-    2692px 0,
-    3365px 0,
-    4038px 0,
-    4711px 0,
-    5384px 0,
-    6057px 0;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;    
-animation: cp2 72s linear infinite;
-} 
-tr:hover .animetitle[href*="/10495/"]:hover:before{background:0, 0,url('https://myanimelist.cdn-dena.com/images/anime/2/52921.jpg') center;}
-tr:hover .animetitle[href*="/10495/"]:before{
-background:url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/yuru.png') no-repeat,
-	url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-	url('https://myanimelist.cdn-dena.com/images/anime/2/52921.jpg');
-background-position:0 0, 0 0,center;
-background-size: auto 291px,100%,auto;
-top: 100px;
-animation: yuru 5s ease-out;
+tr:hover #xmenu10495 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+		url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y1.png),
+		url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y2.png),
+		url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y3.png),
+		url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y4.png),
+		url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y5.png),
+		url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y6.png),
+		url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y7.png),
+		url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y8.png),
+		url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y1.png),
+		url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/y2.png);
+	background-size: 100%, 673px, 673px, 673px, 673px, 673px, 673px, 673px, 673px, 673px, 673px;	
+	background-repeat: no-repeat;
+	background-position: 0 0, 0 0, 673px 0, 1346px 0, 2019px 0, 2692px 0, 3365px 0, 4038px 0, 4711px 0, 5384px 0, 6057px 0;
+	animation: cp2 72s linear infinite;
+}
+tr:hover .animetitle[href*="/10495/"]:hover:before {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/yuru.png) no-repeat,
+		url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+		url(https://myanimelist.cdn-dena.com/images/anime/2/52921.jpg);
+	background-position: 0 0, 0 0, center;
+	background-size: auto 291px, 100%, auto;
+	animation: yuru 5s ease-out;
 }
 
 @keyframes yuru {
-	0% {background-position: -206px 0, 0 0,center;}
-	100% {background-position: 0 0, 0 0,center;}
+	0% { background-position: -206px 0, 0 0, center;}
+	100% { background-position: 0 0, 0 0, center;}
 }
 
 @keyframes cp2 {
-    0% { background-position: 0 0, 0 0, 
-	    673px 0, 
-		1346px 0,
-		2019px 0,
-		2692px 0,
-		3365px 0,
-		4038px 0,
-		4711px 0,
-		5384px 0,
-		6057px 0;}
-    100% {background-position: 0 0, -5384px 0,
-    	-4711px 0,
-    	-4038px 0, 
-	    -3365px 0, 
-	    -2692px 0,
-	    -2019px 0,
-	    -1346px 0,
-	    -673px 0,
-	    0px 0,
-	    673px 0;}
+    0% { background-position: 0 0, 0 0, 673px 0, 1346px 0, 2019px 0, 2692px 0, 3365px 0, 4038px 0, 4711px 0, 5384px 0, 6057px 0;}
+    100% {background-position: 0 0, -5384px 0, -4711px 0, -4038px 0, -3365px 0, -2692px 0, -2019px 0, -1346px 0, -673px 0, 0px 0, 673px 0;}
 }
 
 /* Another */
-tr:hover .animetitle[href*="/11111/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/another.png);
-background-size:747px 5000px,747px 1000px,747px,100%;	
-background-position: 0 0, 50% 0,0 0, center;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu11111 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/another.png);
+	background-size: 747px 5000px, 747px 1000px, 747px, 100%;	
+	background-position: 0 0, 50% 0, 0 0, center;
 } 
-tr:hover .animetitle[href*="/11111/"]:before{top: 100px;}
 
 /* Black Rock Shooter */
-tr:hover .animetitle[href*="/11285/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/brs.gif) center ;
-background-size:100%;   
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu11285 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/brs.gif) center ;
+	background-size: 100%;
 }
-tr:hover .animetitle[href*="/11285/"]:hover:before{background-image: url('https://myanimelist.cdn-dena.com/images/anime/5/53909.jpg')}
-tr:hover .animetitle[href*="/11285/"]:before{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/brs2.gif) center;
-top: 100px;
+tr:hover .animetitle[href*="/11285/"]:hover:before {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/brs2.gif) center;
 	background-size: auto 291px;
 }
 
 /* Index */
-tr:hover .animetitle[href*="/11743/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/index.png) no-repeat;
-background-size:auto 100%;	
-background-position: -10px 0;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-animation: index 5s ease-out;
+tr:hover #xmenu11743 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/index.png) no-repeat;
+	background-size:auto 100%;	
+	background-position: -10px 0;
+	animation: index 5s ease-out;
 } 
-tr:hover .animetitle[href*="/11743/"]:before{top: 100px;}
 
 @keyframes index {
-	0% {background-position: -200px 0;}
-	100% {background-position: -10px 0;}
+	0% { background-position: -200px 0;}
+	100% { background-position: -10px 0;}
 }
 
 /* sao */
-tr:hover .animetitle[href*="/11757/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sao2.png) no-repeat,
-url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sao.png);
-background-size: 300px, 100%;	
-background-position: left bottom, 0 0;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-animation: sao 5s ease-out;
+tr:hover #xmenu11757 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sao2.png) no-repeat,
+		url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sao.png);
+	background-size: 300px, 100%;	
+	background-position: left bottom, 0 0;
+	animation: sao 5s ease-out;
 } 
-tr:hover .animetitle[href*="/11757/"]:before{top: 100px;}
 
 @keyframes sao {
-	0% {background-position: left calc(100% + 200px), 0 0;}
-	100% {background-position: left bottom, 0 0;}
+	0% { background-position: left calc(100% + 200px), 0 0;}
+	100% { background-position: left bottom, 0 0;}
 }
 
 /* Summer Wars */
-tr:hover .animetitle[href*="/5681/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sw.png) center ;
-background-size:100%;   
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu5681 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sw.png) center ;
+	background-size: 100%;
 } 
-tr:hover .animetitle[href*="/5681/"]:before{top: 100px;}
 
 /* Koe no katachi */
-tr:hover .animetitle[href*="/28851/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),   
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/koenokatachi2.png);
-background-size:100%, 15%,30%,100%,100%;     
-background-position: 0 0, 20% 0,0 0,0 0,center; 
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu28851 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),   
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/koenokatachi2.png);
+	background-size: 100%, 15%, 30%, 100%, 100%;     
+	background-position: 0 0, 20% 0, 0 0, 0 0, center; 
 } 
-tr:hover .animetitle[href*="/28851/"]:before{top: 100px;}
 
 /* Rezero */
-tr:hover .animetitle[href*="/31240/"]{
-background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rezero.png);
-background-size:100%;   
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-animation: rezero 5s linear;
+tr:hover #xmenu31240 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rezero.png);
+	background-size: 100%; 
+	animation: rezero 5s linear;
 } 
-tr:hover .animetitle[href*="/31240/"]:before{top: 100px;}
 
 /* Nourin */
-tr:hover .animetitle[href*="/18095/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin1.png) center;
-background-size:100%;    
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto; 
-animation: nourin 10s linear infinite;   
+tr:hover #xmenu18095 {
+	background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin1.png) center;
+	background-size: 100%;
+	animation: nourin 10s linear infinite;   
 } 
-tr:hover .animetitle[href*="/18095/"]:hover:before{background-image: url('https://myanimelist.cdn-dena.com/images/anime/6/57563.jpg')}
-tr:hover .animetitle[href*="/18095/"]:before{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin3.png);
-background-size:206px 291px;top: 100px;
+tr:hover .animetitle[href*="/18095/"]:hover:before {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin3.png);
+	background-size: 206px 291px;
 }
 
 @keyframes nourin {
-    0% { background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin1.png) center;}
+    0% { background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin1.png) center;}
     45% { background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin1.png) center;}
     50% { background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin2.png) center;}
-    95% { background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin2.png) center;}
-    100% { background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin1.png) center;}
+    95% { background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin2.png) center;}
+    100% { background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nourin1.png) center;}
 }
 
 /* princess principal */
-tr:hover .animetitle[href*="/35240/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/pp.png);
-background-size:100%;   
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu35240 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/pp.png);
+	background-size: 100%; 
 } 
-tr:hover .animetitle[href*="/35240/"]:before{top: 100px;}
 
 /* Denki-gai */
-tr:hover .animetitle[href*="/24031/"]{
-background:
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/denki1.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/denki2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/denki3.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/denki4.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/denki5.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/denki6.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/denki7.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/denki1.png);
-background-size: 1300px;    
-background-repeat: no-repeat;
-background-position: 0,1300px, 2600px,3900px,5200px,6500px,7800px, 9100px;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;    
-animation: denki 72s linear infinite;
+tr:hover #xmenu24031 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/denki1.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/denki2.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/denki3.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/denki4.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/denki5.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/denki6.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/denki7.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/denki1.png);
+	background-size: 1300px;    
+	background-repeat: no-repeat;
+	background-position: 0, 1300px, 2600px, 3900px, 5200px, 6500px, 7800px, 9100px;
+	animation: denki 72s linear infinite;
 } 
-tr:hover .animetitle[href*="/24031/"]:before{top: 100px;}
 
 @keyframes denki {
-    0% { background-position: 0,1300px, 2600px,3900px,5200px,6500px,7800px, 9100px;}
-    100% {background-position: -9100px,-7800px,-6500px,-5200px,-3900px,-2600px,-1300px,0;}
+    0% { background-position: 0,1300px, 2600px, 3900px, 5200px, 6500px, 7800px, 9100px;}
+    100% { background-position: -9100px, -7800px, -6500px, -5200px, -3900px, -2600px, -1300px, 0;}
 }
 
 /* Madoka movie 3 */
-tr:hover .animetitle[href*="/11981/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/madoka2.png);
-background-size:100%;   
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu11981 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/madoka2.png);
+	background-size: 100%; 
 } 
-tr:hover .animetitle[href*="/11981/"]:before{top: 100px;}
 
 /* Ookami wolf children */
-tr:hover .animetitle[href*="/12355/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow1.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow1.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/wolf.png);
-background-size:auto,420px,1000px,100%; 
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-animation: snow1 15s linear infinite;
+tr:hover #xmenu12355 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow1.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow1.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow2.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/wolf.png);
+	background-size: auto, 420px, 1000px, 100%;
+	animation: snow1 15s linear infinite;
 } 
-tr:hover .animetitle[href*="/12355/"]:before{top: 100px;}
 
 /* Sakurasou */
-tr:hover .animetitle[href*="/13759/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),   
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sakurasou.jpg) ;
-background-size:100%, 15%,30%,100%,100%;     
-background-position: 0 0, 20% 0,0 0,0 0,top;    
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;    
+tr:hover #xmenu13759 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/5cm2.gif),   
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sakurasou.jpg) ;
+	background-size: 100%, 15%, 30%, 100%, 100%;     
+	background-position: 0 0, 20% 0, 0 0, 0 0, top;
 } 
-tr:hover .animetitle[href*="/13759/"]:before{top: 100px;}
 
 /* Railgun s2 */
 tr:hover .animetitle[href*="/16049/"]{
@@ -1724,53 +1043,34 @@ tr:hover .animetitle[href*="/16049/"]:hover{
 }
 
 /* Ai mai mi */
-tr:hover .animetitle[href*="/16169/"],
-tr:hover .animetitle[href*="/23551/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/aimaimi1.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/aimaimi2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/aimaimi3.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/aimaimi4.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/aimaimi5.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/aimaimi1.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/aimaimi2.gif);
-background-size:100%, 840px,840px,840px,840px,840px,840px,840px;    
-background-repeat: no-repeat;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;    
-animation: aimai 72s linear infinite;
+tr:hover #xmenu16169,
+tr:hover #xmenu23551 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/aimaimi1.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/aimaimi2.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/aimaimi3.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/aimaimi4.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/aimaimi5.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/aimaimi1.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/aimaimi2.gif);
+	background-size: 100%, 840px, 840px, 840px, 840px, 840px, 840px, 840px;    
+	background-repeat: no-repeat;
+	animation: aimai 72s linear infinite;
 } 
-tr:hover .animetitle[href*="/16169/"]:before,
-tr:hover .animetitle[href*="/23551/"]:before{top: 100px;}
 
 @keyframes aimai {
-    0% { background-position: 0 0,0 0,840px,1680px,2520px,3360px,4110px,4950px;}
-    100% {background-position: 0 0,-4110px 0,-3360px 0,-2520px 0,-1680px 0,-840px 0,0px 0,840px 0;}
+    0% { background-position: 0 0, 0 0, 840px, 1680px, 2520px, 3360px, 4110px, 4950px;}
+    100% { background-position: 0 0, -4110px 0, -3360px 0, -2520px 0, -1680px 0, -840px 0, 0px 0, 840px 0;}
 }
 
 /* Kiniro mosaic */
-tr:hover .animetitle[href*="/16732/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kiniro2.png);
-background-size:100%;    
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto; 
+tr:hover #xmenu16732 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kiniro2.png);
+	background-size: 100%;  
 } 
-tr:hover .animetitle[href*="/16732/"]:hover:before{background-image: url('https://myanimelist.cdn-dena.com/images/anime/8/51379.jpg')}
-tr:hover .animetitle[href*="/16732/"]:before{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kiniro.gif);
-background-size:auto 291px;top: 100px;
+tr:hover .animetitle[href*="/16732/"]:hover:before {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kiniro.gif);
+	background-size: auto 291px;
 }
 
 /* Sabagebu */
@@ -1818,44 +1118,23 @@ animation: yuru 5s ease-out;
 }
 
 /* Kiseijuu parasyte */
-tr:hover .animetitle[href*="/22535/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kiseijuu.png);
-background-size:747px 5000px,747px 1000px,747px,100%;   
-background-position: 0 0, 50% 0,0 0, center;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu22535 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain2.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kiseijuu.png);
+	background-size: 747px 5000px, 747px 1000px, 747px, 100%;   
+	background-position: 0 0, 50% 0, 0 0, center;
 } 
-tr:hover .animetitle[href*="/32/"]:before{top: 100px;}
 
 /* Himegoto */
-tr:hover .animetitle[href*="/22835/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/himegoto.png);
-background-size:1525px;   
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
-animation: himegoto 15s linear infinite;
+tr:hover #xmenu22835 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/himegoto.png);
+	background-size: 1525px; 
+	animation: himegoto 15s linear infinite;
 } 
-tr:hover .animetitle[href*="/22835/"]:before{
-    top: 100px;
-    background-image: url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/trap.jpeg');
-}
-tr:hover .animetitle[href*="/22835/"]:hover::before{
-background-image: url('https://myanimelist.cdn-dena.com/images/anime/8/75226.jpg')
+tr:hover .animetitle[href*="/22835/"]:hover:before {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/trap.jpeg);
 }
 
 @keyframes himegoto {
@@ -1864,53 +1143,26 @@ background-image: url('https://myanimelist.cdn-dena.com/images/anime/8/75226.jpg
 }
 
 /* re hamatora */
-tr:hover .animetitle[href*="/23421/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rehamatora.png);
-background-size:100%;   
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu23421 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rehamatora.png);
+	background-size: 100%; 
 } 
-tr:hover .animetitle[href*="/23421/"]:before{top: 100px;}
 
 /* Ars nova movie arpeggio */
-tr:hover .animetitle[href*="/24921/"]{
-background:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/arpeggio.png) center;
-background-size:100%;   
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu24921 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/arpeggio.png) center;
+	background-size: 100%;   
 } 
-tr:hover .animetitle[href*="/24921/"]:before{top: 100px;}
 
 /* Kancolle movie */
-tr:hover .animetitle[href*="/31418/"]{
-background-image:url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/fubuki.png);
-background-size:747px 5000px,747px 1000px,747px,100%;
-background-position: 0 0, 50% 0,0 0, center;
-width:100%;
-height:385px;
-top: -15px;
-padding-top: 35px;
-min-width:935px;
-max-width:1237px;
-margin-left:auto;
-margin-right:auto;
+tr:hover #xmenu31418 {
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rain.gif),
+	    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/fubuki.png);
+	background-size: 747px 5000px, 747px 1000px, 747px, 100%;
+	background-position: 0 0, 50% 0, 0 0, center;
 } 
-tr:hover .animetitle[href*="/31418/"]:before{top: 100px;}
 
 /* Gantz movie */
 tr:hover .animetitle[href*="/32071/"]{
