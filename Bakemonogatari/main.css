@@ -54,7 +54,7 @@ body {
     url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/7.jpg),
     url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/8.jpg),
     url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/9.jpg);
-  background-position: 0,0,0,0,0,0,0,0,0,0;
+  background-position: 30px,30px,30px,30px,30px,30px,30px,30px,30px,30px;
   background-size: 300px;
   background-repeat:no-repeat;
   box-shadow: inset 10px 0 0 #fff, inset -10px 0 0 #fff, inset 0 1px 0 #efefef;
@@ -62,23 +62,23 @@ body {
   padding: 0;
   position: absolute;
   top: 240px;
-  left: 30px;
-  width: 300px;
+  width: 360px;
   animation: profilescroll 10s ease-out;
 }
 
 @keyframes profilescroll {
-  0%  {background-position: 300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0;}
-  10% {background-position: 300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,0;}
-  20% {background-position: 300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,0,0;}
-  30% {background-position: 300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,0,0,0;}
-  40% {background-position: 300px 0,300px 0,300px 0,300px 0,300px 0,300px 0,0,0,0,0;}
-  50% {background-position: 300px 0,300px 0,300px 0,300px 0,300px 0,0,0,0,0,0;}
-  60% {background-position: 300px 0,300px 0,300px 0,300px 0,0,0,0,0,0,0;}
-  70% {background-position: 300px 0,300px 0,300px 0,0,0,0,0,0,0,0;}
-  80% {background-position: 300px 0,300px 0,0,0,0,0,0,0,0,0;}
-  90% {background-position: 300px 0,0,0,0,0,0,0,0,0,0;}
-  100% {background-position: 0,0,0,0,0,0,0,0,0,0;}}
+  0%  {background-position: 360px 0,360px 0,360px 0,360px 0,360px 0,360px 0,360px 0,360px 0,360px 0,360px 0;}
+  10% {background-position: 360px 0,360px 0,360px 0,360px 0,360px 0,360px 0,360px 0,360px 0,360px 0,30px;}
+  20% {background-position: 360px 0,360px 0,360px 0,360px 0,360px 0,360px 0,360px 0,360px 0,30px,30px;}
+  30% {background-position: 360px 0,360px 0,360px 0,360px 0,360px 0,360px 0,360px 0,30px,30px,30px;}
+  40% {background-position: 360px 0,360px 0,360px 0,360px 0,360px 0,360px 0,30px,30px,30px,30px;}
+  50% {background-position: 360px 0,360px 0,360px 0,360px 0,360px 0,30px,30px,30px,30px,30px;}
+  60% {background-position: 360px 0,360px 0,360px 0,360px 0,30px,30px,30px,30px,30px,30px;}
+  70% {background-position: 360px 0,360px 0,360px 0,30px,30px,30px,30px,30px,30px,30px;}
+  80% {background-position: 360px 0,360px 0,30px,30px,30px,30px,30px,30px,30px,30px;}
+  90% {background-position: 360px 0,30px,30px,30px,30px,30px,30px,30px,30px,30px;}
+  100% {background-position: 30px,30px,30px,30px,30px,30px,30px,30px,30px,30px;}
+}
 
 #mal_cs_pic a {
   display: block;
