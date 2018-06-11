@@ -827,7 +827,7 @@ tr:hover div[id*="scorediv"] {
 	right: 100px;
 }
 
-tr:hover div[id*="scorediv"] input[type=text] {
+tr:hover div[id*="scorediv"] input[type=text], tr:hover input[id*='epID'] {
 	background-color:transparent;
 	border:solid 1px white;
 	width:50%;
@@ -837,7 +837,7 @@ tr:hover div[id*="scorediv"] input[type=text] {
 	text-align:center;
 }
 
-tr:hover div[id*="scorediv"] input[type=button] {
+tr:hover div[id*="scorediv"] input[type=button], tr:hover span[id*='epLayer'] input:last-of-type {
 	background: none;
     border: none;
     padding: 0;
@@ -845,6 +845,24 @@ tr:hover div[id*="scorediv"] input[type=button] {
     outline: inherit;
 	color:white;
 }
+
+tr:hover span[id*='epLayer'] {
+	position:absolute;
+	width:100px;
+	top:1px;
+	right:50px;
+}
+
+tr:hover input[id*='epID'] {
+	width:50px;
+}
+
+tr:hover span[id*='epLayer'] input:last-of-type {
+	width:50px;
+	position:absolute;
+	right:0px;
+	top:5px;
+}  
 
 /*----- number -----*/
 

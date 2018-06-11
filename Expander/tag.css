@@ -1,0 +1,35 @@
+span[id*='tag'] a[href*='tag=test'] {
+	visibility: visible;
+	position:absolute;
+	right:25%;
+	border: 1px solid red;
+    border-radius: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 1px;
+}
+span[id*='tag'] a[href*='tag=test1'] {
+	right:30%;
+}
+span[id*='tag'] a[href*='tag=test']:hover {
+	background-color: rgba(255,0,0,0.3);
+}
+span[id*='tag'] a[href*='tag=test']:hover:after {
+	content: " asd";
+}
+
+td[class*=td]:nth-child(6):last-child {
+	display:block;
+	position:absolute;
+	right:0px;
+	visibility:hidden;
+	width:100%;
+}
+
+tr:hover td[class*=td]:nth-child(6):last-child {
+	visibility:visible;
+}
+
+tr:hover span[id*='tag'] a[href*='tag=test'] {	
+	top: 0px;
+}
