@@ -937,3 +937,18 @@ transform:rotate(12deg);
 font-size:22px;color:#e00;
 width:165px;height:25px;border-radius:5px;
 border:1px solid #e00;box-shadow:0px 0px 1px #000;}
+
+/* lain */
+tr:hover .animetitle[href*="anime/339/"]:after {content:"Let's All Love Lain";
+position:absolute;
+margin-left:10px;
+margin-top:-2px;
+color: magenta;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px black;
+font-size:13px;
+pointer-events:none;
+transform:rotate(8deg);
+-ms-transform:rotate(8deg);
+-webkit-transform:rotate(8deg);}
