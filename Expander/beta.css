@@ -2,18 +2,41 @@ a, a:visited {
     text-decoration:none !important;
     color:black;
 }
-.header_cw, .header_completed, .header_onhold, .header_dropped, .header_ptw {
-	position:relative;
-	margin-top:-40px !important;
-	margin-bottom:-14px !important;
-	font-size:32px;
-/* 	padding-left:120px; */
-	font-weight:bold;
-	letter-spacing:20px;
-	color:#333;
-	text-shadow:1px 1px 0px rgba(255,255,255,.5), -1px 1px 0px rgba(255,255,255,.5);
-	text-shadow:0px 0px 1px #000;
-	z-index: -1;
+
+/*
+ * POP UP MODAL
+ */
+
+#fancybox-wrap {
+	position: fixed !important;
+	top: 5% !important;
+	bottom: 5%;
+	left: 0px !important;
+	right: 0px !important;
+	width: 1100px !important;
+	height: auto !important;
+	margin: auto !important;
+}
+
+#fancybox-inner {
+	bottom: 10px;
+	width: 1080px !important;
+	height: auto !important;
+}
+
+/* 
+ * BASIC LIST 
+ */
+
+body {
+	background-color:#f2f2f2 !important;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,"Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
+	font-size:13px;
+/* 	background-image:url(http://sig.grumpybumpers.com/host/rl407.gif); */
+	background-repeat:repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
 }
 
 #list_surround {
@@ -23,8 +46,8 @@ a, a:visited {
 	z-index:3;
 	right:0px;
 	width:1000px;
-	min-width:935px;
-	max-width:1237px;
+	/*min-width:935px;*/
+	/*max-width:1237px;*/
 	margin-left:auto;
 	margin-right:auto;
 	top:0px;
@@ -32,13 +55,35 @@ a, a:visited {
 	box-shadow:inset 0px 0px 5px 0px #fff, 0px 0px 5px 0px #000;
 }
 
-.category_totals {
-	font-size:10px;
+#list_surround:before {
+/* 	content:"Go and do some clickie clickie on anime below,\a especially anime with score 9 or higher \a some pretty cool stuff will happen. \a Also, don\'t forget to hover on something inside too."; */
+	position:relative;
+	margin-right:10px;
+	top:10px;
+	float:right;
+	white-space:pre;
 	text-align:right;
-	padding-right:10px;
-	height:20px;
-	line-height:20px;
-	color: rgba(0,0,0,0.5);
+}
+
+/*
+ * TOP BAR
+ */
+
+body:before {
+	content:'';
+	background-color:rgba(255,255,255,.8);
+	background-repeat:repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+	box-shadow:inset 0px 0px 5px 0px #fff, 0px 0px 5px 0px #000;
+	position:absolute;
+	margin-top:0px !important;
+	width:100%;
+	min-width:935px;
+	height:100px;
+	z-index:0;
+	display:block;
 }
 
 #list_surround table:first-of-type {
@@ -154,9 +199,6 @@ a, a:visited {
 .status_selected a:before {color:#fff !important;border-color:#fff !important;}
 .status_selected a:after {color:#fff !important;}
 
-.td1 div small, .td2 div small {display:none;}
-td small {display:none;}
-
 #mal_control_strip {
 	background-image:none !important;
 	background-color:transparent !important;
@@ -256,7 +298,6 @@ td small {display:none;}
 	color:#555;
 	transition:.2s;
 	z-index:2;
-
 }
 
 #mal_control_strip #mal_cs_otherlinks div:nth-child(2) a[href*="/sharedanime.php"] {line-height:35px;}
@@ -298,72 +339,398 @@ td small {display:none;}
 	margin-bottom:5px;
 }
 
-table[class*='header'] tr {
-	width:990px;
-	height:50px;
-	text-align:center;
-	background-color:rgba(0,0,255,0.2);
+/*
+ * HEADER
+ */
+
+table[class*='header_'] {
+	position:relative;
+	font-size:32px;
+	font-weight:bold;
+	letter-spacing:20px;
+	color:#333;
+	text-shadow:1px 1px 0px rgba(255,255,255,.5), -1px 1px 0px rgba(255,255,255,.5);
+	text-shadow:0px 0px 1px #000;
+	z-index: -1;
+}
+
+table[class*='header_'] tr {
+	margin-top:40px;
+	width:990px !important;
+	height:20px !important;
+	border:none !important;
 	display:block;
 }
 
-table {
-	display:inline;
-/* 	background-color:rgba(255,0,0,0.2); */
-	/* background-color: white; */
+table[class*='header'] + table {
+	display:none !important;
 }
 
-table tr {
+.header_title {
+	width: 990px;
+	height:20px;
+	background-color:rgba(0,0,0,.4);
+	box-shadow:-15px 0px 0px rgba(0,0,0,.4),15px 0px 0px rgba(0,0,0,.4);
+}
+
+.header_title span {
+	position:absolute;
+	margin-top:-30px;
+	margin-left: 120px;
+}
+
+/*
+ * TABLE ENTRY 
+ */
+
+#list_surround table:nth-of-type(n+2) {
+	display: inline;
+	margin-left:4px;
+}
+
+#list_surround table:nth-of-type(n+2) tr {
+	display:block;
+	margin-bottom:5px;
+	border:solid 1px white;
+}
+
+/* edit + more button */
+td > div > small {
+	display:none;
+	position:absolute;
+	top:275px;
+	left:0px;
+	width:190px;
+	height:25px;
+	box-shadow: 0px 1px 0px 0px #eee inset !important;
+}
+
+tr:hover td > div > small,
+tr:hover td > div > small a {
+	display:block;
+	color:white;
+}
+
+tr:hover td > div > small a:hover {
+	box-shadow: 0px 2px 0px 0px #eee inset !important;
+}
+
+/* edit */
+.List_LightBox {
+	position:absolute;
+	left:20px;
+	width:40px;
+	padding-top:5px;
+}
+
+/* more */
+a[id*="xmenu"] {
+	position:absolute;
+	right:20px;
+	top:0px;
+	width:40px;
+	padding-top:5px;
+}
+
+/* airing status */
+.animetitle + small {
+	display:block;
+	position:absolute;
+	top:260px;
+	width:190px;
+	z-index:-1;
+	background-color: rgba(255,255,0,0.5);
+}
+
+tr:hover .animetitle + small {
+	z-index: 1;
+	background-color:rgba(255,255,0,0.5);
+}
+
+/* number */
+#list_surround table:nth-of-type(n+2) tr td:nth-of-type(1) {
 	display:block;
 	width:190px;
-	margin-left:4px;
-	margin-bottom:10px;
-	height:200px;
-	border:solid 1px black;
-	background-color:#fefefe;
+	height:300px;
+/* 	background-color:rgba(0,0,100,0.3); */
+	color:transparent;
 }
 
-tr td:nth-of-type(1) {
+#list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(1) {
+	background-color:#333;
+	margin-left:200px;
+}
+
+/* anime title */
+#list_surround table:nth-of-type(n+2) tr td:nth-of-type(2) {
 	display:inline;
-	width:25px;
-	position:absolute;
-	height:25px;
-	background-color:rgba(0,0,255,0.3);
-}
-
-tr td:nth-of-type(2) {
-	display:block;
-	background-color:rgba(0,255,0,0.3);
-	height:175px;
-	width:160px;
 	font-weight:bold;
-	padding-left:30px;
+	text-align: center;
+	position:absolute;
+	margin-top:-300px;
+	width:190px;
+	height:35px;
+	background-color: white;
 }
 
-tr td:nth-of-type(3) {
-	display:inline;
-	height:25px;
+.animetitle:before {	
+	content:"";
+	display:block;
 	position:absolute;
-	width:60px;
-	background-color:rgba(0,255,255,0.3);
+	background: url(https://myanimelist.cdn-dena.com/images/anime/4/19644.jpg);
+/* 	background-color:#333; */
+	background-size:cover;
+	width:190px;
+	height:300px;
+	filter: grayscale(100%);
+	opacity:0.8;
+	z-index: -5;
 }
 
-tr td:nth-of-type(4) {
+#list_surround table:nth-of-type(n+2) tr:hover .animetitle:before {
+	left:-200px !important;
+	filter: grayscale(0%);
+	opacity:1;
+}
+
+#list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(2) {
+	background-color:transparent !important;
+	border-bottom:1px solid #eee;
+	left:200px;
+}
+
+tr:hover .animetitle {
+	color: white;
+}
+
+/* score */
+#list_surround table:nth-of-type(n+2) tr td:nth-of-type(3) {
 	display:inline;
-	height:25px;
+	height:21px;
+	position:absolute;
+	margin-top:-25px;
+	padding-top:4px;
+	width:60px;
+	background-color:white;
+}
+
+#list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(3):before {
+	content: "Score: ";
+	font-weight:bold;
+}
+
+#list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(3), 
+#list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(3) a {
+	left:210px;
+	top: 60px;
+	width:190px !important;
+	text-align:left;
+	color:white;
+	background-color: transparent !important;
+}
+
+/* type */
+#list_surround table:nth-of-type(n+2) tr td:nth-of-type(4) {
+	display:inline;
+	height:21px;
 	position:absolute;
 	width:60px;
+	margin-top:-25px;
 	margin-left:60px;
-	background-color:rgba(255,0,255,0.3);
-}
-tr td:nth-of-type(5) {
-	display:inline;
-	height:25px;
-	position:absolute;
-	width:80px;
-	margin-left:120px;
-	background-color:rgba(0,255,255,0.3);
+	padding-top:4px;
+	background-color:white;
 }
 
-tr td:nth-of-type(6) {
+#list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(4):before {
+	content: "Type: ";
+	font-weight:bold;
+}
+
+#list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(4) {
+	left:150px;
+	top:80px;
+	width:190px !important;
+	text-align:left;
+	color: white;
+	background-color: transparent !important;
+}
+
+/* episode */
+#list_surround table:nth-of-type(n+2) tr td:nth-of-type(5) {
+	display:inline;
+	height:21px;
+	position:absolute;
+	width:70px;
+	margin-top:-25px;
+	margin-left:120px;
+	padding-top:4px;
+	background-color:white;;
+}
+
+#list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(5):before {
+	content: "Episode: ";
+	font-weight:bold;
+}
+
+#list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(5),
+#list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(5) a {
+	left:90px;
+	top:100px;
+	width:190px !important;
+	text-align:left;
+	color:white;
+	background-color: transparent !important;
+}
+
+/* tags */
+#list_surround table:nth-of-type(n+2) tr td:nth-of-type(6) {
 	display:none;
+}
+
+#list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(6):before {
+	content:"Review:";
+	font-weight:bold;
+}
+
+#list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(6) {
+	display: block !important;
+	position: absolute;
+	width:170px;
+	left: 210px;
+	top:98px;
+	color: white;
+}
+
+#list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(6) a {
+	color: white;
+}
+
+/*
+ * CATEGORY BOX 
+ */
+
+.category_totals {
+	display:block;
+	width: 170px !important;	
+	height:300px !important;
+	font-size:12px;
+	padding-right:10px;
+	padding-left:10px;
+	line-height:20px;
+	text-align:center;
+	color:black !important;
+}
+
+.category_totals:before {
+	content: "Total";
+	display:block;
+	width:190px;
+	height:35px;
+	text-align:center;
+	margin-left:-10px;
+	margin-bottom: 10px;
+	font-weight:bold;
+	font-size:14px;
+	background-color: white;
+}
+
+tr:hover .category_totals {
+	color:white !important;
+}
+
+tr:hover .category_totals:before {
+	background-color:#333;
+	border-bottom:1px solid #eee;
+}
+
+tr:hover .category_totals:after {
+	content:'';
+	position:absolute;
+	width:190px;
+	height:300px;
+	left:0px;
+	top:0px;
+	background-color: #333;
+}
+
+#grand_totals:before {content:'Totals: '; font-weight:bold;}
+
+#grand_totals {
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:20px;
+	line-height:20px;
+	font-size:12px;
+	padding:0 10px;
+	text-align:left;
+	color:rgba(0,0,0,0.5);
+	transition: all 0.15s ease-in-out 0s;
+}
+
+#grand_totals:hover {color:#000;}
+
+/*
+ * EXPANDING FIELD
+ */
+
+#list_surround .hide + table:active tr, 
+#list_surround .hide + table tr:hover, 
+#list_surround table[class*=header] + table + table:active tr, 
+#list_surround table[class*=header] + table + table tr:hover {
+	background-color:#333;
+	display:block;
+	position:relative;
+/* 	left:200px; */
+/* 	top:-5px; */
+	width:390px;
+	height:300px;
+/* 	margin-top:0px; */
+/* 	margin-bottom:-5px; */
+/* 	margin-left:0%; */
+/* 	margin-right:0%; */
+	pointer-events:auto !important;
+	cursor:auto;
+	z-index:1 !important;
+}
+
+#list_surround .hide + table, 
+#list_surround table[class*=header] + table + table {cursor:pointer;}
+
+#list_surround .hide + table tr, 
+#list_surround table[class*=header] + table + table tr {
+	pointer-events:none;
+	z-index:-1 !important;
+/* 	height:0px; */
+}
+
+#list_surround table[class*=header_cw] + table ~ table tr:hover {background:linear-gradient(#333, blue);}
+#list_surround table[class*=header_completed] + table ~ table tr:hover {background:linear-gradient(#333, green);}
+#list_surround table[class*=header_onhold] + table ~ table tr:hover {background:linear-gradient(#333, yellow);}
+#list_surround table[class*=header_dropped] + table ~ table tr:hover {background:linear-gradient(#333, red);}
+#list_surround table[class*=header_ptw] + table ~ table tr:hover {background:linear-gradient(#333, orange);}
+
+/* 
+ * COPYRIGHT
+ */
+
+#list_surround:after {
+	content:"";
+	display:block;
+	width:1px;
+	height:100px;
+	position:absolute;
+}
+
+#copyright:before {
+	content:'Style created by dzikibambus and modified  by rl404.\a';
+	white-space:pre-wrap;
+}
+
+#copyright {
+	padding:50px 0px 50px 0px;
+/* 	margin-top:-25px !important; */
+	color:#fff;
+	text-shadow:0px 0px 0.5px #fff;
+	background-color:#333;
 }

@@ -432,7 +432,7 @@ td small a {
 
 /*----- grand totals -----*/
 
-#grand_totals:before {content:'Totals: ';}
+#grand_totals:before {content:'Totals: ';font-weight: bold;}
 
 #grand_totals {
 	position:absolute;
