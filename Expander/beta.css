@@ -32,7 +32,7 @@ body {
 	background-color:#f2f2f2 !important;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,"Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
 	font-size:13px;
-/* 	background-image:url(http://sig.grumpybumpers.com/host/rl407.gif); */
+	background-image:url(http://sig.grumpybumpers.com/host/rl406.gif);
 	background-repeat:repeat;
 	background-attachment:fixed;
 	background-size:cover;
@@ -331,7 +331,7 @@ body:before {
 #mal_cs_pic {background-color:#333;}
 
 .table_header {
-	display:none;
+/* 	display:none; */
 }
 
 #list_surround table {
@@ -363,7 +363,7 @@ table[class*='header_'] tr {
 }
 
 table[class*='header'] + table {
-	display:none !important;
+/* 	display:none !important; */
 }
 
 .header_title {
@@ -408,7 +408,7 @@ td > div > small {
 tr:hover td > div > small,
 tr:hover td > div > small a {
 	display:block;
-	color:white;
+	color:#eee;
 }
 
 tr:hover td > div > small a:hover {
@@ -452,7 +452,6 @@ tr:hover .animetitle + small {
 	display:block;
 	width:190px;
 	height:300px;
-/* 	background-color:rgba(0,0,100,0.3); */
 	color:transparent;
 }
 
@@ -500,7 +499,11 @@ tr:hover .animetitle + small {
 }
 
 tr:hover .animetitle {
-	color: white;
+	color: #eee;
+}
+
+tr:hover .animetitle:hover {
+	color: #fff;
 }
 
 /* score */
@@ -523,10 +526,14 @@ tr:hover .animetitle {
 #list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(3) a {
 	left:210px;
 	top: 60px;
-	width:190px !important;
+	width:180px;
 	text-align:left;
-	color:white;
+	color:#eee;
 	background-color: transparent !important;
+}
+
+#list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(3) a:hover {
+	color: #fff;
 }
 
 /* type */
@@ -549,9 +556,9 @@ tr:hover .animetitle {
 #list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(4) {
 	left:150px;
 	top:80px;
-	width:190px !important;
+	width:190px;
 	text-align:left;
-	color: white;
+	color: #eee;
 	background-color: transparent !important;
 }
 
@@ -576,9 +583,9 @@ tr:hover .animetitle {
 #list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(5) a {
 	left:90px;
 	top:100px;
-	width:190px !important;
+	width:180px;
 	text-align:left;
-	color:white;
+	color:#eee;
 	background-color: transparent !important;
 }
 
@@ -593,16 +600,20 @@ tr:hover .animetitle {
 }
 
 #list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(6) {
-	display: block !important;
+	display: block;
 	position: absolute;
 	width:170px;
 	left: 210px;
 	top:98px;
-	color: white;
+	color: #eee;
 }
 
 #list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(6) a {
-	color: white;
+	color: #eee;
+}
+
+#list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(6) a:hover {
+	color: #fff;
 }
 
 /*
@@ -733,4 +744,63 @@ tr:hover .category_totals:after {
 	color:#fff;
 	text-shadow:0px 0px 0.5px #fff;
 	background-color:#333;
+}
+
+/* 
+ * SORTING
+ */
+
+#list_surround table[class*=header_] + table {
+	display: table;
+	width:300px;
+	position:absolute;
+	margin-top: -25px;
+	margin-left:700px;
+}
+
+#list_surround table[class*=header_] + table tr,
+#list_surround table[class*=header_] + table tr:hover {
+	display:table-row;
+	background: transparent !important;
+	border:none;
+}
+
+#list_surround table[class*=header_] + table tr td,
+#list_surround table[class*=header_] + table tr:hover td {
+	display:table-cell !important;
+	position:static !important;
+	margin:0px !important;
+	padding:0px !important;
+	height:20px !important;
+	color:white !important;
+	width:50px !important;
+	background: transparent !important;
+	text-align:center !important;
+	border: none !important;
+}
+
+#list_surround table[class*=header_] + table tr td:first-of-type,
+#list_surround table[class*=header_] + table tr td:last-child {
+	display:none !important;
+}
+
+#list_surround table[class*=header_] + table a {
+	color:white !important;
+}
+
+#list_surround table[class*=header_] + table a:hover {
+	color:#777 !important;
+}
+
+#list_surround table[class*=header_] + table tr td:before {
+	display:none !important;
+}
+
+#list_surround table[class*=header_] + table tr td:nth-of-type(2):before {
+	content:'Sort by: ';
+	display:block !important;
+	position:absolute;
+	width:50px;
+	height:20px;
+	margin-left:-60px;
 }
