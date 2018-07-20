@@ -312,6 +312,7 @@ tr:hover #scoreval12437:after
 
 /* .25 */
 #scoreval34427,
+#scoreval33255,
 #scoreval36548,
 #scoreval22273
 {
@@ -319,6 +320,7 @@ tr:hover #scoreval12437:after
 	left:-8px;
 }
 #scoreval34427:after,
+#scoreval33255:after,
 #scoreval36548:after,
 #scoreval22273:after
 {
@@ -329,12 +331,14 @@ tr:hover #scoreval12437:after
 }
 tr:hover #scoreval34427,
 tr:hover #scoreval36548,
+tr:hover #scoreval33255,
 tr:hover #scoreval22273
 {
 	position: relative;
 	left:-190px;
 }
 tr:hover #scoreval34427:after,
+tr:hover #scoreval33255:after,
 tr:hover #scoreval36548:after,
 tr:hover #scoreval22273:after
 {
