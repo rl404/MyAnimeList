@@ -32,7 +32,7 @@ body {
 	background-color:#f2f2f2 !important;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,"Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
 	font-size:13px;
-	background-image:url(http://sig.grumpybumpers.com/host/rl406.gif);
+ 	background-image:url(http://sig.grumpybumpers.com/host/rl404.gif); 
 	background-repeat:repeat;
 	background-attachment:fixed;
 	background-size:cover;
@@ -331,7 +331,7 @@ body:before {
 #mal_cs_pic {background-color:#333;}
 
 .table_header {
-/* 	display:none; */
+	display:none;
 }
 
 #list_surround table {
@@ -363,7 +363,7 @@ table[class*='header_'] tr {
 }
 
 table[class*='header'] + table {
-/* 	display:none !important; */
+	/*display:none !important;*/
 }
 
 .header_title {
@@ -408,7 +408,7 @@ td > div > small {
 tr:hover td > div > small,
 tr:hover td > div > small a {
 	display:block;
-	color:#eee;
+	color:white;
 }
 
 tr:hover td > div > small a:hover {
@@ -452,6 +452,7 @@ tr:hover .animetitle + small {
 	display:block;
 	width:190px;
 	height:300px;
+/* 	background-color:rgba(0,0,100,0.3); */
 	color:transparent;
 }
 
@@ -499,11 +500,7 @@ tr:hover .animetitle + small {
 }
 
 tr:hover .animetitle {
-	color: #eee;
-}
-
-tr:hover .animetitle:hover {
-	color: #fff;
+	color: white;
 }
 
 /* score */
@@ -526,14 +523,10 @@ tr:hover .animetitle:hover {
 #list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(3) a {
 	left:210px;
 	top: 60px;
-	width:180px;
+	width:190px !important;
 	text-align:left;
-	color:#eee;
+	color:white;
 	background-color: transparent !important;
-}
-
-#list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(3) a:hover {
-	color: #fff;
 }
 
 /* type */
@@ -556,9 +549,9 @@ tr:hover .animetitle:hover {
 #list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(4) {
 	left:150px;
 	top:80px;
-	width:190px;
+	width:190px !important;
 	text-align:left;
-	color: #eee;
+	color: white;
 	background-color: transparent !important;
 }
 
@@ -583,9 +576,9 @@ tr:hover .animetitle:hover {
 #list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(5) a {
 	left:90px;
 	top:100px;
-	width:180px;
+	width:190px !important;
 	text-align:left;
-	color:#eee;
+	color:white;
 	background-color: transparent !important;
 }
 
@@ -600,20 +593,16 @@ tr:hover .animetitle:hover {
 }
 
 #list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(6) {
-	display: block;
+	display: block !important;
 	position: absolute;
 	width:170px;
 	left: 210px;
 	top:98px;
-	color: #eee;
+	color: white;
 }
 
 #list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(6) a {
-	color: #eee;
-}
-
-#list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(6) a:hover {
-	color: #fff;
+	color: white;
 }
 
 /*
@@ -744,6 +733,84 @@ tr:hover .category_totals:after {
 	color:#fff;
 	text-shadow:0px 0px 0.5px #fff;
 	background-color:#333;
+}
+
+/* 
+ * SCORE + EPISODE INPUT
+ */
+
+div[id*="scorediv"] {
+	width:100px;
+	position:absolute;
+	right:0px;
+	top:5px;
+}
+
+span[id*='epLayer'] {
+	width:100px;
+	position:absolute;
+	right:0px;
+	top:3px;
+}
+
+input[id*='epID'] {
+	width:50px;
+}
+
+div[id*="scorediv"] input[type=text], input[id*='epID'] {
+	background-color:transparent;
+	border:solid 1px white;
+	width:50%;
+	right: 0px;
+	color:white;
+	font-family: "Century Gothic";
+	text-align:center;
+}
+
+div[id*="scorediv"] input[type=button], span[id*='epLayer'] input:last-of-type {
+	background: none;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+	color:#eee;
+}
+
+div[id*="scorediv"] input[type=button]:hover, span[id*='epLayer'] input:last-of-type:hover {
+	border-bottom:1px solid #eee;
+}
+
+span[id*='epLayer'] input:last-of-type {
+	width:30px;
+	position:absolute;
+	right:15px;
+	top:2px;
+} 
+
+/*
+ * TAG (REVIEW) TEXTAREA 
+ */
+
+textarea.inputtext {
+	width:165px;
+	height:130px;
+	background-color:transparent;
+	color:#eee;
+	font-family: "Century Gothic";
+	font-size:13px;
+}
+
+td[class*=td]:nth-of-type(6) input {
+	background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+	color:#eee;
+}
+
+td[class*=td]:nth-of-type(6) input:hover {
+	border-bottom:1px solid #eee;
 }
 
 /* 

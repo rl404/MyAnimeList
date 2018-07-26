@@ -947,6 +947,17 @@ tr:hover #xmenu35120 {
 	background-size: 100%;
 }
 
+/* Hinamatsuri*/
+tr:hover #xmenu36296 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/hina.png);
+    background-size: 100%;
+}
+
+tr:hover .animetitle[href*="/36296/"]:hover:before {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/hina.jpg);
+    background-size: cover;
+}
+
 /* ----------------------------------- */
 
 /* Sabagebu */
