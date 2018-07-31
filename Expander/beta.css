@@ -459,6 +459,7 @@ tr:hover .animetitle + small {
 #list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(1) {
 	background-color:#333;
 	margin-left:200px;
+	animation: opacity_animation 1s ease-in-out;
 }
 
 /* anime title */
@@ -477,8 +478,8 @@ tr:hover .animetitle + small {
 	content:"";
 	display:block;
 	position:absolute;
-	background: url(https://myanimelist.cdn-dena.com/images/anime/4/19644.jpg);
-/* 	background-color:#333; */
+/* 	background: url(https://myanimelist.cdn-dena.com/images/anime/4/19644.jpg); */
+	background-color:#333;
 	background-size:cover;
 	width:190px;
 	height:300px;
@@ -491,6 +492,7 @@ tr:hover .animetitle + small {
 	left:-200px !important;
 	filter: grayscale(0%);
 	opacity:1;
+	animation:anime_cover 1s ease-in-out;
 }
 
 #list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(2) {
@@ -523,7 +525,7 @@ tr:hover .animetitle {
 #list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(3) a {
 	left:210px;
 	top: 60px;
-	width:190px !important;
+	width: 190px;
 	text-align:left;
 	color:white;
 	background-color: transparent !important;
@@ -549,7 +551,7 @@ tr:hover .animetitle {
 #list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(4) {
 	left:150px;
 	top:80px;
-	width:190px !important;
+	width:190px;
 	text-align:left;
 	color: white;
 	background-color: transparent !important;
@@ -576,7 +578,7 @@ tr:hover .animetitle {
 #list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(5) a {
 	left:90px;
 	top:100px;
-	width:190px !important;
+	width:190px;
 	text-align:left;
 	color:white;
 	background-color: transparent !important;
@@ -593,7 +595,7 @@ tr:hover .animetitle {
 }
 
 #list_surround table:nth-of-type(n+2) tr:hover td:nth-of-type(6) {
-	display: block !important;
+	display: block;
 	position: absolute;
 	width:170px;
 	left: 210px;
@@ -692,6 +694,7 @@ tr:hover .category_totals:after {
 	pointer-events:auto !important;
 	cursor:auto;
 	z-index:1 !important;
+	animation:expand-cell .5s ease-in-out;
 }
 
 #list_surround .hide + table, 
@@ -709,6 +712,11 @@ tr:hover .category_totals:after {
 #list_surround table[class*=header_onhold] + table ~ table tr:hover {background:linear-gradient(#333, yellow);}
 #list_surround table[class*=header_dropped] + table ~ table tr:hover {background:linear-gradient(#333, red);}
 #list_surround table[class*=header_ptw] + table ~ table tr:hover {background:linear-gradient(#333, orange);}
+
+@keyframes expand-cell {
+	0% {width: 200px;}
+	100% {width: 390px;}
+}
 
 /* 
  * COPYRIGHT
@@ -870,4 +878,18 @@ td[class*=td]:nth-of-type(6) input:hover {
 	width:50px;
 	height:20px;
 	margin-left:-60px;
+}
+
+/*
+ * ANIMATION 
+ */
+
+@keyframes opacity_animation {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@keyframes anime_cover {
+	0% { filter: grayscale(100%); }
+	100% { filter: grayscale(0%); }
 }
