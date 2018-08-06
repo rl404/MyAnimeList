@@ -316,6 +316,8 @@ tr:hover #scoreval12437:after
 
 /* .25 */
 #scoreval34427,
+#scoreval31988,
+#scoreval27989,
 #scoreval33255,
 #scoreval36548,
 #scoreval22273
@@ -324,6 +326,8 @@ tr:hover #scoreval12437:after
 	left:-8px;
 }
 #scoreval34427:after,
+#scoreval31988:after,
+#scoreval27989:after,
 #scoreval33255:after,
 #scoreval36548:after,
 #scoreval22273:after
@@ -334,6 +338,8 @@ tr:hover #scoreval12437:after
 	content: ".25";
 }
 tr:hover #scoreval34427,
+tr:hover #scoreval31988,
+tr:hover #scoreval27989,
 tr:hover #scoreval36548,
 tr:hover #scoreval33255,
 tr:hover #scoreval22273
@@ -342,6 +348,8 @@ tr:hover #scoreval22273
 	left:-190px;
 }
 tr:hover #scoreval34427:after,
+tr:hover #scoreval31988:after,
+tr:hover #scoreval27989:after,
 tr:hover #scoreval33255:after,
 tr:hover #scoreval36548:after,
 tr:hover #scoreval22273:after
