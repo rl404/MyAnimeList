@@ -212,7 +212,7 @@
 
 **How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Persona5/main.css);`
 
-<h2 align=center>Nhentai (NSFW)
+<h2 align=center>Nhentai (NSFW)</h2>
 <p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Nhentai/sample.png></p>
   
 ![Modern][modernlogo]
