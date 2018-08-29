@@ -6,7 +6,7 @@ margin-top:-0px;
 color:#c68;
 font-weight:bold;
 font-family:arial, sans-serif;
-text-shadow:0px 0px 1px #777;
+text-shadow:0px 0px 1px black;
 font-size:13px;
 pointer-events:none;
 transform:rotate(8deg);
@@ -73,7 +73,7 @@ margin-top:-2px;
 color:brown;
 font-weight:bold;
 font-family:arial, sans-serif;
-text-shadow:0px 0px 1px #777;
+text-shadow:0px 0px 1px black;
 font-size:13px;
 pointer-events:none;
 transform:rotate(8deg);
@@ -450,7 +450,7 @@ margin-left:10px;
 margin-top:-20px;
 width:45px;height:47px;
 pointer-events:none;}
- 
+
 /* Oregairu */
 tr:hover .animetitle[href*="anime/14813/"]:after {content:"";
 background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/oregairu2.png");
@@ -573,7 +573,7 @@ margin-top:-2px;
 color: black;
 font-weight:bold;
 font-family:arial, sans-serif;
-text-shadow:0px 0px 1px #777;
+text-shadow:0px 0px 1px black;
 font-size:13px;
 pointer-events:none;
 transform:rotate(8deg);
@@ -586,6 +586,21 @@ position:absolute;
 margin-left:10px;
 margin-top:-2px;
 color: red;
+font-weight:bold;
+font-family:arial, sans-serif;
+text-shadow:0px 0px 1px black;
+font-size:13px;
+pointer-events:none;
+transform:rotate(8deg);
+-ms-transform:rotate(8deg);
+-webkit-transform:rotate(8deg);}
+
+/* dxd 2 */
+tr:hover .animetitle[href*="anime/15451/"]:after {content:"Oppai new";
+position:absolute;
+margin-left:10px;
+margin-top:-2px;
+color: blue;
 font-weight:bold;
 font-family:arial, sans-serif;
 text-shadow:0px 0px 1px black;
@@ -610,12 +625,12 @@ transform:rotate(8deg);
 -ms-transform:rotate(8deg);
 -webkit-transform:rotate(8deg);}
 
-/* dxd 2 */
-tr:hover .animetitle[href*="anime/15451/"]:after {content:"Oppai new";
+/* dxd hero */
+tr:hover .animetitle[href*="anime/34281/"]:after {content:"Oppai Dragon";
 position:absolute;
 margin-left:10px;
 margin-top:-2px;
-color: blue;
+color: red;
 font-weight:bold;
 font-family:arial, sans-serif;
 text-shadow:0px 0px 1px black;
@@ -649,7 +664,7 @@ margin-top:0px;
 color: orange;
 font-weight:bold;
 font-family:arial, sans-serif;
-text-shadow:0px 0px 1px #777;
+text-shadow:0px 0px 1px black;
 font-size:13px;
 pointer-events:none;}
 
@@ -707,7 +722,7 @@ margin-top:-2px;
 color: blue;
 font-weight:bold;
 font-family:arial, sans-serif;
-text-shadow:0px 0px 1px #777;
+text-shadow:0px 0px 1px black;
 font-size:13px;
 pointer-events:none;
 transform:rotate(8deg);
@@ -788,7 +803,7 @@ margin-top:-2px;
 color: #ff4da6;
 font-weight:bold;
 font-family:arial, sans-serif;
-text-shadow:0px 0px 1px #777;
+text-shadow:0px 0px 1px black;
 font-size:13px;
 pointer-events:none;
 transform:rotate(8deg);
@@ -819,7 +834,7 @@ margin-top:0px;
 color: orange;
 font-weight:bold;
 font-family:arial, sans-serif;
-text-shadow:0px 0px 1px #777;
+text-shadow:0px 0px 1px black;
 font-size:13px;
 pointer-events:none;}
 
@@ -882,7 +897,7 @@ margin-top:-2px;
 color: orange;
 font-weight:bold;
 font-family:arial, sans-serif;
-text-shadow:0px 0px 1px #777;
+text-shadow:0px 0px 1px black;
 font-size:13px;
 pointer-events:none;
 transform:rotate(8deg);
