@@ -1,4 +1,4 @@
-# MyAnimeList List Design
+<h1 align=center>MyAnimeList List Design</h1>
 
 > [rl404](https://myanimelist.net/profile/rl404)'s MyAnimeList list design compilation
 
@@ -17,8 +17,9 @@
   - [Guides](#guides)
   - [Useful links](#useful-links)
 
-## Mahou Shoujo Madoka★Magica
-![madokasample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/sample.gif)
+<h2 align=center>Mahou Shoujo Madoka★Magica</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/sample.gif></p>
+
 ![Classic][classiclogo]
 
 **Based template**: [Daika-san](https://myanimelist.net/profile/Daika-san)
@@ -42,8 +43,9 @@
 * **For anime**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Madoka/mainanime.css);`
 * **For manga**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Madoka/mainmanga.css);`
 
-## Saber
-![sabersample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/sample.gif)
+<h2 align=center>Saber</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/sample.gif></p>
+
 ![Classic][classiclogo]
 
 **Based template**: [Hahaido](https://myanimelist.net/profile/Hahaido)
@@ -64,10 +66,13 @@
 
 **How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Saber/main.css);`
 
-## Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka (Danmachi)
-![danmachisample1](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/sample1.png)
-![danmachisample2](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/sample2.png)
-![danmachisample3](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/sample3.png)
+<h2 align=center>Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka (Danmachi)</h2>
+<p align=center>
+  <img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/sample1.png>
+  <img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/sample2.png>
+  <img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/sample3.png>
+</p>
+
 ![Classic][classiclogo]
 
 **Based template**: [Hahaido](https://myanimelist.net/profile/Hahaido)
@@ -87,8 +92,9 @@
 * **Lili theme**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Danmachi/mainlili.css);`
 * **Ais theme**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Danmachi/mainais.css);`
 
-## Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai (Anohana)
-![anohanasample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/sample.png)
+<h2 align=center>Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai (Anohana)</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/sample.png></p>
+
 ![Classic][classiclogo]
 
 **Based template**: [Hahaido](https://myanimelist.net/profile/Hahaido)
@@ -101,8 +107,9 @@
 
 **How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Anohana/main.css);`
 
-## Expander
-![expandersample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sample.png)
+<h2 align=center>Expander</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sample.png></p>
+
 ![Classic][classiclogo]
 
 **Based template**: [dzikibambus](https://myanimelist.net/profile/dzikibambus)
@@ -128,8 +135,9 @@
 * **For anime**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/mainanime.css);`
 * **For manga**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/mainmanga.css);`
 
-## Bakemonogatari
-![bakemonosample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/sample.png)
+<h2 align=center>Bakemonogatari</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/sample.png></p>
+
 ![Classic][classiclogo]
 
 **Based template**: [Kiokuzoku](https://myanimelist.net/profile/Kiokuzoku)
@@ -154,8 +162,9 @@
 
 **How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Bakemonogatari/main.css);`
 
-## Nier:Automata
-![niersample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/sample.png)
+<h2 align=center>Nier:Automata</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/sample.png></p>
+
 ![Modern][modernlogo]
 
 **Based template**: [killingdyl](https://myanimelist.net/profile/killingdyl)
@@ -180,8 +189,9 @@
 
 **How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/NierAutomata/main.css);`
 
-## Persona 5
-![personasample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/sample.png)
+<h2 align=center>Persona 5</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/sample.png></p>
+
 ![Modern][modernlogo]
 
 **Based template**: [Kiokuzoku](https://myanimelist.net/profile/Kiokuzoku)
@@ -202,8 +212,9 @@
 
 **How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Persona5/main.css);`
 
-## Nhentai (NSFW)
-![nhentaisample](https://raw.githubusercontent.com/rl404/MyAnimeList/master/Nhentai/sample.png)
+<h2 align=center>Nhentai (NSFW)</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Nhentai/sample.png></p>
+  
 ![Modern][modernlogo]
 
 **Based template**: [eroiyatsu](https://myanimelist.net/profile/eroiyatsu)
