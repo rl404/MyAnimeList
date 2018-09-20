@@ -268,17 +268,17 @@ float:right;
 @media screen and (min-width:961px) {
 	.td1:nth-child(1), .td2:nth-child(1), .table_header:nth-child(1) {width:5%;}
 	.td1:nth-child(2), .td2:nth-child(2), .table_header:nth-child(2) {padding-right:20px;}
-	.td1:nth-child(4), .td2:nth-child(4), .table_header:nth-child(4) {padding-left:15px;width:8%;} 
+	.td1:nth-child(4), .td2:nth-child(4), .table_header:nth-child(4) {padding-left:15px;width:8%;}
 	.td1:nth-child(5), .td2:nth-child(5), .table_header:nth-child(5) {width:8%;}
 	.td1:nth-child(6), .td2:nth-child(6), .table_header:nth-child(6) {width:8%;}
 	.td1:nth-child(7), .td2:nth-child(7), .table_header:nth-child(7) {width:8%;}
 	.td1:nth-child(8), .td2:nth-child(8), .table_header:nth-child(8) {width:8%;}
-} 
+}
 
 /*----- links -----*/
 
 a, a:visited {
-	color:#000; 
+	color:#000;
 	text-decoration:none !important;
 }
 
@@ -330,7 +330,7 @@ td small a {
 	z-index:3;
 }
 
-#list_surround table:first-of-type td, 
+#list_surround table:first-of-type td,
 #list_surround table:first-of-type td a {
 	display:block;
 	color:transparent;
@@ -366,7 +366,7 @@ td small a {
 	box-shadow: 0px -5px 0px 0px #333 inset;
 }
 
-#list_surround table:first-of-type td a:hover:after, 
+#list_surround table:first-of-type td a:hover:after,
 .status_selected a:after {
 	font-size:12px;
 	color:#555;
@@ -477,7 +477,7 @@ td small a {
 }
 
 @keyframes cr {
-	0% {background-position:0 0, 0px 0;} 
+	0% {background-position:0 0, 0px 0;}
 	100% {background-position: 0 0, -2160px 0;}
 }
 
@@ -499,8 +499,8 @@ td small a {
 	border:0px;
 }
 
-#mal_control_strip td div, 
-#mal_control_strip td div a, 
+#mal_control_strip td div,
+#mal_control_strip td div a,
 #mal_control_strip td div span {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,"Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
 }
@@ -612,8 +612,74 @@ td small a {
 #mal_control_strip #mal_cs_otherlinks:nth-child(2) div:nth-child(2) a:nth-of-type(2) {left:260px;width:140px;}
 #mal_control_strip #mal_cs_otherlinks:nth-child(2) div:nth-child(2) a:nth-of-type(3) {left:400px;width:100px;}
 
-#mal_cs_powered {display:none;}
+#mal_cs_powered {
+	margin-top:500px;
+	margin-right:-175px;
+}
+
+#mal_cs_powered a img,
+#mal_cs_powered #search img {
+	display:none;
+}
+
+#mal_cs_powered #search #searchBox {
+	font-family: "Century Gothic";
+	color: transparent;
+	font-size:20px;
+	width: 30px !important;
+	height: 30px;
+	background:
+		rgba(255,255,255,.8)
+		url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png)
+		no-repeat
+		right top;
+	background-size: auto 30px;
+	border: solid 1px white;
+	box-shadow: inset 0px 0px 5px 0px #fff, 0px 0px 5px 0px #000;
+}
+
+#mal_cs_powered #search #searchBox:hover {
+	width: 200px !important;
+	background:
+		url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/z.png)
+			no-repeat,
+		rgba(255,255,255,.8)
+			url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png)
+			no-repeat;
+	background-size: 200px, auto 30px;
+	background-position: 50% 120px, right top;
+	color: #333;
+	font-size: 20px;
+	animation:searchbox 5s ease-in-out;
+}
+
 #mal_cs_pic {background-color:#333;}
+
+@keyframes searchbox {
+	0% {width: 30px; color: transparent;
+		background:
+			url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/z.png)
+				no-repeat,
+			rgba(255,255,255,.8)
+				url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png)
+				no-repeat;
+		background-size: 200px, auto 30px;
+		background-position: 50% 120px, right top;
+	}
+	10% {width: 200px; color: #333;
+		background:
+			url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/z.png)
+				no-repeat,
+			rgba(255,255,255,.8)
+				url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png)
+				no-repeat;
+		background-size: 200px, auto 30px;
+		background-position: 50% 120px, right top;
+	}
+	70% {background-position: right bottom, right top;}
+	80% {background-position: right bottom, right top;}
+	100% {background-position: 50% 120px, right top;}
+}
 
 /*----- main code ends here -----/*
 
@@ -633,9 +699,9 @@ td small a {
 	100% {height:17px}
 }
 
-#list_surround .hide + table:active tr, 
-#list_surround .hide + table tr:hover, 
-#list_surround table[class*=header] + table + table:active tr, 
+#list_surround .hide + table:active tr,
+#list_surround .hide + table tr:hover,
+#list_surround table[class*=header] + table + table:active tr,
 #list_surround table[class*=header] + table + table tr:hover {
 	background-color:#333;
 	display:block;
@@ -656,10 +722,10 @@ td small a {
 	z-index:1 !important;
 }
 
-#list_surround .hide + table, 
+#list_surround .hide + table,
 #list_surround table[class*=header] + table + table {cursor:pointer;}
 
-#list_surround .hide + table tr, 
+#list_surround .hide + table tr,
 #list_surround table[class*=header] + table + table tr {
 	pointer-events:none;
 	z-index:-1 !important;
@@ -740,7 +806,7 @@ tr:hover .td1 .animetitle, tr:hover .td2 .animetitle {
 	100% {color:#eee;}
 }
 
-tr:hover .td1 > small, 
+tr:hover .td1 > small,
 tr:hover .td2 > small {
 	display:block;
 	position:absolute;
@@ -785,12 +851,12 @@ tr:hover td[class*=td] div small a:first-child:hover {
 	100% {margin-top:90px;}
 }
 
-tr:hover .td1:nth-of-type(n+3) a, 
+tr:hover .td1:nth-of-type(n+3) a,
 tr:hover .td2:nth-of-type(n+3) a {
 	color:#eee;
 }
 
-tr:hover .td1:nth-of-type(n+3) a:hover, 
+tr:hover .td1:nth-of-type(n+3) a:hover,
 tr:hover .td2:nth-of-type(n+3) a:hover {
 	color:#fff;
 }
@@ -858,7 +924,7 @@ tr:hover span[id*='epLayer'] input:last-of-type {
 	position:absolute;
 	right:0px;
 	top:5px;
-}  
+}
 
 /*----- number -----*/
 
@@ -978,7 +1044,7 @@ tr:hover .animetitle:before {
 	padding: 5%;
 	border-style: solid;
 	border-width: 0px 0 5px 0;
-	animation:mymove 7s; 
+	animation:mymove 7s;
 }
 
 .header_cw span:before,
@@ -1000,13 +1066,13 @@ tr:hover .animetitle:before {
 
 	position: fixed;
 	padding-top: 20%;
-	padding-right: 15%; 
+	padding-right: 15%;
 	text-align: right;
 	right: 0 !important;
 	top: 100% !important;
 	pointer-events: none;
 	z-index: 110 !Important;
-	animation:mymove2 7s; 
+	animation:mymove2 7s;
 }
 
 .header_cw span:after,
@@ -1029,7 +1095,7 @@ tr:hover .animetitle:before {
 	top: 100% !important;
 	z-index: 110;
 	pointer-events: none;
-	animation:mymove2 7s; 
+	animation:mymove2 7s;
 }
 
 
