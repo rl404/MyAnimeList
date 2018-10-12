@@ -4,7 +4,7 @@
  * Modified by rl404 (https://myanimelist.net/profile/rl404)
  */
 
-@font-face{ 
+@font-face{
 	font-family: 'P5-Repca';
 	src: url('https://rawgit.com/rl404/MyAnimeList/master/Persona5/fonts/p5-repca-webfont.ttf') format('truetype'),
        url('https://rawgit.com/rl404/MyAnimeList/master/Persona5/fonts/p5-repca-webfont.woff') format('woff'),
@@ -40,7 +40,7 @@ html {
 @media body {}
 
 body {
-  background: #000 url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/JqzWDjc.png) bottom left no-repeat fixed !important;
+  background: #000 url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/JqzWDjc.png) bottom left no-repeat fixed !important;
   background-size: auto 100% !important;
   box-sizing: border-box;
   color: #FFF;
@@ -58,7 +58,7 @@ body {
 }
 
 body:before {
-  background: red url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/79a2xdl.jpg) center 5% fixed !important;
+  background: red url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/79a2xdl.jpg) center 5% fixed !important;
   background-size: cover !important;
   content: "";
   height: calc(100% + 70px);
@@ -74,7 +74,7 @@ body:before {
 @media header {}
 
 .header {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/yQ9iUy9.png) no-repeat;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/yQ9iUy9.png) no-repeat;
   background-size: 100% auto;
   box-sizing: border-box;
   height: 100%;
@@ -113,48 +113,48 @@ body:before {
 }
 
 body[data-query*='"status":1'] .header:before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/hBD5Pdt.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/hBD5Pdt.png);
 }
 
 body[data-query*='"status":1'] .header:after {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/LI55Brk.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/LI55Brk.png);
 }
 
 body[data-query*='"status":2'] .header:before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/xa1PbG8.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/xa1PbG8.png);
 }
 
 body[data-query*='"status":2'] .header:after {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/a4GPNLk.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/a4GPNLk.png);
 }
 
 body[data-query*='"status":3'] .header:before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/yXn755I.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/yXn755I.png);
 }
 
 body[data-query*='"status":3'] .header:after {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/Il9i5iz.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/Il9i5iz.png);
 }
 
 body[data-query*='"status":4'] .header:before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/vNzJzRG.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/vNzJzRG.png);
 }
 
 body[data-query*='"status":4'] .header:after {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/5LebIWo.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/5LebIWo.png);
 }
 
 body[data-query*='"status":6'] .header:before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/ZFNhjIN.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/ZFNhjIN.png);
 }
 
 body[data-query*='"status":6'] .header:after {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/3cBlLHC.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/3cBlLHC.png);
 }
 
 body[data-query*='"status":7'] .header:before {
   background-color: #000;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/JvozR2U.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/JvozR2U.png);
   background-size: auto;
   box-shadow: 15px 0 0 #000;
   height: calc(100% + 70px);
@@ -163,7 +163,7 @@ body[data-query*='"status":7'] .header:before {
 }
 
 body[data-query*='"status":7'] .header:after {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/p95hoWb.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/p95hoWb.png);
   background-size: cover;
   margin-left: -88px;
   width: 60%;
@@ -185,7 +185,7 @@ body[data-query*='"status":7'] .header:after {
 }
 
 .header .header-title:before {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/bZJPlCR.png) center 24% no-repeat;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/bZJPlCR.png) center 24% no-repeat;
   background-size: 100% 56px;
   content: "";
   display: block;
@@ -200,7 +200,7 @@ body[data-query*='"status":7'] .header:after {
 
 .list-menu-float {
   animation: coop 4s linear infinite alternate;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/CaL5WU8.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/cP7jt5j.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/CaL5WU8.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
   background-position: right bottom, left bottom, right bottom, left center;
   background-repeat: no-repeat;
   background-size: auto, 105% auto, 105% auto, cover;
@@ -214,23 +214,23 @@ body[data-query*='"status":7'] .header:after {
 }
 
 body[data-query*='"status":1'] .list-menu-float {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/2zGFBOC.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/cP7jt5j.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/2zGFBOC.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
 }
 
 body[data-query*='"status":2'] .list-menu-float {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/xi05nl4.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/cP7jt5j.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/xi05nl4.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
 }
 
 body[data-query*='"status":3'] .list-menu-float {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/5iFbe83.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/cP7jt5j.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/5iFbe83.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
 }
 
 body[data-query*='"status":4'] .list-menu-float {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/eLYp4cM.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/cP7jt5j.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/eLYp4cM.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
 }
 
 body[data-query*='"status":6'] .list-menu-float {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/WefgBnU.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/cP7jt5j.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/WefgBnU.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
 }
 
 .list-menu-float:hover {
@@ -256,7 +256,7 @@ body[data-query*='"status":6'] .list-menu-float {
 }
 
 .list-menu-float:before {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/EQvRp3S.png) no-repeat;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/EQvRp3S.png) no-repeat;
   background-size: 100% auto;
 }
 
@@ -265,7 +265,7 @@ body[data-query*='"status":6'] .list-menu-float {
 }
 
 .list-menu-float:after {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/a8u3QIo.png);
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/a8u3QIo.png);
   background-size: 100% auto;
   bottom: 0;
   content: "";
@@ -396,7 +396,7 @@ body[data-query*='"status":6'] .list-menu-float {
 .list-menu-float .icon-menu:nth-of-type(n+3):before,
 .icon-menu.logout:before {
   animation: skewRubberband .7s linear infinite;
-  background: #f00 url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/qUPXvsJ.png);
+  background: #f00 url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/qUPXvsJ.png);
   content: "";
   height: 30px;
   left: 0;
@@ -526,7 +526,7 @@ body[data-query*='"status":6'] .list-menu-float {
 @media list-container {}
 
 #list-container {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/a8u3QIo.png) top center no-repeat;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/a8u3QIo.png) top center no-repeat;
   background-size: 100% auto;
   border: 0;
   margin-top: -180px;
