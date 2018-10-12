@@ -33,7 +33,7 @@ html {
   height: 100%;
   letter-spacing: 1px;
   min-width: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
   width: 100%;
 }
 
@@ -157,7 +157,7 @@ body[data-query*='"status":7'] .header:before {
   background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/JvozR2U.png);
   background-size: auto;
   box-shadow: 15px 0 0 #000;
-  height: calc(100% + 70px);
+  height: calc(100% + 270px);
   margin-left: -15px;
   margin-right: 15px;
 }
