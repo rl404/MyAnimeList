@@ -12,7 +12,7 @@
   - [Bakemonogatari](#bakemonogatari)
   - [Nier:Automata](#nierautomata)
   - [Persona 5](#persona-5)
-  - [NHentai](#nhentai-nsfw)
+  - [NHentai](#nhentai)
 - [Other](#other)
   - [Guides](#guides)
   - [Useful links](#useful-links)
@@ -212,7 +212,7 @@
 
 **How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Persona5/main.css);`
 
-<h2 align=center>Nhentai (NSFW)</h2>
+<h2 align=center>Nhentai</h2>
 <p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Nhentai/sample.png></p>
   
 ![Modern][modernlogo]
@@ -226,6 +226,7 @@
 - [x] Score
 - [x] Chapters
 - [x] Volumes
+- [x] Image
 - [x] Published Dates
 
 **How to use**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Nhentai/main.css);`
