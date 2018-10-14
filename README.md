@@ -16,6 +16,7 @@
 - [Other](#other)
   - [Guides](#guides)
   - [Useful links](#useful-links)
+- [Contact](#contact-me)
 
 <h2 align=center>Mahou Shoujo Madoka★Magica</h2>
 <p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/sample.gif></p>
@@ -247,3 +248,10 @@
 - [Premade layouts (modern)](https://myanimelist.net/forum/?topicid=1499058)
 - [Image/wallpaper rotator](http://sig.grumpybumpers.com/)
 - [Image resizer](http://waifu2x.booru.pics/)
+
+## Contact Me
+Found a bug? Want to share your design here? Have a question? Or just want to talk?
+I would be very happy.
+- Create an [issue](https://github.com/rl404/MyAnimeList/issues/new) (if you found bug only)
+- PM me in MyAnimeList ([rl404](https://myanimelist.net/mymessages.php?go=send&toname=rl404))
+- Email me (Axel.rl.404@gmail.com)
