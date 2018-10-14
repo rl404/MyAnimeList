@@ -226,6 +226,7 @@
 - [x] Score
 - [x] Chapters
 - [x] Volumes
+- [x] Magazine
 - [x] Image
 - [x] Published Dates
 
