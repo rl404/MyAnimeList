@@ -14,9 +14,9 @@
 ::selection { background: rgba(0,0,0,0.1) !important }
 
 body {
-	background: url(https://dl.dropboxusercontent.com/s/2kthmfuvwuat9e8/badge.png) no-repeat center calc(50% + 65px)/35% fixed,
-                    url(https://dl.dropboxusercontent.com/s/t16sczkk6psb641/c-left-1080.jpg) no-repeat calc(50% - 700px) center fixed,
-                    url(https://dl.dropboxusercontent.com/s/cmx70wesrx73czu/c-right-1080.jpg) no-repeat calc(50% + 700px) center fixed
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Rezero/images/badge.png) no-repeat center calc(50% + 65px)/35% fixed,
+                    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Rezero/images/c-left-1080.jpg) no-repeat calc(50% - 700px) center fixed,
+                    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Rezero/images/c-right-1080.jpg) no-repeat calc(50% + 700px) center fixed
 }
 
 ::-webkit-scrollbar { width: 0 !important; height: 0 !important }
@@ -24,7 +24,7 @@ body {
 /* MENU: PROPS */
 #mal_cs_powered img,
 #mal_control_strip img,
-#mal_cs_links div a[href="/"], 
+#mal_cs_links div a[href="/"],
 #mal_cs_listinfo div:last-of-type,
 #mal_cs_otherlinks div:first-of-type,
 #mal_cs_otherlinks div a[href*="mangalist"],
@@ -38,7 +38,7 @@ body {
 #mal_control_strip td { height: 0px !important; padding: 0px !important }
 
 #mal_control_strip tbody {
-	background: url(https://dl.dropboxusercontent.com/s/g9edjme79qaruur/p-bg.jpg) center bottom no-repeat;
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Rezero/images/p-bg.jpg) center bottom no-repeat;
 	position: fixed;
 	background-color: #ffffff;
 	left: calc(50% - 400px);
@@ -180,7 +180,7 @@ table[class*="header_"]:nth-of-type(n+3) + table { display: none }
 #searchBox:hover { background: rgba(121, 107, 174, .15); -webkit-transition: all 0.3s ease-in-out 0s; transition: all 0.3s ease-in-out 0s }
 
 /* MENU: ANIME TOTALS & COPYRIGHT */
-#grand_totals, #copyright { 
+#grand_totals, #copyright {
 	top: 100px;
 	left: calc(50% - 400px);
 	position: fixed;
@@ -195,7 +195,7 @@ table[class*="header_"]:nth-of-type(n+3) + table { display: none }
 	z-index: 3
 }
 
-#grand_totals:before, #copyright:before { 
+#grand_totals:before, #copyright:before {
 	font-family: 'Material Icons';
 	font-size: 24px;
 	color: #796bae;
@@ -207,16 +207,16 @@ table[class*="header_"]:nth-of-type(n+3) + table { display: none }
 	-webkit-transition: all 0.3s ease-in-out 0s;
 	transition: all 0.3s ease-in-out 0s
 }
-	
+
 #grand_totals:hover, #copyright:hover { visibility: visible }
 
 #grand_totals:before { left: calc(50% + 323px);	content: "\e422" }
 #copyright:before { left: calc(50% + 352px); content: "\e001" }
 
-#copyright:after { content: "designed by xvote" }
+#copyright:after { content: "designed by xvote. modified by rl404." }
 
 /* MENU: CATEGORIES */
-.status_selected, .status_not_selected, .status_not_selected a, .status_selected a { 
+.status_selected, .status_not_selected, .status_not_selected a, .status_selected a {
 	display: block;
 	position: fixed;
 	height: auto;
@@ -251,11 +251,17 @@ table[class*="header_"]:nth-of-type(n+3) + table { display: none }
 #list_surround table { margin: 20px 0 0 }
 
 [class^="header_"] {
-	color: #796bae;
-	margin-top: -20px !important;
+	color: white;
+	padding-top: 10px;
 	text-align: left;
 	vertical-align: bottom;
 	display: inline-block
+}
+
+table[class^="header_"] {
+	margin-top: -25px !important;
+	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Rezero/images/p-bg.jpg) center bottom no-repeat;
+	height: 30px;
 }
 
 .header_title { margin-left: 20px !important }
@@ -287,15 +293,15 @@ a[href*="order=10"] { padding-left: 5px }
 /* QUERIES */
 @media all and (max-device-width: 1400px) {
 		body {
-			background: url(https://dl.dropboxusercontent.com/s/2kthmfuvwuat9e8/badge.png) no-repeat center calc(50% + 65px)/35% fixed,
-				    url(https://dl.dropboxusercontent.com/s/ahycdlqx20q4arp/c-left-720.jpg) no-repeat calc(50% - 600px) center fixed,
-				    url(https://dl.dropboxusercontent.com/s/86oc1t4drm37zj1/c-right-720.jpg) no-repeat calc(50% + 600px) center fixed
+			background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Rezero/images/badge.png) no-repeat center calc(50% + 65px)/35% fixed,
+				    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Rezero/images/c-left-720.jpg) no-repeat calc(50% - 600px) center fixed,
+				    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Rezero/images/c-right-720.jpg) no-repeat calc(50% + 600px) center fixed
 	}
 	@media screen and (device-height: 1024px) {
 			body {
-				background: url(https://dl.dropboxusercontent.com/s/2kthmfuvwuat9e8/badge.png) no-repeat center calc(50% + 65px)/35% fixed,
-					    url(https://dl.dropboxusercontent.com/s/t16sczkk6psb641/c-left-1080.jpg) no-repeat calc(50% - 675px) center fixed,
-					    url(https://dl.dropboxusercontent.com/s/cmx70wesrx73czu/c-right-1080.jpg) no-repeat calc(50% + 675px) center fixed
+				background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Rezero/images/badge.png) no-repeat center calc(50% + 65px)/35% fixed,
+					    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Rezero/images/c-left-1080.jpg) no-repeat calc(50% - 675px) center fixed,
+					    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Rezero/images/c-right-1080.jpg) no-repeat calc(50% + 675px) center fixed
 		}
 	}
 }
