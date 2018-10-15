@@ -141,9 +141,9 @@ table[class*="header_"] + table {
 .table_header a, .table_header a strong { font-size: 10px !important; color: #796bae; -webkit-transition: all 0.3s ease-in-out 0s; transition: all 0.3s ease-in-out 0s }
 .table_header a:hover { background-color: transparent !important; color: #796bae }
 .table_header:nth-of-type(1) { left: calc(50% + 255px) }
-.table_header:nth-of-type(2) { left: calc(50% + 348px) }
+.table_header:nth-of-type(2) { left: calc(50% + 360px) }
 .table_header:nth-of-type(3) { top: 31px; left: calc(50% + 255px) }
-.table_header:nth-of-type(4) { top: 31px; left: calc(50% + 330px) }
+.table_header:nth-of-type(4) { top: 31px; left: calc(50% + 341px) }
 
 table[class*="header_"]:nth-of-type(n+3) + table { display: none }
 
@@ -157,7 +157,7 @@ table[class*="header_"]:nth-of-type(n+3) + table { display: none }
 	left: calc(50% + 30px);
 	top: 55px;
 	padding: 4px 70px 4px 44px;
-	width: 240px !important;
+	width: 255px !important;
 	font-size: 14px !important;
 	-webkit-transition: all 0.3s ease-in-out 0s;
 	transition: all 0.3s ease-in-out 0s
@@ -210,8 +210,8 @@ table[class*="header_"]:nth-of-type(n+3) + table { display: none }
 
 #grand_totals:hover, #copyright:hover { visibility: visible }
 
-#grand_totals:before { left: calc(50% + 323px);	content: "\e422" }
-#copyright:before { left: calc(50% + 352px); content: "\e001" }
+#grand_totals:before { left: calc(50% + 330px);	content: "\e422" }
+#copyright:before { left: calc(50% + 369px); content: "\e001" }
 
 #copyright:after { content: "designed by xvote. modified by rl404." }
 
