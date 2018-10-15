@@ -10,6 +10,7 @@
   - [Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai (Anohana)](#ano-hi-mita-hana-no-namae-wo-bokutachi-wa-mada-shiranai-anohana)
   - [Expander](#expander)
   - [Bakemonogatari](#bakemonogatari)
+  - [Rezero](#rezero)
   - [Nier:Automata](#nierautomata)
   - [Persona 5](#persona-5)
   - [NHentai](#nhentai)
@@ -163,6 +164,27 @@
 
 **How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Bakemonogatari/main.css);`
 
+<h2 align=center>Rezero</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Rezero/images/sample.png></p>
+
+![Classic][classiclogo]
+
+**Based template**: [xvote](https://myanimelist.net/profile/xvote)
+
+**List type**: Anime and Manga list
+
+**Anime List recommended setting**:
+- [x] Score
+- [x] Type
+- [x] Episodes
+
+**Manga List recommended setting**:
+- [x] Score
+- [x] Chapters
+- [x] Volumes
+
+**How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Rezero/main.css);`
+
 <h2 align=center>Nier:Automata</h2>
 <p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/sample.png></p>
 
@@ -215,7 +237,7 @@
 
 <h2 align=center>Nhentai</h2>
 <p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Nhentai/sample.png></p>
-  
+
 ![Modern][modernlogo]
 
 **Based template**: [eroiyatsu](https://myanimelist.net/profile/eroiyatsu)
