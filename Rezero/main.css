@@ -216,8 +216,8 @@ table[class*="header_"]:nth-of-type(n+3) + table { display: none }
 
 #grand_totals:hover, #copyright:hover { visibility: visible }
 
-#grand_totals:before { left: calc(50% + 330px);	content: "\e422" }
-#copyright:before { left: calc(50% + 369px); content: "\e001" }
+#grand_totals:before {left: calc(50% + 335px);content: "\e422";}
+#copyright:before {left: calc(50% + 365px); content: "\e001";}
 
 #copyright:after { content: "designed by xvote. modified by rl404." }
 
