@@ -6,7 +6,7 @@
 
 /*----- import -----*/
 @import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/main.css);
-@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/covermanga.css);
+@import url(https://mal-scraper.000webhostapp.com/auto-cover);
 
 /* FOR MANGA */
 .td1:nth-child(7):last-child, .td2:nth-child(7):last-child, .table_header:nth-child(7):last-child {display:none;}

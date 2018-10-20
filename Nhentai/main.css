@@ -5,7 +5,7 @@
  */
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
-@import url(https://rawgit.com/rl404/MyAnimeList/master/Nhentai/cover.css);
+@import url(https://mal-scraper.000webhostapp.com/auto-cover?q=.data.image+a%5Bhref%2A%3D%22%2F%7Bid%7D%2F%22%5D%7Bbackground-image%3A+url%28%7Burl%7D%29%7D);
 
 * {
   box-sizing: inherit;

@@ -4,8 +4,7 @@
  * Modified by rl404 (https://myanimelist.net/profile/rl404)
  */
 
-@import url(https://rawgit.com/rl404/MyAnimeList/master/Bakemonogatari/coveranime.css);
-@import url(https://rawgit.com/rl404/MyAnimeList/master/Bakemonogatari/covermanga.css);
+@import url(https://mal-scraper.000webhostapp.com/auto-cover?q=%23more%7Bid%7D+.borderRBL+div%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D);
 
 @font-face {
   font-family: 'FontAwesome';

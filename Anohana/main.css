@@ -7,8 +7,7 @@
 @import url(http://fonts.googleapis.com/css?family=Kite+One);
 
 /* Cover */
-@import url(https://rawgit.com/rl404/MyAnimeList/master/Anohana/coveranime.css);
-@import url(https://rawgit.com/rl404/MyAnimeList/master/Anohana/covermanga.css);
+@import url(https://mal-scraper.000webhostapp.com/auto-cover?q=%23more%7Bid%7D%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D%0D%0A);
 
 /* Custom cursor */
 * { cursor: default; }

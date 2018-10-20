@@ -4,7 +4,7 @@
  * Modified by rl404 (https://myanimelist.net/profile/rl404)
  */
 
-@import url(https://rawgit.com/rl404/MyAnimeList/master/Madoka/coveranime.css);
+@import url(https://mal-scraper.000webhostapp.com/auto-cover?q=%23more%7Bid%7D%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D%0D%0A);
 
 BODY{
     color: #1c327c;
