@@ -707,6 +707,13 @@ tr:hover #xmenu5681 {
 	background-size: 100%;
 }
 
+/* Sayonara no asa marquia */
+tr:hover #xmenu35851 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/marquia.png) center;
+    background-size: 100%;
+}
+
 /* Koe no katachi */
 tr:hover #xmenu28851 {
 	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
