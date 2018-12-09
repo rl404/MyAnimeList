@@ -18,6 +18,13 @@ tr:hover #xmenu19815 {
     animation: shiro 15s linear infinite;
 }
 
+/* No game zero */
+tr:hover #xmenu33674 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ngnl2.jpg) center;
+    background-size: 100%;
+}
+
 @keyframes shiro {
     0% { background-position: calc(100% + 200px) 100%, 0 0, 0 0, 0 0, top; }
     50% { background-position: 100% 100%, 0 -150px, 0 -420px, 0 -1000px, top; }
@@ -412,6 +419,12 @@ tr:hover #xmenu23755 {
 @keyframes scroll4 {
 	0% { background-position: 0, 50%, 0, 0; }
 	100% { background-position: 0, 50%, 0, -2089px; }
+}
+
+tr:hover #xmenu34577 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nnt2.jpg) center;
+    background-size: 100%;
 }
 
 /* tsukimonogatari */
