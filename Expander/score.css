@@ -398,14 +398,14 @@ tr:hover #scoreval35507:after
 
 /* 10+ */
 #scoreval4181,
-#scoreval34577,
+#scoreval9253,
 #scoreval2001
 {
 	position: relative;
 	color:transparent;
 }
 #scoreval4181:after,
-#scoreval34577:after,
+#scoreval9253:after,
 #scoreval2001:after
 {
 	color:black;
@@ -415,7 +415,7 @@ tr:hover #scoreval35507:after
 	content: "10+";
 }
 tr:hover #scoreval4181:after,
-tr:hover #scoreval34577:after,
+tr:hover #scoreval9253:after,
 tr:hover #scoreval2001:after
 {
 	color:white;
