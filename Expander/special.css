@@ -20,7 +20,7 @@ tr:hover #xmenu19815 {
 
 /* No game zero */
 tr:hover #xmenu33674 {
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/overlay.png),
         url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ngnl2.jpg) center;
     background-size: 100%;
 }
@@ -122,6 +122,13 @@ tr:hover #xmenu9253 {
     100% {background-position: 100% 200%, 0% -50%, 0, center;}
 }
 
+/* Steins gate 0 */
+tr:hover #xmenu30484 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/overlay.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sg0.jpg);
+    background-size: 100%;
+}
+
 /* UBW */
 tr:hover #xmenu28701, tr:hover #xmenu22297 {
     background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
@@ -144,6 +151,16 @@ tr:hover .animetitle[href*="/9756/"]:hover:before {
     color: red;
     padding-top: 50px;
     height: 241px;
+}
+
+/* Shoujo shuumatsu */
+tr:hover #xmenu35838 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow1.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow1.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/snow2.png),
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/shuumatsu.png);
+    background-size: auto, 420px, 1000px, 100%;
+    animation: snow1 15s linear infinite;
 }
 
 /* guilty crown */
