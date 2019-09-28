@@ -1,0 +1,1129 @@
+/*
+ * CATEINYA LAYOUT THEME
+ * List Designed by Cateinya (https://myanimelist.net/profile/Cateinya)
+ * Modified by rl404 (https://myanimelist.net/profile/rl404)
+ */
+
+/* generated cover */
+@import url(https://mal-scraper.000webhostapp.com/auto-cover?q=.data.image%20a%5Bhref%5E%3D%22%2F%7Bid%7D%2F%22%5D%3Abefore%20%7B%20background-image%3A%20url%28%7Burl%7D%29%3B%20%7D);
+
+/* LINKS */
+
+a {
+    color:;
+    text-decoration: none !important;
+}
+
+/*body {
+    background: linear-gradient(to left bottom, black 50%, transparent 50%),
+        linear-gradient(to bottom right, #009FFF, #ec2F4B);
+    background-size: calc(100% + 10px) calc(100% - 100vh + 10px);
+    background-repeat: no-repeat;
+    background-position-y: calc(100vh - 10px);
+    z-index: 1;
+}*/
+
+/*body::before {
+    content: "";
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: calc(100vh - 10px);
+    width: 100%;
+    background-color: #d9d9d9;
+    background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwMFAgMC6MFtgrdBi25Cvi0g);
+    background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwOx-2YOl2wOqSyUXytP5uaM);
+    z-index: -1;
+    filter: opacity(0.3) blur(1px);
+    background-position: center center;
+    background-size: cover;
+}*/
+
+body {
+    background-color: #d9d9d9;
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Cateinya/images/background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* HEADER */
+
+.header {
+    width: auto;
+    margin-top: 50px;
+}
+
+.header .header-title {
+    background-image: url(https://myanimelist.net/img/pc/ownlist/logo_mal.png);
+    margin-left: 15px;
+    filter:drop-shadow(1px 1px 1px black);
+}
+
+.header .header-menu {
+    padding-right: 15px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.header .header-menu.other {
+    width: 423px;
+}
+
+.header .header-menu .btn-menu,
+.header .header-menu .btn-menu a,
+.header .header-menu .header-info,
+.header .header-menu .header-info a {
+    color: white !important;
+}
+
+.header .header-menu .btn-menu {
+    float: left;
+}
+
+.header .header-menu .btn-menu #header-menu-button {
+    font-weight: normal;
+    pointer-events: none;
+}
+
+.header .header-menu .btn-menu .fa-angle-down:before {
+    content: "-";
+}
+
+#header-menu-dropdown .icon-menu:before {
+    font-weight: bold;
+    right: 35px;
+    position: relative;
+}
+
+#header-menu-dropdown .icon-menu.manga-list:before{
+    content: "View Manga List";
+}
+
+#header-menu-dropdown .icon-menu.anime-list:before{
+    content: "View Anime List";
+}
+
+.header .header-menu .icon-menu .icon {
+    top: -4px !important;
+    right: 15px !important;
+    left: auto !important;
+    position: absolute;
+    fill: white !important;
+}
+
+#header-menu-dropdown {
+    display: block;
+    top: 2px !important;
+    position: absolute;
+    right: 0px;
+}
+
+.header .header-menu .icon-menu span {
+    display: none !important;
+}
+
+/* div other list */
+.header .header-menu .list-menu {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+/* link to other list */
+.header .header-menu .list-menu .icon-menu {
+    background: transparent !important;
+    color: white !important;
+}
+
+.header-info {
+    display: inline-block;
+}
+
+/* LIST MENU */
+
+.header:before {
+    /* menu icon for click simulation */
+    content: "";
+    cursor: pointer;
+    font-family: FontAwesome;
+    font-size: 25px;
+    color: black;
+    padding: 7px;
+    box-sizing: border-box;
+    height: 46px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 46px;
+    z-index: 98;
+}
+
+.header:active:before {
+    pointer-events: none;
+}
+
+.list-menu-float {
+    background: white;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 0 !important;
+    bottom: 0;
+    margin-left: -300px;
+    transition: margin 0.2s ease 0s, z-index 0s ease 0s;
+    width: 300px;
+    z-index: 97;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-menu-float:before {
+    content: "\f0c9";
+    cursor: pointer;
+    height: 46px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 46px;
+    transition: left 0.2s ease 0s, background 0.2s ease 0s;
+    font-family: FontAwesome;
+    font-size: 25px;
+    color: black;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+.list-menu-float:hover {
+    margin-left: 0px;
+    z-index: 99;
+}
+
+.list-menu-float:hover:before {
+    content: "";
+    background: #0000001a;
+    height: 100%;
+    left: 300px;
+    width: 100%;
+}
+
+.list-menu-float:active:before {
+    pointer-events: none;
+    cursor: initial;
+    transition: 0s;
+}
+
+.list-menu-float .icon-menu,
+.list-menu-float form {
+/* All list menu buttons */
+    transition: none;
+}
+
+.list-menu-float .icon-menu:not(.profile),
+.list-menu-float form {
+    background: transparent !important;
+    width: 300px !important;
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.list-menu-float .icon-menu:not(.profile):before,
+.list-menu-float form:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    transition: margin 0.3s ease 0s;
+}
+
+.list-menu-float .icon-menu:not(.profile):hover:before,
+.list-menu-float form:hover:before {
+    margin: 0 !important;
+}
+
+.list-menu-float .icon-menu .text {
+/* text display */
+    color: #9B9B9B !important;
+    opacity: 1 !important;
+    width: auto !important;
+    left: 110px;
+    transition: none;
+}
+
+.icon {
+/* All list menu icons */
+    fill: #9B9B9B !important;
+    left: 75px !important;
+}
+
+.list-menu-float .icon-menu:hover .text { color:#393939 !important; }
+.list-menu-float .icon-menu:hover .icon { fill:#393939 !important; }
+
+.list-menu-float .icon-menu.profile {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 80px;
+    width: 80px;
+    border: 2px solid #7d7d7d;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.icon-menu.profile::before {
+    color: black;
+    content: attr(href);
+    font-size: 16px;
+    left: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    text-align: left;
+    text-indent: -256px;
+    top: 12px;
+    margin-left: 15px;
+    display: block;
+    width: 180px;
+}
+
+.icon-menu.profile::after {
+    content: "View my profile";
+    color: #242424;
+    font-weight: bold;
+    left: 100%;
+    position: absolute;
+    text-align: left;
+    top: 40px;
+    margin-left: 5px;
+    padding-left: 10px;
+    display: block;
+    width: 180px;
+    pointer-events: all;
+    border-top: 1px solid;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+.list-menu-float .icon-menu.quick-add {
+    margin-top: 115px;
+}
+
+.list-menu-float .icon-menu.quick-add:before {
+    left: 0;
+    margin-left: -320px;
+    border-top : 9px solid transparent;
+    border-bottom : 51px solid transparent;
+    border-left : 320px solid #FCE67E;
+}
+
+.list-menu-float .icon-menu.anime-list:before {
+    right: 0;
+    margin-right: -350px;
+    border-top : 13px solid transparent;
+    border-right : 350px solid #DFA36F;
+    border-bottom : 45px solid transparent;
+}
+
+.list-menu-float .icon-menu.manga-list:before {
+    left: 0;
+    margin-left: -210px;
+    border-top: 24px solid transparent;
+    border-bottom: 27px solid transparent;
+    border-left: 210px solid #F7888C;
+}
+
+.list-menu-float .icon-menu.history:before {
+    right: 0;
+    margin-right: -280px;
+    border-top: 28px solid transparent;
+    border-right: 280px solid #C896E0;
+    border-bottom: 5px solid transparent;
+}
+
+
+.list-menu-float .icon-menu.export:before,
+.list-menu-float .icon-menu.history + form:before {
+    left: 0;
+    margin-left: -450px;
+    border-top: 31px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 450px solid #7E9DFC;
+}
+
+/* logout */
+
+/* when own list */
+.list-menu-float .icon-menu.export + form:before {
+    right: 0;
+    margin-right: -350px;
+    border-top: 20px solid transparent;
+    border-right: 350px solid #99E5F7;
+    border-bottom: 25px solid transparent;
+}
+
+.icon-logout {
+    left: !important;
+    top: !important;
+}
+
+.list-menu-float .icon-menu.setting {
+    opacity: 1 !important;
+}
+
+.list-menu-float .icon-menu.setting:before {
+    left: 0;
+    margin-left: -320px;
+    border-top : 9px solid transparent;
+    border-bottom : 51px solid transparent;
+    border-left : 320px solid #BAED93;
+}
+
+.list-menu-float .icon-menu.setting .text {
+/* setting button (owner only) */
+    height: 50px !important;
+    width: 110px !important;
+    opacity: 1 !important;
+    text-align: left;
+}
+
+.list-menu-float .icon-menu.setting:hover .text {
+
+}
+
+.list-menu-float .icon-menu.setting .text a {
+    background: transparent !important;
+    border: none !important;
+    color: #9B9B9B !important;
+    opacity: 1 !important;
+    height: auto !important;
+    padding-bottom: 10px;
+    position: relative !important;
+    line-height: initial !important;
+    top: 0 !important;
+}
+
+.list-menu-float .icon-menu.setting .text a:hover {
+    color: #393939 !important;
+}
+
+/* TODO change those 2 to be proportional */
+/* own list */
+@media (min-height:600px) {
+    .list-menu-float > .icon-menu:last-child.setting {
+        margin-bottom: calc(100vh - 600px);
+    }
+}
+
+/* other list */
+@media (min-height:500px) {
+    .list-menu-float > form:last-child {
+        margin-bottom: calc(100vh - 500px);
+    }
+}
+
+/* LIST CONTAINER */
+
+#list-container {
+    background-color: transparent !important;
+    border: none;
+    width: 100%;
+}
+
+/* IMAGE BLOCK */
+
+.cover-block {
+
+}
+
+/* STATUS MENU */
+
+#status-menu {
+    background: white;
+    border-bottom: none;
+    box-shadow: 5px 5px 5px #0000005c;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.status-menu {
+/* category menu */
+    overflow: hidden;
+}
+
+.status-menu .status-button {
+/* category button */
+    color: !important;
+}
+
+.status-menu .status-button:hover {
+    color: #393939;
+}
+
+
+.status-menu-container .status-menu .status-button:after {
+    height: 0;
+    width: 0;
+    background-color: transparent;
+    z-index: -1;
+}
+
+.status-menu .status-button.on:after,
+.status-menu .status-button:hover:after {
+    margin: 0 !important;
+}
+
+.status-menu .status-button.all_anime:after {
+    top: 0;
+    border-top: 145px solid #ffbaf1;
+    border-right: 50px solid transparent;
+    border-left: 20px solid transparent;
+    margin-top: -145px;
+}
+
+.status-menu .status-button.watching:after {
+    top: 0;
+    left: 20px;
+    border-top: 120px solid #badc58;
+    border-right: 30px solid transparent;
+    border-left: 70px solid transparent;
+    margin-top: -120px;
+}
+
+.status-menu .status-button.completed:after {
+    top: 0;
+    border-top: 90px solid #A7E9F7;
+    border-right: 50px solid transparent;
+    border-left: 20px solid transparent;
+    margin-top: -90px;
+}
+
+.status-menu .status-button.onhold:after {
+    top: 0;
+    border-top: 90px solid #FFBD89;
+    border-right: 10px solid transparent;
+    border-left: 45px solid transparent;
+    margin-top: -90px;
+}
+
+.status-menu .status-button.dropped:after {
+    top: 0;
+    border-top: 60px solid #C18F33;
+    border-right: 30px solid transparent;
+    border-left: 20px solid transparent;
+    margin-top: -60px;
+}
+
+.status-menu .status-button.plantowatch:after {
+    top: 0;
+    border-top: 160px solid #FFE48E;
+    border-right: 80px solid transparent;
+    border-left: 20px solid transparent;
+    margin-top: -160px;
+}
+
+/* SEARCH */
+
+.status-menu-container .search-container  {
+
+}
+
+/* STATUS TITLE */
+
+.list-unit .list-status-title {
+    background: transparent;
+    margin: 0 auto;
+}
+
+.list-unit .list-status-title .text,
+.list-unit .list-status-title .stats a {
+    color: white !important;
+    filter: drop-shadow(1px 2px 2px black);
+}
+
+.list-unit .list-status-title .text {
+    font-size: 65px;
+}
+
+/*.list-status-title::after {
+    content: "ALL ANIME";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #c4e7fb;
+    clip-path: polygon(100% 15%, 0% 100%, 100% 100%);
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
+    margin-left: 20px;
+    filter: drop-shadow(1px 1px 1px black);
+}*/
+
+/* STATS */
+
+.stats {
+
+}
+
+.list-unit .list-stats {
+/* Stat bar */
+    background-color: transparent;
+    color: white !important;
+    filter: drop-shadow(1px 2px 2px black);
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+/* FILTER */
+
+#advanced-options {
+/* fix for window out of screen*/
+    position: fixed;
+}
+
+/* LIST TABLE */
+
+.list-block {
+    margin-top: 0px !important;
+}
+
+.list-unit {
+    min-width:960px;
+    width: 960px;
+}
+
+/*@media (min-width:465px) {
+    .list-unit {
+        width: 465px;
+    }
+}*/
+
+@media (min-width:1070px) {
+    .list-unit {
+        width: 960px;
+    }
+}
+
+@media (min-width:1550px) {
+    .list-unit {
+        width: 1440px;
+    }
+}
+
+.list-table {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Sort row */
+
+.list-table > tbody:first-child {
+    flex-basis: 100%;
+    background-color: transparent;
+    padding: 15px 0px;
+}
+
+.list-table .list-table-header {
+    display: block;
+    width: 450px;
+    margin: 0 auto;
+    background: #f7f7f7;
+    box-shadow: 5px 5px 5px #0000005c;
+    border-radius: 15px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.list-table .list-table-header .header-title:not(.title):not(.score):not(.type):not(.progress):not(.chapters):not(.volumes):not(.rated) {
+/* hide not sortable headers */
+    display: none;
+}
+
+.list-table .list-table-header .header-title {
+    background: transparent;
+    border-bottom: none;
+    filter: drop-shadow(0px 1px 2px black);
+    padding: 0 !important;
+    display: inline-block;
+    height: 100%;
+    width: auto !important;
+}
+
+.list-table .list-table-header .header-title .link {
+    color: black !important;
+    padding: 9px 17px !important;
+    text-align: center;
+}
+
+.list-table .list-table-header .header-title .link .sort-icon {
+    color: black;
+}
+
+.list-table .list-table-header .header-title.title .link {
+    clip-path: polygon(0% 0%, 0% 100%, 10% 100%, 4% 0%, 8% 0%, 20% 100%, 89% 100%, 80% 0%, 90% 0%, 92% 96%, 100% 100%, 91% 0%);
+    width: 80px;
+}
+
+.list-table .list-table-header .header-title.score .link {
+    clip-path: polygon(0% 0%, 13% 100%, 19% 0%, 27% 0.00%, 12px 100%, 50% 100%, 72% 100%, 83% 0%, 89% 0%, 80% 100%, 82% 100%, 100% 0%);
+    width: 46px;
+}
+
+.list-table .list-table-header .header-title.type .link {
+    clip-path: polygon(10% 100%, 6% 100%, 10% 0%, 6% 0%, 0% 100%, 100% 100%, 94% 0%, 62px 0%, 98% 100%, 83% 100%, 75% 0%, 20% 0%);
+    width: 43px;
+}
+
+.list-table .list-table-header .header-title.progress .link {
+    clip-path: polygon(3% 0%, 5% 100%, 7% 100%, 13% 0%, 23% 0%, 12% 100%, 85% 100%, 76% 0%, 80% 0%, 97% 100%, 100% 100%, 90% 0%);
+    width: 65px;
+}
+
+.list-table .list-table-header .header-title.rated .link {
+    clip-path: polygon(0% 0%, 6% 100%, 10% 100%, 13% 0%, 17% 0%, 26% 100%, 100% 100%, 100% 0%, 95% 0%, 78% 100%, 75% 100%, 82% 0%);
+    width: 46px;
+}
+
+.list-table .list-table-header .header-title.title .link {background: #fff3a8;}
+.list-table .list-table-header .header-title.title .link:hover {background: #fddd13;}
+
+.list-table .list-table-header .header-title.score .link {background: #ffd0b9;}
+.list-table .list-table-header .header-title.score .link:hover {background: #fba276}
+
+.list-table .list-table-header .header-title.type .link {background: #b2fdd1;}
+.list-table .list-table-header .header-title.type .link:hover {background: #70e8a2;}
+
+.list-table .list-table-header .header-title.progress .link {background: #ffb3b5;}
+.list-table .list-table-header .header-title.progress .link:hover {background: #f8898d;}
+
+.list-table .list-table-header .header-title.rated .link {background: #b5e5ff;}
+.list-table .list-table-header .header-title.rated .link:hover {background: #85d4ff;}
+
+
+/* Data rows */
+
+.list-table tbody.list-item {
+    background: #fafbff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #0000005c;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin: 15px;
+    height: 200px;
+    width: 450px;
+}
+
+.list-table-data {
+    display: block;
+}
+
+.list-table .list-table-data .data a,
+.list-table .list-table-data a:hover:not(.edit-disabled) {
+    /* remove color conflicts with default themes */
+    color: unset !important;
+}
+
+.data, .more-info {
+    border: none !important;
+    color:;
+}
+
+.list-table .list-table-data .data {
+    display: block;
+    text-align: left;
+}
+
+/* not displayed data */
+.data.number,
+.data.status,
+.data.title .icon-watch,
+.data.progress .icon-add-episode,
+.data.chapter .icon-add-chapter,
+.data.volume .icon-add-volume,
+.list-table .list-table-data .tags .edit,
+.data.started,
+.data.finished,
+.data.days,
+.data.airing-started,
+.data.airing-finished,
+.data.storage,
+.data.retail,
+.data.priority {
+    display: none !important;
+}
+
+.data.status.watching ~ .data.title .add-edit-more span:first-child a,
+.data.status.reading ~ .data.title .add-edit-more span:first-child a {
+    background: linear-gradient(to bottom, #badc58 50%, #9bb749);
+}
+
+.data.status.completed ~ .data.title .add-edit-more span:first-child a {
+    background: linear-gradient(to bottom, #A7E9F7 50%, #8EC9D5);
+}
+
+.data.status.onhold ~ .data.title .add-edit-more span:first-child a {
+    background: linear-gradient(to bottom, #FFBD89 50%, #DD9B65);
+}
+
+.data.status.dropped ~ .data.title .add-edit-more span:first-child a {
+    background: linear-gradient(to bottom, #C18F33 50%, #AA8542);
+}
+
+.data.status.plantowatch ~ .data.title .add-edit-more span:first-child a,
+.data.status.plantoread ~ .data.title .add-edit-more span:first-child a {
+    background: linear-gradient(to bottom, #FFE48E 50%, #DDC473);
+}
+
+.data.image {
+    height: 200px;
+    padding: 0px !important;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 145px;
+}
+
+.data.image a {
+    height: 100%;
+    left: 0px;
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+
+.data.image a:before {
+/* anime cover (generated) */
+    background-position: center center;
+    background-size: cover;
+    content:"";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.2s;
+    width: 100%;
+}
+
+.data.image img {
+    border: none !important;
+    height: auto !important;
+    width: 100% !important;
+}
+
+.data.title {
+    padding: 5px 35px 5px 5px !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 145px;
+    max-height: 50px;
+}
+
+/* line under title */
+.data.title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 30px;
+    height: 2px;
+    background: #3e3e3e;
+    display: block;
+    visibility: visible;
+}
+
+.data.title .link {
+    /* Anime title */
+    color:;
+}
+
+.data.title .rewatching,
+.data.title .content-status {
+    color: #919191 !important;
+}
+
+.add-edit-more {
+    font-size: 0px !important; /* hide the "-" */
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 200px;
+    width: 35px;
+    z-index: 2; /* positionned on top of the more section */
+}
+
+.add-edit-more span  {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.add-edit-more a {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: all;
+}
+
+.add-edit-more span:first-child a { /* add or edit */
+    clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+}
+
+.add-edit-more span:first-child a::before {
+    content: "\f044";
+    font-family: FontAwesome;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    font-size: 20px;
+}
+
+.add-edit-more .more a {
+    background: #c6c4c4;
+    clip-path: polygon(10% 0%, 0% 70%, 80% 0%);
+}
+
+.add-edit-more .more a::before {
+    content: "\f129";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 4px;
+    left: 11px;
+    font-size: 16px;
+}
+
+.data.score {
+    position: absolute;
+    bottom: 0;
+    left: 145px;
+    width: 35px;
+    background: #ffacc8;
+    padding: 0px 20px 0px 10px !important;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, calc(100% - 20px) 0%);
+}
+
+.data.score a {
+    font-weight: normal !important;
+}
+
+.data.score a:before {
+    content: "\f006";
+    font-family: FontAwesome;
+}
+
+.data.score .edit-transition {
+
+}
+
+.data.progress,
+.data.chapter,
+.data.volume {
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+    background: #c8b9ff;
+    padding: 0px 30px !important;
+    clip-path: polygon(0% 0%, 20px 100%, 100% 100%, calc(100% - 20px) 0%);
+}
+
+.data.volume {
+
+}
+
+.data.progress span:first-child:before,
+.data.chapter span:first-child:before,
+.data.volume span:first-child:before {
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+
+.data.progress span:first-child:before { content: "\f008"; }
+.data.chapter span:first-child:before { content: "\f097"; }
+.data.volume span:first-child:before { content: "\f02d"; }
+
+.data.progress span:first-child,
+.data.chapter span:first-child,
+.data.volume span:first-child {
+    /*float: left; */
+}
+
+
+.data.progress span:first-child input,
+.data.chapter span:first-child input,
+.data.volume span:first-child input {
+    /* field when editing number */
+    background: transparent;
+    border: none;
+    color:;
+}
+
+.data.progress span:nth-of-type(2),
+.data.chapter span:nth-of-type(2),
+.data.volume span:nth-of-type(2) {
+    /* total number of episodes / chapters / volumes */
+}
+
+.data.tags {
+    background: linear-gradient(to right, #ffffffc9 144px, #ffffffed 145px);
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 !important;
+    z-index: 1;
+}
+
+.data.tags:hover {
+    visibility: visible;
+}
+
+.data.tags:before {
+    content:"\f02c";
+    font-family: FontAwesome;
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+    height: 17px;
+    padding: 0px 10px 0px 20px;
+    visibility: visible;
+    background: #ffc95c;
+    clip-path: polygon(9px 0%, 0% 100%, 5px 100%, 10px 0%, 15px 0%, 10px 100%, calc(100% - 3px) 100%, 100% 0%);
+}
+
+.data.tags > div {
+    padding: 10px 35px 10px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: hidden;
+}
+
+.data.tags > div:empty:before {
+    content:"No tags.";
+}
+
+.data.type,
+.data.rated,
+.data.season,
+.data.studio,
+.data.licensor {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    left: 145px;
+    padding-left: 4px !important;
+    max-width: 265px;
+}
+
+.data.studio:before,
+.data.licensor:before {
+    padding-right: 4px;
+}
+
+.data.type:before {
+    content:"Type:";
+}
+
+.data.type {
+    bottom: 105px;
+}
+
+.data.rated:before {
+    content:"Rated:";
+}
+
+.data.rated {
+    bottom: 85px;
+}
+
+.data.season:before {
+    content: "Premiered:";
+}
+
+.data.season {
+    bottom: 65px;
+}
+
+.data.studio::before {
+    content: "Studios:";
+}
+
+.data.studio {
+    bottom: 45px;
+}
+
+.data.licensor::before {
+    content: "Licensors:";
+}
+
+.data.licensor {
+    bottom: 25px;
+}
+
+.data.magazine::before {
+    content: "Serialized:";
+}
+
+.data.magazine {
+    max-width:;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.more-info {
+    background: linear-gradient(to right, #ffffffc9 144px, #ffffffed 145px);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    direction: rtl; /* scrollbar on the left */
+    z-index: 1;
+}
+
+.more-info .more-content {
+    padding-right: 35px !important;
+    direction: ltr; /* fix order of text in more section because of the reversed direction */
+}
+
+.more-info a {
+    color: !important;
+}
+
+/* FOOTER */
+
+#footer-block {
+    background: transparent;
+}
+
+#copyright {
+    color: white;
+    filter: drop-shadow(1px 1px 1px black);
+    font-size: 17px;
+}
+
+#copyright:after {
+/* Custom copyright text */
+    content: "Layout by Cateinya. Modified by rl404.";
+}
+
+/* OTHER */
