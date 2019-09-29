@@ -4,13 +4,13 @@
  * Modified by rl404 (https://myanimelist.net/profile/rl404)
  */
 
-@import url(https://rawgit.com/rl404/MyAnimeList/master/Madoka/covermanga.css);
+@import url(https://mal-scraper.000webhostapp.com/auto-cover?q=%23more%7Bid%7D%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D%0D%0A);
 
 BODY{
     color: #1c327c;
     font-size: 14px;
     background-attachment: fixed;
-    background-color: #000000;    
+    background-color: #000000;
 }
 /*
 
@@ -62,21 +62,21 @@ tr:hover [class^=td]{
     -moz-transition: .4s ease;
     -webkit-transition: .4s ease;
     -o-transition: .4s ease;
-} 
+}
 
-tr:hover td.td1 a, 
-tr:hover td.td1, 
-tr:hover td.td2 a, 
+tr:hover td.td1 a,
+tr:hover td.td1,
+tr:hover td.td2 a,
 tr:hover td.td2 {
     color: #FFFFFF;
-    transition: all 0.4s ease 0s; 
+    transition: all 0.4s ease 0s;
 }
 
 small::before {content: "[";}
 small::after {content: "]";}
 /*
 
-SORTING 
+SORTING
 
 */
 #inlineContent {
@@ -89,7 +89,7 @@ SORTING
     position: fixed;
     left: 1030px;
     bottom: 116px !important;
-    color: #1683b4; 
+    color: #1683b4;
     background-color: #0b0b0c;
     width: 98px !important;
     height: 36px;
@@ -131,7 +131,7 @@ SORTING
 }
 
 .table_headerLink {
-    font-size: 14px;  
+    font-size: 14px;
     font-weight: normal !important;
     color: #1683b4;
     display: block;
@@ -198,7 +198,7 @@ CURRENT BUTTON (INACTIVE)
 /*
 CURRENT BUTTON (ACTIVE, HOVER)
 */
-.status_selected a[href*="status=1"], 
+.status_selected a[href*="status=1"],
 .status_not_selected a[href*="status=1"]:hover{
     background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/watching.png);
     bottom: 295px;
@@ -216,7 +216,7 @@ COMPLETED (INACTIVE)
 /*
 COMPLETED (ACTIVE, HOVER)
 */
-.status_selected a[href*="status=2"], 
+.status_selected a[href*="status=2"],
 .status_not_selected a[href*="status=2"]:hover {
     background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/completed.png);
     bottom: 240px;
@@ -233,7 +233,7 @@ ON-HOLD (INACTIVE)
 /*
 ON-HOLD (ACTIVE, HOVER)
 */
-.status_selected a[href*="status=3"], 
+.status_selected a[href*="status=3"],
 .status_not_selected a[href*="status=3"]:hover {
     background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/onhold.png);
     bottom: 185px;;
@@ -250,7 +250,7 @@ DROPPED (INACTIVE)
 /*
 DROPPED (ACTIVE, HOVER)
 */
-.status_selected a[href*="status=4"], 
+.status_selected a[href*="status=4"],
 .status_not_selected a[href*="status=4"]:hover {
     background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/dropped.png);
     right: -35px;
@@ -267,7 +267,7 @@ PLANNED (INACTIVE)
 /*
 PLANNED (ACTIVE, HOVER)
 */
-.status_selected a[href*="status=6"], 
+.status_selected a[href*="status=6"],
 .status_not_selected a[href*="status=6"]:hover {
     background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/planning.png);
     right: -35px;
@@ -285,7 +285,7 @@ ALL ANIME (INACTIVE)
 /*
 ALL ANIME (ACTIVE, HOVER)
 */
-.status_selected a[href*="status=7"], 
+.status_selected a[href*="status=7"],
 .status_not_selected a[href*="status=7"]:hover {
     background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/allanime.png);
     right: -35px;
@@ -298,7 +298,7 @@ BUTTON TEXT
 This section is disabled by default. The fonts you see on buttons by default are in the default custom images, which you change above. If you want the original text back in the buttons, change "transparent !important" below to the color you want. You can also change the font size here or add a custom font family.
 
 */
-.status_selected a, 
+.status_selected a,
 .status_not_selected a {
     color: transparent !important;
 }
@@ -404,9 +404,9 @@ COVER
 
 */
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(3),
-#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(4), 
-#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(5), 
-#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(6), 
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(4),
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(5),
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(6),
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(7),
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(8) {
     display: tab\le-cell;
@@ -422,7 +422,7 @@ COVER
 }
 
 #list_surround a[href*="http://myanimelist.net/panel.php?go=edit"],
-#list_surround a[href*="http://myanimelist.net/editlist.php?type="], 
+#list_surround a[href*="http://myanimelist.net/editlist.php?type="],
 #list_surround a[href*="http://myanimelist.net/panel.php?go=add"] {
     visibility: visible !important;
     margin-right: 10px;
@@ -445,7 +445,7 @@ COVER
     z-index: 1;
     opacity: 0;
 }
-/* 
+/*
 
 PREVIEW MSG ABOVE COVERS
 Remove content: "preview"; to remove the PREVIEW text.
@@ -487,7 +487,7 @@ td[class^='td']:nth-of-type(5) {
     z-index: 2;
     background: transparent !important;
 }
-/* 
+/*
 
 TAG TEXT COLOR
 
@@ -495,9 +495,9 @@ TAG TEXT COLOR
 tr:hover td[class^='td']:nth-of-type(5) a {
     color: white !important;
 }
-/* 
+/*
 
-OTHER SETTINGS 
+OTHER SETTINGS
 
 */
 :hover + .hide , tr:hover td[class^='td']:nth-of-type(5){
@@ -509,13 +509,13 @@ OTHER SETTINGS
 MENU
 
 COLOR OF THE ICONS
-Change the color, and adjust the opacity for brighter color. 
+Change the color, and adjust the opacity for brighter color.
 Remove the display: none to match the selected icon to the other icons.
 
 */
-#mal\_cs\_listinfo:before,  
-#mal\_cs\_links:before, 
-#mal\_cs\_otherlinks:before, 
+#mal\_cs\_listinfo:before,
+#mal\_cs\_links:before,
+#mal\_cs\_otherlinks:before,
  #mal\_cs\_powered:before {
     background: transparent;
     opacity: .9;
@@ -527,13 +527,13 @@ BORDER OF ICONS
 If you're having trouble seeing the border bottom, lower the height by a pixel or two until you see it.
 
 */
-#mal_cs_listinfo:before,  
-#mal_cs_links:before,  
-#mal_cs_otherlinks:before,  
-#mal_cs_powered:before,  
-#mal\_cs\_listinfo:before,  
-#mal\_cs\_links:before, 
-#mal\_cs\_otherlinks:before,  
+#mal_cs_listinfo:before,
+#mal_cs_links:before,
+#mal_cs_otherlinks:before,
+#mal_cs_powered:before,
+#mal\_cs\_listinfo:before,
+#mal\_cs\_links:before,
+#mal\_cs\_otherlinks:before,
 #mal\_cs\_powered:before {
     border-color: ;
     border-style: ;
@@ -543,13 +543,13 @@ If you're having trouble seeing the border bottom, lower the height by a pixel o
 /*
 
 BUTTONS COLOR AND BORDER
-Buttons within the hover menus, not the icons themselves. 
-Second code is for button color on hover. 
+Buttons within the hover menus, not the icons themselves.
+Second code is for button color on hover.
 
 */
-#mal_cs_listinfo a,  
-#mal_cs_links a,  
-#mal_cs_otherlinks a,  
+#mal_cs_listinfo a,
+#mal_cs_links a,
+#mal_cs_otherlinks a,
 #mal_cs_powered a img{
     background-color: rgba(64, 60, 90, 0.6) !important;
     border-color: transparent;
@@ -557,34 +557,34 @@ Second code is for button color on hover.
     border-width: 1px !important;
 }
 
-#mal\_cs\_listinfo a:hover,  
-#mal\_cs\_links a:hover,  
-#mal\_cs\_otherlinks a:hover,  
+#mal\_cs\_listinfo a:hover,
+#mal\_cs\_links a:hover,
+#mal\_cs\_otherlinks a:hover,
 #mal_cs_powered a img:hover {
     background-color: #403C5A !important;
 }
 /*
 
 COLOR OF HOVER MENUS AND SELECTED ICONS
-Remove display none from the second code to match the colors of the selected icon to the icons above. 
+Remove display none from the second code to match the colors of the selected icon to the icons above.
 
 */
-#mal\_cs\_listinfo div,  
-#mal\_cs\_links div,  
-#mal\_cs\_otherlinks div, 
-#mal\_cs\_powered div,  
-#mal\_cs\_powered dd,  
+#mal\_cs\_listinfo div,
+#mal\_cs\_links div,
+#mal\_cs\_otherlinks div,
+#mal\_cs\_powered div,
+#mal\_cs\_powered dd,
 #mal\_cs\_powered a  {
     background-color: rgba(255, 255, 255, 0.6) !important;
 }
 
-#mal\_cs\_listinfo:hover:before,  
-#mal\_cs\_links:hover:before, 
-#mal\_cs\_otherlinks:hover:before,  
+#mal\_cs\_listinfo:hover:before,
+#mal\_cs\_links:hover:before,
+#mal\_cs\_otherlinks:hover:before,
 #mal\_cs\_powered:hover:before,
-#mal\_cs\_listinfo:hover:after,  
-#mal\_cs\_links:hover:after, 
-#mal\_cs\_otherlinks:hover:after,  
+#mal\_cs\_listinfo:hover:after,
+#mal\_cs\_links:hover:after,
+#mal\_cs\_otherlinks:hover:after,
 #mal\_cs\_powered:hover:after {
     display: none;
     background-color: ;
@@ -593,7 +593,7 @@ Remove display none from the second code to match the colors of the selected ico
 /*
 
 COLOR OF USERNAME (for visitors)
-You don't see this username on the menus when you're logged in, log out to see it. 
+You don't see this username on the menus when you're logged in, log out to see it.
 
 */
 #mal\_cs\_otherlinks strong a {
@@ -622,9 +622,9 @@ OTHER CODES
 If you want to change out the icon images themselves, you can scroll down through the codes and find the background images and change them with your own.
 
 */
-#mal\_cs\_listinfo,  
-#mal\_cs\_links,  
-#mal\_cs\_otherlinks,  
+#mal\_cs\_listinfo,
+#mal\_cs\_links,
+#mal\_cs\_otherlinks,
 #mal\_cs\_powered {
     -moz-box-sizing: border-box;
     transition: all 0.4s ease 0s;
@@ -640,19 +640,19 @@ If you want to change out the icon images themselves, you can scroll down throug
     z-index: 10;
 }
 
-#mal\_cs\_listinfo:hover,  
-#mal\_cs\_links:hover,  
-#mal\_cs\_otherlinks:hover,  
+#mal\_cs\_listinfo:hover,
+#mal\_cs\_links:hover,
+#mal\_cs\_otherlinks:hover,
 #mal\_cs\_powered:hover {
     height: 200px !important;
     padding-top: 32px;
     width: 150px;
 }
 
-#mal\_cs\_listinfo div,  
-#mal\_cs\_links div,  
-#mal\_cs\_otherlinks div,  
-#mal\_cs\_powered div,  
+#mal\_cs\_listinfo div,
+#mal\_cs\_links div,
+#mal\_cs\_otherlinks div,
+#mal\_cs\_powered div,
 #mal\_cs\_powered dd {
     transition: opacity 0.4s ease-in-out 0s;
     border-radius: 3px 0 0 0;
@@ -663,24 +663,24 @@ If you want to change out the icon images themselves, you can scroll down throug
     padding: 8px 0 0;
 }
 
-#mal\_cs\_listinfo:hover div,  
-#mal\_cs\_links:hover div,  
-#mal\_cs\_otherlinks:hover div,  
-#mal\_cs\_powered:hover div,  
+#mal\_cs\_listinfo:hover div,
+#mal\_cs\_links:hover div,
+#mal\_cs\_otherlinks:hover div,
+#mal\_cs\_powered:hover div,
 #mal\_cs\_powered:hover dd {
     opacity: 1;
 }
-#mal\_cs\_listinfo div:nth-of-type(2),  
-#mal\_cs\_links div:nth-of-type(2),  
-#mal\_cs\_otherlinks div:nth-of-type(2),  
+#mal\_cs\_listinfo div:nth-of-type(2),
+#mal\_cs\_links div:nth-of-type(2),
+#mal\_cs\_otherlinks div:nth-of-type(2),
 #mal\_cs\_powered div:nth-of-type(2) {
     border-radius: 0 0 3px 3px;
     padding: 4px 0 8px;
 }
 
-#mal\_cs\_listinfo a,  
-#mal\_cs\_links a,  
-#mal\_cs\_otherlinks a,  
+#mal\_cs\_listinfo a,
+#mal\_cs\_links a,
+#mal\_cs\_otherlinks a,
 #mal\_cs\_powered a {
     background-color: rgba(64, 60, 90, 0.6);
     border-radius: 3px 3px 3px 3px;
@@ -691,9 +691,9 @@ If you want to change out the icon images themselves, you can scroll down throug
     text-decoration: none;
 }
 
-#mal\_cs\_listinfo a:nth-of-type(1),  
-#mal\_cs\_links a:nth-of-type(1),  
-#mal\_cs\_otherlinks a:nth-of-type(1),  
+#mal\_cs\_listinfo a:nth-of-type(1),
+#mal\_cs\_links a:nth-of-type(1),
+#mal\_cs\_otherlinks a:nth-of-type(1),
 #mal\_cs\_powered a:nth-of-type(1) {
     margin-top: 0;
 }
@@ -771,7 +771,7 @@ If you want to change out the icon images themselves, you can scroll down throug
     width: 100%;
 }
 
-#mal\_cs\_powered #search #searchBox:hover,  
+#mal\_cs\_powered #search #searchBox:hover,
 #mal\_cs\_powered #search #searchBox:focus {
     border-color: #ACACAC #C6C6C6 #C6C6C6;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
@@ -832,22 +832,22 @@ td#mal\_cs\_pic a img {
     display: none;
 }
 
-#mal\_cs\_pic, 
+#mal\_cs\_pic,
 #mal\_cs\_listinfo,
  #mal\_cs\_links {
     border-right: 0 none !important;
 }
 
-#mal\_cs\_listinfo,  
-#mal\_cs\_links,  
-#mal\_cs\_otherlinks,  
+#mal\_cs\_listinfo,
+#mal\_cs\_links,
+#mal\_cs\_otherlinks,
 #mal\_cs\_powered {
     padding: 32px 0 0 !important;
 }
 
-#mal\_cs\_listinfo:before, 
-#mal\_cs\_links:before, 
-#mal\_cs\_otherlinks:before, 
+#mal\_cs\_listinfo:before,
+#mal\_cs\_links:before,
+#mal\_cs\_otherlinks:before,
 #mal\_cs\_powered:before {
     z-index: 10 !important;
     content: "";
@@ -856,11 +856,11 @@ td#mal\_cs\_pic a img {
     width: 32px !important;
     position: absolute !important;
     border-radius: 4px;
-}               
+}
 
-#mal\_cs\_listinfo:after, 
-#mal\_cs\_links:after, 
-#mal\_cs\_otherlinks:after, 
+#mal\_cs\_listinfo:after,
+#mal\_cs\_links:after,
+#mal\_cs\_otherlinks:after,
 #mal\_cs\_powered:after {
     z-index: 10 !important;
     content: "";
@@ -906,7 +906,7 @@ IF FOUND TO BE REMOVED, YOUR LIST WILL BE REMOVED TOO
     padding-top: 2px;
     width: 690px;
 }
-/* 
+/*
 
 GOOGLE CHROME FIX
 Adjust this amount 50px at a time (more or less) if your columns are uneven in Chrome, until your columns are even.
@@ -915,7 +915,7 @@ Adjust this amount 50px at a time (more or less) if your columns are uneven in C
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     td[class^='td']:nth-of-type(2) {
         width: 530px !important;}
-}              
+}
 /*
 
 Sparkle
@@ -937,7 +937,7 @@ body{
 @-webkit-keyframes sparkle {
     0% { background-position: 0 0, 0 0; }
     100% { background-position: -150px -300px, 150px -300px; }
-} 
+}
 
 /*
 
@@ -960,10 +960,10 @@ EDIT BUTTON
     display: none !important;
 }
 
-#list_surround table:nth-of-type(n+4) tbody:hover small a:first-of-type {  
+#list_surround table:nth-of-type(n+4) tbody:hover small a:first-of-type {
     display: inline-block !important;
     position: relative !important;
-    visibility: visible; 
+    visibility: visible;
     opacity: 1 !important;
     transition: all 0.4s ease 0s;
 }

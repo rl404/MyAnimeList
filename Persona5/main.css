@@ -6,9 +6,9 @@
 
 @font-face{
 	font-family: 'P5-Repca';
-	src: url('https://rawgit.com/rl404/MyAnimeList/master/Persona5/fonts/p5-repca-webfont.ttf') format('truetype'),
-       url('https://rawgit.com/rl404/MyAnimeList/master/Persona5/fonts/p5-repca-webfont.woff') format('woff'),
-	     url('https://rawgit.com/rl404/MyAnimeList/master/Persona5/fonts/p5-repca-webfont.woff2') format('woff2');
+	src: url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/fonts/p5-repca-webfont.ttf') format('truetype'),
+       url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/fonts/p5-repca-webfont.woff') format('woff'),
+	     url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/fonts/p5-repca-webfont.woff2') format('woff2');
 }
 
 * {

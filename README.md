@@ -43,8 +43,8 @@
 - [x] Tags
 
 **How to use**
-* **For anime**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Madoka/mainanime.css);`
-* **For manga**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Madoka/mainmanga.css);`
+* **For anime**: `@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Madoka/mainanime.css);`
+* **For manga**: `@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Madoka/mainmanga.css);`
 
 <h2 align=center>Saber</h2>
 <p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/sample.gif></p>
@@ -67,7 +67,7 @@
 - [x] Chapters
 - [x] Volumes
 
-**How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Saber/main.css);`
+**How to use (for anime and manga)**: `@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Saber/main.css);`
 
 <h2 align=center>Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka (Danmachi)</h2>
 <p align=center>
@@ -91,9 +91,9 @@
 - [x] Any 2 from Score, Chapters, Volumes, and Episodes
 
 **How to use (for anime and manga)**
-* **Hestia theme**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Danmachi/mainhestia.css);`
-* **Lili theme**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Danmachi/mainlili.css);`
-* **Ais theme**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Danmachi/mainais.css);`
+* **Hestia theme**: `@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Danmachi/mainhestia.css);`
+* **Lili theme**: `@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Danmachi/mainlili.css);`
+* **Ais theme**: `@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Danmachi/mainais.css);`
 
 <h2 align=center>Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai (Anohana)</h2>
 <p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/sample.png></p>
@@ -108,7 +108,7 @@
 - [x] Score
 - [x] Type
 
-**How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Anohana/main.css);`
+**How to use (for anime and manga)**: `@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Anohana/main.css);`
 
 <h2 align=center>Expander</h2>
 <p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sample.png></p>
@@ -135,8 +135,8 @@
 - [x] Type
 
 **How to use**
-* **For anime**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/mainanime.css);`
-* **For manga**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Expander/mainmanga.css);`
+* **For anime**: `@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Expander/mainanime.css);`
+* **For manga**: `@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Expander/mainmanga.css);`
 
 <h2 align=center>Bakemonogatari</h2>
 <p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/sample.png></p>
@@ -163,7 +163,7 @@
 - [x] Tags
 - [x] Type
 
-**How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Bakemonogatari/main.css);`
+**How to use (for anime and manga)**: `@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Bakemonogatari/main.css);`
 
 <h2 align=center>Rezero</h2>
 <p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Rezero/images/sample.png></p>
@@ -184,7 +184,7 @@
 - [x] Chapters
 - [x] Volumes
 
-**How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Rezero/main.css);`
+**How to use (for anime and manga)**: `@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Rezero/main.css);`
 
 <h2 align=center>Nier:Automata</h2>
 <p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/sample.png></p>
@@ -211,7 +211,7 @@
 - [x] Volumes
 - [x] Magazine
 
-**How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/NierAutomata/main.css);`
+**How to use (for anime and manga)**: `@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/NierAutomata/main.css);`
 
 <h2 align=center>Persona 5</h2>
 <p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/sample.png></p>
@@ -234,7 +234,7 @@
 - [x] Chapters
 - [x] Volumes
 
-**How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Persona5/main.css);`
+**How to use (for anime and manga)**: `@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Persona5/main.css);`
 
 <h2 align=center>Cateinya</h2>
 <p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Cateinya/images/sample.jpg></p>
@@ -257,7 +257,7 @@
 - [x] Studios
 - [x] Licensors
 
-**How to use**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Cateinya/main.css);`
+**How to use**: `@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Cateinya/main.css);`
 
 <h2 align=center>Nhentai</h2>
 <p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Nhentai/sample.png></p>
@@ -277,7 +277,7 @@
 - [x] Image
 - [x] Published Dates
 
-**How to use**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Nhentai/main.css);`
+**How to use**: `@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Nhentai/main.css);`
 
 [classiclogo]: https://raw.githubusercontent.com/rl404/MyAnimeList/master/Images/classic.png
 [modernlogo]: https://raw.githubusercontent.com/rl404/MyAnimeList/master/Images/modern.png
