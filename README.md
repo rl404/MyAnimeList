@@ -13,6 +13,7 @@
   - [Rezero](#rezero)
   - [Nier:Automata](#nierautomata)
   - [Persona 5](#persona-5)
+  - [Cateinya](#cateinya)
   - [NHentai](#nhentai)
 - [Other](#other)
   - [Guides](#guides)
@@ -234,6 +235,29 @@
 - [x] Volumes
 
 **How to use (for anime and manga)**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Persona5/main.css);`
+
+<h2 align=center>Cateinya</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Cateinya/images/sample.jpg></p>
+
+![Modern][modernlogo]
+
+**Based template**: [Cateinya](https://myanimelist.net/profile/Cateinya)
+
+**List type**: Anime list only
+
+**Anime List recommended setting**:
+- [x] Numbers
+- [x] Score
+- [x] Type
+- [x] Episode
+- [x] Rating
+- [x] Tags
+- [x] Image
+- [x] Premiered
+- [x] Studios
+- [x] Licensors
+
+**How to use**: `@import url(https://rawgit.com/rl404/MyAnimeList/master/Cateinya/main.css);`
 
 <h2 align=center>Nhentai</h2>
 <p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Nhentai/sample.png></p>
