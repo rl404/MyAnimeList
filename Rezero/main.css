@@ -470,7 +470,7 @@ table[class*="header_"]:nth-of-type(n+3)+table {
 
 [class^="header_"] {
     color: white;
-    padding-top: 10px;
+    padding-top: 5px;
     text-align: left;
     vertical-align: bottom;
     display: inline-block
