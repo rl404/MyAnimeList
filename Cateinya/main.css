@@ -4,15 +4,13 @@
  * Modified by rl404 (https://myanimelist.net/profile/rl404)
  */
 
-/* generated cover */
-/*@import url(https://mal-scraper.000webhostapp.com/auto-cover?q=.data.image%20a%5Bhref%5E%3D%22%2F%7Bid%7D%2F%22%5D%3Abefore%20%7B%20background-image%3A%20url%28%7Burl%7D%29%3B%20%7D);*/
 
 /* LINKS */
 
 a {
-    color:;
     text-decoration: none !important;
 }
+
 
 /*body {
     background: linear-gradient(to left bottom, black 50%, transparent 50%),
@@ -22,6 +20,7 @@ a {
     background-position-y: calc(100vh - 10px);
     z-index: 1;
 }*/
+
 
 /*body::before {
     content: "";
@@ -47,6 +46,7 @@ body {
     background-attachment: fixed;
 }
 
+
 /* HEADER */
 
 .header {
@@ -57,7 +57,7 @@ body {
 .header .header-title {
     background-image: url(https://myanimelist.net/img/pc/ownlist/logo_mal.png);
     margin-left: 15px;
-    filter:drop-shadow(1px 1px 1px black);
+    filter: drop-shadow(1px 1px 1px black);
 }
 
 .header .header-menu {
@@ -95,11 +95,11 @@ body {
     position: relative;
 }
 
-#header-menu-dropdown .icon-menu.manga-list:before{
+#header-menu-dropdown .icon-menu.manga-list:before {
     content: "View Manga List";
 }
 
-#header-menu-dropdown .icon-menu.anime-list:before{
+#header-menu-dropdown .icon-menu.anime-list:before {
     content: "View Anime List";
 }
 
@@ -122,14 +122,18 @@ body {
     display: none !important;
 }
 
+
 /* div other list */
+
 .header .header-menu .list-menu {
     background-color: transparent;
     border: none;
     box-shadow: none;
 }
 
+
 /* link to other list */
+
 .header .header-menu .list-menu .icon-menu {
     background: transparent !important;
     color: white !important;
@@ -138,6 +142,7 @@ body {
 .header-info {
     display: inline-block;
 }
+
 
 /* LIST MENU */
 
@@ -214,7 +219,7 @@ body {
 
 .list-menu-float .icon-menu,
 .list-menu-float form {
-/* All list menu buttons */
+    /* All list menu buttons */
     transition: none;
 }
 
@@ -240,7 +245,7 @@ body {
 }
 
 .list-menu-float .icon-menu .text {
-/* text display */
+    /* text display */
     color: #9B9B9B !important;
     opacity: 1 !important;
     width: auto !important;
@@ -249,13 +254,18 @@ body {
 }
 
 .icon {
-/* All list menu icons */
+    /* All list menu icons */
     fill: #9B9B9B !important;
     left: 75px !important;
 }
 
-.list-menu-float .icon-menu:hover .text { color:#393939 !important; }
-.list-menu-float .icon-menu:hover .icon { fill:#393939 !important; }
+.list-menu-float .icon-menu:hover .text {
+    color: #393939 !important;
+}
+
+.list-menu-float .icon-menu:hover .icon {
+    fill: #393939 !important;
+}
 
 .list-menu-float .icon-menu.profile {
     position: absolute;
@@ -309,17 +319,17 @@ body {
 .list-menu-float .icon-menu.quick-add:before {
     left: 0;
     margin-left: -320px;
-    border-top : 9px solid transparent;
-    border-bottom : 51px solid transparent;
-    border-left : 320px solid #FCE67E;
+    border-top: 9px solid transparent;
+    border-bottom: 51px solid transparent;
+    border-left: 320px solid #FCE67E;
 }
 
 .list-menu-float .icon-menu.anime-list:before {
     right: 0;
     margin-right: -350px;
-    border-top : 13px solid transparent;
-    border-right : 350px solid #DFA36F;
-    border-bottom : 45px solid transparent;
+    border-top: 13px solid transparent;
+    border-right: 350px solid #DFA36F;
+    border-bottom: 45px solid transparent;
 }
 
 .list-menu-float .icon-menu.manga-list:before {
@@ -338,9 +348,8 @@ body {
     border-bottom: 5px solid transparent;
 }
 
-
 .list-menu-float .icon-menu.export:before,
-.list-menu-float .icon-menu.history + form:before {
+.list-menu-float .icon-menu.history+form:before {
     left: 0;
     margin-left: -450px;
     border-top: 31px solid transparent;
@@ -348,20 +357,18 @@ body {
     border-left: 450px solid #7E9DFC;
 }
 
+
 /* logout */
 
+
 /* when own list */
-.list-menu-float .icon-menu.export + form:before {
+
+.list-menu-float .icon-menu.export+form:before {
     right: 0;
     margin-right: -350px;
     border-top: 20px solid transparent;
     border-right: 350px solid #99E5F7;
     border-bottom: 25px solid transparent;
-}
-
-.icon-logout {
-    left: !important;
-    top: !important;
 }
 
 .list-menu-float .icon-menu.setting {
@@ -371,21 +378,17 @@ body {
 .list-menu-float .icon-menu.setting:before {
     left: 0;
     margin-left: -320px;
-    border-top : 9px solid transparent;
-    border-bottom : 51px solid transparent;
-    border-left : 320px solid #BAED93;
+    border-top: 9px solid transparent;
+    border-bottom: 51px solid transparent;
+    border-left: 320px solid #BAED93;
 }
 
 .list-menu-float .icon-menu.setting .text {
-/* setting button (owner only) */
+    /* setting button (owner only) */
     height: 50px !important;
     width: 110px !important;
     opacity: 1 !important;
     text-align: left;
-}
-
-.list-menu-float .icon-menu.setting:hover .text {
-
 }
 
 .list-menu-float .icon-menu.setting .text a {
@@ -404,20 +407,27 @@ body {
     color: #393939 !important;
 }
 
+
 /* TODO change those 2 to be proportional */
+
+
 /* own list */
+
 @media (min-height:600px) {
-    .list-menu-float > .icon-menu:last-child.setting {
+    .list-menu-float>.icon-menu:last-child.setting {
         margin-bottom: calc(100vh - 600px);
     }
 }
 
+
 /* other list */
+
 @media (min-height:500px) {
-    .list-menu-float > form:last-child {
+    .list-menu-float>form:last-child {
         margin-bottom: calc(100vh - 500px);
     }
 }
+
 
 /* LIST CONTAINER */
 
@@ -427,11 +437,6 @@ body {
     width: 100%;
 }
 
-/* IMAGE BLOCK */
-
-.cover-block {
-
-}
 
 /* STATUS MENU */
 
@@ -446,19 +451,13 @@ body {
 }
 
 .status-menu {
-/* category menu */
+    /* category menu */
     overflow: hidden;
-}
-
-.status-menu .status-button {
-/* category button */
-    color: !important;
 }
 
 .status-menu .status-button:hover {
     color: #393939;
 }
-
 
 .status-menu-container .status-menu .status-button:after {
     height: 0;
@@ -521,11 +520,6 @@ body {
     margin-top: -160px;
 }
 
-/* SEARCH */
-
-.status-menu-container .search-container  {
-
-}
 
 /* STATUS TITLE */
 
@@ -544,6 +538,7 @@ body {
     font-size: 65px;
 }
 
+
 /*.list-status-title::after {
     content: "ALL ANIME";
     position: absolute;
@@ -561,14 +556,8 @@ body {
     filter: drop-shadow(1px 1px 1px black);
 }*/
 
-/* STATS */
-
-.stats {
-
-}
-
 .list-unit .list-stats {
-/* Stat bar */
+    /* Stat bar */
     background-color: transparent;
     color: white !important;
     filter: drop-shadow(1px 2px 2px black);
@@ -576,12 +565,14 @@ body {
     font-size: 14px;
 }
 
+
 /* FILTER */
 
 #advanced-options {
-/* fix for window out of screen*/
+    /* fix for window out of screen*/
     position: fixed;
 }
+
 
 /* LIST TABLE */
 
@@ -590,9 +581,10 @@ body {
 }
 
 .list-unit {
-    min-width:960px;
+    min-width: 960px;
     width: 960px;
 }
+
 
 /*@media (min-width:465px) {
     .list-unit {
@@ -619,9 +611,10 @@ body {
     flex-wrap: wrap;
 }
 
+
 /* Sort row */
 
-.list-table > tbody:first-child {
+.list-table>tbody:first-child {
     flex-basis: 100%;
     background-color: transparent;
     padding: 15px 0px;
@@ -639,7 +632,7 @@ body {
 }
 
 .list-table .list-table-header .header-title:not(.title):not(.score):not(.type):not(.progress):not(.chapters):not(.volumes):not(.rated) {
-/* hide not sortable headers */
+    /* hide not sortable headers */
     display: none;
 }
 
@@ -688,20 +681,45 @@ body {
     width: 46px;
 }
 
-.list-table .list-table-header .header-title.title .link {background: #fff3a8;}
-.list-table .list-table-header .header-title.title .link:hover {background: #fddd13;}
+.list-table .list-table-header .header-title.title .link {
+    background: #fff3a8;
+}
 
-.list-table .list-table-header .header-title.score .link {background: #ffd0b9;}
-.list-table .list-table-header .header-title.score .link:hover {background: #fba276}
+.list-table .list-table-header .header-title.title .link:hover {
+    background: #fddd13;
+}
 
-.list-table .list-table-header .header-title.type .link {background: #b2fdd1;}
-.list-table .list-table-header .header-title.type .link:hover {background: #70e8a2;}
+.list-table .list-table-header .header-title.score .link {
+    background: #ffd0b9;
+}
 
-.list-table .list-table-header .header-title.progress .link {background: #ffb3b5;}
-.list-table .list-table-header .header-title.progress .link:hover {background: #f8898d;}
+.list-table .list-table-header .header-title.score .link:hover {
+    background: #fba276
+}
 
-.list-table .list-table-header .header-title.rated .link {background: #b5e5ff;}
-.list-table .list-table-header .header-title.rated .link:hover {background: #85d4ff;}
+.list-table .list-table-header .header-title.type .link {
+    background: #b2fdd1;
+}
+
+.list-table .list-table-header .header-title.type .link:hover {
+    background: #70e8a2;
+}
+
+.list-table .list-table-header .header-title.progress .link {
+    background: #ffb3b5;
+}
+
+.list-table .list-table-header .header-title.progress .link:hover {
+    background: #f8898d;
+}
+
+.list-table .list-table-header .header-title.rated .link {
+    background: #b5e5ff;
+}
+
+.list-table .list-table-header .header-title.rated .link:hover {
+    background: #85d4ff;
+}
 
 
 /* Data rows */
@@ -728,9 +746,9 @@ body {
     color: unset !important;
 }
 
-.data, .more-info {
+.data,
+.more-info {
     border: none !important;
-    color:;
 }
 
 .list-table .list-table-data .data {
@@ -738,7 +756,9 @@ body {
     text-align: left;
 }
 
+
 /* not displayed data */
+
 .data.number,
 .data.status,
 .data.title .icon-watch,
@@ -757,25 +777,25 @@ body {
     display: none !important;
 }
 
-.data.status.watching ~ .data.title .add-edit-more span:first-child a,
-.data.status.reading ~ .data.title .add-edit-more span:first-child a {
+.data.status.watching~.data.title .add-edit-more span:first-child a,
+.data.status.reading~.data.title .add-edit-more span:first-child a {
     background: linear-gradient(to bottom, #badc58 50%, #9bb749);
 }
 
-.data.status.completed ~ .data.title .add-edit-more span:first-child a {
+.data.status.completed~.data.title .add-edit-more span:first-child a {
     background: linear-gradient(to bottom, #A7E9F7 50%, #8EC9D5);
 }
 
-.data.status.onhold ~ .data.title .add-edit-more span:first-child a {
+.data.status.onhold~.data.title .add-edit-more span:first-child a {
     background: linear-gradient(to bottom, #FFBD89 50%, #DD9B65);
 }
 
-.data.status.dropped ~ .data.title .add-edit-more span:first-child a {
+.data.status.dropped~.data.title .add-edit-more span:first-child a {
     background: linear-gradient(to bottom, #C18F33 50%, #AA8542);
 }
 
-.data.status.plantowatch ~ .data.title .add-edit-more span:first-child a,
-.data.status.plantoread ~ .data.title .add-edit-more span:first-child a {
+.data.status.plantowatch~.data.title .add-edit-more span:first-child a,
+.data.status.plantoread~.data.title .add-edit-more span:first-child a {
     background: linear-gradient(to bottom, #FFE48E 50%, #DDC473);
 }
 
@@ -799,10 +819,10 @@ body {
 }
 
 .data.image a:before {
-/* anime cover (generated) */
+    /* anime cover (generated) */
     background-position: center center;
     background-size: cover;
-    content:"";
+    content: "";
     display: block;
     height: 100%;
     position: absolute;
@@ -825,7 +845,9 @@ body {
     max-height: 50px;
 }
 
+
 /* line under title */
+
 .data.title::after {
     content: "";
     position: absolute;
@@ -838,28 +860,25 @@ body {
     visibility: visible;
 }
 
-.data.title .link {
-    /* Anime title */
-    color:;
-}
-
 .data.title .rewatching,
 .data.title .content-status {
     color: #919191 !important;
 }
 
 .add-edit-more {
-    font-size: 0px !important; /* hide the "-" */
+    font-size: 0px !important;
+    /* hide the "-" */
     margin: 0 !important;
     position: absolute;
     top: 0;
     right: 0;
     height: 200px;
     width: 35px;
-    z-index: 2; /* positionned on top of the more section */
+    z-index: 2;
+    /* positionned on top of the more section */
 }
 
-.add-edit-more span  {
+.add-edit-more span {
     position: absolute !important;
     top: 0;
     right: 0;
@@ -877,7 +896,8 @@ body {
     pointer-events: all;
 }
 
-.add-edit-more span:first-child a { /* add or edit */
+.add-edit-more span:first-child a {
+    /* add or edit */
     clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
 }
 
@@ -923,10 +943,6 @@ body {
     font-family: FontAwesome;
 }
 
-.data.score .edit-transition {
-
-}
-
 .data.progress,
 .data.chapter,
 .data.volume {
@@ -938,10 +954,6 @@ body {
     clip-path: polygon(0% 0%, 20px 100%, 100% 100%, calc(100% - 20px) 0%);
 }
 
-.data.volume {
-
-}
-
 .data.progress span:first-child:before,
 .data.chapter span:first-child:before,
 .data.volume span:first-child:before {
@@ -949,16 +961,17 @@ body {
     padding-right: 5px;
 }
 
-.data.progress span:first-child:before { content: "\f008"; }
-.data.chapter span:first-child:before { content: "\f097"; }
-.data.volume span:first-child:before { content: "\f02d"; }
-
-.data.progress span:first-child,
-.data.chapter span:first-child,
-.data.volume span:first-child {
-    /*float: left; */
+.data.progress span:first-child:before {
+    content: "\f008";
 }
 
+.data.chapter span:first-child:before {
+    content: "\f097";
+}
+
+.data.volume span:first-child:before {
+    content: "\f02d";
+}
 
 .data.progress span:first-child input,
 .data.chapter span:first-child input,
@@ -966,13 +979,6 @@ body {
     /* field when editing number */
     background: transparent;
     border: none;
-    color:;
-}
-
-.data.progress span:nth-of-type(2),
-.data.chapter span:nth-of-type(2),
-.data.volume span:nth-of-type(2) {
-    /* total number of episodes / chapters / volumes */
 }
 
 .data.tags {
@@ -992,7 +998,7 @@ body {
 }
 
 .data.tags:before {
-    content:"\f02c";
+    content: "\f02c";
     font-family: FontAwesome;
     position: absolute;
     bottom: 0;
@@ -1004,7 +1010,7 @@ body {
     clip-path: polygon(9px 0%, 0% 100%, 5px 100%, 10px 0%, 15px 0%, 10px 100%, calc(100% - 3px) 100%, 100% 0%);
 }
 
-.data.tags > div {
+.data.tags>div {
     padding: 10px 35px 10px 10px;
     position: absolute;
     top: 0;
@@ -1014,8 +1020,8 @@ body {
     overflow-y: hidden;
 }
 
-.data.tags > div:empty:before {
-    content:"No tags.";
+.data.tags>div:empty:before {
+    content: "No tags.";
 }
 
 .data.type,
@@ -1038,7 +1044,7 @@ body {
 }
 
 .data.type:before {
-    content:"Type:";
+    content: "Type:";
 }
 
 .data.type {
@@ -1046,7 +1052,7 @@ body {
 }
 
 .data.rated:before {
-    content:"Rated:";
+    content: "Rated:";
 }
 
 .data.rated {
@@ -1082,7 +1088,6 @@ body {
 }
 
 .data.magazine {
-    max-width:;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -1096,18 +1101,17 @@ body {
     left: 0;
     right: 0;
     overflow-y: auto;
-    direction: rtl; /* scrollbar on the left */
+    direction: rtl;
+    /* scrollbar on the left */
     z-index: 1;
 }
 
 .more-info .more-content {
     padding-right: 35px !important;
-    direction: ltr; /* fix order of text in more section because of the reversed direction */
+    direction: ltr;
+    /* fix order of text in more section because of the reversed direction */
 }
 
-.more-info a {
-    color: !important;
-}
 
 /* FOOTER */
 
@@ -1122,8 +1126,9 @@ body {
 }
 
 #copyright:after {
-/* Custom copyright text */
+    /* Custom copyright text */
     content: "Layout by Cateinya. Modified by rl404.";
 }
+
 
 /* OTHER */

@@ -4,744 +4,742 @@
  * Modified by rl404 (https://myanimelist.net/profile/rl404)
  */
 
-@font-face{
-	font-family: 'P5-Repca';
-	src: url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/fonts/p5-repca-webfont.ttf') format('truetype'),
-       url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/fonts/p5-repca-webfont.woff') format('woff'),
-	     url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/fonts/p5-repca-webfont.woff2') format('woff2');
+@font-face {
+    font-family: 'P5-Repca';
+    src: url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/fonts/p5-repca-webfont.ttf') format('truetype'), url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/fonts/p5-repca-webfont.woff') format('woff'), url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/fonts/p5-repca-webfont.woff2') format('woff2');
 }
 
 * {
-  position: relative;
-  text-decoration: none !important;
+    position: relative;
+    text-decoration: none !important;
 }
 
 html,
 body,
 div,
 a {
-  border: 0;
-  font: inherit;
-  margin: 0;
-  padding: 0;
-  vertical-align: baseline;
+    border: 0;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
 }
 
 html {
-  font-family: P5-Repca, sans-serif;
-  font-size: 16px;
-  height: 100%;
-  letter-spacing: 1px;
-  min-width: 100%;
-  /*overflow: hidden;*/
-  width: 100%;
+    font-family: P5-Repca, sans-serif;
+    font-size: 16px;
+    height: 100%;
+    letter-spacing: 1px;
+    min-width: 100%;
+    /*overflow: hidden;*/
+    width: 100%;
 }
 
 @media body {}
 
 body {
-  background: #000 url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/JqzWDjc.png) bottom left no-repeat fixed !important;
-  background-size: auto 100% !important;
-  box-sizing: border-box;
-  color: #FFF;
-  height: 100%;
-  line-height: normal;
-  min-width: 100%;
-  perspective: 1px;
-  -webkit-perspective: 1px;
-  position: relative;
-  transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  width: 100%;
+    background: #000 url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/JqzWDjc.png) bottom left no-repeat fixed !important;
+    background-size: auto 100% !important;
+    box-sizing: border-box;
+    color: #FFF;
+    height: 100%;
+    line-height: normal;
+    min-width: 100%;
+    perspective: 1px;
+    -webkit-perspective: 1px;
+    position: relative;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
 }
 
 body:before {
-  background: red url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/79a2xdl.jpg) center 5% fixed !important;
-  background-size: cover !important;
-  content: "";
-  height: calc(100% + 30%);
-  left: 0px;
-  position: fixed;
-  transform: translateZ(-2px) scale(3);
-  -webkit-transform: translateZ(-2px) scale(3);
-  transform-origin: center center 0;
-  -webkit-transform-origin: center center 0;
-  width: 100%;
+    background: red url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/79a2xdl.jpg) center 5% fixed !important;
+    background-size: cover !important;
+    content: "";
+    height: calc(100% + 30%);
+    left: 0px;
+    position: fixed;
+    transform: translateZ(-2px) scale(3);
+    -webkit-transform: translateZ(-2px) scale(3);
+    transform-origin: center center 0;
+    -webkit-transform-origin: center center 0;
+    width: 100%;
 }
 
 @media header {}
 
 .header {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/yQ9iUy9.png) no-repeat;
-  background-size: 100% auto;
-  box-sizing: border-box;
-  height: 100%;
-  pointer-events: none;
-  position: relative;
-  transform-style: inherit;
-  -webkit-transform-style: inherit;
-  width: 100%;
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/yQ9iUy9.png) no-repeat;
+    background-size: 100% auto;
+    box-sizing: border-box;
+    height: 100%;
+    pointer-events: none;
+    position: relative;
+    transform-style: inherit;
+    -webkit-transform-style: inherit;
+    width: 100%;
 }
 
 .header:before,
 .header:after {
-  background-size: 100% auto;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 100%;
-  left: 0;
-  margin-left: -15px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  transform: translateZ(-2px) scale(3);
-  -webkit-transform: translateZ(-2px) scale(3);
-  transform-origin: center center 0;
-  -webkit-transform-origin: center center 0;
-  width: 100%;
-  z-index: -1;
+    background-size: 100% auto;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    margin-left: -15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateZ(-2px) scale(3);
+    -webkit-transform: translateZ(-2px) scale(3);
+    transform-origin: center center 0;
+    -webkit-transform-origin: center center 0;
+    width: 100%;
+    z-index: -1;
 }
 
 .header:after {
-  background-size: 100% auto;
-  margin-left: -8px;
-  transform: translateZ(-1px) scale(2);
-  -webkit-transform: translateZ(-1px) scale(2);
+    background-size: 100% auto;
+    margin-left: -8px;
+    transform: translateZ(-1px) scale(2);
+    -webkit-transform: translateZ(-1px) scale(2);
 }
 
 body[data-query*='"status":1'] .header:before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/hBD5Pdt.png);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/hBD5Pdt.png);
 }
 
 body[data-query*='"status":1'] .header:after {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/LI55Brk.png);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/LI55Brk.png);
 }
 
 body[data-query*='"status":2'] .header:before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/xa1PbG8.png);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/xa1PbG8.png);
 }
 
 body[data-query*='"status":2'] .header:after {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/a4GPNLk.png);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/a4GPNLk.png);
 }
 
 body[data-query*='"status":3'] .header:before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/yXn755I.png);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/yXn755I.png);
 }
 
 body[data-query*='"status":3'] .header:after {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/Il9i5iz.png);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/Il9i5iz.png);
 }
 
 body[data-query*='"status":4'] .header:before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/vNzJzRG.png);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/vNzJzRG.png);
 }
 
 body[data-query*='"status":4'] .header:after {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/5LebIWo.png);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/5LebIWo.png);
 }
 
 body[data-query*='"status":6'] .header:before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/ZFNhjIN.png);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/ZFNhjIN.png);
 }
 
 body[data-query*='"status":6'] .header:after {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/3cBlLHC.png);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/3cBlLHC.png);
 }
 
 body[data-query*='"status":7'] .header:before {
-  background-color: #000;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/JvozR2U.png);
-  background-size: auto;
-  box-shadow: 15px 0 0 #000;
-  height: calc(100% + 30%);
-  margin-left: -15px;
-  margin-right: 15px;
+    background-color: #000;
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/JvozR2U.png);
+    background-size: auto;
+    box-shadow: 15px 0 0 #000;
+    height: calc(100% + 30%);
+    margin-left: -15px;
+    margin-right: 15px;
 }
 
 body[data-query*='"status":7'] .header:after {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/p95hoWb.png);
-  background-size: cover;
-  margin-left: -88px;
-  width: 60%;
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/p95hoWb.png);
+    background-size: cover;
+    margin-left: -88px;
+    width: 60%;
 }
 
 .header .header-menu {
-  display: none;
+    display: none;
 }
 
 .header .header-title {
-  background-image: none;
-  height: 70px;
-  left: 2%;
-  padding-bottom: 1.4%;
-  pointer-events: none;
-  top: 5%;
-  width: 35%;
-  z-index: 99995;
+    background-image: none;
+    height: 70px;
+    left: 2%;
+    padding-bottom: 1.4%;
+    pointer-events: none;
+    top: 5%;
+    width: 35%;
+    z-index: 99995;
 }
 
 .header .header-title:before {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/bZJPlCR.png) center 24% no-repeat;
-  background-size: 100% 56px;
-  content: "";
-  display: block;
-  height: 100%;
-  left: 30%;
-  pointer-events: auto;
-  position: absolute;
-  width: 20%;
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/bZJPlCR.png) center 24% no-repeat;
+    background-size: 100% 56px;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 30%;
+    pointer-events: auto;
+    position: absolute;
+    width: 20%;
 }
 
 @media list-menu-float {}
 
 .list-menu-float {
-  animation: coop 4s linear infinite alternate;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/CaL5WU8.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
-  background-position: right bottom, left bottom, right bottom, left center;
-  background-repeat: no-repeat;
-  background-size: auto, 105% auto, 105% auto, cover;
-  border: 0;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  visibility: hidden;
-  width: 100%;
+    animation: coop 4s linear infinite alternate;
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/CaL5WU8.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
+    background-position: right bottom, left bottom, right bottom, left center;
+    background-repeat: no-repeat;
+    background-size: auto, 105% auto, 105% auto, cover;
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
 }
 
 body[data-query*='"status":1'] .list-menu-float {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/2zGFBOC.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/2zGFBOC.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
 }
 
 body[data-query*='"status":2'] .list-menu-float {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/xi05nl4.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/xi05nl4.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
 }
 
 body[data-query*='"status":3'] .list-menu-float {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/5iFbe83.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/5iFbe83.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
 }
 
 body[data-query*='"status":4'] .list-menu-float {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/eLYp4cM.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/eLYp4cM.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
 }
 
 body[data-query*='"status":6'] .list-menu-float {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/WefgBnU.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/WefgBnU.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/VuUrXGB.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/J1jXriv.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/cP7jt5j.png);
 }
 
 .list-menu-float:hover {
-  visibility: visible;
-  z-index: 4;
+    visibility: visible;
+    z-index: 4;
 }
 
 .list-menu-float:active {
-  visibility: hidden;
+    visibility: hidden;
 }
 
 .list-menu-float:before,
 #list-container:before {
-  background: transparent;
-  content: "";
-  cursor: pointer;
-  height: 70px;
-  left: 2%;
-  position: fixed;
-  top: 5%;
-  visibility: visible;
-  width: 141.75px;
+    background: transparent;
+    content: "";
+    cursor: pointer;
+    height: 70px;
+    left: 2%;
+    position: fixed;
+    top: 5%;
+    visibility: visible;
+    width: 141.75px;
 }
 
 .list-menu-float:before {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/EQvRp3S.png) no-repeat;
-  background-size: 100% auto;
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/EQvRp3S.png) no-repeat;
+    background-size: 100% auto;
 }
 
 .list-menu-float:hover:before {
-  visibility: hidden;
+    visibility: hidden;
 }
 
 .list-menu-float:after {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/a8u3QIo.png);
-  background-size: 100% auto;
-  bottom: 0;
-  content: "";
-  height: 180px;
-  left: 0;
-  pointer-events: none;
-  position: absolute;
-  width: 100%;
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/a8u3QIo.png);
+    background-size: 100% auto;
+    bottom: 0;
+    content: "";
+    height: 180px;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
 }
 
 .list-menu-float .icon-menu {
-  background: transparent;
-  top: 10%;
+    background: transparent;
+    top: 10%;
 }
 
 .list-menu-float .icon-menu,
 .list-menu-float form {
-  left: 110%;
-  transition: all 1s ease-in-out;
+    left: 110%;
+    transition: all 1s ease-in-out;
 }
 
-.list-menu-float:hover > .icon-menu,
+.list-menu-float:hover>.icon-menu,
 .list-menu-float:hover form {
-  left: 20% !important;
+    left: 20% !important;
 }
 
 @media _profile {}
 
 .icon-menu.profile {
-  background-color: #000 !important;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto 180px !important;
-  border: 5px solid #000;
-  box-shadow: inset 6px 6px 0 #fff, inset -6px -6px 0 #fff;
-  height: 205px;
-  left: -90%;
-  margin-left: -100px;
-  margin-top: 10px;
-  position: absolute;
-  width: 135px;
-  transform: rotateX(-20deg) rotateY(-10deg) rotateZ(-20deg);
-  z-index: 5;
+    background-color: #000 !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 180px !important;
+    border: 5px solid #000;
+    box-shadow: inset 6px 6px 0 #fff, inset -6px -6px 0 #fff;
+    height: 205px;
+    left: -90%;
+    margin-left: -100px;
+    margin-top: 10px;
+    position: absolute;
+    width: 135px;
+    transform: rotateX(-20deg) rotateY(-10deg) rotateZ(-20deg);
+    z-index: 5;
 }
 
 .icon-menu.profile:before,
 .icon-menu.profile:after {
-  background: #fff;
-  border: 5px solid #000;
-  color: #000;
-  content: "List Menu";
-  font-size: 25px;
-  height: 40px;
-  line-height: 40px;
-  margin-top: -20px;
-  pointer-events: none;
-  position: absolute;
-  transform: rotateZ(12deg) skewx(-20deg);
-  width: 300px;
+    background: #fff;
+    border: 5px solid #000;
+    color: #000;
+    content: "List Menu";
+    font-size: 25px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -20px;
+    pointer-events: none;
+    position: absolute;
+    transform: rotateZ(12deg) skewx(-20deg);
+    width: 300px;
 }
 
 .icon-menu.profile:after {
-  border: 0;
-  content: "PROFILE";
-  height: 60px;
-  line-height: 60px;
-  margin-left: 70px;
-  margin-top: 20px;
-  pointer-events: all;
-  transform: rotateZ(15deg) skewx(-10deg);
-  width: 150px;
+    border: 0;
+    content: "PROFILE";
+    height: 60px;
+    line-height: 60px;
+    margin-left: 70px;
+    margin-top: 20px;
+    pointer-events: all;
+    transform: rotateZ(15deg) skewx(-10deg);
+    width: 150px;
 }
 
 @media _quick-add {}
 
 .icon-menu.quick-add {
-  background: #fff !important;
-  box-shadow: 5px 0 0 #000, 5px -8px 0 #000, -7px 0 0 #000, -32px -8px 0 #000, -100px -18px 0 #000;
-  left: 95%;
-  margin-left: 60px;
-  margin-top: 20px;
-  transform: rotateZ(-2deg) skewx(-20deg);
-  width: 200px !important;
-  z-index: 4;
+    background: #fff !important;
+    box-shadow: 5px 0 0 #000, 5px -8px 0 #000, -7px 0 0 #000, -32px -8px 0 #000, -100px -18px 0 #000;
+    left: 95%;
+    margin-left: 60px;
+    margin-top: 20px;
+    transform: rotateZ(-2deg) skewx(-20deg);
+    width: 200px !important;
+    z-index: 4;
 }
 
 .icon-menu.quick-add svg {
-  display: none;
+    display: none;
 }
 
 .icon-menu.quick-add .text {
-  color: #000;
-  font-size: 0;
-  left: unset !important;
-  line-height: 40px !important;
-  overflow: visible;
-  transform: skewx(10deg);
-  width: auto !important;
+    color: #000;
+    font-size: 0;
+    left: unset !important;
+    line-height: 40px !important;
+    overflow: visible;
+    transform: skewx(10deg);
+    width: auto !important;
 }
 
 .icon-menu.quick-add .text:before {
-  content: "ADD";
-  font-size: 25px;
+    content: "ADD";
+    font-size: 25px;
 }
 
 .icon-menu.quick-add .text:after {
-  content: "+";
-  font-size: 45px;
-  position: absolute;
-  right: -25px;
-  top: 5px;
+    content: "+";
+    font-size: 45px;
+    position: absolute;
+    right: -25px;
+    top: 5px;
 }
 
 @media _anime-list {}
 
 .list-menu-float .icon-menu:nth-of-type(n+3) {
-  background: #000 !important;
-  box-shadow: inset 6px 6px 0 #fff, inset -6px 0 0 #fff, 6px -6px 0 #000, -6px -6px 0 #000;
-  height: 56px;
-  left: 200%;
-  margin-left: 70px;
-  margin-top: 2px;
-  transform: skewx(10deg);
-  width: 220px !important;
-  z-index: 3;
+    background: #000 !important;
+    box-shadow: inset 6px 6px 0 #fff, inset -6px 0 0 #fff, 6px -6px 0 #000, -6px -6px 0 #000;
+    height: 56px;
+    left: 200%;
+    margin-left: 70px;
+    margin-top: 2px;
+    transform: skewx(10deg);
+    width: 220px !important;
+    z-index: 3;
 }
 
 .list-menu-float .icon-menu:nth-of-type(n+3):before,
 .icon-menu.logout:before {
-  animation: skewRubberband .7s linear infinite;
-  background: #f00 url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/qUPXvsJ.png);
-  content: "";
-  height: 30px;
-  left: 0;
-  position: absolute;
-  transform-origin: center center 0px;
-  top: 8px;
-  visibility: hidden;
-  width: 220px;
+    animation: skewRubberband .7s linear infinite;
+    background: #f00 url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/qUPXvsJ.png);
+    content: "";
+    height: 30px;
+    left: 0;
+    position: absolute;
+    transform-origin: center center 0px;
+    top: 8px;
+    visibility: hidden;
+    width: 220px;
 }
 
 .list-menu-float .icon-menu:nth-of-type(n+3):hover:before,
 .icon-menu.logout:hover:before {
-  visibility: visible;
+    visibility: visible;
 }
 
 .list-menu-float .icon-menu:nth-of-type(n+3) .text {
-  height: 30px;
-  line-height: 30px;
-  text-align: left;
-  text-indent: 20px;
-  top: 10px;
-  transform: skewx(-10deg);
-  width: 180px !important;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    text-indent: 20px;
+    top: 10px;
+    transform: skewx(-10deg);
+    width: 180px !important;
 }
 
 @media _manga-list {}
 
 .list-menu-float .icon-menu.manga-list {
-  border-top: 0;
-  box-shadow: inset 6px 6px 0 #fff, inset -6px 0 0 #fff, inset 0 48px 0 #000, inset -54px 0 0 #fff, 6px -6px 0 #000, -6px -6px 0 #000;
-  left: 130%;
-  margin-left: 65px;
-  margin-top: -6px;
-  transform: skewx(15deg);
-  width: 250px !important;
-  z-index: 2;
+    border-top: 0;
+    box-shadow: inset 6px 6px 0 #fff, inset -6px 0 0 #fff, inset 0 48px 0 #000, inset -54px 0 0 #fff, 6px -6px 0 #000, -6px -6px 0 #000;
+    left: 130%;
+    margin-left: 65px;
+    margin-top: -6px;
+    transform: skewx(15deg);
+    width: 250px !important;
+    z-index: 2;
 }
 
 .list-menu-float .icon-menu.manga-list .text {
-  transform: skewx(-15deg);
+    transform: skewx(-15deg);
 }
 
 @media _history {}
 
 .list-menu-float .icon-menu.history {
-  border-top: 0;
-  box-shadow: inset 6px 6px 0 #fff, inset -6px 0 #fff, 6px -6px 0 #000, -6px -6px 0 #000;
-  left: 170%;
-  margin-left: 59px;
-  margin-top: -6px;
-  transform: skewx(-15deg);
-  width: 210px !important;
-  z-index: 1;
+    border-top: 0;
+    box-shadow: inset 6px 6px 0 #fff, inset -6px 0 #fff, 6px -6px 0 #000, -6px -6px 0 #000;
+    left: 170%;
+    margin-left: 59px;
+    margin-top: -6px;
+    transform: skewx(-15deg);
+    width: 210px !important;
+    z-index: 1;
 }
 
 .list-menu-float .icon-menu.history .text {
-  transform: skewx(15deg);
+    transform: skewx(15deg);
 }
 
 @media _export {}
 
 .list-menu-float .icon-menu.export {
-  border-top: none;
-  box-shadow: inset 6px 6px 0 #fff, inset -6px -6px 0 #fff, 6px -6px 0 #000, -6px -6px 0 #000;
-  left: 70%;
-  margin-left: 45px;
-  margin-top: -6px;
-  transform: skewx(15deg);
-  width: 230px !important;
-  z-index: -1;
+    border-top: none;
+    box-shadow: inset 6px 6px 0 #fff, inset -6px -6px 0 #fff, 6px -6px 0 #000, -6px -6px 0 #000;
+    left: 70%;
+    margin-left: 45px;
+    margin-top: -6px;
+    transform: skewx(15deg);
+    width: 230px !important;
+    z-index: -1;
 }
 
 @media _logout {}
 
 .list-menu-float form {
-  background: #000 !important;
-  border: 6px solid #000;
-  box-shadow: inset 6px 15px 0 #fff, inset -6px -6px 0 #fff;
-  height: 55px;
-  left: 150%;
-  margin-left: 30px;
-  margin-top: -7px;
-  top: 10%;
-  transform: skewx(20deg);
-  transition: all 0.3s ease-in-out;
-  width: 270px;
-  z-index: -2;
+    background: #000 !important;
+    border: 6px solid #000;
+    box-shadow: inset 6px 15px 0 #fff, inset -6px -6px 0 #fff;
+    height: 55px;
+    left: 150%;
+    margin-left: 30px;
+    margin-top: -7px;
+    top: 10%;
+    transform: skewx(20deg);
+    transition: all 0.3s ease-in-out;
+    width: 270px;
+    z-index: -2;
 }
 
 .icon-menu.logout {
-  background: transparent !important;
-  left: 0;
-  margin-left: 10px;
-  margin-top: 2px;
-  text-indent: 20px;
-  transform: skewx(-15deg);
+    background: transparent !important;
+    left: 0;
+    margin-left: 10px;
+    margin-top: 2px;
+    text-indent: 20px;
+    transform: skewx(-15deg);
 }
 
 .icon-menu.logout .text {
-  text-align: left !important;
+    text-align: left !important;
 }
 
 .icon-menu.logout svg {
-  transform: skewx(10deg) !important;
+    transform: skewx(10deg) !important;
 }
 
 .icon-menu.setting {
-  display: none;
+    display: none;
 }
 
 .list-menu-float .icon-menu svg {
-  fill: #fff !important;
-  margin-left: 10px;
-  transform: skewx(3deg);
+    fill: #fff !important;
+    margin-left: 10px;
+    transform: skewx(3deg);
 }
 
 .list-menu-float .icon-menu .text {
-  font-family: P5-Repca, sans-serif;
-  font-weight: normal;
-  left: 35px;
-  line-height: 50px;
-  opacity: 1;
-  top: unset;
-  width: auto !important;
+    font-family: P5-Repca, sans-serif;
+    font-weight: normal;
+    left: 35px;
+    line-height: 50px;
+    opacity: 1;
+    top: unset;
+    width: auto !important;
 }
 
 @media list-container {}
 
 #list-container {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/a8u3QIo.png) top center no-repeat;
-  background-size: 100% auto;
-  border: 0;
-  margin-top: -180px;
-  padding-top: 200px;
-  width: 100%;
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Persona5/images/a8u3QIo.png) top center no-repeat;
+    background-size: 100% auto;
+    border: 0;
+    margin-top: -180px;
+    padding-top: 200px;
+    width: 100%;
 }
 
 body:hover #list-container:before {
-  z-index: 3;
+    z-index: 3;
 }
 
 body:active #list-container:before {
-  z-index: -1;
-  visibility: hidden;
-  width: 0;
+    z-index: -1;
+    visibility: hidden;
+    width: 0;
 }
 
 #list-container .cover-block {
-  display: none;
+    display: none;
 }
 
 @media _status-menu {}
 
 #status-menu {
-  background: transparent;
-  border: 0;
-  position: fixed;
-  top: 5%;
-  width: 100%;
+    background: transparent;
+    border: 0;
+    position: fixed;
+    top: 5%;
+    width: 100%;
 }
 
 .status-menu-container .status-menu {
-  display: block !important;
-  left: 22%;
-  position: absolute;
+    display: block !important;
+    left: 22%;
+    position: absolute;
 }
 
 .status-menu .status-button {
-  background: #000;
-  border: 5px solid #fff;
-  color: #fff !important;
-  font-family: P5-Repca, sans-serif !important;
-  font-size: 0 !important;
-  display: inline-block !important;
-  height: 20px;
-  line-height: 20px;
-  margin: 5px !important;
-  padding: 8px !important;
-  top: 20px !important;
-  transform: skewx(10deg) rotatey(20deg);
-  transition: all .1s linear;
+    background: #000;
+    border: 5px solid #fff;
+    color: #fff !important;
+    font-family: P5-Repca, sans-serif !important;
+    font-size: 0 !important;
+    display: inline-block !important;
+    height: 20px;
+    line-height: 20px;
+    margin: 5px !important;
+    padding: 8px !important;
+    top: 20px !important;
+    transform: skewx(10deg) rotatey(20deg);
+    transition: all .1s linear;
 }
 
 .status-menu .status-button:nth-of-type(odd):hover {
-  background: #f00;
-  transform: scale(1.1) rotatex(-5deg) rotatey(-5deg) rotatez(-5deg);
+    background: #f00;
+    transform: scale(1.1) rotatex(-5deg) rotatey(-5deg) rotatez(-5deg);
 }
 
 .status-menu .status-button:nth-of-type(even):hover {
-  background: #f00;
-  transform: scale(1.1) rotatex(5deg) rotatey(5deg) rotatez(5deg);
+    background: #f00;
+    transform: scale(1.1) rotatex(5deg) rotatey(5deg) rotatez(5deg);
 }
 
 .status-button.watching {
-  top: 10px !important;
-  transform: skewx(-10deg) rotatex(-20deg) rotatey(10deg);
+    top: 10px !important;
+    transform: skewx(-10deg) rotatex(-20deg) rotatey(10deg);
 }
 
 .status-button.completed {
-  top: 0 !important;
-  transform: skewx(5deg) rotatex(30deg) rotatey(5deg);
+    top: 0 !important;
+    transform: skewx(5deg) rotatex(30deg) rotatey(5deg);
 }
 
 .status-button.onhold {
-  top: -5px !important;
-  transform: skewx(-10deg) rotatex(-30deg) rotatez(5deg);
+    top: -5px !important;
+    transform: skewx(-10deg) rotatex(-30deg) rotatez(5deg);
 }
 
 .status-button.dropped {
-  top: -15px !important;
-  transform: skewx(15deg) rotatey(-20deg) rotatez(5deg);
+    top: -15px !important;
+    transform: skewx(15deg) rotatey(-20deg) rotatez(5deg);
 }
 
 .status-button.plantowatch {
-  top: -17px !important;
-  transform: skewx(5deg) rotatex(-10deg) rotatey(5deg);
+    top: -17px !important;
+    transform: skewx(5deg) rotatex(-10deg) rotatey(5deg);
 }
 
 .status-menu .status-button:before,
 .status-button.completed,
 .status-button.dropped {
-  font-size: 30px !important;
+    font-size: 30px !important;
 }
 
 .status-button.all_anime:before {
-  content: "All";
+    content: "All";
 }
 
 .status-button.watching:before {
-  content: "Watching";
+    content: "Watching";
 }
 
 .status-button.reading:before {
-  content: "Reading";
+    content: "Reading";
 }
 
 .status-button.onhold:before {
-  content: "Onhold";
+    content: "Onhold";
 }
 
 .status-button.plantowatch:before,
-.status-button.plantoread:before  {
-  content: "Planned";
+.status-button.plantoread:before {
+    content: "Planned";
 }
 
 .status-menu .status-button:after {
-  display: none !important;
+    display: none !important;
 }
 
 .status-menu .search-container {
-  display: none;
+    display: none;
 }
 
 @media __list-unit {}
 
 .list-block .list-unit {
-  display: block;
-  left: calc(100% - 950px);
-  margin: 0 !important;
-  transform: skewx(1deg);
-  width: 900px !important;
+    display: block;
+    left: calc(100% - 950px);
+    margin: 0 !important;
+    transform: skewx(1deg);
+    width: 900px !important;
 }
 
 .list-unit .list-status-title {
-  background: #000;
-  border: 5px solid #000;
-  box-shadow: inset 5px 5px 0 #fff, inset -5px -5px 0 #fff;
-  padding: 5px;
-  transform: skewx(10deg) rotatex(5deg);
-  width: 900px;
+    background: #000;
+    border: 5px solid #000;
+    box-shadow: inset 5px 5px 0 #fff, inset -5px -5px 0 #fff;
+    padding: 5px;
+    transform: skewx(10deg) rotatex(5deg);
+    width: 900px;
 }
 
 .list-status-title .text {
-  font-family: P5-Repca, sans-serif !important;
+    font-family: P5-Repca, sans-serif !important;
 }
 
 .list-status-title .stats {
-  display: none;
+    display: none;
 }
 
 .list-unit .list-table {
-  border: 0;
-  transform: skewx(-1deg);
+    border: 0;
+    transform: skewx(-1deg);
 }
 
 .list-table tbody:first-of-type {
-  background: #fff !important;
-  top: -6px !important;
-  transform: skewx(-10deg) rotatex(5deg);
+    background: #fff !important;
+    top: -6px !important;
+    transform: skewx(-10deg) rotatex(5deg);
 }
 
 .list-table-header .header-title,
 .list-table .list-table-header .header-title .link.sort {
-  background: transparent !important;
-  color: #000 !important;
-  font-size: 16px;
+    background: transparent !important;
+    color: #000 !important;
+    font-size: 16px;
 }
 
 .list-table * {
-  border: 0 !important;
+    border: 0 !important;
 }
 
 .list-table .list-item {
-  background: #000 !important;
+    background: #000 !important;
 }
 
 .list-item * {
-  color: #fff;
-  font-weight: normal !important;
+    color: #fff;
+    font-weight: normal !important;
 }
 
 .data.title .icon-watch,
 .data.title .add-edit-more {
-  display: none;
+    display: none;
 }
 
 @media keyframes {}
 
 @keyframes coop {
-  0% {
-    background-position: right bottom, 0 80%, 95% 95%, right center;
-  }
-  50% {
-    background-position: right bottom, 0 90%, 90% 90%, right center;
-  }
-  100% {
-    background-position: right bottom, 0 100%, 85% 100%, right center;
-  }
+    0% {
+        background-position: right bottom, 0 80%, 95% 95%, right center;
+    }
+    50% {
+        background-position: right bottom, 0 90%, 90% 90%, right center;
+    }
+    100% {
+        background-position: right bottom, 0 100%, 85% 100%, right center;
+    }
 }
 
 @keyframes skewRubberband {
-  0% {
-    transform-style: preserve-3d;
-    transform: skewX(45deg) rotateX(65deg) rotateY(15deg) rotateZ(-20deg) perspective(150px);
-  }
-  50% {
-    transform: skewX(-45deg);
-  }
-  100% {
-    transform: skewX(45deg) rotateX(-65deg) rotateY(-15deg) rotateZ(-20deg) perspective(150px);
-  }
+    0% {
+        transform-style: preserve-3d;
+        transform: skewX(45deg) rotateX(65deg) rotateY(15deg) rotateZ(-20deg) perspective(150px);
+    }
+    50% {
+        transform: skewX(-45deg);
+    }
+    100% {
+        transform: skewX(45deg) rotateX(-65deg) rotateY(-15deg) rotateZ(-20deg) perspective(150px);
+    }
 }
 
 @media (max-width: 1280px) {
-  .header .header-title {
-    width: 50%;
-  }
+    .header .header-title {
+        width: 50%;
+    }
 }

@@ -7,22 +7,24 @@
 @import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Danmachi/main.css);
 
 /* HESTIA THEME */
+
 #mal\_cs_otherlinks div a,
 #mal\_cs_listinfo div:last-of-type a,
 #mal\_cs_listinfo div:first-of-type a,
 #mal_cs_links div a[href*="addtolist"],
 #mal\_cs_links div:last-of-type a:first-of-type,
 #mal\_cs_links div:last-of-type a:last-of-type {
-	background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/hestia/menu.png);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/hestia/menu.png);
 }
 
-body, a {
-	cursor: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/hestia/cursor.png) 1 1, auto !important;
+body,
+a {
+    cursor: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/hestia/cursor.png) 1 1, auto !important;
 }
 
 body {
-	background-color: rgb(255, 255, 255);
-	background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/hestia/bg.jpg);
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/hestia/bg.jpg);
 }
 
 body,
@@ -31,33 +33,33 @@ a,
 .td2,
 .table_headerLink:hover,
 #list_surround table:nth-of-type(n+4) tbody small a:first-of-type:hover {
-	color: #1e1e1e;
+    color: #1e1e1e;
 }
 
-#list_surround > table:first-of-type:before {
-	background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/hestia/line.png) repeat-x;
+#list_surround>table:first-of-type:before {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/hestia/line.png) repeat-x;
 }
 
 #list_surround:before {
-	background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(255, 255, 255, .8);
 }
 
 #list_surround:after {
-	border-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/hestia/table.png) 118 52 111 47 round;
+    border-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/hestia/table.png) 118 52 111 47 round;
 }
 
-tr:hover > .td1,
-tr:hover > .td2 {
-	box-shadow: 0 1px 0 #5b9fe2;
+tr:hover>.td1,
+tr:hover>.td2 {
+    box-shadow: 0 1px 0 #5b9fe2;
 }
 
 .table_headerLink,
-.animetitle + small,
+.animetitle+small,
 #list_surround table:nth-of-type(n+4) tbody small a:first-of-type,
 .category_totals {
-	color: #5b9fe2;
+    color: #5b9fe2;
 }
 
 .table_header:nth-of-type(3) .table_headerLink {
-	box-shadow: inset 1px 0 0 #5b9fe2, inset -1px 0 0 #5b9fe2;
+    box-shadow: inset 1px 0 0 #5b9fe2, inset -1px 0 0 #5b9fe2;
 }

@@ -1,18 +1,19 @@
 span[id*='tag'] a[href*='tag=AOTY'] {
-	visibility: visible;
-	position:absolute;
-	right:25%;
-	border: 1px solid red;
+    visibility: visible;
+    position: absolute;
+    right: 25%;
+    border: 1px solid red;
     border-radius: 10px;
     padding-right: 5px;
     padding-left: 5px;
     padding-bottom: 1px;
 }
+
 span[id*='tag'] a[href*='tag=AOTS'] {
-	visibility: visible;
-	position:absolute;
-	right:30%;
-	border: 1px solid red;
+    visibility: visible;
+    position: absolute;
+    right: 30%;
+    border: 1px solid red;
     border-radius: 10px;
     padding-right: 5px;
     padding-left: 5px;
@@ -21,36 +22,36 @@ span[id*='tag'] a[href*='tag=AOTS'] {
 
 tr:hover span[id*='tag'] a[href*='tag=AOTS']:hover,
 tr:hover span[id*='tag'] a[href*='tag=AOTY']:hover {
-	background-color: rgba(255,0,0,0.3);
+    background-color: rgba(255, 0, 0, 0.3);
 }
 
 tr:hover span[id*='tag'] a[href*='tag=AOTY']:hover:after {
-	content: " 2017";
+    content: " 2017";
 }
 
 tr:hover span[id*='tag'] a[href*='tag=AOTS']:hover:after {
-	content: " Spring 2017";
+    content: " Spring 2017";
 }
 
 td[class*=td]:nth-child(6):last-child {
-	display:block;
-	position:absolute;
-	right:0px;
-	visibility:hidden;
-	width:100%;
+    display: block;
+    position: absolute;
+    right: 0px;
+    visibility: hidden;
+    width: 100%;
 }
 
 tr:hover td[class*=td]:nth-child(6):last-child {
-	visibility:visible;
-	overflow:visible;
+    visibility: visible;
+    overflow: visible;
 }
 
-tr:hover span[id*='tag'] a[href*='tag=AOTS'] {	
-	top: -140px;
-	right: 0px;
+tr:hover span[id*='tag'] a[href*='tag=AOTS'] {
+    top: -140px;
+    right: 0px;
 }
 
-tr:hover span[id*='tag'] a[href*='tag=AOTY'] {	
-	top: -110px;
-	right: 0px;
+tr:hover span[id*='tag'] a[href*='tag=AOTY'] {
+    top: -110px;
+    right: 0px;
 }

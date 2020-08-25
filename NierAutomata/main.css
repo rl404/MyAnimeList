@@ -4,595 +4,620 @@
  * Modified by rl404 (https://myanimelist.net/profile/rl404)
  */
 
+
 /* BACKGROUND */
+
 body {
-	background: center fixed !important;
-	background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/bg.png) !important;
-	background-size: cover !important;
-	background-repeat: no-repeat !important;
-	scroll-snap-type: mandatory;
-	scroll-snap-points-y: repeat(50px);
+    background: center fixed !important;
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/bg.png) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(50px);
 }
+
 
 /* HEADER */
+
 .header {
-	display: block;
-	height: 0px;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	z-index: 10;
+    display: block;
+    height: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 10;
 }
 
-.header > :not(.header-menu), 
-.header .header-menu > :not(.btn-menu) {
-	display: none;
+.header> :not(.header-menu),
+.header .header-menu> :not(.btn-menu) {
+    display: none;
 }
 
 .header .header-menu .btn-menu {
-	font-size: 0pt;
+    font-size: 0pt;
 }
 
 .header .username {
-	display: block;
-	position: fixed;
-	color: #5f5a4a !important;
-	font-size: 36pt;
-	top: 125px;
-	left: 75px;
-	font-weight: normal !important;
-	font-family: Arial;
-	text-shadow: 7px 7px 0px rgba(95, 90, 74, 0.35);
-	text-transform: uppercase;
-	letter-spacing: 3px;
+    display: block;
+    position: fixed;
+    color: #5f5a4a !important;
+    font-size: 36pt;
+    top: 125px;
+    left: 75px;
+    font-weight: normal !important;
+    font-family: Arial;
+    text-shadow: 7px 7px 0px rgba(95, 90, 74, 0.35);
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .anime .header .username::after {
-	content: ' - Anime List';
-	text-shadow: initial;
-	font-size: 18pt;
-	font-weight: bold;
+    content: ' - Anime List';
+    text-shadow: initial;
+    font-size: 18pt;
+    font-weight: bold;
 }
 
 .manga .header .username::after {
-	content: ' - Manga List';
-	text-shadow: initial;
-	font-size: 18pt;
-	font-weight: bold;
+    content: ' - Manga List';
+    text-shadow: initial;
+    font-size: 18pt;
+    font-weight: bold;
 }
 
 .header .username:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
+
 
 /* LIST MENU */
 
 .list-menu-float {
-	display: none;
+    display: none;
 }
+
 
 /* LIST CONTAINER */
 
 #list-container {
-	background-color: transparent;
-	display: block;
-	margin-top: 200px;
-	margin-left: 125px;
-	margin-bottom: 75px;
-	padding: 0px;
-	border: none;
-	width: 50%;
+    background-color: transparent;
+    display: block;
+    margin-top: 200px;
+    margin-left: 125px;
+    margin-bottom: 75px;
+    padding: 0px;
+    border: none;
+    width: 50%;
 }
 
 #list-container::before {
-	content: '';
-	display: block;
-	background: center fixed;
-	background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/bg.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	height: 190px;
-	width: 100%;
-	z-index: 1;
+    content: '';
+    display: block;
+    background: center fixed;
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 190px;
+    width: 100%;
+    z-index: 1;
 }
 
 #list-container::after {
-	content: '';
-	display: block;
-	background: center fixed;
-	background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/bg.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: fixed;
-	bottom: 0px;
-	left: 0px;
-	height: 65px;
-	width: 100%;
-	z-index: 1;
+    content: '';
+    display: block;
+    background: center fixed;
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 65px;
+    width: 100%;
+    z-index: 1;
 }
 
 .list-block::before {
-	content: '';
-	display: block;
-	background: center;
-	background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/leftline.png);
-	background-repeat: repeat-y;
-	position: fixed;
-	top: 190px;
-	bottom: 65px;
-	left: 60px;
-	height: auto;
-	width: 30px;
+    content: '';
+    display: block;
+    background: center;
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/leftline.png);
+    background-repeat: repeat-y;
+    position: fixed;
+    top: 190px;
+    bottom: 65px;
+    left: 60px;
+    height: auto;
+    width: 30px;
 }
 
 .list-block::after {
-	content: '';
-	display: block;
-	background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/line.png);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	position: fixed;
-	bottom: 25px;
-	left: 0px;
-	height: 30px;
-	width: 100%;
-	z-index: 2;
+    content: '';
+    display: block;
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/line.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+    bottom: 25px;
+    left: 0px;
+    height: 30px;
+    width: 100%;
+    z-index: 2;
 }
+
 
 /* IMAGE BLOCK */
 
 .cover-block {
-	display: flex;
-	position: fixed;
-	width: auto;
-	height: auto;
-	left: calc(50% + 50px + 125px);
-	right: 25px;
-	top: 190px;
-	bottom: 65px;
-	padding: 0px;
-	z-index: 3;
+    display: flex;
+    position: fixed;
+    width: auto;
+    height: auto;
+    left: calc(50% + 50px + 125px);
+    right: 25px;
+    top: 190px;
+    bottom: 65px;
+    padding: 0px;
+    z-index: 3;
 }
 
 .cover-block .image-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	box-sizing: border-box;
-	padding: 0px;
-	flex: none;
-	max-width: 100%;
-	max-height: 100%;
-	margin: auto;
-	overflow: hidden;
-	box-shadow: 5px 5px rgba(95, 90, 74, 0.35), inset -20px -20px 17.5px #d7d1b9, inset 20px 20px 17.5px #d7d1b9;
-	border: #d7d1b9 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0px;
+    flex: none;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 5px 5px rgba(95, 90, 74, 0.35), inset -20px -20px 17.5px #d7d1b9, inset 20px 20px 17.5px #d7d1b9;
+    border: #d7d1b9 2px solid;
 }
 
 .cover-block .image-container img {
-	filter: sepia(50%) grayscale(12.5%);
-	flex: none;
-	z-index: -1;
+    filter: sepia(50%) grayscale(12.5%);
+    flex: none;
+    z-index: -1;
 }
 
-.cover-block .image-container .btn-list-setting, 
-.cover-block .image-container .btn-list-setting:hover, 
+.cover-block .image-container .btn-list-setting,
+.cover-block .image-container .btn-list-setting:hover,
 .cover-block .image-container:hover .btn-list-setting {
-	display: none;
+    display: none;
 }
+
 
 /* STATUS MENU */
 
-#status-menu, #status-menu .fixed {
-	background-color: transparent;
-	display: block;
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	height: auto;
-	width: 100%;
-	border: none;
+#status-menu,
+#status-menu .fixed {
+    background-color: transparent;
+    display: block;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: auto;
+    width: 100%;
+    border: none;
 }
 
 .status-menu-container .status-menu {
-	display: flex;
-	justify-content: space-between;
-	margin: 25px 35px 0px 125px;
-	height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 35px 0px 125px;
+    height: 70px;
 }
 
 #status-menu::before {
-	content: '';
-	display: block;
-	background: center;
-	background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/leftline.png);
-	background-repeat: repeat-y;
-	position: absolute;
-	top: 25px;
-	left: 60px;
-	height: 50px;
-	width: 30px;
+    content: '';
+    display: block;
+    background: center;
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/leftline.png);
+    background-repeat: repeat-y;
+    position: absolute;
+    top: 25px;
+    left: 60px;
+    height: 50px;
+    width: 30px;
 }
 
-#status-menu::after{
-	content: '';
-	display: block;
-	height: 30px;
-	width: 100%;
-	background: left;
-	background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/line.png);
-	background-repeat: no-repeat;
-	background-size: 100%;
+#status-menu::after {
+    content: '';
+    display: block;
+    height: 30px;
+    width: 100%;
+    background: left;
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/line.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #status-menu .status-button {
-/* All status buttons */
-	background: linear-gradient(to right, #b3ac98, #aea993);
-	color: #4d4940;
-	display: table-cell;
-	position: static;
-	width: 14%;
-	height: 50px;
-	line-height: 50px;
-	padding: 0px;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 2.5vh;
-	letter-spacing: 3.5px;
-/* 	text-indent: 20px; */
-	border-radius: 3px 3px 3px 3px;
-	overflow: hidden;
-	white-space: nowrap;
-	box-shadow: 0px 0px 6px #aea993;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+    /* All status buttons */
+    background: linear-gradient(to right, #b3ac98, #aea993);
+    color: #4d4940;
+    display: table-cell;
+    position: static;
+    width: 14%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5vh;
+    letter-spacing: 3.5px;
+    /* 	text-indent: 20px; */
+    border-radius: 3px 3px 3px 3px;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: 0px 0px 6px #aea993;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #status-menu .status-button.on {
-	transition: background .2s, color .2s, height .2s;
-	background: #5f5a4a;
-	color: #d1cbb3;
-	height: 70px;
-	font-weight: normal;
-	border-radius: 3px 3px 0px 0px;
-	box-shadow: 0px 0px 6px #5f5a4a;
+    transition: background .2s, color .2s, height .2s;
+    background: #5f5a4a;
+    color: #d1cbb3;
+    height: 70px;
+    font-weight: normal;
+    border-radius: 3px 3px 0px 0px;
+    box-shadow: 0px 0px 6px #5f5a4a;
 }
 
 #status-menu .status-button:hover {
-	transition: background .2s, color .2s, height .2s, box-shadow .2s;
-	background: #5f5a4a;
-	color: #d1cbb3;
-	box-shadow: 0px 0px 6px #5f5a4a;
+    transition: background .2s, color .2s, height .2s, box-shadow .2s;
+    background: #5f5a4a;
+    color: #d1cbb3;
+    box-shadow: 0px 0px 6px #5f5a4a;
 }
 
 #status-menu .status-button.on::after {
-	content: '';
-	display: block;
-	background: center;
-	background-color: transparent;
-	background-image: url();
-	background-repeat: no-repeat;
-	height: 50px;
-	width: 42px;
-	position: absolute;
-	top: 25px;
-	pointer-events: none;
+    content: '';
+    display: block;
+    background: center;
+    background-color: transparent;
+    background-image: url();
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 42px;
+    position: absolute;
+    top: 25px;
+    pointer-events: none;
 }
 
 #status-menu .status-button::after {
-	display: none;
+    display: none;
 }
 
 #status-menu .status-button.on.all_anime::after {
-	left: calc(75px + (100% - 160px) * .172 * 0);
+    left: calc(75px + (100% - 160px) * .172 * 0);
 }
 
-#status-menu .status-button.on.watching::after, #status-menu .status-button.on.reading::after {
-	left: calc(75px + (100% - 160px) * .172 * 1);
+#status-menu .status-button.on.watching::after,
+#status-menu .status-button.on.reading::after {
+    left: calc(75px + (100% - 160px) * .172 * 1);
 }
 
 #status-menu .status-button.on.completed::after {
-	left: calc(75px + (100% - 160px) * .172 * 2);
+    left: calc(75px + (100% - 160px) * .172 * 2);
 }
 
 #status-menu .status-button.on.onhold::after {
-	left: calc(75px + (100% - 160px) * .172 * 3);
+    left: calc(75px + (100% - 160px) * .172 * 3);
 }
 
 #status-menu .status-button.on.dropped::after {
-	left: calc(75px + (100% - 160px) * .172 * 4);
+    left: calc(75px + (100% - 160px) * .172 * 4);
 }
 
-#status-menu .status-button.on.plantowatch::after, 
+#status-menu .status-button.on.plantowatch::after,
 #status-menu .status-button.on.plantoread::after {
-	left: calc(75px + (100% - 160px) * .172 * 5);
+    left: calc(75px + (100% - 160px) * .172 * 5);
 }
 
-.status-button.watching, 
-.status-button.plantowatch, 
-.status-button.reading, 
+.status-button.watching,
+.status-button.plantowatch,
+.status-button.reading,
 .status-button.plantoread {
-	overflow: hidden;
-	font-size: 0pt !important;
-	letter-spacing: -1px !important;
+    overflow: hidden;
+    font-size: 0pt !important;
+    letter-spacing: -1px !important;
 }
 
 .status-button.watching::before {
-	content: 'Watching';
-	font-size: 2.5vh;
-	letter-spacing: 3.5px !important;
+    content: 'Watching';
+    font-size: 2.5vh;
+    letter-spacing: 3.5px !important;
 }
 
 .status-button.reading::before {
-	content: 'Reading';
-	font-size: 2.5vh;
-	letter-spacing: 3.5px !important;
+    content: 'Reading';
+    font-size: 2.5vh;
+    letter-spacing: 3.5px !important;
 }
 
-.status-button.plantowatch::before, 
+.status-button.plantowatch::before,
 .status-button.plantoread::before {
-	content: 'Planned';
-	font-size: 2.5vh;
-	letter-spacing: 3.5px !important;
+    content: 'Planned';
+    font-size: 2.5vh;
+    letter-spacing: 3.5px !important;
 }
+
 
 /* SEARCH */
+
 .status-menu-container .search-container {
-	display: none;
+    display: none;
 }
+
 
 /* LIST UNIT */
-.list-unit, .list-block {
-	padding: 0px;
-	margin: 0px;
-	width: 100%;
-	overflow-x: hidden;
+
+.list-unit,
+.list-block {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    overflow-x: hidden;
 }
 
+
 /* STATUS TITLE */
+
 .list-unit .list-status-title {
-	display: none;
-	margin: 0px;
+    display: none;
+    margin: 0px;
 }
 
 .list-unit .list-status-title * {
-	margin: 0px !important;
+    margin: 0px !important;
 }
+
 
 /* STATS */
 
 #show-stats-button {
-/* Duh */
+    /* Duh */
 }
 
 #advanced-options-button {
-/* Duh */
+    /* Duh */
 }
 
 .list-unit .list-stats {
-/* Stat bar */
+    /* Stat bar */
 }
 
+
 /* LIST TABLE */
+
 .list-table {
-	border: none;
+    border: none;
 }
+
 
 /* Sort row */
 
-.list-table .list-table-header {
-}
+.list-table .list-table-header {}
 
 .list-table tbody:first-child {
-	background-color: #d7d1b9;
+    background-color: #d7d1b9;
 }
 
 .list-table .list-table-header .header-title {
-/* All sort cells */
-	background: none;
-	border: none;
+    /* All sort cells */
+    background: none;
+    border: none;
 }
 
 .list-table .list-table-header .header-title a:hover {
-	color: #4d4940 !important;
+    color: #4d4940 !important;
 }
 
 .list-table .list-table-header .header-title.title {
-/* Specific sort cell */
+    /* Specific sort cell */
 }
+
 
 /* Data rows */
 
 .list-table tbody.list-item {
-	background: linear-gradient(to bottom, transparent 2px, #d7d1b9 2px, #d7d1b9 5px, transparent 5px, transparent 45px, #d7d1b9 45px, #d7d1b9 48px, transparent 48px);
-	background-color: #d7d1b9;
-	color: #4d4940;
-	transition: background-color .2s, color .2s;
+    background: linear-gradient(to bottom, transparent 2px, #d7d1b9 2px, #d7d1b9 5px, transparent 5px, transparent 45px, #d7d1b9 45px, #d7d1b9 48px, transparent 48px);
+    background-color: #d7d1b9;
+    color: #4d4940;
+    transition: background-color .2s, color .2s;
 }
 
 .list-table tbody.list-item:hover {
-	background-color: #4d4940;
-	color: #d7d1b9;
-	transition: background-color .2s, color .2s;
+    background-color: #4d4940;
+    color: #d7d1b9;
+    transition: background-color .2s, color .2s;
 }
 
 .list-table tbody.list-item::before {
-	content: '';
-	background-position: center;
-	background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/arrow.png);
-	background-repeat: no-repeat;
-	width: 42px;
-	height: 50px;
-	position: absolute;
-	left: -58px;
-	opacity: 0;
-	transition: opacity .2s;
-	pointer-events: none;
+    content: '';
+    background-position: center;
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/arrow.png);
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 50px;
+    position: absolute;
+    left: -58px;
+    opacity: 0;
+    transition: opacity .2s;
+    pointer-events: none;
 }
 
 .list-table tbody.list-item:hover::before {
-	opacity: 1;
-	transition: opacity .2s;
+    opacity: 1;
+    transition: opacity .2s;
 }
 
 .list-table .list-table-data .data.title {
-	padding: 0px;
-	margin: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
-.list-table tbody tr, .list-table tbody tr td {
-	height: 50px;
-	margin: 0px;
-	padding: 0px;
+.list-table tbody tr,
+.list-table tbody tr td {
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
 }
 
-.list-table .list-table-data a, 
-.list-table .list-table-data a.edit-disabled, 
+.list-table .list-table-data a,
+.list-table .list-table-data a.edit-disabled,
 .list-table .list-table-data a:not(.edit-disabled):hover {
-	color: inherit;
-	text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 .list-table .list-table-data .data {
-/* All data cells */
-	border: none;
-	padding: 0px;
-	margin: 0px;
+    /* All data cells */
+    border: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .list-table .list-table-data .data.score a {
-/* Specific data cell */
-	display: block;
-	width: 100%;
-	height: 100%;
-	line-height: 50px;
+    /* Specific data cell */
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
 }
 
 .list-table .list-table-data .tags .edit {
-	font-size: 6pt;
+    font-size: 6pt;
 }
 
-.list-table .list-table-data .tags .edit, 
+.list-table .list-table-data .tags .edit,
 .list-table .list-table-data .tags .edit:hover {
-	color: #d1cbb3 !important;
-	text-decoration: none;
+    color: #d1cbb3 !important;
+    text-decoration: none;
 }
 
 .list-table .list-table-data .data.status {
-	display: block;
-	height: 40px;
-	width: 5px;
-	margin-top: 5px;
+    display: block;
+    height: 40px;
+    width: 5px;
+    margin-top: 5px;
 }
 
-.list-table .list-table-data .data.status.reading, 
+.list-table .list-table-data .data.status.reading,
 .list-table .list-table-data .data.status.watching {
-	background-color: #8c806a;
+    background-color: #8c806a;
 }
 
 .list-table .list-table-data .data.status.completed {
-	background-color: #bd9d86;
+    background-color: #bd9d86;
 }
 
 .list-table .list-table-data .data.status.onhold {
-	background-color: #c1b398;
+    background-color: #c1b398;
 }
 
 .list-table .list-table-data .data.status.dropped {
-	background-color: #eadfb1;
+    background-color: #eadfb1;
 }
 
-.list-table .list-table-data .data.status.plantoread, 
+.list-table .list-table-data .data.status.plantoread,
 .list-table .list-table-data .data.status.plantowatch {
-	background-color: #ebe4d2;
+    background-color: #ebe4d2;
 }
 
 .list-unit::before {
-	content: '';
-	width: 50%;
-	height: 10px;
-	background-color: #d7d1b9;
-	position: fixed;
-	top: 190px;
-	z-index: 2;
+    content: '';
+    width: 50%;
+    height: 10px;
+    background-color: #d7d1b9;
+    position: fixed;
+    top: 190px;
+    z-index: 2;
 }
 
 .list-unit::after {
-	content: '';
-	width: 50%;
-	height: 10px;
-	background-color: #d7d1b9;
-	position: fixed;
-	bottom: 65px;
-	box-shadow: 5px 5px rgba(95, 90, 74, 0.35);
-	z-index: 2;
+    content: '';
+    width: 50%;
+    height: 10px;
+    background-color: #d7d1b9;
+    position: fixed;
+    bottom: 65px;
+    box-shadow: 5px 5px rgba(95, 90, 74, 0.35);
+    z-index: 2;
 }
 
 .list-table::before {
-	content: '';
-	width: calc(50% - 20px);
-	height: 2px;
-	background-color: #aea993;
-	position: fixed;
-	top: 194px;
-	margin-left: 10px;
-	z-index: 3;
+    content: '';
+    width: calc(50% - 20px);
+    height: 2px;
+    background-color: #aea993;
+    position: fixed;
+    top: 194px;
+    margin-left: 10px;
+    z-index: 3;
 }
 
 .list-table::after {
-	content: '';
-	width: calc(50% - 20px);
-	height: 2px;
-	background-color: #aea993;
-	position: fixed;
-	bottom: 69px;
-	margin-left: 10px;
-	z-index: 3;
+    content: '';
+    width: calc(50% - 20px);
+    height: 2px;
+    background-color: #aea993;
+    position: fixed;
+    bottom: 69px;
+    margin-left: 10px;
+    z-index: 3;
 }
 
 .list-table .list-table-data .data.title .link {
-/* Anime titles */
+    /* Anime titles */
 }
 
 .add-edit-more {
-/* Duh */
-	display: none;
+    /* Duh */
+    display: none;
 }
 
 .icon-watch {
-	display: none !important;
+    display: none !important;
 }
+
 
 /* LOADING SPACE */
 
-.list-unit .loading-space, .list-unit .loading-space * {
-	background-color: transparent;
-	margin: 0px;
-	width: 100%;
+.list-unit .loading-space,
+.list-unit .loading-space * {
+    background-color: transparent;
+    margin: 0px;
+    width: 100%;
 }
+
 
 /* FOOTER */
 
 footer * {
-	display: none;
+    display: none;
 }
 
 footer::before {
-	content: '';
-	display: block;
-	width: 50%;
-	height: auto;
-	position: fixed;
-	background-color: #d7d1b9;
-	top: 190px;
-	bottom: 75px;
-	left: 125px;
-	z-index: -1;
-	box-shadow: 5px 5px rgba(95, 90, 74, 0.35);
+    content: '';
+    display: block;
+    width: 50%;
+    height: auto;
+    position: fixed;
+    background-color: #d7d1b9;
+    top: 190px;
+    bottom: 75px;
+    left: 125px;
+    z-index: -1;
+    box-shadow: 5px 5px rgba(95, 90, 74, 0.35);
 }

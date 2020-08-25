@@ -1,969 +1,1335 @@
 /* Absolute Duo */
-tr:hover .animetitle[href*="anime/25397/"]:after {content:"Ja~";
-position:absolute;
-margin-left:10px;
-margin-top:-0px;
-color:#c68;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+
+tr:hover .animetitle[href*="anime/25397/"]:after {
+    content: "Ja~";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -0px;
+    color: #c68;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
 
 /* Bakemonogatari */
-tr:hover .animetitle[href*="anime/5081/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/senjo.png");
-background-size: 45px;
-position:absolute;
-margin-left:10px;
-margin-top:-15px;
-width:45px;height:42px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/5081/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/senjo.png");
+    background-size: 45px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -15px;
+    width: 45px;
+    height: 42px;
+    pointer-events: none;
+}
+
 
 /* Beelzebub */
-tr:hover .animetitle[href*="anime/9513/"]:after {content:"ZEBUL BLAST";
-position:absolute;
-margin-left:10px;
-margin-top:-0px;
-color:red;
-font-weight:bold;
-font-family:arial, sans-serif;
-font-size:13px;
-pointer-events:none;
-padding:7px;
-transform:rotate(12deg);
--ms-transform:rotate(12deg);
--webkit-transform:rotate(12deg);
-width:93px;height:14px;border-radius:5px;
-border:1px solid #e00;box-shadow:0px 0px 1px #000;}
+
+tr:hover .animetitle[href*="anime/9513/"]:after {
+    content: "ZEBUL BLAST";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -0px;
+    color: red;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    pointer-events: none;
+    padding: 7px;
+    transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    -webkit-transform: rotate(12deg);
+    width: 93px;
+    height: 14px;
+    border-radius: 5px;
+    border: 1px solid #e00;
+    box-shadow: 0px 0px 1px #000;
+}
+
 
 /* Black rock shooter */
+
 tr:hover .animetitle[href*="anime/11285/"]:after,
-tr:hover .animetitle[href*="anime/12079/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/brs.png");
-background-size: 100px;
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-width:100px;height:20px;
-pointer-events:none;}
+tr:hover .animetitle[href*="anime/12079/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/brs.png");
+    background-size: 100px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    width: 100px;
+    height: 20px;
+    pointer-events: none;
+}
+
 
 /* Boku dake */
-tr:hover .animetitle[href*="anime/31043/"]:after {content:"Baka na no?";
-position:absolute;
-margin-left:10px;
-margin-top:-0px;
-color:brown;
-font-weight:bold;
-font-family:arial, sans-serif;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+
+tr:hover .animetitle[href*="anime/31043/"]:after {
+    content: "Baka na no?";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -0px;
+    color: brown;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
 
 /* 5cm per second */
-tr:hover .animetitle[href*="anime/1689/"]:after {content:"";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color:brown;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+
+tr:hover .animetitle[href*="anime/1689/"]:after {
+    content: "";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: brown;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
 
 /*carnival phantasm */
-tr:hover .animetitle[href*="anime/10012/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/saberlion.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-10px;
-width:50px;height:40px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/10012/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/saberlion.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -10px;
+    width: 50px;
+    height: 40px;
+    pointer-events: none;
+}
+
 
 /* Neptune */
-tr:hover .animetitle[href*="anime/16157/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nep.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-11px;
-width:50px;height:38px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/16157/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nep.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -11px;
+    width: 50px;
+    height: 38px;
+    pointer-events: none;
+}
+
 
 /* d-frag */
-tr:hover .animetitle[href*="anime/20031/"]:after {content:"Head Bagger";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color:#ff00d9;
-font-weight:bold;
-font-family:arial, sans-serif;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+
+tr:hover .animetitle[href*="anime/20031/"]:after {
+    content: "Head Bagger";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: #ff00d9;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
 
 /* denpa onna */
-tr:hover .animetitle[href*="anime/9379/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/touwa.png");
-background-size: 50px;
-position:absolute;
-margin-left:-150px;
-margin-top:-20px;
-width:50px;height:50px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/9379/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/touwa.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: -150px;
+    margin-top: -20px;
+    width: 50px;
+    height: 50px;
+    pointer-events: none;
+}
+
 
 /* fate go */
-tr:hover .animetitle[href*="anime/34321/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/shielder.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-20px;
-width:50px;height:50px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/34321/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/shielder.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 50px;
+    height: 50px;
+    pointer-events: none;
+}
+
 
 /* fate kaleid */
-tr:hover .animetitle[href*="anime/14829/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ilya.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-20px;
-width:50px;height:50px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/14829/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ilya.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 50px;
+    height: 50px;
+    pointer-events: none;
+}
+
 
 /* fate night */
-tr:hover .animetitle[href*="anime/356/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/saber.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-15px;
-width:50px;height:42px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/356/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/saber.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -15px;
+    width: 50px;
+    height: 42px;
+    pointer-events: none;
+}
+
 
 /* fate ubw */
+
 tr:hover .animetitle[href*="anime/22297/"]:after,
-tr:hover .animetitle[href*="anime/28701/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/archer.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-17px;
-width:50px;height:41px;
-pointer-events:none;}
+tr:hover .animetitle[href*="anime/28701/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/archer.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -17px;
+    width: 50px;
+    height: 41px;
+    pointer-events: none;
+}
+
 
 /* fate zero */
+
 tr:hover .animetitle[href*="anime/10087/"]:after,
-tr:hover .animetitle[href*="anime/11741/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gilg.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-20px;
-width:50px;height:44px;
-pointer-events:none;}
+tr:hover .animetitle[href*="anime/11741/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gilg.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 50px;
+    height: 44px;
+    pointer-events: none;
+}
+
 
 /* Girl und panzer */
-tr:hover .animetitle[href*="anime/14131/"]:after {content:"Panzer vor!";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color:lime;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px green;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+
+tr:hover .animetitle[href*="anime/14131/"]:after {
+    content: "Panzer vor!";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: lime;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px green;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
 
 /* Baka to test */
-tr:hover .animetitle[href*="anime/6347/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/baka1.png");
-background-size: 40px;
-position:absolute;
-margin-left:10px;
-margin-top:-17px;
-width:40px;height:50px;
-pointer-events:none;}
 
-tr:hover .animetitle[href*="anime/8516/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/baka2.png");
-background-size: 40px;
-position:absolute;
-margin-left:10px;
-margin-top:-20px;
-width:40px;height:50px;
-pointer-events:none;}
+tr:hover .animetitle[href*="anime/6347/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/baka1.png");
+    background-size: 40px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -17px;
+    width: 40px;
+    height: 50px;
+    pointer-events: none;
+}
 
-tr:hover .animetitle[href*="anime/24727/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/baka5.png");
-background-size: 33px;
-position:absolute;
-margin-left:10px;
-margin-top:-15px;
-width:33px;height:49px;
-pointer-events:none;}
+tr:hover .animetitle[href*="anime/8516/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/baka2.png");
+    background-size: 40px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 40px;
+    height: 50px;
+    pointer-events: none;
+}
 
-tr:hover .animetitle[href*="anime/7870/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/baka3.png");
-background-size: 45px;
-position:absolute;
-margin-left:10px;
-margin-top:-15px;
-width:45px;height:50px;
-pointer-events:none;}
+tr:hover .animetitle[href*="anime/24727/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/baka5.png");
+    background-size: 33px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -15px;
+    width: 33px;
+    height: 49px;
+    pointer-events: none;
+}
 
-tr:hover .animetitle[href*="anime/9471/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/baka6.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-8px;
-width:50px;height:30px;
-pointer-events:none;}
+tr:hover .animetitle[href*="anime/7870/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/baka3.png");
+    background-size: 45px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -15px;
+    width: 45px;
+    height: 50px;
+    pointer-events: none;
+}
 
-tr:hover .animetitle[href*="anime/7805/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/baka4.png");
-background-size: 30px;
-position:absolute;
-margin-left:10px;
-margin-top:-15px;
-width:30px;height:48px;
-pointer-events:none;}
+tr:hover .animetitle[href*="anime/9471/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/baka6.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -8px;
+    width: 50px;
+    height: 30px;
+    pointer-events: none;
+}
+
+tr:hover .animetitle[href*="anime/7805/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/baka4.png");
+    background-size: 30px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -15px;
+    width: 30px;
+    height: 48px;
+    pointer-events: none;
+}
+
 
 /* Ansatsu */
-tr:hover .animetitle[href*="anime/24833/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/koro.png");
-background-size: 30px;
-position:absolute;
-margin-left:10px;
-margin-top:-8px;
-width:30px;height:30px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/24833/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/koro.png");
+    background-size: 30px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -8px;
+    width: 30px;
+    height: 30px;
+    pointer-events: none;
+}
+
 
 /* anohana */
-tr:hover .animetitle[href*="anime/9989/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/menma.png");
-background-size: 45px;
-position:absolute;
-margin-left:5px;
-margin-top:-17px;
-width:50px;height:41px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/9989/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/menma.png");
+    background-size: 45px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -17px;
+    width: 50px;
+    height: 41px;
+    pointer-events: none;
+}
+
 
 /* Arakawa under bridge */
-tr:hover .animetitle[href*="anime/7647/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/bridge.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-20px;
-width:50px;height:45px;
-pointer-events:none;}
 
-tr:hover .animetitle[href*="anime/9074/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/bridge.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-20px;
-width:100px;height:45px;
-pointer-events:none;}
+tr:hover .animetitle[href*="anime/7647/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/bridge.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 50px;
+    height: 45px;
+    pointer-events: none;
+}
+
+tr:hover .animetitle[href*="anime/9074/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/bridge.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 100px;
+    height: 45px;
+    pointer-events: none;
+}
+
 
 /* ars nova */
-tr:hover .animetitle[href*="anime/18893/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/arsnova3.png");
-background-size: 60px;
-position:absolute;
-margin-left:10px;
-margin-top:-15px;
-width:60px;height:38px;
-pointer-events:none;}
 
-tr:hover .animetitle[href*="anime/24921/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/arsnova.png");
-background-size: 70px;
-position:absolute;
-margin-left:10px;
-margin-top:-15px;
-width:70px;height:40px;
-pointer-events:none;}
+tr:hover .animetitle[href*="anime/18893/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/arsnova3.png");
+    background-size: 60px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -15px;
+    width: 60px;
+    height: 38px;
+    pointer-events: none;
+}
 
-tr:hover .animetitle[href*="anime/24919/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/arsnova2.png");
-background-size: 60px;
-position:absolute;
-margin-left:10px;
-margin-top:-15px;
-width:60px;height:40px;
-pointer-events:none;}
+tr:hover .animetitle[href*="anime/24921/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/arsnova.png");
+    background-size: 70px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -15px;
+    width: 70px;
+    height: 40px;
+    pointer-events: none;
+}
+
+tr:hover .animetitle[href*="anime/24919/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/arsnova2.png");
+    background-size: 60px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -15px;
+    width: 60px;
+    height: 40px;
+    pointer-events: none;
+}
+
 
 /* accel world */
-tr:hover .animetitle[href*="anime/11759/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/accel.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-20px;
-width:50px;height:50px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/11759/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/accel.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 50px;
+    height: 50px;
+    pointer-events: none;
+}
+
 
 /* monster musume */
-tr:hover .animetitle[href*="anime/30307/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/miia.png");
-background-size: 80px;
-position:absolute;
-margin-left:10px;
-margin-top:-20px;
-width:70px;height:45px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/30307/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/miia.png");
+    background-size: 80px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 70px;
+    height: 45px;
+    pointer-events: none;
+}
+
 
 /* kill la kill */
-tr:hover .animetitle[href*="anime/18679/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kill.png"),
-	url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kill2.png");
-background-size: 40px,37px;
-background-repeat: no-repeat;
-background-position: left,right;
-position:absolute;
-margin-left:10px;
-margin-top:-18px;
-width:85px;height:50px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/18679/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kill.png"), url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kill2.png");
+    background-size: 40px, 37px;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -18px;
+    width: 85px;
+    height: 50px;
+    pointer-events: none;
+}
+
 
 /* kobayashi-san */
-tr:hover .animetitle[href*="anime/33206/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/tohru.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-20px;
-width:50px;height:45px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/33206/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/tohru.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 50px;
+    height: 45px;
+    pointer-events: none;
+}
+
 
 /* Mikakunin */
-tr:hover .animetitle[href*="/20541/"]:hover::before{
-background-image: url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/mikakunin.gif');
-background-size: 206px;
+
+tr:hover .animetitle[href*="/20541/"]:hover::before {
+    background-image: url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/mikakunin.gif');
+    background-size: 206px;
 }
+
 
 /* Hanamonogatari */
-tr:hover .animetitle[href*="anime/21855/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kanbaru.png");
-background-size: 45px;
-position:absolute;
-margin-left:10px;
-margin-top:-14px;
-width:45px;height:42px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/21855/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kanbaru.png");
+    background-size: 45px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -14px;
+    width: 45px;
+    height: 42px;
+    pointer-events: none;
+}
+
 
 /* Fairy tail */
-tr:hover .animetitle[href*="anime/6702/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/natsu.png");
-background-size: 45px;
-position:absolute;
-margin-left:10px;
-margin-top:-14px;
-width:45px;height:42px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/6702/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/natsu.png");
+    background-size: 45px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -14px;
+    width: 45px;
+    height: 42px;
+    pointer-events: none;
+}
+
 
 /* plastic memories */
-tr:hover .animetitle[href*="anime/27775/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/isla.png");
-background-size: 45px;
-position:absolute;
-margin-left:10px;
-margin-top:-14px;
-width:45px;height:46px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/27775/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/isla.png");
+    background-size: 45px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -14px;
+    width: 45px;
+    height: 46px;
+    pointer-events: none;
+}
+
 
 /* musaigen */
-tr:hover .animetitle[href*="anime/31442/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/musaigen.png");
-background-size: 45px;
-position:absolute;
-margin-left:10px;
-margin-top:-20px;
-width:45px;height:48px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/31442/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/musaigen.png");
+    background-size: 45px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 45px;
+    height: 48px;
+    pointer-events: none;
+}
+
 
 /* ika musume */
-tr:hover .animetitle[href*="anime/8557/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ika.png");
-background-size: 60px;
-position:absolute;
-margin-left:10px;
-margin-top:-14px;
-width:60px;height:42px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/8557/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ika.png");
+    background-size: 60px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -14px;
+    width: 60px;
+    height: 42px;
+    pointer-events: none;
+}
+
 
 /* konosuba */
-tr:hover .animetitle[href*="anime/30831/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/konosuba.png");
-background-size: 55px;
-position:absolute;
-margin-left:10px;
-margin-top:-23px;
-width:55px;height:53px;
-pointer-events:none;}
 
-tr:hover .animetitle[href*="anime/32937/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/megumin.png");
-background-size: 70px;
-position:absolute;
-margin-left:10px;
-margin-top:-23px;
-width:70px;height:52px;
-pointer-events:none;}
+tr:hover .animetitle[href*="anime/30831/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/konosuba.png");
+    background-size: 55px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -23px;
+    width: 55px;
+    height: 53px;
+    pointer-events: none;
+}
+
+tr:hover .animetitle[href*="anime/32937/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/megumin.png");
+    background-size: 70px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -23px;
+    width: 70px;
+    height: 52px;
+    pointer-events: none;
+}
+
 
 /* amagi park */
-tr:hover .animetitle[href*="anime/22147/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sento.png");
-background-size: 55px;
-position:absolute;
-margin-left:10px;
-margin-top:-23px;
-width:55px;height:53px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/22147/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sento.png");
+    background-size: 55px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -23px;
+    width: 55px;
+    height: 53px;
+    pointer-events: none;
+}
+
 
 /* sao 2 */
-tr:hover .animetitle[href*="anime/21881/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sinon.png");
-background-size: 45px;
-position:absolute;
-margin-left:10px;
-margin-top:-20px;
-width:45px;height:47px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/21881/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sinon.png");
+    background-size: 45px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 45px;
+    height: 47px;
+    pointer-events: none;
+}
+
 
 /* Oregairu */
-tr:hover .animetitle[href*="anime/14813/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/oregairu2.png");
-background-size: 40px;
-position:absolute;
-margin-left:10px;
-margin-top:-20px;
-width:40px;height:45px;
-pointer-events:none;}
 
-tr:hover .animetitle[href*="anime/23847/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/oregairu.png");
-background-size: 45px;
-position:absolute;
-margin-left:10px;
-margin-top:-17px;
-width:45px;height:45px;
-pointer-events:none;}
+tr:hover .animetitle[href*="anime/14813/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/oregairu2.png");
+    background-size: 40px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 40px;
+    height: 45px;
+    pointer-events: none;
+}
+
+tr:hover .animetitle[href*="anime/23847/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/oregairu.png");
+    background-size: 45px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -17px;
+    width: 45px;
+    height: 45px;
+    pointer-events: none;
+}
+
 
 /* Nisemonogatari */
-tr:hover .animetitle[href*="anime/11597/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/tsukihi.png"),
-	url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/karen.png");
-background-size: 40px,57px;
-background-repeat: no-repeat;
-background-position: left,right;
-position:absolute;
-margin-left:10px;
-margin-top:-20px;
-width:100px;height:50px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/11597/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/tsukihi.png"), url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/karen.png");
+    background-size: 40px, 57px;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 100px;
+    height: 50px;
+    pointer-events: none;
+}
+
 
 /* kimi no na wa */
-tr:hover .animetitle[href*="anime/32281/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/taki1.png"),
-	url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/mitsuha1.png");
-background-size: 60px,60px;
-background-repeat: no-repeat;
-background-position: left,right;
-position:absolute;
-margin-left:10px;
-margin-top:-30px;
-width:120px;height:60px;
-pointer-events:none;}
 
-tr:hover .animetitle[href*="anime/32281/"]:hover::after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/taki.gif"),
-	url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/mitsuha.gif");
-background-size: 60px,60px;
-background-repeat: no-repeat;
-background-position: left,right;
-position:absolute;
-margin-left:10px;
-margin-top:-30px;
-width:120px;height:60px;
-pointer-events:none;}
+tr:hover .animetitle[href*="anime/32281/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/taki1.png"), url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/mitsuha1.png");
+    background-size: 60px, 60px;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 120px;
+    height: 60px;
+    pointer-events: none;
+}
+
+tr:hover .animetitle[href*="anime/32281/"]:hover::after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/taki.gif"), url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/mitsuha.gif");
+    background-size: 60px, 60px;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 120px;
+    height: 60px;
+    pointer-events: none;
+}
+
 
 /* gabriel drop out */
-tr:hover .animetitle[href*="anime/33731/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gabriel.png"),
-	url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rap.png"),
-	url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/vig.png"),
-	url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/satan.png");
-background-size: 50px,50px,50px,50px;
-background-repeat: no-repeat;
-background-position: 0px,50px,100px,150px;
-position:absolute;
-margin-left:10px;
-margin-top:-25px;
-width:200px;height:50px;
-pointer-events:none;}
 
-tr:hover .animetitle[href*="anime/33731/"]:hover::after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gabriel2.png"),
-	url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rap2.png"),
-	url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/vig2.png"),
-	url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/satan2.png");
-background-size: 50px,50px,50px,50px;
-background-repeat: no-repeat;
-background-position: 0px,50px,100px,150px;
-position:absolute;
-margin-left:10px;
-margin-top:-25px;
-width:200px;height:50px;
-pointer-events:none;}
+tr:hover .animetitle[href*="anime/33731/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gabriel.png"), url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rap.png"), url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/vig.png"), url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/satan.png");
+    background-size: 50px, 50px, 50px, 50px;
+    background-repeat: no-repeat;
+    background-position: 0px, 50px, 100px, 150px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -25px;
+    width: 200px;
+    height: 50px;
+    pointer-events: none;
+}
+
+tr:hover .animetitle[href*="anime/33731/"]:hover::after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gabriel2.png"), url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rap2.png"), url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/vig2.png"), url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/satan2.png");
+    background-size: 50px, 50px, 50px, 50px;
+    background-repeat: no-repeat;
+    background-position: 0px, 50px, 100px, 150px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -25px;
+    width: 200px;
+    height: 50px;
+    pointer-events: none;
+}
+
 
 /* rezero */
-tr:hover .animetitle[href*="anime/31240/"]:after {content:"";
-background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rem.png"),
-	url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ram.png");
-background-size: 45px;
-background-repeat: no-repeat;
-position:absolute;
-background-position: left,right;
-margin-left:10px;
-margin-top:-20px;
-width:100px;height:50px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/31240/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/rem.png"), url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ram.png");
+    background-size: 45px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: left, right;
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 100px;
+    height: 50px;
+    pointer-events: none;
+}
+
 
 /* Nyanko days */
-tr:hover .animetitle[href*="anime/34148/"]:after {content:"Nya nya~";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color: orange;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+
+tr:hover .animetitle[href*="anime/34148/"]:after {
+    content: "Nya nya~";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: orange;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
 
 /* Owarimonogatari */
-tr:hover .animetitle[href*="anime/31181/"]:after {content:"Ougi.pptx";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color: black;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+
+tr:hover .animetitle[href*="anime/31181/"]:after {
+    content: "Ougi.pptx";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: black;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
 
 /* dxd */
-tr:hover .animetitle[href*="anime/11617/"]:after {content:"Oppai";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color: red;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+
+tr:hover .animetitle[href*="anime/11617/"]:after {
+    content: "Oppai";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: red;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
 
 /* dxd 2 */
-tr:hover .animetitle[href*="anime/15451/"]:after {content:"Oppai new";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color: blue;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+
+tr:hover .animetitle[href*="anime/15451/"]:after {
+    content: "Oppai new";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: blue;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
 
 /* dxd 3 */
-tr:hover .animetitle[href*="anime/24703/"]:after {content:"Oppai born";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color: orange;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+
+tr:hover .animetitle[href*="anime/24703/"]:after {
+    content: "Oppai born";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: orange;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
 
 /* dxd hero */
-tr:hover .animetitle[href*="anime/34281/"]:after {content:"Oppai Dragon";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color: red;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+
+tr:hover .animetitle[href*="anime/34281/"]:after {
+    content: "Oppai Dragon";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: red;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
 
 /* haifuri */
-tr:hover .animetitle[href*="anime/31500/"]:after {content:"Haifuri";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color: blue;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+
+tr:hover .animetitle[href*="anime/31500/"]:after {
+    content: "Haifuri";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: blue;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
 
 /* high school of the dead */
-tr:hover a.animetitle[href*="anime/8074/"] span {text-decoration:line-through}
-tr:hover .animetitle[href*="anime/8074/"]:after {content:"Plot of the Dead";
-position:absolute;
-margin-left:10px;
-margin-top:0px;
-color: orange;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;}
+
+tr:hover a.animetitle[href*="anime/8074/"] span {
+    text-decoration: line-through
+}
+
+tr:hover .animetitle[href*="anime/8074/"]:after {
+    content: "Plot of the Dead";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 0px;
+    color: orange;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+}
+
 
 /* Akiba's trip */
-tr:hover a.animetitle[href*="anime/34051/"] span {text-decoration:line-through}
-tr:hover .animetitle[href*="anime/34051/"]:after {content:"Akiba's Strip";
-position:absolute;
-margin-left:10px;
-margin-top:0px;
-color: blue;
-font-weight:bold;
-font-family:arial, sans-serif;
-font-size:15px;
-pointer-events:none;}
+
+tr:hover a.animetitle[href*="anime/34051/"] span {
+    text-decoration: line-through
+}
+
+tr:hover .animetitle[href*="anime/34051/"]:after {
+    content: "Akiba's Strip";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 0px;
+    color: blue;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    pointer-events: none;
+}
+
 
 /* kancolle */
-tr:hover .animetitle[href*="anime/21511/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/shima.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-23px;
-width:50px;height:50px;
-pointer-events:none;}
-tr:hover tr:hover .animetitle[href*="/21511/"]:hover::before{
-background-image: url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nagato.gif');
-background-size: 206px;
+
+tr:hover .animetitle[href*="anime/21511/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/shima.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -23px;
+    width: 50px;
+    height: 50px;
+    pointer-events: none;
 }
+
+tr:hover tr:hover .animetitle[href*="/21511/"]:hover::before {
+    background-image: url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nagato.gif');
+    background-size: 206px;
+}
+
 
 /* koyomimonogatari */
-tr:hover .animetitle[href*="anime/32268/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/araragi.png");
-background-size: 40px;
-position:absolute;
-margin-left:10px;
-margin-top:-20px;
-width:40px;height:50px;
-pointer-events:none;}
 
-/* nekomonogatari */
-tr:hover .animetitle[href*="anime/15689/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/hanekawa.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-15px;
-width:50px;height:41px;
-pointer-events:none;}
-
-/* Gokukoku */
-tr:hover .animetitle[href*="anime/21431/"]:after {content:"Neko-san ♪♪♪";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color: blue;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
-
-/* haiyore */
-tr:hover .animetitle[href*="anime/11785/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/haiyore.png");
-background-size: 50px;
-position:absolute;
-margin-left:-100px;
-margin-top:-28px;
-width:50px;height:33px;
-pointer-events:none;}
-
-/* hyouka */
-tr:hover .animetitle[href*="anime/12189/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/hyouka.png");
-background-size: 50px;
-position:absolute;
-margin-left:-50px;
-margin-top:-25px;
-width:50px;height:33px;
-pointer-events:none;}
-
-/* kiniro mosaic */
-tr:hover .animetitle[href*="anime/16732/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kiniro.png");
-background-size: 45px;
-position:absolute;
-margin-left:10px;
-margin-top:-15px;
-width:45px;height:44px;
-pointer-events:none;}
-
-/* kore wa zombie */
-tr:hover .animetitle[href*="anime/8841/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/z.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-10px;
-width:50px;height:29px;
-pointer-events:none;}
-
-/* madoka */
-tr:hover .animetitle[href*="anime/9756/"]:hover::after {content:"Contract?";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color:red;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);
+tr:hover .animetitle[href*="anime/32268/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/araragi.png");
+    background-size: 40px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 40px;
+    height: 50px;
+    pointer-events: none;
 }
 
+
+/* nekomonogatari */
+
+tr:hover .animetitle[href*="anime/15689/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/hanekawa.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -15px;
+    width: 50px;
+    height: 41px;
+    pointer-events: none;
+}
+
+
+/* Gokukoku */
+
+tr:hover .animetitle[href*="anime/21431/"]:after {
+    content: "Neko-san ♪♪♪";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: blue;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
+
+/* haiyore */
+
+tr:hover .animetitle[href*="anime/11785/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/haiyore.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: -28px;
+    width: 50px;
+    height: 33px;
+    pointer-events: none;
+}
+
+
+/* hyouka */
+
+tr:hover .animetitle[href*="anime/12189/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/hyouka.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -25px;
+    width: 50px;
+    height: 33px;
+    pointer-events: none;
+}
+
+
+/* kiniro mosaic */
+
+tr:hover .animetitle[href*="anime/16732/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kiniro.png");
+    background-size: 45px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -15px;
+    width: 45px;
+    height: 44px;
+    pointer-events: none;
+}
+
+
+/* kore wa zombie */
+
+tr:hover .animetitle[href*="anime/8841/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/z.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -10px;
+    width: 50px;
+    height: 29px;
+    pointer-events: none;
+}
+
+
+/* madoka */
+
+tr:hover .animetitle[href*="anime/9756/"]:hover::after {
+    content: "Contract?";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: red;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
+
 /* kyoukai no kanata */
-tr:hover .animetitle[href*="anime/18153/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/knk.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-17px;
-width:50px;height:45px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/18153/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/knk.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -17px;
+    width: 50px;
+    height: 45px;
+    pointer-events: none;
+}
+
 
 /* mirai nikki */
-tr:hover .animetitle[href*="anime/10620/"]:after {content:"Yuki~";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color: #ff4da6;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+
+tr:hover .animetitle[href*="anime/10620/"]:after {
+    content: "Yuki~";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: #ff4da6;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
 
 /* masou gakuen hxh */
-tr:hover .animetitle[href*="anime/31845/"]:after {content:"EROS!";
-position:absolute;
-margin-left:10px;
-margin-top:-5px;
-color: #ff4da6;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;
-transform:rotate(-8deg);
--ms-transform:rotate(-8deg);
--webkit-transform:rotate(-8deg);}
+
+tr:hover .animetitle[href*="anime/31845/"]:after {
+    content: "EROS!";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -5px;
+    color: #ff4da6;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+}
+
 
 /* love lab */
-tr:hover a.animetitle[href*="anime/16353/"] span {text-decoration:line-through}
-tr:hover .animetitle[href*="anime/16353/"]:after {content:"Rabu Rabo";
-position:absolute;
-margin-left:10px;
-margin-top:0px;
-color: orange;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;}
+
+tr:hover a.animetitle[href*="anime/16353/"] span {
+    text-decoration: line-through
+}
+
+tr:hover .animetitle[href*="anime/16353/"]:after {
+    content: "Rabu Rabo";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 0px;
+    color: orange;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+}
+
 
 /* machine doll */
-tr:hover .animetitle[href*="anime/17247/"]:after {content:"Yaya~";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color: red;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px white;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+
+tr:hover .animetitle[href*="anime/17247/"]:after {
+    content: "Yaya~";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: red;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px white;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
 
 /* monogatari 2nd */
-tr:hover .animetitle[href*="anime/17074/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/shinobu.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-15px;
-width:50px;height:42px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/17074/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/shinobu.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -15px;
+    width: 50px;
+    height: 42px;
+    pointer-events: none;
+}
+
 
 /* no game no life */
-tr:hover .animetitle[href*="anime/19815/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/jibril.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-20px;
-width:50px;height:50px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/19815/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/jibril.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 50px;
+    height: 50px;
+    pointer-events: none;
+}
+
 
 /* non non */
+
 tr:hover .animetitle[href*="anime/17549/"]:after,
-tr:hover .animetitle[href*="anime/23623/"]:after {content:"Nyanpasu~";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color: #c57dff;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+tr:hover .animetitle[href*="anime/23623/"]:after {
+    content: "Nyanpasu~";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: #c57dff;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
 
 /* nichijou */
-tr:hover .animetitle[href*="anime/10165/"]:after {content:"Ayy~";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color: orange;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+
+tr:hover .animetitle[href*="anime/10165/"]:after {
+    content: "Ayy~";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: orange;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
 
 /* sakurasou */
-tr:hover .animetitle[href*="anime/13759/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sakurasou.png");
-background-size: 45px;
-position:absolute;
-margin-left:10px;
-margin-top:-14px;
-width:45px;height:43px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/13759/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/sakurasou.png");
+    background-size: 45px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -14px;
+    width: 45px;
+    height: 43px;
+    pointer-events: none;
+}
+
 
 /* Rokujouma */
-tr:hover .animetitle[href*="anime/22865/"]:after {content:"";
-background-image:url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/yurika.png");
-background-size: 50px;
-position:absolute;
-margin-left:10px;
-margin-top:-14px;
-width:50px;height:41px;
-pointer-events:none;}
+
+tr:hover .animetitle[href*="anime/22865/"]:after {
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/yurika.png");
+    background-size: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -14px;
+    width: 50px;
+    height: 41px;
+    pointer-events: none;
+}
+
 
 /* seitokai */
-tr:hover .animetitle[href*="anime/8675/"]:after {content:"Dirty jokes party";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color: magenta;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+
+tr:hover .animetitle[href*="anime/8675/"]:after {
+    content: "Dirty jokes party";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: magenta;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
 
 /* Symphogear */
+
 tr:hover .animetitle[href*="anime/15793/"]:after,
-tr:hover .animetitle[href*="anime/11751/"]:after {content:"SYMPHOGEAH!";
-position:absolute;
-margin-left:10px;
-margin-top:-10px;
-padding:7px;
-transform:rotate(12deg);
--ms-transform:rotate(12deg);
--webkit-transform:rotate(12deg);
-font-size:22px;color:#e00;
-width:165px;height:25px;border-radius:5px;
-border:1px solid #e00;box-shadow:0px 0px 1px #000;}
+tr:hover .animetitle[href*="anime/11751/"]:after {
+    content: "SYMPHOGEAH!";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -10px;
+    padding: 7px;
+    transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    -webkit-transform: rotate(12deg);
+    font-size: 22px;
+    color: #e00;
+    width: 165px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #e00;
+    box-shadow: 0px 0px 1px #000;
+}
+
 
 /* lain */
-tr:hover .animetitle[href*="anime/339/"]:after {content:"Let's All Love Lain";
-position:absolute;
-margin-left:10px;
-margin-top:-2px;
-color: magenta;
-font-weight:bold;
-font-family:arial, sans-serif;
-text-shadow:0px 0px 1px black;
-font-size:13px;
-pointer-events:none;
-transform:rotate(8deg);
--ms-transform:rotate(8deg);
--webkit-transform:rotate(8deg);}
+
+tr:hover .animetitle[href*="anime/339/"]:after {
+    content: "Let's All Love Lain";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    color: magenta;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    font-size: 13px;
+    pointer-events: none;
+    transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
