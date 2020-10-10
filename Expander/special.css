@@ -1184,6 +1184,27 @@ tr:hover #xmenu37521 {
     background-size: cover;
 }
 
+/* Mob Psycho 2 */
+
+tr:hover #xmenu37510 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/mob.png) center;
+    background-size: cover;
+}
+
+/* Slime */
+
+tr:hover #xmenu37510 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/slime.png) center;
+    background-size: cover;
+}
+
+/* Owarimonogatari */
+
+tr:hover #xmenu36999 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/owarimonogatari2.png) center;
+    background-size: cover;
+}
+
 /* ----------------------------------- */
 
 
