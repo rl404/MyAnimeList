@@ -161,12 +161,12 @@
 **How to use**
 * **For anime**:
 ```css
-@\import "https://mal-scraper.000webhostapp.com/auto-cover";
+@\import "https://mal-cover.herokuapp.com/auto?style=tr%3Ahover%20.animetitle%5Bhref%2A%3D%27%2F%7Bid%7D%2F%27%5D%3Abefore%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D";
 @\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Expander/mainanime.css";
 ```
 * **For manga**:
 ```css
-@\import "https://mal-scraper.000webhostapp.com/auto-cover";
+@\import "https://mal-cover.herokuapp.com/auto?style=tr%3Ahover%20.animetitle%5Bhref%2A%3D%27%2F%7Bid%7D%2F%27%5D%3Abefore%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D";
 @\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Expander/mainmanga.css";
 ```
 
