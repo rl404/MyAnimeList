@@ -45,12 +45,12 @@
 **How to use**
 * **For anime**:
 ```css
-@\import "https://mal-scraper.000webhostapp.com/auto-cover?q=%23more%7Bid%7D%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D%0D%0A";
+@\import "https://mal-cover.herokuapp.com/auto?style=%23more%7Bid%7D%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D%0D%0A";
 @\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Madoka/mainanime.css";
 ```
 * **For manga**:
 ```css
-@\import "https://mal-scraper.000webhostapp.com/auto-cover?q=%23more%7Bid%7D%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D%0D%0A";
+@\import "https://mal-cover.herokuapp.com/auto?style=%23more%7Bid%7D%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D%0D%0A";
 @\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Madoka/mainmanga.css";
 ```
 
@@ -130,7 +130,7 @@
 
 **How to use (for anime and manga)**:
 ```css
-@\import "https://mal-scraper.000webhostapp.com/auto-cover?q=%23more%7Bid%7D%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D%0D%0A";
+@\import "https://mal-cover.herokuapp.com/auto?style=%23more%7Bid%7D%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D%0D%0A";
 @\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Anohana/main.css";
 ```
 
@@ -197,7 +197,7 @@
 
 **How to use (for anime and manga)**:
 ```css
-@\import "https://mal-scraper.000webhostapp.com/auto-cover?q=%23more%7Bid%7D+.borderRBL+div%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D";
+@\import "https://mal-cover.herokuapp.com/auto?style=%23more%7Bid%7D+.borderRBL+div%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D";
 @\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Bakemonogatari/main.css";
 ```
 
@@ -327,7 +327,7 @@
 
 **How to use**:
 ```css
-@\import "https://mal-scraper.000webhostapp.com/auto-cover?q=.data.image+a%5Bhref%2A%3D%22%2F%7Bid%7D%2F%22%5D%7Bbackground-image%3A+url%28%7Burl%7D%29%7D";
+@\import "https://mal-cover.herokuapp.com/auto?style=.data.image+a%5Bhref%2A%3D%22%2F%7Bid%7D%2F%22%5D%7Bbackground-image%3A+url%28%7Burl%7D%29%7D";
 @\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Nhentai/main.css";
 ```
 
