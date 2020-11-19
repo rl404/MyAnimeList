@@ -305,7 +305,7 @@ body[data-query*='"status":6'] .list-menu-float {
     margin-top: 10px;
     position: absolute;
     width: 135px;
-    transform: rotateX(-20deg) rotateY(-10deg) rotateZ(-20deg);
+    transform: rotate(-20deg);
     z-index: 5;
 }
 
@@ -574,43 +574,43 @@ body:active #list-container:before {
     margin: 5px !important;
     padding: 8px !important;
     top: 20px !important;
-    transform: skewx(10deg) rotatey(20deg);
+    transform: skewx(10deg);
     transition: all .1s linear;
 }
 
 .status-menu .status-button:nth-of-type(odd):hover {
     background: #f00;
-    transform: scale(1.1) rotatex(-5deg) rotatey(-5deg) rotatez(-5deg);
+    transform: scale(1.1) rotate(-5deg);
 }
 
 .status-menu .status-button:nth-of-type(even):hover {
     background: #f00;
-    transform: scale(1.1) rotatex(5deg) rotatey(5deg) rotatez(5deg);
+    transform: scale(1.1) rotate(5deg);
 }
 
 .status-button.watching {
     top: 10px !important;
-    transform: skewx(-10deg) rotatex(-20deg) rotatey(10deg);
+    transform: skewx(-10deg) rotate(-5deg);
 }
 
 .status-button.completed {
     top: 0 !important;
-    transform: skewx(5deg) rotatex(30deg) rotatey(5deg);
+    transform: skewx(5deg) rotate(5deg);
 }
 
 .status-button.onhold {
     top: -5px !important;
-    transform: skewx(-10deg) rotatex(-30deg) rotatez(5deg);
+    transform: skewx(-10deg) rotate(5deg);
 }
 
 .status-button.dropped {
     top: -15px !important;
-    transform: skewx(15deg) rotatey(-20deg) rotatez(5deg);
+    transform: skewx(15deg) rotate(5deg);
 }
 
 .status-button.plantowatch {
     top: -17px !important;
-    transform: skewx(5deg) rotatex(-10deg) rotatey(5deg);
+    transform: skewx(5deg) rotate(5deg);
 }
 
 .status-menu .status-button:before,
