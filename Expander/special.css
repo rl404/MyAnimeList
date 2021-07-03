@@ -1084,7 +1084,7 @@ tr:hover .animetitle[href*="/33206/"]:hover:before {
 
 /* Voilet evergarden */
 
-tr:hover #xmenu33352 {
+tr:hover #xmenu33352, tr:hover #xmenu39741, tr:hover #xmenu37987 {
     background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/violet.png);
     background-size: cover;
 }
@@ -1193,7 +1193,7 @@ tr:hover #xmenu37510 {
 
 /* Slime */
 
-tr:hover #xmenu37510 {
+tr:hover #xmenu37430, tr:hover #xmenu39551 {
     background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/slime.png) center;
     background-size: cover;
 }
@@ -1204,6 +1204,60 @@ tr:hover #xmenu36999 {
     background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/owarimonogatari2.png) center;
     background-size: cover;
 }
+
+/* kimetsu no yaiba rengoku */
+
+tr:hover #xmenu40456 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/knyr.png) center;
+    background-size: cover;
+}
+
+/* non non biyori nonstop */
+
+tr:hover #xmenu39808 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/nnbyn.png) center;
+    background-size: cover;
+}
+
+
+/* made in abyss movie 3 */
+
+tr:hover #xmenu36862 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/madeinabyssm3.png) center;
+    background-size: cover;
+}
+
+/* fate heaven */
+
+tr:hover #xmenu25537 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/fateheaven1.png) center;
+    background-size: cover;
+}
+
+tr:hover #xmenu33049 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/fateheaven2.png) center;
+    background-size: cover;
+}
+
+tr:hover #xmenu33050 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/fateheaven3.png) center;
+    background-size: cover;
+}
+
+/* kanojo to kanojo no neko */
+
+tr:hover #xmenu32491 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/kanojononeko.png) center;
+    background-size: cover;
+}
+
+/* mangaka to assistant */
+
+tr:hover #xmenu21863 {
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/mangaka.png) center;
+    background-size: cover;
+}
+
 
 /* ----------------------------------- */
 
