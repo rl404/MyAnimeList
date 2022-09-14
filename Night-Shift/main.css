@@ -38,7 +38,7 @@ body {
 	--secondary-link-color-hover: #fff;
 	--secondary-link-background-hover: #313131;
 
-	--main-background: #424242;
+	--main-background: #000;
 	--menu-background: #272727;
 	--content-background: #27272799;
 	--content-border: #aaa;
@@ -960,7 +960,7 @@ a {
 /* tags */
 
 .data.tags {
-	margin-top: 15px;
+	/* margin-top: 15px; */
 	padding: 0 !important;
 	z-index: 1;
 }
@@ -1033,12 +1033,12 @@ a {
 /* DATA ORDER */
 
 /* vertical separator between data */
-.list-table .list-table-data::before {
+/* .list-table .list-table-data::before {
 	content: "";
 	display: block;
 	flex: 1 1 100%;
 	height: 15px;
-}
+} */
 
 .data.genre,
 .data.demographic {
