@@ -15,6 +15,7 @@
   - [Nier:Automata](#nierautomata)
   - [Persona 5](#persona-5)
   - [Cateinya](#cateinya)
+  - [Night Shift](#night-shift)
   - [NHentai](#nhentai)
 - [Other](#other)
   - [Guides](#guides)
@@ -353,6 +354,23 @@
 **How to use**:
 ```css
 @\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Cateinya/main.css";
+```
+
+<h2 align=center>Night Shift</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Night-Shift/images/sample.jpg></p>
+
+![Modern][modernlogo]
+
+**Based template**: [Cateinya](https://myanimelist.net/profile/Cateinya)
+
+**List type**: Anime and Manga list
+
+**Anime and Manga List recommended setting**:
+- [x] Any except Demographics and Notes
+
+**How to use**:
+```css
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Night-Shift/main.css";
 ```
 
 <h2 align=center>Nhentai</h2>
