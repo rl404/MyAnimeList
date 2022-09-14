@@ -11,9 +11,12 @@
   - [Expander](#expander)
   - [Bakemonogatari](#bakemonogatari)
   - [Rezero](#rezero)
+  - [Modern Image](#modern-image)
   - [Nier:Automata](#nierautomata)
   - [Persona 5](#persona-5)
-  - [Cateinya](#cateinya)
+  - [Polygon](#polygon)
+  - [Night Shift](#night-shift)
+  - [Blackout](#blackout)
   - [NHentai](#nhentai)
 - [Other](#other)
   - [Guides](#guides)
@@ -237,6 +240,41 @@
 @\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Rezero/main.css";
 ```
 
+<h2 align=center>Modern Image</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Modern-Image/images/sample.jpg></p>
+
+![Modern][modernlogo]
+
+**Based template**: [RobbiRobb](https://myanimelist.net/profile/RobbiRobb)
+
+**List type**: Anime and Manga list
+
+**Anime List recommended setting**:
+- [x] Numbers
+- [x] Score
+- [x] Type
+- [x] Episodes
+- [x] Image
+
+**Manga List recommended setting**:
+- [x] Numbers
+- [x] Score
+- [x] Chapters
+- [x] Volumes
+- [x] Image
+
+**How to use**:
+* **For anime**:
+```css
+@\import "https://cover.mal.rl404.com/[MAL_USERNAME]/anime?style=.data.image%20a%5Bhref%2A%3D%22%2F%7Bid%7D%2F%22%5D%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Modern-Image/main.css";
+```
+* **For manga**:
+```css
+@\import "https://cover.mal.rl404.com/[MAL_USERNAME]/manga?style=.data.image%20a%5Bhref%2A%3D%22%2F%7Bid%7D%2F%22%5D%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Modern-Image/main.css";
+```
+
 <h2 align=center>Nier:Automata</h2>
 <p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/NierAutomata/images/sample.png></p>
 
@@ -293,8 +331,8 @@
 @\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Persona5/main.css";
 ```
 
-<h2 align=center>Cateinya</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Cateinya/images/sample.jpg></p>
+<h2 align=center>Polygon</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Polygon/images/sample.jpg></p>
 
 ![Modern][modernlogo]
 
@@ -316,7 +354,41 @@
 
 **How to use**:
 ```css
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Cateinya/main.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Polygon/main.css";
+```
+
+<h2 align=center>Night Shift</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Night-Shift/images/sample.jpg></p>
+
+![Modern][modernlogo]
+
+**Based template**: [Cateinya](https://myanimelist.net/profile/Cateinya)
+
+**List type**: Anime and Manga list
+
+**Anime and Manga List recommended setting**:
+- [x] Any except Demographics and Notes
+
+**How to use (for anime and manga)**:
+```css
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Night-Shift/main.css";
+```
+
+<h2 align=center>Blackout</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Blackout/images/sample.jpg></p>
+
+![Modern][modernlogo]
+
+**Based template**: [Valerio_Lyndon](https://myanimelist.net/profile/Valerio_Lyndon)
+
+**List type**: Anime and Manga list
+
+**Anime and Manga List recommended setting**:
+- [x] Any except Demographics and Notes
+
+**How to use (for anime and manga)**:
+```css
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Blackout/main.css";
 ```
 
 <h2 align=center>Nhentai</h2>

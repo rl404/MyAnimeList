@@ -1,0 +1,121 @@
+.list-table {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+}
+
+.list-table > tbody:first-child {
+  width: 100%;
+}
+
+.list-table > tbody:first-child .list-table-header {
+  display: flex;
+}
+
+.list-table > tbody:first-child .header-title.status,
+.list-table > tbody:first-child .header-title.number,
+.list-table > tbody:first-child .header-title.image {
+  display: none;
+}
+
+.list-table > tbody:first-child .header-title {
+  flex-basis: 100px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.list-table .list-item {
+  flex-basis: 19%;
+  display: flex;
+  flex-flow: column;
+  border-radius: 0.5em;
+  border: 1px solid #444;
+}
+
+.list-table .more-info {
+  border-top: 1px solid #444;
+  border-bottom: none;
+  min-height: 310px;
+}
+
+.list-table .list-table-data {
+  display: grid;
+  height: 100%;
+  grid-template-rows: repeat(3, min-content) 1fr repeat(16, min-content);
+  position: relative;
+}
+
+.list-table .list-table-data td {
+  overflow: hidden;
+}
+
+.list-table .list-table-data td:hover {
+  overflow: visible;
+}
+
+.list-table .list-table-data .data.status {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.list-table .list-table-data .data.number::before {
+  content: "#";
+}
+
+.list-table .list-table-data .data.image .image {
+  width: 192px;
+  height: 272px;
+}
+
+.list-table .list-table-data .data.title {
+  display: grid;
+  grid-template-rows: 1fr repeat(2, min-content);
+  align-items: center;
+  text-align: center;
+}
+
+.list-table .list-table-data .data.title .link {
+  align-self: flex-start;
+}
+
+.list-table .list-table-data .data.title .icon-watch2 {
+  display: none;
+}
+
+.list-table .list-table-data .data.score {
+  position: absolute;
+  top: 45px;
+  right: 5px;
+  background: #222;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+
+.list-table .list-table-data .data.progress,
+.list-table .list-table-data .data.volume {
+  border-bottom: none;
+}
+
+.list-table .list-table-data .data.image img {
+  display: none;
+}
+
+.list-table .list-table-data .data.image a {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  image-rendering: optimizeQuality;
+  width: 192px;
+  height: 272px;
+}

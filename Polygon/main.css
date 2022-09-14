@@ -1,5 +1,5 @@
 /*
- * CATEINYA LAYOUT THEME
+ * POLYGON LAYOUT THEME
  * List Designed by Cateinya (https://myanimelist.net/profile/Cateinya)
  * Modified by rl404 (https://myanimelist.net/profile/rl404)
  */
@@ -40,7 +40,7 @@ a {
 
 body {
     background-color: #d9d9d9;
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Cateinya/images/background.jpg);
+    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Polygon/images/background.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
