@@ -16,6 +16,7 @@
   - [Persona 5](#persona-5)
   - [Polygon](#polygon)
   - [Night Shift](#night-shift)
+  - [Blackout](#blackout)
   - [NHentai](#nhentai)
 - [Other](#other)
   - [Guides](#guides)
@@ -368,9 +369,26 @@
 **Anime and Manga List recommended setting**:
 - [x] Any except Demographics and Notes
 
-**How to use**:
+**How to use (for anime and manga)**:
 ```css
 @\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Night-Shift/main.css";
+```
+
+<h2 align=center>Blackout</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Blackout/images/sample.jpg></p>
+
+![Modern][modernlogo]
+
+**Based template**: [Valerio_Lyndon](https://myanimelist.net/profile/Valerio_Lyndon)
+
+**List type**: Anime and Manga list
+
+**Anime and Manga List recommended setting**:
+- [x] Any except Demographics and Notes
+
+**How to use (for anime and manga)**:
+```css
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Blackout/main.css";
 ```
 
 <h2 align=center>Nhentai</h2>
