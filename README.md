@@ -352,7 +352,7 @@
 - [x] Studios
 - [x] Licensors
 
-**How to use (for anime and manga)**:
+**How to use**:
 ```css
 @\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Polygon/main.css";
 ```
