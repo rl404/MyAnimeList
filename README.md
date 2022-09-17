@@ -9,6 +9,7 @@
   - [Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka (Danmachi)](#dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-danmachi)
   - [Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai (Anohana)](#ano-hi-mita-hana-no-namae-wo-bokutachi-wa-mada-shiranai-anohana)
   - [Expander](#expander)
+  - [Expander Dark](#expander-dark)
   - [Bakemonogatari](#bakemonogatari)
   - [Rezero](#rezero)
   - [Modern Image](#modern-image)
