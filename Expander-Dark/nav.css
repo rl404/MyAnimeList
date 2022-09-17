@@ -411,8 +411,8 @@ body:before {
 #mal_cs_powered #search #searchBox {
   font-family: "Century Gothic";
   color: transparent;
-  font-size: 20px;
-  width: 30px !important;
+  font-size: 15px !important;
+  width: 20px !important;
   height: 30px;
   background: var(--table-bg-color)
     url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png)
