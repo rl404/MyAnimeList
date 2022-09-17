@@ -1,0 +1,294 @@
+:root {
+  --bg-color: #121212;
+  --nav-bg-color: #212121e6;
+  --table-bg-color: #212121e6;
+  --table-header-bg-color: #121212;
+  --row-hover-bg-color: #ffffff1a;
+  --expand-row-bg-color: #212121;
+  --divider-color: #ffffff1f;
+
+  --title-color: #f5f5f5;
+  --text-color: #bdbdbd;
+  --green-color: #66bb6a;
+  --blue-color: #29b6f6;
+  --yellow-color: #ffa726;
+  --red-color: #f44336;
+  --white-color: #fff;
+  --inactive-color: #555;
+}
+
+/* GENERAL */
+
+body {
+  background-color: var(--bg-color);
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,
+    "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
+  font-size: 13px;
+  color: var(--text-color);
+  background-image: radial-gradient(rgb(65, 65, 65) 0.5px, #121212 0.5px);
+  background-size: 15px 15px;
+}
+
+a,
+a:visited {
+  color: var(--text-color);
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: var(--white-color);
+}
+
+/* BASIC LIST */
+
+#list_surround {
+  position: absolute;
+  margin-top: 550px;
+  left: 0px;
+  z-index: 3;
+  right: 0px;
+  width: 90%;
+  min-width: 935px;
+  max-width: 1237px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0px;
+  background-color: var(--table-bg-color);
+  box-shadow: 0px 0px 10px 0px #000;
+}
+
+#list_surround:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100px;
+  position: absolute;
+}
+
+#list_surround table {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#list_surround > table:nth-child(5) {
+  margin-top: 0px !important;
+}
+
+#list_surround:before {
+  content: "Go and do some clickie clickie on anime below,\a especially anime with score 9 or higher \a some pretty cool stuff will happen. \a Also, don't forget to hover on something inside too.";
+  position: relative;
+  margin-right: 10px;
+  top: 10px;
+  float: right;
+  white-space: pre;
+  text-align: right;
+  color: var(--text-color);
+}
+
+.category_totals {
+  font-size: 10px;
+  text-align: right;
+  padding-right: 10px;
+  height: 20px;
+  line-height: 20px;
+  color: var(--text-color);
+}
+
+table:hover .category_totals:hover {
+  color: var(--title-color);
+  transition: all 0.15s ease-in-out 0s;
+}
+
+.td1,
+.td2,
+.table_header {
+  height: 20px;
+  font-size: 13px;
+  overflow: hidden;
+}
+
+.table_header {
+  background-color: var(--table-header-bg-color);
+  color: var(--title-color);
+}
+
+table:hover td[class*="td"] {
+  background-color: var(--row-hover-bg-color);
+}
+
+@media screen and (min-width: 961px) {
+  .td1:nth-child(1),
+  .td2:nth-child(1),
+  .table_header:nth-child(1) {
+    width: 5%;
+  }
+  .td1:nth-child(2),
+  .td2:nth-child(2),
+  .table_header:nth-child(2) {
+    padding-right: 20px;
+  }
+  .td1:nth-child(4),
+  .td2:nth-child(4),
+  .table_header:nth-child(4) {
+    padding-left: 15px;
+    width: 8%;
+  }
+  .td1:nth-child(5),
+  .td2:nth-child(5),
+  .table_header:nth-child(5) {
+    width: 8%;
+  }
+  .td1:nth-child(6),
+  .td2:nth-child(6),
+  .table_header:nth-child(6) {
+    width: 8%;
+  }
+  .td1:nth-child(7),
+  .td2:nth-child(7),
+  .table_header:nth-child(7) {
+    width: 8%;
+  }
+  .td1:nth-child(8),
+  .td2:nth-child(8),
+  .table_header:nth-child(8) {
+    width: 8%;
+  }
+}
+
+/* GRAND TOTAL */
+
+#grand_totals:before {
+  content: "Totals: ";
+  font-weight: bold;
+}
+
+#grand_totals {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  padding: 0 10px;
+  text-align: left;
+  color: var(--text-color);
+  transition: all 0.15s ease-in-out 0s;
+}
+
+#grand_totals:hover {
+  color: var(--white-color);
+}
+
+/* CREDIT */
+
+#copyright:before {
+  content: "Style created by dzikibambus and modified by rl404.\a";
+  white-space: pre-wrap;
+}
+
+#copyright {
+  padding: 10px 0px 0px 0px;
+  margin-top: -20px !important;
+  color: var(--text-color);
+  background-color: var(--row-hover-bg-color);
+}
+
+#recaptcha-terms {
+  color: var(--text-color);
+  text-align: center;
+  background-color: var(--row-hover-bg-color);
+  padding: 0px 0px 10px 0px;
+}
+
+.grecaptcha-badge {
+  display: none !important;
+}
+
+/* HEADER */
+
+.header_cw,
+.header_completed,
+.header_onhold,
+.header_dropped,
+.header_ptw {
+  position: relative;
+  margin-top: -40px !important;
+  margin-bottom: -14px !important;
+  font-size: 32px;
+  padding-left: 120px;
+  font-weight: bold;
+  letter-spacing: 20px;
+}
+
+.header_cw {
+  color: var(--green-color);
+}
+.header_completed {
+  color: var(--blue-color);
+}
+.header_onhold {
+  color: var(--yellow-color);
+}
+.header_dropped {
+  color: var(--red-color);
+}
+.header_ptw {
+  color: var(--white-color);
+}
+
+.td1:nth-child(6):last-child,
+.td2:nth-child(6):last-child,
+.table_header:nth-child(6):last-child {
+  display: none;
+}
+
+.td1 > small,
+.td2 > small {
+  color: var(--yellow-color);
+  font-variant: small-caps;
+}
+
+/* MORE, ADD, EDIT */
+
+.td1 div small,
+.td2 div small {
+  color: transparent;
+}
+
+.td1:hover div a small,
+.td2:hover div a small {
+  color: white;
+}
+
+td[class*="td"] div small a:first-child {
+  visibility: hidden;
+}
+
+.td1:hover div a small:hover,
+.td2:hover div a small:hover,
+tr:hover .td1:nth-of-type(6) input:hover,
+tr:hover .td2:nth-of-type(6) input:hover,
+tr:hover div[id*="scorediv"] input[type="button"]:hover {
+  transition: 0.2s;
+  box-shadow: 0px -1px 0px 0px #eee inset !important;
+}
+
+textarea.inputtext {
+  width: 240px;
+  height: 120px;
+  background-color: transparent;
+  color: white;
+  font-family: "Century Gothic";
+  font-size: 13px;
+}
+
+tr:hover .td1:nth-of-type(6) input,
+tr:hover .td2:nth-of-type(6) input {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  color: white;
+}

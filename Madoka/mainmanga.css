@@ -5,12 +5,11 @@
  */
 
 BODY {
-    color: #1c327c;
-    font-size: 14px;
-    background-attachment: fixed;
-    background-color: #000000;
+  color: #1c327c;
+  font-size: 14px;
+  background-attachment: fixed;
+  background-color: #000000;
 }
-
 
 /*
 
@@ -19,17 +18,16 @@ Determines the positioning of your list
 */
 
 #list_surround {
-    position: absolute !important;
-    margin: auto !important;
-    left: 330px !important;
-    width: 690px;
-    padding-top: 260px;
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/title.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    border-radius: 25px 25px 0px 0px;
+  position: absolute !important;
+  margin: auto !important;
+  left: 330px !important;
+  width: 690px;
+  padding-top: 260px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/title.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  border-radius: 25px 25px 0px 0px;
 }
-
 
 /*
 
@@ -38,16 +36,15 @@ ALL HYPERLINK
 */
 
 a {
-    color: #1683b4;
-    text-decoration: none;
-    text-transform: none;
+  color: #1683b4;
+  text-decoration: none;
+  text-transform: none;
 }
 
 a:hover {
-    color: #3be2ff !important;
-    transition: all 0.4s ease 0s;
+  color: #3be2ff !important;
+  transition: all 0.4s ease 0s;
 }
-
 
 /*
 
@@ -57,37 +54,36 @@ ROW
 
 .td1,
 .td2 {
-    border-width: 1px 1px 1px 1px;
-    border-style: none;
-    background-color: #0b0b0c;
-    text-transform: lowercase;
-    padding: 2px;
-    letter-spacing: 1px;
+  border-width: 1px 1px 1px 1px;
+  border-style: none;
+  background-color: #0b0b0c;
+  text-transform: lowercase;
+  padding: 2px;
+  letter-spacing: 1px;
 }
 
-tr:hover [class^=td] {
-    background-color: rgba(0, 95, 231, 0.5) !important;
-    -moz-transition: .4s ease;
-    -webkit-transition: .4s ease;
-    -o-transition: .4s ease;
+tr:hover [class^="td"] {
+  background-color: rgba(0, 95, 231, 0.5) !important;
+  -moz-transition: 0.4s ease;
+  -webkit-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
 }
 
 tr:hover td.td1 a,
 tr:hover td.td1,
 tr:hover td.td2 a,
 tr:hover td.td2 {
-    color: #FFFFFF;
-    transition: all 0.4s ease 0s;
+  color: #ffffff;
+  transition: all 0.4s ease 0s;
 }
 
 small::before {
-    content: "[";
+  content: "[";
 }
 
 small::after {
-    content: "]";
+  content: "]";
 }
-
 
 /*
 
@@ -96,87 +92,86 @@ SORTING
 */
 
 #inlineContent {
-    display: block !important;
+  display: block !important;
 }
 
 #inlineContent:before {
-    content: 'Sort By:' !important;
-    display: block !important;
-    position: fixed;
-    left: 1030px;
-    bottom: 116px !important;
-    color: #1683b4;
-    background-color: #0b0b0c;
-    width: 98px !important;
-    height: 36px;
-    line-height: 37px;
-    padding: 0 0 0px 7px !important;
-    font-family: courier new !important;
-    text-transform: uppercase !important;
-    font-size: 19px !important;
-    font-weight: bold !important;
-    text-align: left;
-    border-radius: 0 25px 0 0 !important;
+  content: "Sort By:" !important;
+  display: block !important;
+  position: fixed;
+  left: 1030px;
+  bottom: 116px !important;
+  color: #1683b4;
+  background-color: #0b0b0c;
+  width: 98px !important;
+  height: 36px;
+  line-height: 37px;
+  padding: 0 0 0px 7px !important;
+  font-family: courier new !important;
+  text-transform: uppercase !important;
+  font-size: 19px !important;
+  font-weight: bold !important;
+  text-align: left;
+  border-radius: 0 25px 0 0 !important;
 }
 
 .table_header {
-    position: fixed;
-    left: 1030px;
+  position: fixed;
+  left: 1030px;
 }
 
 .table_header:first-of-type {
-    display: none;
+  display: none;
 }
 
 .table_header:nth-of-type(2) {
-    bottom: 84px !important;
-    display: block !important;
+  bottom: 84px !important;
+  display: block !important;
 }
 
 .table_header:nth-of-type(3) {
-    bottom: 52px !important;
-    display: block !important;
+  bottom: 52px !important;
+  display: block !important;
 }
 
 .table_header:nth-of-type(4) {
-    bottom: 20px !important;
-    display: block !important;
+  bottom: 20px !important;
+  display: block !important;
 }
 
 .table_header:nth-of-type(5) {
-    display: none;
+  display: none;
 }
 
 .table_headerLink {
-    font-size: 14px;
-    font-weight: normal !important;
-    color: #1683b4;
-    display: block;
-    width: 98px;
-    text-align: left;
-    border-bottom: 5px solid #080b31;
-    border-left: 0px solid #95EEFF;
-    border-right: 7px solid rgba(0, 0, 0, 0);
-    letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: normal !important;
+  color: #1683b4;
+  display: block;
+  width: 98px;
+  text-align: left;
+  border-bottom: 5px solid #080b31;
+  border-left: 0px solid #95eeff;
+  border-right: 7px solid rgba(0, 0, 0, 0);
+  letter-spacing: 1px;
 }
 
 .table_headerLink:hover {
-    color: #ffffff !important;
-    border-bottom: 5px solid #003074;
-    border-left: 0px solid #95EEFF;
-    border-right: 7px solid rgba(0, 0, 0, 0);
+  color: #ffffff !important;
+  border-bottom: 5px solid #003074;
+  border-left: 0px solid #95eeff;
+  border-right: 7px solid rgba(0, 0, 0, 0);
 }
 
 .table_headerLink strong {
-    font-size: 0px;
-    font-weight: normal !important;
+  font-size: 0px;
+  font-weight: normal !important;
 }
 
 .table_headerLink strong:first-of-type:before {
-    content: "Title";
-    font-size: 14px;
+  content: "Title";
+  font-size: 14px;
 }
-
 
 /*
 
@@ -185,12 +180,11 @@ Controls the select form decoration (the drop down select box)
 */
 
 .form {
-    background-image: url();
-    border-width: 1px 1px 1px 1px;
-    border-style: none;
-    font-size: 11px;
+  background-image: url();
+  border-width: 1px 1px 1px 1px;
+  border-style: none;
+  font-size: 11px;
 }
-
 
 /*
 
@@ -200,9 +194,8 @@ By default, set to .25th of a second (a 1/4 of a second transition).
 */
 
 .status_not_selected a {
-    transition: all 0.15s ease-in-out 0s;
+  transition: all 0.15s ease-in-out 0s;
 }
-
 
 /*
 
@@ -213,18 +206,16 @@ Active button images are the ones seen on their own category page or when hoveri
 
 */
 
-
 /*
 CURRENT BUTTON (INACTIVE)
 */
 
 .status_not_selected a[href*="status=1"] {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/watching.png);
-    bottom: 295px;
-    right: -180px;
-    border-radius: 10px 0px 0px 0px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/watching.png);
+  bottom: 295px;
+  right: -180px;
+  border-radius: 10px 0px 0px 0px;
 }
-
 
 /*
 CURRENT BUTTON (ACTIVE, HOVER)
@@ -232,23 +223,21 @@ CURRENT BUTTON (ACTIVE, HOVER)
 
 .status_selected a[href*="status=1"],
 .status_not_selected a[href*="status=1"]:hover {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/watching.png);
-    bottom: 295px;
-    right: -35px;
-    border-radius: 10px 0px 0px 0px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/watching.png);
+  bottom: 295px;
+  right: -35px;
+  border-radius: 10px 0px 0px 0px;
 }
-
 
 /*
 COMPLETED (INACTIVE)
 */
 
 .status_not_selected a[href*="status=2"] {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/completed.png);
-    bottom: 240px;
-    right: -180px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/completed.png);
+  bottom: 240px;
+  right: -180px;
 }
-
 
 /*
 COMPLETED (ACTIVE, HOVER)
@@ -256,22 +245,20 @@ COMPLETED (ACTIVE, HOVER)
 
 .status_selected a[href*="status=2"],
 .status_not_selected a[href*="status=2"]:hover {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/completed.png);
-    bottom: 240px;
-    right: -35px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/completed.png);
+  bottom: 240px;
+  right: -35px;
 }
-
 
 /*
 ON-HOLD (INACTIVE)
 */
 
 .status_not_selected a[href*="status=3"] {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/onhold.png);
-    bottom: 185px;
-    right: -180px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/onhold.png);
+  bottom: 185px;
+  right: -180px;
 }
-
 
 /*
 ON-HOLD (ACTIVE, HOVER)
@@ -279,23 +266,20 @@ ON-HOLD (ACTIVE, HOVER)
 
 .status_selected a[href*="status=3"],
 .status_not_selected a[href*="status=3"]:hover {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/onhold.png);
-    bottom: 185px;
-    ;
-    right: -35px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/onhold.png);
+  bottom: 185px;
+  right: -35px;
 }
-
 
 /*
 DROPPED (INACTIVE)
 */
 
 .status_not_selected a[href*="status=4"] {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/dropped.png);
-    bottom: 130px;
-    right: -180px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/dropped.png);
+  bottom: 130px;
+  right: -180px;
 }
-
 
 /*
 DROPPED (ACTIVE, HOVER)
@@ -303,22 +287,20 @@ DROPPED (ACTIVE, HOVER)
 
 .status_selected a[href*="status=4"],
 .status_not_selected a[href*="status=4"]:hover {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/dropped.png);
-    right: -35px;
-    bottom: 130px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/dropped.png);
+  right: -35px;
+  bottom: 130px;
 }
-
 
 /*
 PLANNED (INACTIVE)
 */
 
 .status_not_selected a[href*="status=6"] {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/planning.png);
-    bottom: 75px;
-    right: -180px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/planning.png);
+  bottom: 75px;
+  right: -180px;
 }
-
 
 /*
 PLANNED (ACTIVE, HOVER)
@@ -326,23 +308,21 @@ PLANNED (ACTIVE, HOVER)
 
 .status_selected a[href*="status=6"],
 .status_not_selected a[href*="status=6"]:hover {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/planning.png);
-    right: -35px;
-    bottom: 75px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/planning.png);
+  right: -35px;
+  bottom: 75px;
 }
-
 
 /*
 ALL ANIME (INACTIVE)
 */
 
 .status_not_selected a[href*="status=7"] {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/allanime.png);
-    bottom: 20px;
-    right: -180px;
-    border-radius: 0px 0px 0px 11px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/allanime.png);
+  bottom: 20px;
+  right: -180px;
+  border-radius: 0px 0px 0px 11px;
 }
-
 
 /*
 ALL ANIME (ACTIVE, HOVER)
@@ -350,12 +330,11 @@ ALL ANIME (ACTIVE, HOVER)
 
 .status_selected a[href*="status=7"],
 .status_not_selected a[href*="status=7"]:hover {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/allanime.png);
-    right: -35px;
-    bottom: 20px;
-    border-radius: 0px 0px 0px 11px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/allanime.png);
+  right: -35px;
+  bottom: 20px;
+  border-radius: 0px 0px 0px 11px;
 }
-
 
 /*
 
@@ -366,9 +345,8 @@ This section is disabled by default. The fonts you see on buttons by default are
 
 .status_selected a,
 .status_not_selected a {
-    color: transparent !important;
+  color: transparent !important;
 }
-
 
 /*
 
@@ -389,19 +367,18 @@ Control the height and width of all the buttons at once here. Change "fixed" to 
 .status_not_selected a[href*="status=4"],
 .status_not_selected a[href*="status=6"],
 .status_not_selected a[href*="status=7"] {
-    background-position: left top;
-    background-repeat: no-repeat;
-    display: block;
-    height: 50px;
-    width: 230px;
-    padding-left: 6px !important;
-    overflow: auto;
-    padding: 0;
-    border: black 1px solid;
-    position: fixed;
-    z-index: 10;
+  background-position: left top;
+  background-repeat: no-repeat;
+  display: block;
+  height: 50px;
+  width: 230px;
+  padding-left: 6px !important;
+  overflow: auto;
+  padding: 0;
+  border: black 1px solid;
+  position: fixed;
+  z-index: 10;
 }
-
 
 /*
 
@@ -410,69 +387,68 @@ Header classes for Currently Watching, Completed, Dropped, etc...
 */
 
 .header_cw {
-    height: 115px;
-    width: 690px;
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/watching%20title.png);
+  height: 115px;
+  width: 690px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/watching%20title.png);
 }
 
 .header_completed {
-    height: 115px;
-    width: 690px;
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/completed%20title.png);
+  height: 115px;
+  width: 690px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/completed%20title.png);
 }
 
 .header_onhold {
-    height: 115px;
-    width: 690px;
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/onhold%20title.png);
+  height: 115px;
+  width: 690px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/onhold%20title.png);
 }
 
 .header_dropped {
-    height: 115px;
-    width: 690px;
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/drop%20title.png);
+  height: 115px;
+  width: 690px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/drop%20title.png);
 }
 
 .header_ptw {
-    height: 115px;
-    width: 690px;
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/plan%20title.png);
+  height: 115px;
+  width: 690px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/plan%20title.png);
 }
 
 .header_title {
-    display: none;
+  display: none;
 }
 
 .category_totals {
-    transition: all 0.15s ease-in-out 0s;
-    text-align: center;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: transparent;
-    width: 690px;
-    height: 45px;
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/bottom.png);
+  transition: all 0.15s ease-in-out 0s;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: transparent;
+  width: 690px;
+  height: 45px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/bottom.png);
 }
 
 .category_totals:hover {
-    color: #1683b4;
+  color: #1683b4;
 }
 
 #grand_totals {
-    transition: all 0.15s ease-in-out 0s;
-    text-align: center;
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #165391;
-    width: 690px;
-    letter-spacing: 1px;
+  transition: all 0.15s ease-in-out 0s;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #165391;
+  width: 690px;
+  letter-spacing: 1px;
 }
 
 #grand_totals:hover {
-    color: #1683b4;
+  color: #1683b4;
 }
-
 
 /*
 
@@ -480,49 +456,49 @@ COVER
 
 */
 
-#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(3),
-#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(4),
-#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(5),
-#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(6),
-#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(7),
-#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(8) {
-    display: tab\le-cell;
+#list_surround tab\le:nth-of-type(n + 4):hover td:nth-of-type(3),
+#list_surround tab\le:nth-of-type(n + 4):hover td:nth-of-type(4),
+#list_surround tab\le:nth-of-type(n + 4):hover td:nth-of-type(5),
+#list_surround tab\le:nth-of-type(n + 4):hover td:nth-of-type(6),
+#list_surround tab\le:nth-of-type(n + 4):hover td:nth-of-type(7),
+#list_surround tab\le:nth-of-type(n + 4):hover td:nth-of-type(8) {
+  display: tab\le-cell;
 }
 
 #list_surround small a:last-of-type {
-    display: none !important;
+  display: none !important;
 }
 
-.animetitle+small {
-    visibility: visible !important;
-    font-size: 14px;
+.animetitle + small {
+  visibility: visible !important;
+  font-size: 14px;
 }
 
 #list_surround a[href*="http://myanimelist.net/panel.php?go=edit"],
 #list_surround a[href*="http://myanimelist.net/editlist.php?type="],
-#list_surround a[href*="http://myanimelist.net/panel.php?go=add"] {
-    visibility: visible !important;
-    margin-right: 10px;
+#list_surround a[href*="http://myanimelist.net/panel.php?go=add"]
+{
+  visibility: visible !important;
+  margin-right: 10px;
 }
 
 .hide {
-    background-color: #0b0b0c;
-    background-position: 50% 20% !important;
-    background-repeat: no-repeat !important;
-    border-radius: 25px 0px 0px 25px;
-    display: block !important;
-    height: 450px;
-    left: 20px;
-    position: fixed;
-    bottom: 20px;
-    width: 234px;
-    padding: 80px 40px 10px 10px;
-    background-size: 250px !important;
-    visibility: hidden;
-    z-index: 1;
-    opacity: 0;
+  background-color: #0b0b0c;
+  background-position: 50% 20% !important;
+  background-repeat: no-repeat !important;
+  border-radius: 25px 0px 0px 25px;
+  display: block !important;
+  height: 450px;
+  left: 20px;
+  position: fixed;
+  bottom: 20px;
+  width: 234px;
+  padding: 80px 40px 10px 10px;
+  background-size: 250px !important;
+  visibility: hidden;
+  z-index: 1;
+  opacity: 0;
 }
-
 
 /*
 
@@ -534,18 +510,17 @@ Top and width controls the position of the text.
 */
 
 .hide:before {
-    background: transparent;
-    color: #1683b4;
-    content: "PREVIEW";
-    padding-bottom: 5px;
-    position: absolute;
-    text-align: center;
-    width: 255px;
-    top: 10px;
-    z-index: 1;
-    border-radius: 25px 25px 0 0;
+  background: transparent;
+  color: #1683b4;
+  content: "PREVIEW";
+  padding-bottom: 5px;
+  position: absolute;
+  text-align: center;
+  width: 255px;
+  top: 10px;
+  z-index: 1;
+  border-radius: 25px 25px 0 0;
 }
-
 
 /*
 
@@ -559,18 +534,17 @@ http://myanimelist.net/forum/?topicid=563993
 
 */
 
-td[class^='td']:nth-of-type(5) {
-    visibility: hidden;
-    position: fixed;
-    bottom: 30px;
-    left: 40px;
-    font-size: 14px;
-    width: 250px;
-    height: 100px;
-    z-index: 2;
-    background: transparent !important;
+td[class^="td"]:nth-of-type(5) {
+  visibility: hidden;
+  position: fixed;
+  bottom: 30px;
+  left: 40px;
+  font-size: 14px;
+  width: 250px;
+  height: 100px;
+  z-index: 2;
+  background: transparent !important;
 }
-
 
 /*
 
@@ -578,10 +552,9 @@ TAG TEXT COLOR
 
 */
 
-tr:hover td[class^='td']:nth-of-type(5) a {
-    color: white !important;
+tr:hover td[class^="td"]:nth-of-type(5) a {
+  color: white !important;
 }
-
 
 /*
 
@@ -589,12 +562,11 @@ OTHER SETTINGS
 
 */
 
-:hover+.hide,
-tr:hover td[class^='td']:nth-of-type(5) {
-    visibility: visible;
-    opacity: 1;
+:hover + .hide,
+tr:hover td[class^="td"]:nth-of-type(5) {
+  visibility: visible;
+  opacity: 1;
 }
-
 
 /*
 
@@ -610,10 +582,9 @@ Remove the display: none to match the selected icon to the other icons.
 #mal\_cs\_links:before,
 #mal\_cs\_otherlinks:before,
 #mal\_cs\_powered:before {
-    background: transparent;
-    opacity: .9;
+  background: transparent;
+  opacity: 0.9;
 }
-
 
 /*
 
@@ -630,9 +601,8 @@ If you're having trouble seeing the border bottom, lower the height by a pixel o
 #mal\_cs\_links:before,
 #mal\_cs\_otherlinks:before,
 #mal\_cs\_powered:before {
-    height: 32px !important;
+  height: 32px !important;
 }
-
 
 /*
 
@@ -646,19 +616,18 @@ Second code is for button color on hover.
 #mal_cs_links a,
 #mal_cs_otherlinks a,
 #mal_cs_powered a img {
-    background-color: rgba(64, 60, 90, 0.6) !important;
-    border-color: transparent;
-    border-style: solid !important;
-    border-width: 1px !important;
+  background-color: rgba(64, 60, 90, 0.6) !important;
+  border-color: transparent;
+  border-style: solid !important;
+  border-width: 1px !important;
 }
 
 #mal\_cs\_listinfo a:hover,
 #mal\_cs\_links a:hover,
 #mal\_cs\_otherlinks a:hover,
 #mal_cs_powered a img:hover {
-    background-color: #403C5A !important;
+  background-color: #403c5a !important;
 }
-
 
 /*
 
@@ -673,7 +642,7 @@ Remove display none from the second code to match the colors of the selected ico
 #mal\_cs\_powered div,
 #mal\_cs\_powered dd,
 #mal\_cs\_powered a {
-    background-color: rgba(255, 255, 255, 0.6) !important;
+  background-color: rgba(255, 255, 255, 0.6) !important;
 }
 
 #mal\_cs\_listinfo:hover:before,
@@ -684,10 +653,9 @@ Remove display none from the second code to match the colors of the selected ico
 #mal\_cs\_links:hover:after,
 #mal\_cs\_otherlinks:hover:after,
 #mal\_cs\_powered:hover:after {
-    display: none;
-    opacity: .2;
+  display: none;
+  opacity: 0.2;
 }
-
 
 /*
 
@@ -697,14 +665,13 @@ You don't see this username on the menus when you're logged in, log out to see i
 */
 
 #mal\_cs\_otherlinks strong a {
-    color: #333333 !important;
+  color: #333333 !important;
 }
 
 #mal\_cs\_otherlinks strong a:hover {
-    color: blue !important;
-    background-color: transparent !important;
+  color: blue !important;
+  background-color: transparent !important;
 }
-
 
 /*
 
@@ -714,11 +681,10 @@ Change to absolute if you want it to not scroll with the page.
 */
 
 #mal\_control\_strip {
-    position: fixed !important;
-    background-color: transparent !important;
-    background-image: url(none) !important;
+  position: fixed !important;
+  background-color: transparent !important;
+  background-image: url(none) !important;
 }
-
 
 /*
 
@@ -731,27 +697,27 @@ If you want to change out the icon images themselves, you can scroll down throug
 #mal\_cs\_links,
 #mal\_cs\_otherlinks,
 #mal\_cs\_powered {
-    -moz-box-sizing: border-box;
-    transition: all 0.4s ease 0s;
-    background: none no-repeat scroll 100% 0 transparent;
-    border: 0 none;
-    height: 0 !important;
-    overflow: hidden;
-    position: absolute;
-    right: 4px;
-    text-align: center;
-    top: 4px;
-    width: 150px;
-    z-index: 10;
+  -moz-box-sizing: border-box;
+  transition: all 0.4s ease 0s;
+  background: none no-repeat scroll 100% 0 transparent;
+  border: 0 none;
+  height: 0 !important;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  text-align: center;
+  top: 4px;
+  width: 150px;
+  z-index: 10;
 }
 
 #mal\_cs\_listinfo:hover,
 #mal\_cs\_links:hover,
 #mal\_cs\_otherlinks:hover,
 #mal\_cs\_powered:hover {
-    height: 200px !important;
-    padding-top: 32px;
-    width: 150px;
+  height: 200px !important;
+  padding-top: 32px;
+  width: 150px;
 }
 
 #mal\_cs\_listinfo div,
@@ -759,13 +725,13 @@ If you want to change out the icon images themselves, you can scroll down throug
 #mal\_cs\_otherlinks div,
 #mal\_cs\_powered div,
 #mal\_cs\_powered dd {
-    transition: opacity 0.4s ease-in-out 0s;
-    border-radius: 3px 0 0 0;
-    font-size: 0 !important;
-    line-height: 0;
-    margin: 0 !important;
-    opacity: 0;
-    padding: 8px 0 0;
+  transition: opacity 0.4s ease-in-out 0s;
+  border-radius: 3px 0 0 0;
+  font-size: 0 !important;
+  line-height: 0;
+  margin: 0 !important;
+  opacity: 0;
+  padding: 8px 0 0;
 }
 
 #mal\_cs\_listinfo:hover div,
@@ -773,210 +739,211 @@ If you want to change out the icon images themselves, you can scroll down throug
 #mal\_cs\_otherlinks:hover div,
 #mal\_cs\_powered:hover div,
 #mal\_cs\_powered:hover dd {
-    opacity: 1;
+  opacity: 1;
 }
 
 #mal\_cs\_listinfo div:nth-of-type(2),
 #mal\_cs\_links div:nth-of-type(2),
 #mal\_cs\_otherlinks div:nth-of-type(2),
 #mal\_cs\_powered div:nth-of-type(2) {
-    border-radius: 0 0 3px 3px;
-    padding: 4px 0 8px;
+  border-radius: 0 0 3px 3px;
+  padding: 4px 0 8px;
 }
 
 #mal\_cs\_listinfo a,
 #mal\_cs\_links a,
 #mal\_cs\_otherlinks a,
 #mal\_cs\_powered a {
-    background-color: rgba(64, 60, 90, 0.6);
-    border-radius: 3px 3px 3px 3px;
-    display: block;
-    font: 13px/17px arial, sans-serif;
-    margin: 4px 12px 0;
-    padding: 3px 0;
-    text-decoration: none;
+  background-color: rgba(64, 60, 90, 0.6);
+  border-radius: 3px 3px 3px 3px;
+  display: block;
+  font: 13px/17px arial, sans-serif;
+  margin: 4px 12px 0;
+  padding: 3px 0;
+  text-decoration: none;
 }
 
 #mal\_cs\_listinfo a:nth-of-type(1),
 #mal\_cs\_links a:nth-of-type(1),
 #mal\_cs\_otherlinks a:nth-of-type(1),
 #mal\_cs\_powered a:nth-of-type(1) {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 #mal\_cs\_listinfo strong a strong {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 #mal\_cs\_otherlinks strong {
-    color: #333333;
-    display: block;
-    font: bold 13px/17px arial, sans-serif !important;
-    padding: 0 4px 4px;
-    text-shadow: 0 1px 1px #FFFFFF;
+  color: #333333;
+  display: block;
+  font: bold 13px/17px arial, sans-serif !important;
+  padding: 0 4px 4px;
+  text-shadow: 0 1px 1px #ffffff;
 }
 
 #mal\_cs\_otherlinks strong a {
-    background: none repeat scroll 0 0 transparent !important;
-    border-color: transparent !important;
-    border-radius: 0 0 0 0;
-    color: #333333;
-    display: inline;
-    font: bold 13px/17px arial, sans-serif !important;
-    margin: 0;
-    padding: 0;
-    text-shadow: 0 1px 1px #FFFFFF;
+  background: none repeat scroll 0 0 transparent !important;
+  border-color: transparent !important;
+  border-radius: 0 0 0 0;
+  color: #333333;
+  display: inline;
+  font: bold 13px/17px arial, sans-serif !important;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 1px 1px #ffffff;
 }
 
 #mal\_cs\_powered a {
-    border-radius: 3px 0 0 0 !important;
-    display: block !important;
-    margin: 0 !important;
-    opacity: 0;
-    padding: 8px 0 0 !important;
+  border-radius: 3px 0 0 0 !important;
+  display: block !important;
+  margin: 0 !important;
+  opacity: 0;
+  padding: 8px 0 0 !important;
 }
 
 #mal\_cs\_powered:hover a {
-    opacity: 1;
+  opacity: 1;
 }
 
 #mal\_cs\_powered a img {
-    background: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/myanimelist%20menu.png") no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
-    border-radius: 3px 3px 3px 3px;
-    display: block;
-    height: 0;
-    margin: 0 12px;
-    padding: 23px 0 0 126px;
-    width: 0;
+  background: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/myanimelist%20menu.png")
+    no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
+  border-radius: 3px 3px 3px 3px;
+  display: block;
+  height: 0;
+  margin: 0 12px;
+  padding: 23px 0 0 126px;
+  width: 0;
 }
 
 #mal\_cs\_powered a img:hover {
-    background-color: #403C5A;
+  background-color: #403c5a;
 }
 
 #mal\_cs\_powered #search {
-    border-radius: 0 0 3px 3px;
-    padding: 8px;
-    position: relative;
+  border-radius: 0 0 3px 3px;
+  padding: 8px;
+  position: relative;
 }
 
 #mal\_cs\_powered #search #searchBox {
-    -moz-box-sizing: border-box;
-    border-color: #BCBCBC #D6D6D6 #D6D6D6;
-    border-radius: 2px 2px 2px 2px;
-    border-style: solid;
-    border-width: 1px;
-    color: #333333;
-    display: inline-block;
-    font-family: arial, sans-serif;
-    font-size: 13px;
-    height: 28px;
-    padding-left: 6px;
-    padding-right: 24px;
-    vertical-align: top;
-    width: 100%;
+  -moz-box-sizing: border-box;
+  border-color: #bcbcbc #d6d6d6 #d6d6d6;
+  border-radius: 2px 2px 2px 2px;
+  border-style: solid;
+  border-width: 1px;
+  color: #333333;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  height: 28px;
+  padding-left: 6px;
+  padding-right: 24px;
+  vertical-align: top;
+  width: 100%;
 }
 
 #mal\_cs\_powered #search #searchBox:hover,
 #mal\_cs\_powered #search #searchBox:focus {
-    border-color: #ACACAC #C6C6C6 #C6C6C6;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+  border-color: #acacac #c6c6c6 #c6c6c6;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 
 #mal\_cs\_powered #search #searchListButton {
-    background: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/search%20button.png") no-repeat scroll 0 0 transparent;
-    border-radius: 3px 3px 3px 3px;
-    height: 0;
-    margin: 0;
-    padding: 16px 0 0 16px;
-    position: absolute;
-    right: 12px;
-    top: 14px;
-    width: 0;
+  background: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/search%20button.png")
+    no-repeat scroll 0 0 transparent;
+  border-radius: 3px 3px 3px 3px;
+  height: 0;
+  margin: 0;
+  padding: 16px 0 0 16px;
+  position: absolute;
+  right: 12px;
+  top: 14px;
+  width: 0;
 }
 
 #mal\_cs\_listinfo {
-    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/list%20menu1.png");
-    right: 106px;
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/list%20menu1.png");
+  right: 106px;
 }
 
 #mal\_cs\_listinfo:hover {
-    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/list%20menu2.png");
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/list%20menu2.png");
 }
 
 #mal\_cs\_links {
-    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/link%20menu1.png");
-    right: 72px;
-    z-index: 9;
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/link%20menu1.png");
+  right: 72px;
+  z-index: 9;
 }
 
 #mal\_cs\_links:hover {
-    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/link%20menu2.png");
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/link%20menu2.png");
 }
 
 #mal\_cs\_otherlinks {
-    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/other%20menu1.png");
-    right: 38px;
-    z-index: 8;
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/other%20menu1.png");
+  right: 38px;
+  z-index: 8;
 }
 
 #mal\_cs\_otherlinks:hover {
-    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/other%20menu2.png");
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/other%20menu2.png");
 }
 
 #mal\_cs\_powered {
-    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/power%20menu1.png");
-    right: 4px !important;
-    z-index: 7;
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/power%20menu1.png");
+  right: 4px !important;
+  z-index: 7;
 }
 
 #mal\_cs\_powered:hover {
-    background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/list%20menu2.png");
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/list%20menu2.png");
 }
 
 td#mal\_cs\_pic a img {
-    display: none;
+  display: none;
 }
 
 #mal\_cs\_pic,
 #mal\_cs\_listinfo,
 #mal\_cs\_links {
-    border-right: 0 none !important;
+  border-right: 0 none !important;
 }
 
 #mal\_cs\_listinfo,
 #mal\_cs\_links,
 #mal\_cs\_otherlinks,
 #mal\_cs\_powered {
-    padding: 32px 0 0 !important;
+  padding: 32px 0 0 !important;
 }
 
 #mal\_cs\_listinfo:before,
 #mal\_cs\_links:before,
 #mal\_cs\_otherlinks:before,
 #mal\_cs\_powered:before {
-    z-index: 10 !important;
-    content: "";
-    right: 0 !important;
-    top: 0 !important;
-    width: 32px !important;
-    position: absolute !important;
-    border-radius: 4px;
+  z-index: 10 !important;
+  content: "";
+  right: 0 !important;
+  top: 0 !important;
+  width: 32px !important;
+  position: absolute !important;
+  border-radius: 4px;
 }
 
 #mal\_cs\_listinfo:after,
 #mal\_cs\_links:after,
 #mal\_cs\_otherlinks:after,
 #mal\_cs\_powered:after {
-    z-index: 10 !important;
-    content: "";
-    right: 0 !important;
-    top: 0 !important;
-    width: 32px !important;
-    height: 32px !important;
-    position: absolute !important;
+  z-index: 10 !important;
+  content: "";
+  right: 0 !important;
+  top: 0 !important;
+  width: 32px !important;
+  height: 32px !important;
+  position: absolute !important;
 }
-
 
 /*
 
@@ -985,21 +952,20 @@ SEARCH BOX
 */
 
 #searchBox {
-    width: 128px !important;
-    margin-left: 1px;
+  width: 128px !important;
+  margin-left: 1px;
 }
 
 #mal_cs_powered #search #searchListButton {
-    right: 15px !important;
-    top: 12px !important;
+  right: 15px !important;
+  top: 12px !important;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    #searchBox {
-        width: 96px !important;
-    }
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  #searchBox {
+    width: 96px !important;
+  }
 }
-
 
 /*
 
@@ -1010,14 +976,13 @@ IF FOUND TO BE REMOVED, YOUR LIST WILL BE REMOVED TOO
 */
 
 #copyright {
-    text-align: center;
-    font-size: 10px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    padding-top: 2px;
-    width: 690px;
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-top: 2px;
+  width: 690px;
 }
-
 
 /*
 
@@ -1026,12 +991,11 @@ Adjust this amount 50px at a time (more or less) if your columns are uneven in C
 
 */
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    td[class^='td']:nth-of-type(2) {
-        width: 530px !important;
-    }
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  td[class^="td"]:nth-of-type(2) {
+    width: 530px !important;
+  }
 }
-
 
 /*
 
@@ -1040,30 +1004,30 @@ Sparkle
 */
 
 body {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/star1.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/star2.png);
-    border-radius: 50em;
-    animation: sparkle 15s linear infinite;
-    -webkit-animation: sparkle 15s linear infinite;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/star2.png);
+  border-radius: 50em;
+  animation: sparkle 15s linear infinite;
+  -webkit-animation: sparkle 15s linear infinite;
 }
 
 @keyframes sparkle {
-    0% {
-        background-position: 0 0, 0 0;
-    }
-    100% {
-        background-position: -150px -300px, 150px -300px;
-    }
+  0% {
+    background-position: 0 0, 0 0;
+  }
+  100% {
+    background-position: -150px -300px, 150px -300px;
+  }
 }
 
 @-webkit-keyframes sparkle {
-    0% {
-        background-position: 0 0, 0 0;
-    }
-    100% {
-        background-position: -150px -300px, 150px -300px;
-    }
+  0% {
+    background-position: 0 0, 0 0;
+  }
+  100% {
+    background-position: -150px -300px, 150px -300px;
+  }
 }
-
 
 /*
 
@@ -1071,26 +1035,26 @@ EDIT BUTTON
 
 */
 
-#list_surround table:nth-of-type(n+4) tbody div small {
-    /*letter-spacing: 5px;*/
-    visibility: visible;
-    color: transparent !important;
-    font-size: 14px;
+#list_surround table:nth-of-type(n + 4) tbody div small {
+  /*letter-spacing: 5px;*/
+  visibility: visible;
+  color: transparent !important;
+  font-size: 14px;
 }
 
-#list_surround table:nth-of-type(n+4) tbody small a:first-of-type {
-    display: inline-block !important;
-    opacity: 0;
+#list_surround table:nth-of-type(n + 4) tbody small a:first-of-type {
+  display: inline-block !important;
+  opacity: 0;
 }
 
-#list_surround table:nth-of-type(n+4) tbody small a:last-of-type {
-    display: none !important;
+#list_surround table:nth-of-type(n + 4) tbody small a:last-of-type {
+  display: none !important;
 }
 
-#list_surround table:nth-of-type(n+4) tbody:hover small a:first-of-type {
-    display: inline-block !important;
-    position: relative !important;
-    visibility: visible;
-    opacity: 1 !important;
-    transition: all 0.4s ease 0s;
+#list_surround table:nth-of-type(n + 4) tbody:hover small a:first-of-type {
+  display: inline-block !important;
+  position: relative !important;
+  visibility: visible;
+  opacity: 1 !important;
+  transition: all 0.4s ease 0s;
 }

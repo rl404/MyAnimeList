@@ -1,0 +1,493 @@
+/* EXPAND ROW */
+
+#list_surround .hide + table:active tr,
+#list_surround .hide + table tr:hover,
+#list_surround table[class*="header"] + table + table:active tr,
+#list_surround table[class*="header"] + table + table tr:hover {
+  background-color: var(--expand-row-bg-color);
+  display: block;
+  position: relative;
+  left: 0;
+  top: -5px;
+  width: 100%;
+  height: 420px;
+  margin-top: 0px;
+  margin-bottom: -5px;
+  margin-left: 0%;
+  margin-right: 0%;
+  pointer-events: auto !important;
+  border-top: 1px solid var(--divider-color);
+  border-bottom: 1px solid var(--divider-color);
+  cursor: auto;
+  animation: trli 0.2s !important;
+  z-index: 1 !important;
+}
+
+#list_surround .hide + table,
+#list_surround table[class*="header"] + table + table {
+  cursor: pointer;
+}
+
+#list_surround .hide + table tr,
+#list_surround table[class*="header"] + table + table tr {
+  pointer-events: none;
+  z-index: -1 !important;
+  height: 0px;
+  animation: trba 0.2s !important;
+  -webkit-animation: trba 0.2s !important;
+}
+
+#list_surround table tr:hover td[class*="td"] {
+  background-color: transparent;
+  border: none;
+  box-shadow: 0px 0px 0px transparent;
+  z-index: 1;
+}
+
+/* TITLE */
+
+@keyframes one {
+  0% {
+    margin-top: 35px;
+    padding-top: 0px;
+    height: 0px;
+    width: 0px;
+    box-shadow: 0px 0px 0px 0px #555;
+    font-size: 0px;
+  }
+  50% {
+    margin-top: 15px;
+    padding-top: 20px;
+    height: 40px;
+    width: 60px;
+    font-size: 4px;
+  }
+  85% {
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.4);
+    width: 800px;
+  }
+  90% {
+    width: 810px;
+    font-size: 18px;
+  }
+  100% {
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.4);
+    width: 800px;
+  }
+}
+
+tr:hover .td1 .animetitle,
+tr:hover .td2 .animetitle {
+  height: 40px;
+  width: 800px;
+  animation: one 0.5s ease-in-out;
+  -webkit-animation: one 0.5s ease-in-out;
+  border-bottom: 1px solid var(--divider-color);
+  position: absolute;
+  margin: 0 auto;
+  right: 0px;
+  left: 0px;
+  color: var(--text-color);
+  padding-top: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 0px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+tr:hover .td1 .animetitle:hover,
+tr:hover .td2 .animetitle:hover {
+  color: var(--white-color) !important;
+}
+
+/* AIRING & EDIT */
+
+@keyframes airing {
+  0% {
+    color: transparent;
+  }
+  50% {
+    color: transparent;
+  }
+  100% {
+    color: var(--yellow-color);
+  }
+}
+
+@keyframes edit {
+  0% {
+    color: transparent;
+  }
+  50% {
+    color: transparent;
+  }
+  100% {
+    color: var(--text-color);
+  }
+}
+
+tr:hover .td1 > small,
+tr:hover .td2 > small {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  top: 66px;
+  font-weight: bold;
+  color: var(--yellow-color);
+  animation: airing 2s ease-in-out;
+}
+
+tr:hover td[class*="td"] div small a:first-child {
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  right: 207px;
+  margin: 0 auto;
+  top: 78px;
+  font-weight: bold;
+  color: var(--text-color);
+  animation: edit 2s ease-in-out;
+  z-index: 1;
+  font-size: 12px;
+  text-align: center;
+  line-height: 25px;
+  visibility: visible;
+}
+
+tr:hover td[class*="td"] div small a:first-child:hover {
+  transition: 0.2s;
+  color: var(--title-color);
+  box-shadow: 0px 3px 0px 0px var(--title-color) inset !important;
+}
+
+/* SCORE */
+
+@keyframes score {
+  0% {
+    font-size: 0px;
+    margin-top: 170px;
+  }
+  70% {
+    font-size: 240px;
+  }
+  80% {
+    margin-top: 87px;
+  }
+  100% {
+    margin-top: 90px;
+  }
+}
+
+tr:hover .td1:nth-of-type(n + 3) a,
+tr:hover .td2:nth-of-type(n + 3) a {
+  color: var(--text-color);
+}
+
+tr:hover .td1:nth-of-type(n + 3) a:hover,
+tr:hover .td2:nth-of-type(n + 3) a:hover {
+  color: var(--title-color);
+}
+
+tr:hover .td1:nth-of-type(3),
+tr:hover .td2:nth-of-type(3) {
+  display: block;
+  height: 200px;
+  width: 300px;
+  animation: score 0.7s ease-in-out;
+  background-color: transparent;
+  position: absolute;
+  margin: 0 auto;
+  left: 0px;
+  right: 600px;
+  color: var(--text-color);
+  margin-top: 90px;
+  font-size: 220px;
+  padding: 0px;
+  line-height: 220px !important;
+  text-align: center;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,
+    "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
+  font-weight: bold;
+  border: none;
+  overflow: visible;
+}
+
+tr:hover div[id*="scorediv"] {
+  position: absolute;
+  bottom: -78px;
+  right: 100px;
+}
+
+tr:hover div[id*="scorediv"] input[type="text"],
+tr:hover input[id*="epID"] {
+  background-color: transparent;
+  border: solid 1px white;
+  width: 50%;
+  margin-bottom: 10px;
+  color: white;
+  font-family: "Century Gothic";
+  text-align: center;
+}
+
+tr:hover div[id*="scorediv"] input[type="button"],
+tr:hover span[id*="epLayer"] input:last-of-type {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  color: white;
+}
+
+tr:hover span[id*="epLayer"] {
+  position: absolute;
+  width: 100px;
+  top: 1px;
+  right: 50px;
+}
+
+tr:hover input[id*="epID"] {
+  width: 50px;
+}
+
+tr:hover span[id*="epLayer"] input:last-of-type {
+  width: 50px;
+  position: absolute;
+  right: 0px;
+  top: 5px;
+}
+
+/* NUMBER */
+
+@keyframes number {
+  0% {
+    font-size: 0px;
+    height: 0px;
+    width: 0px;
+    margin-top: 43px;
+    padding: 0px;
+  }
+  70% {
+    font-size: 16px;
+  }
+  80% {
+    height: 30px;
+    width: 30px;
+    margin-top: 21px;
+    padding: 12px;
+  }
+  100% {
+    height: 30px;
+    width: 30px;
+    margin-top: 23px;
+    padding: 10px;
+  }
+}
+
+tr:hover .td1:nth-of-type(1),
+tr:hover .td2:nth-of-type(1) {
+  display: block;
+  height: 30px;
+  width: 30px;
+  animation: number 0.5s ease-in-out;
+  position: absolute;
+  left: 0px;
+  right: 900px;
+  margin: 0 auto;
+  color: var(--text-color);
+  margin-top: 23px;
+  font-size: 16px;
+  padding: 10px;
+  line-height: 30px !important;
+  text-align: center;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,
+    "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
+  font-weight: bold;
+  border: none;
+  border-radius: 0px;
+}
+
+/* COVER */
+
+@keyframes covers {
+  0% {
+    height: 0px;
+    top: 226px;
+  }
+  20% {
+    height: 40px;
+    top: 206px;
+  }
+  50% {
+    height: 50px;
+    top: 201px;
+  }
+  100% {
+    height: 298px;
+    top: 77px;
+  }
+}
+
+.animetitle:before {
+  height: 0px;
+  top: 226px;
+}
+
+tr:hover .animetitle:before {
+  content: "";
+  position: absolute;
+  margin-left: 50%;
+  left: -105px;
+  top: 77px;
+  width: 206px;
+  height: 291px;
+  z-index: 10;
+  border: 1px solid var(--divider-color);
+  border-radius: 0px;
+  pointer-events: none;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation: covers 0.5s linear;
+  box-shadow: 0px 0px 10px -4px #000 inset;
+}
+
+/* OTHER COLUMN */
+
+@keyframes rest {
+  0% {
+    font-size: 0px;
+  }
+  100% {
+    font-size: 16px;
+  }
+}
+
+tr:hover .td1:nth-of-type(n + 4),
+tr:hover .td2:nth-of-type(n + 4) {
+  font-weight: 400 !important;
+  display: block;
+  height: 26px;
+  width: 300px;
+  margin: 0 auto;
+  left: 600px;
+  right: 0px;
+  animation: rest 0.8s ease-in-out;
+  background-color: transparent !important;
+  position: absolute;
+  font-family: calibri, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  text-align: left;
+  overflow: hidden;
+}
+
+tr:hover .td1:nth-of-type(6),
+tr:hover .td2:nth-of-type(6) {
+  width: 250px !important;
+  left: 550px;
+  right: 0px;
+  text-align: justify;
+  text-justify: inter-word;
+  height: 230px !important;
+}
+
+tr:hover .td1:nth-of-type(4):before,
+tr:hover .td2:nth-of-type(4):before {
+  content: "Type: ";
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+tr:hover .td1:nth-of-type(4),
+tr:hover .td2:nth-of-type(4) {
+  margin-top: 75px;
+  left: 585px;
+}
+
+tr:hover .td1:nth-of-type(5):before,
+tr:hover .td2:nth-of-type(5):before {
+  content: "Progress: ";
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+tr:hover .td1:nth-of-type(5),
+tr:hover .td2:nth-of-type(5) {
+  margin-top: 105px;
+}
+
+tr:hover .td1:nth-of-type(6):before,
+tr:hover .td2:nth-of-type(6):before {
+  content: "Review: ";
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+tr:hover .td1:nth-of-type(6),
+tr:hover .td2:nth-of-type(6) {
+  margin-top: 135px;
+  height: 180px;
+}
+
+tr:hover td[class*="td"]:nth-child(6):last-child {
+  width: 300px;
+  padding-right: 0;
+}
+
+/*----- additional content -----*/
+
+td[class*="td"] div small a[title*="View"] {
+  display: block;
+  width: 100%;
+  position: absolute !important;
+  left: 0px;
+  pointer-events: none;
+  font-family: monospace;
+  text-align: right;
+  visibility: hidden;
+  color: #000;
+}
+
+td[class*="td"] div small a[title*="View"]:after {
+  display: block;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 20px;
+  width: 250px;
+  color: #777;
+  font-weight: bold;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  padding: 10px;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  visibility: visible;
+}
+
+tr:hover td[class*="td"] div small a[title*="View"]:after {
+  color: #fff;
+}
+
+td[class*="td"] div small a[title*="View"]:before {
+  white-space: pre;
+  position: relative;
+  top: -12px;
+  right: 182px;
+  font-size: 11px;
+  visibility: visible;
+}
+
+@media screen and (min-width: 961px) {
+  td[class*="td"] div small a[title*="View"]:before {
+    margin-right: -24px;
+    right: 22%;
+  }
+}

@@ -9,112 +9,111 @@
 /* Custom cursor */
 
 * {
-    cursor: default;
+  cursor: default;
 }
-
 
 /* Covers settings */
 
 .hide {
-    pointer-events: none;
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    display: block !important;
-    margin-left: 730px !important;
-    margin-top: -61px !important;
-    width: 122px;
-    height: 122px;
-    background-repeat: no-repeat;
-    background-position: center 50%;
-    background-size: 130px auto;
-    z-index: 1;
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  display: block !important;
+  margin-left: 730px !important;
+  margin-top: -61px !important;
+  width: 122px;
+  height: 122px;
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  background-size: 130px auto;
+  z-index: 1;
 }
 
-:hover+.hide {
-    visibility: visible;
-    opacity: 1;
-    box-shadow: -4px 4px 8px #a5a5a5, -4px 4px 8px #a5a5a5;
+:hover + .hide {
+  visibility: visible;
+  opacity: 1;
+  box-shadow: -4px 4px 8px #a5a5a5, -4px 4px 8px #a5a5a5;
 }
 
 #list_surround br {
-    display: none;
+  display: none;
 }
 
 body:before,
 body:after {
-    position: absolute;
-    display: block;
-    content: '';
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 350px;
+  position: absolute;
+  display: block;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 350px;
 }
 
 body:before {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgtop.jpg);
-    background-position: right top;
-    background-repeat: repeat-x;
-    animation: Slide 50s linear infinite;
-    -webkit-animation: Slide 50s linear infinite;
-    z-index: -2;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgtop.jpg);
+  background-position: right top;
+  background-repeat: repeat-x;
+  animation: Slide 50s linear infinite;
+  -webkit-animation: Slide 50s linear infinite;
+  z-index: -2;
 }
 
 body:after {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgbot.png);
-    background-position: center -6px;
-    background-repeat: no-repeat;
-    box-shadow: inset 0 -6px 0 #557ec2;
-    z-index: -1;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgbot.png);
+  background-position: center -6px;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 -6px 0 #557ec2;
+  z-index: -1;
 }
 
 body {
-    color: #828282;
-    font-size: 14px;
-    font-family: 'Kite One', sans-serif;
-    background-color: rgb(238, 244, 254);
+  color: #828282;
+  font-size: 14px;
+  font-family: "Kite One", sans-serif;
+  background-color: rgb(238, 244, 254);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #list_surround {
-    position: relative;
-    display: block;
-    left: calc(100% + (300px - 100%));
-    margin-top: 350px;
-    width: 700px;
-    border-right: dotted 1px #828282;
+  position: relative;
+  display: block;
+  left: calc(100% + (300px - 100%));
+  margin-top: 350px;
+  width: 700px;
+  border-right: dotted 1px #828282;
 }
 
 .animetitle {
-    padding-left: 5px;
+  padding-left: 5px;
 }
 
-.animetitle+small {
-    display: none;
+.animetitle + small {
+  display: none;
 }
 
 .td1,
 .td2 {
-    line-height: 21px !important;
+  line-height: 21px !important;
 }
 
 .td1 a,
 .td2 a {
-    color: #828282;
+  color: #828282;
 }
 
-td[class^='td']:last-child {
-    padding-right: 5px;
-    text-align: right;
+td[class^="td"]:last-child {
+  padding-right: 5px;
+  text-align: right;
 }
 
 .header_title {
-    display: inline-block;
-    height: 40px;
+  display: inline-block;
+  height: 40px;
 }
 
 .header_cw,
@@ -122,11 +121,23 @@ td[class^='td']:last-child {
 .header_onhold,
 .header_dropped,
 .header_ptw {
-    display: inline-block;
-    font-size: 0;
-    background: linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(85, 126, 194, 1) 100%);
-    background: -moz-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(85, 126, 194, 1) 100%);
-    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(85, 126, 194, 1) 100%);
+  display: inline-block;
+  font-size: 0;
+  background: linear-gradient(
+    right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(85, 126, 194, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(85, 126, 194, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(85, 126, 194, 1) 100%
+  );
 }
 
 .header_cw span:after,
@@ -134,239 +145,232 @@ td[class^='td']:last-child {
 .header_onhold span:after,
 .header_dropped span:after,
 .header_ptw span:after {
-    position: absolute;
-    display: inline-block;
-    width: 150px;
-    line-height: 40px;
-    font-size: 22px;
-    color: #FFFFFF;
-    text-align: left;
+  position: absolute;
+  display: inline-block;
+  width: 150px;
+  line-height: 40px;
+  font-size: 22px;
+  color: #ffffff;
+  text-align: left;
 }
 
 .header_cw span:after {
-    content: 'Current';
+  content: "Current";
 }
 
 .header_completed span:after {
-    content: 'Completed';
+  content: "Completed";
 }
 
 .header_onhold span:after {
-    content: 'On Hold';
+  content: "On Hold";
 }
 
 .header_dropped span:after {
-    content: 'Dropped';
+  content: "Dropped";
 }
 
 .header_ptw span:after {
-    content: 'Planned';
+  content: "Planned";
 }
-
 
 /* CURRENTLY WATCHING BACKGROUND */
 
 .status_selected:first-child:before {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgwatching.jpg);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgwatching.jpg);
 }
-
 
 /* COMPLETED BACKGROUND */
 
 .status_selected:nth-child(2):before {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgcompleted.jpg);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgcompleted.jpg);
 }
-
 
 /* ON-HOLD BACKGROUND */
 
 .status_selected:nth-child(3):before {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgonhold.jpg);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgonhold.jpg);
 }
-
 
 /* DROPPED BACKGROUND */
 
 .status_selected:nth-child(4):before {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgdropped.jpg);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgdropped.jpg);
 }
-
 
 /* PLANNED BACKGROUND */
 
 .status_selected:nth-child(5):before {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgplanned.jpg);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgplanned.jpg);
 }
-
 
 /* ALL BACKGROUND */
 
 .status_selected:last-child:before {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgall.jpg);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgall.jpg);
 }
 
 .category_totals,
 #grand_totals,
 #copyright {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .category_totals {
-    padding: 8px 0;
-    text-align: center;
-    border-top: dotted 1px #a5a5a5;
+  padding: 8px 0;
+  text-align: center;
+  border-top: dotted 1px #a5a5a5;
 }
 
 #grand_totals {
-    display: none;
+  display: none;
 }
 
 #list_surround:after,
 #copyright {
-    position: fixed;
-    left: 300px;
-    bottom: 0;
-    width: 700px;
+  position: fixed;
+  left: 300px;
+  bottom: 0;
+  width: 700px;
 }
 
 #list_surround:after {
-    content: '';
-    height: 50px;
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/table.png) left bottom repeat-x;
-    z-index: 0;
+  content: "";
+  height: 50px;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/table.png)
+    left bottom repeat-x;
+  z-index: 0;
 }
 
 #copyright {
-    background-color: rgb(238, 244, 254);
-    border-top: solid 1px #a5a5a5;
-    z-index: 1;
+  background-color: rgb(238, 244, 254);
+  border-top: solid 1px #a5a5a5;
+  z-index: 1;
 }
 
 #copyright:after {
-    display: inline-block;
-    content: 'List designed by Hahaido. Modified by rl404. ';
+  display: inline-block;
+  content: "List designed by Hahaido. Modified by rl404. ";
 }
 
 @keyframes Slide {
-    0% {
-        background-position: 0 0;
-    }
-    100% {
-        background-position: -1935px 0;
-    }
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -1935px 0;
+  }
 }
 
 @-webkit-keyframes Slide {
-    0% {
-        background-position: 0 0;
-    }
-    100% {
-        background-position: -1935px 0;
-    }
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -1935px 0;
+  }
 }
 
 #inlineContent {
-    display: block !important;
+  display: block !important;
 }
 
 #inlineContent:before {
-    position: fixed;
-    display: block;
-    content: '';
-    left: 0;
-    top: 0;
-    width: 300px;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
-    box-shadow: inset -6px 0 0 #557ec2;
-    z-index: -3;
+  position: fixed;
+  display: block;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset -6px 0 0 #557ec2;
+  z-index: -3;
 }
-
 
 /* Sliding animation */
 
 @keyframes Slide_right_left {
-    0% {
-        opacity: 0;
-        transform: translateX(0) scale(.7, .7);
-        z-index: -1;
-    }
-    20% {
-        opacity: 0;
-    }
-    50% {
-        transform: translateX(122px);
-        z-index: -1;
-    }
-    55% {
-        transform: translateX(122px);
-        z-index: 1;
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-        z-index: 1;
-    }
+  0% {
+    opacity: 0;
+    transform: translateX(0) scale(0.7, 0.7);
+    z-index: -1;
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(122px);
+    z-index: -1;
+  }
+  55% {
+    transform: translateX(122px);
+    z-index: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    z-index: 1;
+  }
 }
 
 @-webkit-keyframes Slide_right_left {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateX(0) scale(.7, .7);
-        z-index: -1;
-    }
-    20% {
-        opacity: 0;
-    }
-    50% {
-        -webkit-transform: translateX(122px);
-        z-index: -1;
-    }
-    55% {
-        -webkit-transform: translateX(122px);
-        z-index: 1;
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translateX(0);
-        z-index: 1;
-    }
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(0) scale(0.7, 0.7);
+    z-index: -1;
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: translateX(122px);
+    z-index: -1;
+  }
+  55% {
+    -webkit-transform: translateX(122px);
+    z-index: 1;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    z-index: 1;
+  }
 }
-
 
 /* TOP MENU */
 
 #mal\_control_strip {
-    position: fixed !important;
-    display: block !important;
-    left: 0 !important;
-    bottom: 0;
-    width: auto !important;
-    background: none !important;
-    z-index: 4;
+  position: fixed !important;
+  display: block !important;
+  left: 0 !important;
+  bottom: 0;
+  width: auto !important;
+  background: none !important;
+  z-index: 4;
 }
 
 #mal\_control_strip a,
 #mal\_control_strip a:after {
-    font-family: 'Kite One', sans-serif !important;
+  font-family: "Kite One", sans-serif !important;
 }
 
 #mal\_control_strip a {
-    display: block;
-    left: 0;
-    width: 284px;
-    padding: 8px 4px;
-    color: #828282 !important;
-    font-size: 14px !important;
-    text-align: center;
-    text-decoration: none !important;
-    border-top: solid 1px #a5a5a5;
+  display: block;
+  left: 0;
+  width: 284px;
+  padding: 8px 4px;
+  color: #828282 !important;
+  font-size: 14px !important;
+  text-align: center;
+  text-decoration: none !important;
+  border-top: solid 1px #a5a5a5;
 }
 
 #mal\_control_strip a:hover,
 #mal\_control_strip a:hover:after {
-    color: #FFFFFF !important;
-    background-color: rgb(199, 219, 252) !important;
+  color: #ffffff !important;
+  background-color: rgb(199, 219, 252) !important;
 }
 
 #mal\_control_strip img,
@@ -377,17 +381,17 @@ td[class^='td']:last-child {
 #search,
 #mal\_cs_otherlinks div a[href*="shared"],
 #mal\_cs_otherlinks div span[title*="Compatibility Score"] {
-    display: none;
+  display: none;
 }
 
 #mal_cs_pic,
 #mal_cs_listinfo,
 #mal_cs_links {
-    border-right: none !important;
+  border-right: none !important;
 }
 
 #mal\_cs_otherlinks div:nth-child(2) {
-    color: transparent !important;
+  color: transparent !important;
 }
 
 #mal_cs_otherlinks div a[href*="history"],
@@ -395,30 +399,29 @@ td[class^='td']:last-child {
 #mal_cs_otherlinks div a[href*="export"],
 #mal\_cs_otherlinks div a[href$="/forum/"],
 #mal\_cs_links div a[href$="/"] {
-    display: none !important;
+  display: none !important;
 }
-
 
 /* Log in, Create list, Learn more */
 
 #mal\_cs_otherlinks {
-    position: absolute !important;
-    white-space: nowrap !important;
-    z-index: -1;
+  position: absolute !important;
+  white-space: nowrap !important;
+  z-index: -1;
 }
 
 #mal\_cs_otherlinks div {
-    position: relative !important;
-    display: block !important;
-    margin: -127px 0 0 -11px !important;
+  position: relative !important;
+  display: block !important;
+  margin: -127px 0 0 -11px !important;
 }
 
 #mal\_cs_otherlinks div a {
-    margin-top: -14px !important;
+  margin-top: -14px !important;
 }
 
 #mal\_cs_otherlinks div a[href*="forum"] {
-    border-bottom: solid 1px #a5a5a5;
+  border-bottom: solid 1px #a5a5a5;
 }
 
 #mal\_cs_listinfo div:last-of-type a,
@@ -426,9 +429,9 @@ td[class^='td']:last-child {
 #mal_cs_links div a[href*="addtolist"],
 #mal\_cs_links div:last-of-type a:first-of-type,
 #mal\_cs_links div:last-of-type a:last-of-type {
-    position: absolute !important;
-    font-size: 0 !important;
-    color: transparent;
+  position: absolute !important;
+  font-size: 0 !important;
+  color: transparent;
 }
 
 #mal\_cs_listinfo div:last-of-type a:after,
@@ -436,355 +439,352 @@ td[class^='td']:last-child {
 #mal_cs_links div a[href*="addtolist"]:after,
 #mal\_cs_links div:last-of-type a:first-of-type:after,
 #mal\_cs_links div:last-of-type a:last-of-type:after {
-    display: block;
-    /* 	width: 288px; */
-    font-size: 14px !important;
+  display: block;
+  /* 	width: 288px; */
+  font-size: 14px !important;
 }
-
 
 /*  USERNAME */
 
 #mal\_cs_listinfo div:first-of-type a {
-    top: -126px;
+  top: -126px;
 }
 
 #mal\_cs_listinfo div:first-of-type a:after {
-    content: 'Profile';
+  content: "Profile";
 }
-
 
 /* ADD */
 
 #mal\_cs_links div a[href*="addtolist"] {
-    top: -89px;
+  top: -89px;
 }
 
 #mal\_cs_links div a[href*="addtolist"]:after {
-    content: 'Add';
+  content: "Add";
 }
-
 
 /* MANGALIST */
 
 #mal\_cs_links div:last-of-type a:first-of-type {
-    top: -52px;
-    width: 138px;
+  top: -52px;
+  width: 138px;
 }
 
 #mal\_cs_links div:last-of-type a:last-of-type {
-    top: -52px;
-    width: 142px;
-    left: 142px;
-    border-left: solid 1px #a5a5a5;
+  top: -52px;
+  width: 142px;
+  left: 142px;
+  border-left: solid 1px #a5a5a5;
 }
 
 #mal\_cs_links div:last-of-type a:first-of-type:after {
-    content: 'Anime';
+  content: "Anime";
 }
 
 #mal\_cs_links div:last-of-type a:last-of-type:after {
-    content: 'Manga';
+  content: "Manga";
 }
-
 
 /* LOGOUT */
 
 #mal\_cs_listinfo div:last-of-type a {
-    top: -15px;
-    border-bottom: solid 1px #a5a5a5;
+  top: -15px;
+  border-bottom: solid 1px #a5a5a5;
 }
 
 #mal\_cs_listinfo div:last-of-type a:after {
-    content: 'Logut';
+  content: "Logut";
 }
 
 @-moz-document url-prefix() {
-    #mal\_cs_otherlinks div {
-        margin: -132px 0 0 -11px !important;
-    }
-    #mal\_cs_otherlinks div a {
-        margin-top: -16px !important;
-    }
-    /*  USERNAME */
-    #mal\_cs_listinfo div:first-of-type a {
-        top: -132px;
-    }
-    /* ADD */
-    #mal\_cs_links div a[href*="addtolist"] {
-        top: -94px;
-    }
-    /* MANGALIST */
-    #mal\_cs_links div:last-of-type a:first-of-type {
-        top: -56px;
-    }
-    #mal\_cs_links div:last-of-type a:last-of-type {
-        top: -56px;
-    }
-    /* LOGOUT */
-    #mal\_cs_listinfo div:last-of-type a {
-        top: -18px;
-    }
+  #mal\_cs_otherlinks div {
+    margin: -132px 0 0 -11px !important;
+  }
+  #mal\_cs_otherlinks div a {
+    margin-top: -16px !important;
+  }
+  /*  USERNAME */
+  #mal\_cs_listinfo div:first-of-type a {
+    top: -132px;
+  }
+  /* ADD */
+  #mal\_cs_links div a[href*="addtolist"] {
+    top: -94px;
+  }
+  /* MANGALIST */
+  #mal\_cs_links div:last-of-type a:first-of-type {
+    top: -56px;
+  }
+  #mal\_cs_links div:last-of-type a:last-of-type {
+    top: -56px;
+  }
+  /* LOGOUT */
+  #mal\_cs_listinfo div:last-of-type a {
+    top: -18px;
+  }
 }
-
 
 /* TAB CONTENT */
 
-#list_surround table tbody:hover td[class^='td']:last-child {
-    background: linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(85, 126, 194, 1) 100%);
-    background: -moz-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(85, 126, 194, 1) 100%);
-    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(85, 126, 194, 1) 100%);
+#list_surround table tbody:hover td[class^="td"]:last-child {
+  background: linear-gradient(
+    right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(85, 126, 194, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(85, 126, 194, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(85, 126, 194, 1) 100%
+  );
 }
 
-tr:hover>.td1,
-tr:hover>.td2 {
-    color: #FFFFFF !important;
-    background-color: rgba(85, 126, 194, 1);
+tr:hover > .td1,
+tr:hover > .td2 {
+  color: #ffffff !important;
+  background-color: rgba(85, 126, 194, 1);
 }
 
-tr:hover>.td1 a,
-tr:hover>.td2 a {
-    color: #FFFFFF;
+tr:hover > .td1 a,
+tr:hover > .td2 a {
+  color: #ffffff;
 }
-
 
 /* EDIT */
 
-#list_surround table:nth-of-type(n+4) tbody div small {
-    visibility: visible;
-    color: transparent !important;
-    font-size: 14px;
+#list_surround table:nth-of-type(n + 4) tbody div small {
+  visibility: visible;
+  color: transparent !important;
+  font-size: 14px;
 }
 
-#list_surround table:nth-of-type(n+4) tbody small a:last-of-type {
-    display: none !important;
+#list_surround table:nth-of-type(n + 4) tbody small a:last-of-type {
+  display: none !important;
 }
 
-#list_surround table:nth-of-type(n+4) tbody small a:first-of-type {
-    display: inline-block !important;
-    opacity: 0;
+#list_surround table:nth-of-type(n + 4) tbody small a:first-of-type {
+  display: inline-block !important;
+  opacity: 0;
 }
 
-#list_surround table:nth-of-type(n+4) tbody:hover small a:first-of-type {
-    display: inline-block !important;
-    position: relative !important;
-    visibility: visible;
-    opacity: 1 !important;
-    transition: all 0.4s ease 0s;
+#list_surround table:nth-of-type(n + 4) tbody:hover small a:first-of-type {
+  display: inline-block !important;
+  position: relative !important;
+  visibility: visible;
+  opacity: 1 !important;
+  transition: all 0.4s ease 0s;
 }
-
 
 /* SORT */
 
-#list_surround>table:nth-of-type(n+4)~.header_cw+table,
-#list_surround>table:nth-of-type(n+4)~.header_completed+table,
-#list_surround>table:nth-of-type(n+4)~.header_onhold+table,
-#list_surround>table:nth-of-type(n+4)~.header_dropped+table,
-#list_surround>table:nth-of-type(n+4)~.header_ptw+table {
-    display: none;
+#list_surround > table:nth-of-type(n + 4) ~ .header_cw + table,
+#list_surround > table:nth-of-type(n + 4) ~ .header_completed + table,
+#list_surround > table:nth-of-type(n + 4) ~ .header_onhold + table,
+#list_surround > table:nth-of-type(n + 4) ~ .header_dropped + table,
+#list_surround > table:nth-of-type(n + 4) ~ .header_ptw + table {
+  display: none;
 }
 
 .table_header span {
-    display: none;
+  display: none;
 }
-
 
 /* Disable Tags in the Sort Options */
 
 .table_header[width="125"] {
-    display: none !important;
+  display: none !important;
 }
 
-.header_cw+table,
-.header_completed+table,
-.header_onhold+table,
-.header_dropped+table,
-.header_ptw+table {
-    position: fixed;
-    display: block;
-    left: 1150px;
-    top: 65px;
-    width: 140px;
-    z-index: 5;
+.header_cw + table,
+.header_completed + table,
+.header_onhold + table,
+.header_dropped + table,
+.header_ptw + table {
+  position: fixed;
+  display: block;
+  left: 1150px;
+  top: 65px;
+  width: 140px;
+  z-index: 5;
 }
 
 .table_header:nth-of-type(1) {
-    background-position: 0 0;
+  background-position: 0 0;
 }
 
 .table_header:nth-of-type(2) {
-    background-position: -26px 0;
+  background-position: -26px 0;
 }
 
 .table_header:nth-of-type(3) {
-    background-position: -52px 0;
+  background-position: -52px 0;
 }
 
 .table_header:nth-of-type(1):hover {
-    background-position: 0 -220px;
+  background-position: 0 -220px;
 }
 
 .table_header:nth-of-type(2):hover {
-    background-position: -26px -220px;
+  background-position: -26px -220px;
 }
 
 .table_header:nth-of-type(3):hover {
-    background-position: -52px -220px;
+  background-position: -52px -220px;
 }
 
 .table_header {
-    display: inline-block;
-    margin-left: 14px;
-    width: 26px;
-    height: 220px;
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/menu.png);
-    background-repeat: no-repeat;
-    transition: background-position .3s linear;
-    -webkit-transition: background-position .3s linear;
+  display: inline-block;
+  margin-left: 14px;
+  width: 26px;
+  height: 220px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/menu.png);
+  background-repeat: no-repeat;
+  transition: background-position 0.3s linear;
+  -webkit-transition: background-position 0.3s linear;
 }
 
 .table_header a {
-    font-size: 0;
-    display: inline-block;
-    width: 26px;
-    height: 220px;
+  font-size: 0;
+  display: inline-block;
+  width: 26px;
+  height: 220px;
 }
 
 .table_header a:hover,
 .table_headerLink strong:hover {
-    color: #FFFFFF !important;
-    background-color: transparent;
+  color: #ffffff !important;
+  background-color: transparent;
 }
-
 
 /* RENDERS AND BACKGROUNDS */
 
 .status_selected:before {
-    pointer-events: none;
-    position: fixed;
-    display: inline-block;
-    content: '';
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-    z-index: -4;
+  pointer-events: none;
+  position: fixed;
+  display: inline-block;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  z-index: -4;
 }
 
 .status_not_selected,
 .status_selected {
-    position: absolute !important;
-    display: inline-block;
-    width: 26px !important;
-    height: 220px;
+  position: absolute !important;
+  display: inline-block;
+  width: 26px !important;
+  height: 220px;
 }
 
 .status_not_selected a,
 .status_selected a {
-    position: fixed;
-    display: block;
-    left: 35px;
-    top: 65px;
-    width: 26px;
-    height: 220px;
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/menu2.png);
-    background-repeat: no-repeat;
-    font-size: 0;
-    transition: background-position .3s linear;
-    -webkit-transition: background-position .3s linear;
+  position: fixed;
+  display: block;
+  left: 35px;
+  top: 65px;
+  width: 26px;
+  height: 220px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/menu2.png);
+  background-repeat: no-repeat;
+  font-size: 0;
+  transition: background-position 0.3s linear;
+  -webkit-transition: background-position 0.3s linear;
 }
-
 
 /* Currently watching */
 
 .status_not_selected a[href*="status=1"]:hover,
 .status_selected a[href*="status=1"] {
-    background-position: 0 -220px;
+  background-position: 0 -220px;
 }
-
 
 /* Completed */
 
 .status_not_selected a[href*="status=2"],
 .status_selected a[href*="status=2"] {
-    left: 75px;
+  left: 75px;
 }
 
 .status_not_selected a[href*="status=2"] {
-    background-position: -26px 0;
+  background-position: -26px 0;
 }
 
 .status_not_selected a[href*="status=2"]:hover,
 .status_selected a[href*="status=2"] {
-    background-position: -26px -220px;
+  background-position: -26px -220px;
 }
-
 
 /* On hold */
 
 .status_not_selected a[href*="status=3"],
 .status_selected a[href*="status=3"] {
-    left: 115px;
+  left: 115px;
 }
 
 .status_not_selected a[href*="status=3"] {
-    background-position: -52px 0;
+  background-position: -52px 0;
 }
 
 .status_not_selected a[href*="status=3"]:hover,
 .status_selected a[href*="status=3"] {
-    background-position: -52px -220px;
+  background-position: -52px -220px;
 }
-
 
 /* Dropped */
 
 .status_not_selected a[href*="status=4"],
 .status_selected a[href*="status=4"] {
-    left: 155px;
+  left: 155px;
 }
 
 .status_not_selected a[href*="status=4"] {
-    background-position: -78px 0;
+  background-position: -78px 0;
 }
 
 .status_not_selected a[href*="status=4"]:hover,
 .status_selected a[href*="status=4"] {
-    background-position: -78px -220px;
+  background-position: -78px -220px;
 }
-
 
 /* Planned */
 
 .status_not_selected a[href*="status=6"],
 .status_selected a[href*="status=6"] {
-    left: 195px;
+  left: 195px;
 }
 
 .status_not_selected a[href*="status=6"] {
-    background-position: -104px 0;
+  background-position: -104px 0;
 }
 
 .status_not_selected a[href*="status=6"]:hover,
 .status_selected a[href*="status=6"] {
-    background-position: -104px -220px;
+  background-position: -104px -220px;
 }
-
 
 /* All */
 
 .status_not_selected a[href*="status=7"],
 .status_selected a[href*="status=7"] {
-    left: 235px;
+  left: 235px;
 }
 
 .status_not_selected a[href*="status=7"] {
-    background-position: -130px 0;
+  background-position: -130px 0;
 }
 
 .status_not_selected a[href*="status=7"]:hover,
 .status_selected a[href*="status=7"] {
-    background-position: -130px -220px;
+  background-position: -130px -220px;
 }

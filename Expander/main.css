@@ -1,51 +1,50 @@
 #fancybox-wrap {
-    position: fixed !important;
-    top: 5% !important;
-    bottom: 5%;
-    left: 0px !important;
-    right: 0px !important;
-    width: 1100px !important;
-    height: auto !important;
-    margin: auto !important;
+  position: fixed !important;
+  top: 5% !important;
+  bottom: 5%;
+  left: 0px !important;
+  right: 0px !important;
+  width: 1100px !important;
+  height: auto !important;
+  margin: auto !important;
 }
 
 #fancybox-inner {
-    bottom: 10px;
-    width: 1080px !important;
-    height: auto !important;
+  bottom: 10px;
+  width: 1080px !important;
+  height: auto !important;
 }
 
 body {
-    background-color: #f2f2f2 !important;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura, "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
-    font-size: 13px;
-    background-image: url(https://api.randomizer.rl404.com/user/rl404/image.jpg);
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+  background-color: #f2f2f2 !important;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,
+    "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
+  font-size: 13px;
+  background-image: url(https://api.randomizer.rl404.com/user/rl404/image.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
-
 
 /*----- bar pic -----*/
 
 body:before {
-    content: '';
-    background-color: rgba(255, 255, 255, .8);
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    box-shadow: inset 0px 0px 5px 0px #fff, 0px 0px 5px 0px #000;
-    position: absolute;
-    margin-top: 0px !important;
-    width: 100%;
-    min-width: 935px;
-    height: 100px;
-    z-index: 0;
-    display: block;
+  content: "";
+  background-color: rgba(255, 255, 255, 0.8);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0px 0px 5px 0px #fff, 0px 0px 5px 0px #000;
+  position: absolute;
+  margin-top: 0px !important;
+  width: 100%;
+  min-width: 935px;
+  height: 100px;
+  z-index: 0;
+  display: block;
 }
-
 
 /*----- headers -----*/
 
@@ -54,312 +53,308 @@ body:before {
 .header_onhold,
 .header_dropped,
 .header_ptw {
-    position: relative;
-    margin-top: -40px !important;
-    margin-bottom: -14px !important;
-    font-size: 32px;
-    padding-left: 120px;
-    font-weight: bold;
-    letter-spacing: 20px;
-    color: #333;
-    text-shadow: 1px 1px 0px rgba(255, 255, 255, .5), -1px 1px 0px rgba(255, 255, 255, .5);
-    text-shadow: 0px 0px 1px #000;
-    z-index: -1;
+  position: relative;
+  margin-top: -40px !important;
+  margin-bottom: -14px !important;
+  font-size: 32px;
+  padding-left: 120px;
+  font-weight: bold;
+  letter-spacing: 20px;
+  color: #333;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5),
+    -1px 1px 0px rgba(255, 255, 255, 0.5);
+  text-shadow: 0px 0px 1px #000;
+  z-index: -1;
 }
-
 
 /*----- More/Add/Edit links ----- */
 
 .td1 div small,
 .td2 div small {
-    color: transparent;
+  color: transparent;
 }
 
 .td1:hover div a small,
 .td2:hover div a small {
-    color: white;
+  color: white;
 }
 
-td[class*=td] div small a:first-child {
-    visibility: hidden;
+td[class*="td"] div small a:first-child {
+  visibility: hidden;
 }
 
 .td1:hover div a small:hover,
 .td2:hover div a small:hover,
 tr:hover .td1:nth-of-type(6) input:hover,
 tr:hover .td2:nth-of-type(6) input:hover,
-tr:hover div[id*="scorediv"] input[type=button]:hover {
-    transition: .2s;
-    box-shadow: 0px -1px 0px 0px #eee inset !important;
+tr:hover div[id*="scorediv"] input[type="button"]:hover {
+  transition: 0.2s;
+  box-shadow: 0px -1px 0px 0px #eee inset !important;
 }
 
 textarea.inputtext {
-    width: 244px;
-    height: 120px;
-    background-color: transparent;
-    color: white;
-    font-family: "Century Gothic";
-    font-size: 13px;
+  width: 244px;
+  height: 120px;
+  background-color: transparent;
+  color: white;
+  font-family: "Century Gothic";
+  font-size: 13px;
 }
 
 tr:hover .td1:nth-of-type(6) input,
 tr:hover .td2:nth-of-type(6) input {
-    background: none;
-    border: none;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
-    color: white;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  color: white;
 }
-
 
 /*----- additional content -----*/
 
-td[class*=td] div small a[title*="View"] {
-    display: block;
-    width: 100%;
-    position: absolute !important;
-    left: 0px;
-    pointer-events: none;
-    font-family: monospace;
-    text-align: right;
-    visibility: hidden;
-    color: #000;
+td[class*="td"] div small a[title*="View"] {
+  display: block;
+  width: 100%;
+  position: absolute !important;
+  left: 0px;
+  pointer-events: none;
+  font-family: monospace;
+  text-align: right;
+  visibility: hidden;
+  color: #000;
 }
 
-td[class*=td] div small a[title*="View"]:after {
-    display: block;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 20px;
-    width: 250px;
-    color: #777;
-    font-weight: bold;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 12px;
-    padding: 10px;
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, .5);
-    text-align: left;
-    visibility: visible;
+td[class*="td"] div small a[title*="View"]:after {
+  display: block;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 20px;
+  width: 250px;
+  color: #777;
+  font-weight: bold;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  padding: 10px;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  visibility: visible;
 }
 
-tr:hover td[class*=td] div small a[title*="View"]:after {
-    color: #fff;
+tr:hover td[class*="td"] div small a[title*="View"]:after {
+  color: #fff;
 }
 
-td[class*=td] div small a[title*="View"]:before {
-    white-space: pre;
-    position: relative;
-    top: -12px;
-    right: 182px;
-    font-size: 11px;
-    visibility: visible;
+td[class*="td"] div small a[title*="View"]:before {
+  white-space: pre;
+  position: relative;
+  top: -12px;
+  right: 182px;
+  font-size: 11px;
+  visibility: visible;
 }
 
-@media screen and (min-width:961px) {
-    td[class*=td] div small a[title*="View"]:before {
-        margin-right: -24px;
-        right: 22%;
-    }
+@media screen and (min-width: 961px) {
+  td[class*="td"] div small a[title*="View"]:before {
+    margin-right: -24px;
+    right: 22%;
+  }
 }
-
 
 /*----- basic list settings -----*/
 
 .td1,
 .td2,
 .table_header {
-    height: 20px;
-    font-size: 13px;
-    overflow: hidden;
+  height: 20px;
+  font-size: 13px;
+  overflow: hidden;
 }
 
 .table_header {
-    background-color: rgba(0, 0, 0, .4);
-    color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
 }
 
 .table_header:first-of-type {
-    box-shadow: -10px 0px 0px rgba(0, 0, 0, .4);
+  box-shadow: -10px 0px 0px rgba(0, 0, 0, 0.4);
 }
 
 .table_header a {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .table_header:first-of-type {
-    border-width: 0px !important;
+  border-width: 0px !important;
 }
 
 #list_surround table {
-    margin-top: 5px;
-    margin-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 table:hover .td1:first-of-type,
 table:hover .td2:first-of-type {
-    box-shadow: -5px 0px 0px rgba(0, 0, 0, .1);
+  box-shadow: -5px 0px 0px rgba(0, 0, 0, 0.1);
 }
 
 table:hover .td1:last-of-type,
 table:hover .td2:last-of-type {
-    box-shadow: 5px 0px 0px rgba(0, 0, 0, .1);
+  box-shadow: 5px 0px 0px rgba(0, 0, 0, 0.1);
 }
 
-table:hover:nth-of-type(27n) td[class*=td] {
-    background-color: rgba(150, 150, 150, .1);
+table:hover:nth-of-type(27n) td[class*="td"] {
+  background-color: rgba(150, 150, 150, 0.1);
 }
 
-table:hover:nth-of-type(27n+1) td[class*=td] {
-    background-color: rgba(150, 150, 200, .2);
+table:hover:nth-of-type(27n + 1) td[class*="td"] {
+  background-color: rgba(150, 150, 200, 0.2);
 }
 
-table:hover:nth-of-type(27n+2) td[class*=td] {
-    background-color: rgba(150, 150, 250, .3);
+table:hover:nth-of-type(27n + 2) td[class*="td"] {
+  background-color: rgba(150, 150, 250, 0.3);
 }
 
-table:hover:nth-of-type(27n+3) td[class*=td] {
-    background-color: rgba(150, 200, 150, .2);
+table:hover:nth-of-type(27n + 3) td[class*="td"] {
+  background-color: rgba(150, 200, 150, 0.2);
 }
 
-table:hover:nth-of-type(27n+4) td[class*=td] {
-    background-color: rgba(150, 200, 200, .3);
+table:hover:nth-of-type(27n + 4) td[class*="td"] {
+  background-color: rgba(150, 200, 200, 0.3);
 }
 
-table:hover:nth-of-type(27n+5) td[class*=td] {
-    background-color: rgba(150, 200, 250, .4);
+table:hover:nth-of-type(27n + 5) td[class*="td"] {
+  background-color: rgba(150, 200, 250, 0.4);
 }
 
-table:hover:nth-of-type(27n+6) td[class*=td] {
-    background-color: rgba(150, 250, 150, .3);
+table:hover:nth-of-type(27n + 6) td[class*="td"] {
+  background-color: rgba(150, 250, 150, 0.3);
 }
 
-table:hover:nth-of-type(27n+7) td[class*=td] {
-    background-color: rgba(150, 250, 200, .4);
+table:hover:nth-of-type(27n + 7) td[class*="td"] {
+  background-color: rgba(150, 250, 200, 0.4);
 }
 
-table:hover:nth-of-type(27n+8) td[class*=td] {
-    background-color: rgba(150, 250, 250, .5);
+table:hover:nth-of-type(27n + 8) td[class*="td"] {
+  background-color: rgba(150, 250, 250, 0.5);
 }
 
-table:hover:nth-of-type(27n+9) td[class*=td] {
-    background-color: rgba(200, 150, 150, .2);
+table:hover:nth-of-type(27n + 9) td[class*="td"] {
+  background-color: rgba(200, 150, 150, 0.2);
 }
 
-table:hover:nth-of-type(27n+10) td[class*=td] {
-    background-color: rgba(200, 150, 200, .2);
+table:hover:nth-of-type(27n + 10) td[class*="td"] {
+  background-color: rgba(200, 150, 200, 0.2);
 }
 
-table:hover:nth-of-type(27n+11) td[class*=td] {
-    background-color: rgba(200, 150, 250, .4);
+table:hover:nth-of-type(27n + 11) td[class*="td"] {
+  background-color: rgba(200, 150, 250, 0.4);
 }
 
-table:hover:nth-of-type(27n+12) td[class*=td] {
-    background-color: rgba(200, 200, 150, .3);
+table:hover:nth-of-type(27n + 12) td[class*="td"] {
+  background-color: rgba(200, 200, 150, 0.3);
 }
 
-table:hover:nth-of-type(27n+13) td[class*=td] {
-    background-color: rgba(200, 200, 200, .4);
+table:hover:nth-of-type(27n + 13) td[class*="td"] {
+  background-color: rgba(200, 200, 200, 0.4);
 }
 
-table:hover:nth-of-type(27n+14) td[class*=td] {
-    background-color: rgba(200, 200, 250, .5);
+table:hover:nth-of-type(27n + 14) td[class*="td"] {
+  background-color: rgba(200, 200, 250, 0.5);
 }
 
-table:hover:nth-of-type(27n+15) td[class*=td] {
-    background-color: rgba(200, 250, 150, .4);
+table:hover:nth-of-type(27n + 15) td[class*="td"] {
+  background-color: rgba(200, 250, 150, 0.4);
 }
 
-table:hover:nth-of-type(27n+16) td[class*=td] {
-    background-color: rgba(200, 250, 200, .5);
+table:hover:nth-of-type(27n + 16) td[class*="td"] {
+  background-color: rgba(200, 250, 200, 0.5);
 }
 
-table:hover:nth-of-type(27n+17) td[class*=td] {
-    background-color: rgba(200, 250, 250, .6);
+table:hover:nth-of-type(27n + 17) td[class*="td"] {
+  background-color: rgba(200, 250, 250, 0.6);
 }
 
-table:hover:nth-of-type(27n+18) td[class*=td] {
-    background-color: rgba(250, 150, 150, .3);
+table:hover:nth-of-type(27n + 18) td[class*="td"] {
+  background-color: rgba(250, 150, 150, 0.3);
 }
 
-table:hover:nth-of-type(27n+19) td[class*=td] {
-    background-color: rgba(250, 150, 200, .4);
+table:hover:nth-of-type(27n + 19) td[class*="td"] {
+  background-color: rgba(250, 150, 200, 0.4);
 }
 
-table:hover:nth-of-type(27n+20) td[class*=td] {
-    background-color: rgba(250, 150, 250, .5);
+table:hover:nth-of-type(27n + 20) td[class*="td"] {
+  background-color: rgba(250, 150, 250, 0.5);
 }
 
-table:hover:nth-of-type(27n+21) td[class*=td] {
-    background-color: rgba(250, 200, 150, .4);
+table:hover:nth-of-type(27n + 21) td[class*="td"] {
+  background-color: rgba(250, 200, 150, 0.4);
 }
 
-table:hover:nth-of-type(27n+22) td[class*=td] {
-    background-color: rgba(250, 200, 200, .5);
+table:hover:nth-of-type(27n + 22) td[class*="td"] {
+  background-color: rgba(250, 200, 200, 0.5);
 }
 
-table:hover:nth-of-type(27n+23) td[class*=td] {
-    background-color: rgba(250, 200, 250, .6);
+table:hover:nth-of-type(27n + 23) td[class*="td"] {
+  background-color: rgba(250, 200, 250, 0.6);
 }
 
-table:hover:nth-of-type(27n+24) td[class*=td] {
-    background-color: rgba(250, 250, 150, .5);
+table:hover:nth-of-type(27n + 24) td[class*="td"] {
+  background-color: rgba(250, 250, 150, 0.5);
 }
 
-table:hover:nth-of-type(27n+25) td[class*=td] {
-    background-color: rgba(250, 250, 200, .6);
+table:hover:nth-of-type(27n + 25) td[class*="td"] {
+  background-color: rgba(250, 250, 200, 0.6);
 }
 
-table:hover:nth-of-type(27n+26) td[class*=td] {
-    background-color: rgba(250, 250, 250, .7);
+table:hover:nth-of-type(27n + 26) td[class*="td"] {
+  background-color: rgba(250, 250, 250, 0.7);
 }
 
 #list_surround {
-    position: absolute;
-    margin-top: 550px;
-    left: 0px;
-    z-index: 3;
-    right: 0px;
-    width: 90%;
-    min-width: 935px;
-    max-width: 1237px;
-    margin-left: auto;
-    margin-right: auto;
-    top: 0px;
-    background-color: rgba(255, 255, 255, .8);
-    box-shadow: inset 0px 0px 5px 0px #fff, 0px 0px 5px 0px #000;
+  position: absolute;
+  margin-top: 550px;
+  left: 0px;
+  z-index: 3;
+  right: 0px;
+  width: 90%;
+  min-width: 935px;
+  max-width: 1237px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: inset 0px 0px 5px 0px #fff, 0px 0px 5px 0px #000;
 }
 
 #list_surround:after {
-    content: "";
-    display: block;
-    width: 1px;
-    height: 100px;
-    position: absolute;
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100px;
+  position: absolute;
 }
 
-#list_surround>table:nth-child(5) {
-    margin-top: 0px !important;
+#list_surround > table:nth-child(5) {
+  margin-top: 0px !important;
 }
 
 .category_totals {
-    font-size: 10px;
-    text-align: right;
-    padding-right: 10px;
-    height: 20px;
-    line-height: 20px;
-    color: rgba(0, 0, 0, 0.5);
+  font-size: 10px;
+  text-align: right;
+  padding-right: 10px;
+  height: 20px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 table:hover .category_totals:hover {
-    color: black;
-    transition: all 0.15s ease-in-out 0s;
+  color: black;
+  transition: all 0.15s ease-in-out 0s;
 }
 
-
 /*----- shinobu dame -----*/
-
 
 /*#list_surround:before {content:"so much useless data...";
 position:relative;
@@ -381,548 +376,569 @@ background-position:bottom;
 float:right;
 }*/
 
-
 /*----- column widths -----*/
 
-@media screen and (min-width:961px) {
-    .td1:nth-child(1),
-    .td2:nth-child(1),
-    .table_header:nth-child(1) {
-        width: 5%;
-    }
-    .td1:nth-child(2),
-    .td2:nth-child(2),
-    .table_header:nth-child(2) {
-        padding-right: 20px;
-    }
-    .td1:nth-child(4),
-    .td2:nth-child(4),
-    .table_header:nth-child(4) {
-        padding-left: 15px;
-        width: 8%;
-    }
-    .td1:nth-child(5),
-    .td2:nth-child(5),
-    .table_header:nth-child(5) {
-        width: 8%;
-    }
-    .td1:nth-child(6),
-    .td2:nth-child(6),
-    .table_header:nth-child(6) {
-        width: 8%;
-    }
-    .td1:nth-child(7),
-    .td2:nth-child(7),
-    .table_header:nth-child(7) {
-        width: 8%;
-    }
-    .td1:nth-child(8),
-    .td2:nth-child(8),
-    .table_header:nth-child(8) {
-        width: 8%;
-    }
+@media screen and (min-width: 961px) {
+  .td1:nth-child(1),
+  .td2:nth-child(1),
+  .table_header:nth-child(1) {
+    width: 5%;
+  }
+  .td1:nth-child(2),
+  .td2:nth-child(2),
+  .table_header:nth-child(2) {
+    padding-right: 20px;
+  }
+  .td1:nth-child(4),
+  .td2:nth-child(4),
+  .table_header:nth-child(4) {
+    padding-left: 15px;
+    width: 8%;
+  }
+  .td1:nth-child(5),
+  .td2:nth-child(5),
+  .table_header:nth-child(5) {
+    width: 8%;
+  }
+  .td1:nth-child(6),
+  .td2:nth-child(6),
+  .table_header:nth-child(6) {
+    width: 8%;
+  }
+  .td1:nth-child(7),
+  .td2:nth-child(7),
+  .table_header:nth-child(7) {
+    width: 8%;
+  }
+  .td1:nth-child(8),
+  .td2:nth-child(8),
+  .table_header:nth-child(8) {
+    width: 8%;
+  }
 }
-
 
 /*----- links -----*/
 
 a,
 a:visited {
-    color: #000;
-    text-decoration: none !important;
+  color: #000;
+  text-decoration: none !important;
 }
 
 a:hover {
-    color: #777 !important;
+  color: #777 !important;
 }
 
 .animetitle {
-    color: #111;
-    font-size: 11px;
-    letter-spacing: .1px;
-    word-spacing: .2px;
+  color: #111;
+  font-size: 11px;
+  letter-spacing: 0.1px;
+  word-spacing: 0.2px;
 }
 
-@media screen and (min-width:1050px) {
-    .animetitle {
-        font-size: 12px;
-        letter-spacing: .2px;
-        word-spacing: .4px
-    }
+@media screen and (min-width: 1050px) {
+  .animetitle {
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    word-spacing: 0.4px;
+  }
 }
 
-#list_surround tr:hover td[class*=td] a:hover {
-    color: #fff !important;
+#list_surround tr:hover td[class*="td"] a:hover {
+  color: #fff !important;
 }
 
-#list_surround tr:hover td[class*=td] a.animetitle:hover {
-    color: #fff !important;
+#list_surround tr:hover td[class*="td"] a.animetitle:hover {
+  color: #fff !important;
 }
 
-.td1>small,
-.td2>small {
-    color: #555;
-    font-variant: small-caps;
+.td1 > small,
+.td2 > small {
+  color: #555;
+  font-variant: small-caps;
 }
 
 td small a {
-    color: #377;
+  color: #377;
 }
-
 
 /*----- statuses -----*/
 
 #list_surround table:first-of-type {
-    position: absolute;
-    top: -550px;
-    margin: 0 auto;
-    left: 478px;
-    right: 0px;
-    width: 420px;
-    height: 100px;
-    z-index: 3;
+  position: absolute;
+  top: -550px;
+  margin: 0 auto;
+  left: 478px;
+  right: 0px;
+  width: 420px;
+  height: 100px;
+  z-index: 3;
 }
 
 #list_surround table:first-of-type td,
 #list_surround table:first-of-type td a {
-    display: block;
-    color: transparent;
-    width: 70px;
-    height: 80px;
-    font-size: 0px;
-    transition: .2s;
-    float: left;
+  display: block;
+  color: transparent;
+  width: 70px;
+  height: 80px;
+  font-size: 0px;
+  transition: 0.2s;
+  float: left;
 }
 
 #list_surround table:first-of-type td a {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 #list_surround table:first-of-type td a:before {
-    font-size: 20px;
-    font-weight: bold;
-    color: #555;
-    border: 3px solid #555;
-    border-radius: 18px;
-    display: block;
-    height: 30px;
-    width: 30px;
-    line-height: 28px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #555;
+  border: 3px solid #555;
+  border-radius: 18px;
+  display: block;
+  height: 30px;
+  width: 30px;
+  line-height: 28px;
 }
 
 #list_surround table:first-of-type td a:hover:before {
-    color: #777;
-    border-color: #777;
+  color: #777;
+  border-color: #777;
 }
 
 #list_surround table:first-of-type td a:hover {
-    box-shadow: 0px -5px 0px 0px #333 inset;
+  box-shadow: 0px -5px 0px 0px #333 inset;
 }
 
 #list_surround table:first-of-type td a:hover:after,
 .status_selected a:after {
-    font-size: 12px;
-    color: #555;
-    display: block;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 18px;
-    margin-top: 10px;
+  font-size: 12px;
+  color: #555;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 18px;
+  margin-top: 10px;
 }
 
 #list_surround table:first-of-type td:nth-of-type(2) a:before {
-    content: 'C';
+  content: "C";
 }
 
 #list_surround table:first-of-type td:nth-of-type(2) a:after {
-    content: 'Completed';
+  content: "Completed";
 }
 
 #list_surround table:first-of-type td:nth-of-type(3) a:before {
-    content: 'H';
+  content: "H";
 }
 
 #list_surround table:first-of-type td:nth-of-type(3) a:after {
-    content: 'On Hold';
+  content: "On Hold";
 }
 
 #list_surround table:first-of-type td:nth-of-type(4) a:before {
-    content: 'D';
+  content: "D";
 }
 
 #list_surround table:first-of-type td:nth-of-type(4) a:after {
-    content: 'Dropped';
+  content: "Dropped";
 }
 
 #list_surround table:first-of-type td:nth-of-type(5) a:before {
-    content: 'P';
+  content: "P";
 }
 
 #list_surround table:first-of-type td:nth-of-type(5) a:after {
-    content: 'Planned';
+  content: "Planned";
 }
 
 #list_surround table:first-of-type td a:hover {
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    animation: statusbutton 5s ease-out;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  animation: statusbutton 5s ease-out;
 }
 
 #list_surround table:first-of-type td:nth-of-type(1) a:hover {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/chino.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/chino.png);
 }
 
 #list_surround table:first-of-type td:nth-of-type(2) a:hover {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/c.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/c.png);
 }
 
 #list_surround table:first-of-type td:nth-of-type(3) a:hover {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/etotama.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/etotama.png);
 }
 
 #list_surround table:first-of-type td:nth-of-type(4) a:hover {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gg.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gg.png);
 }
 
 #list_surround table:first-of-type td:nth-of-type(5) a:hover {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/index.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/index.png);
 }
 
 #list_surround table:first-of-type td:nth-of-type(6) a:hover {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/km.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/km.png);
 }
 
 @keyframes statusbutton {
-    0% {
-        background-position: -70px 0;
-    }
-    100% {
-        background-position: 0 0;
-    }
+  0% {
+    background-position: -70px 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
 .status_selected a {
-    background-color: #333 !important;
-    box-shadow: 0px -5px 0px 0px #eee inset !important;
+  background-color: #333 !important;
+  box-shadow: 0px -5px 0px 0px #eee inset !important;
 }
 
 .status_selected a:before {
-    color: #fff !important;
-    border-color: #fff !important;
+  color: #fff !important;
+  border-color: #fff !important;
 }
 
 .status_selected a:after {
-    color: #fff !important;
+  color: #fff !important;
 }
-
 
 /*----- grand totals -----*/
 
 #grand_totals:before {
-    content: 'Totals: ';
-    font-weight: bold;
+  content: "Totals: ";
+  font-weight: bold;
 }
 
 #grand_totals {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 20px;
-    line-height: 20px;
-    font-size: 12px;
-    padding: 0 10px;
-    text-align: left;
-    color: rgba(0, 0, 0, 0.5);
-    transition: all 0.15s ease-in-out 0s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  padding: 0 10px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.15s ease-in-out 0s;
 }
 
 #grand_totals:hover {
-    color: #000;
+  color: #000;
 }
-
 
 /*----- credits -----*/
 
 #copyright:before {
-    content: 'Style created by dzikibambus and modified by rl404.\a';
-    white-space: pre-wrap;
+  content: "Style created by dzikibambus and modified by rl404.\a";
+  white-space: pre-wrap;
 }
 
 #copyright {
-    padding: 50px 0px 50px 0px;
-    margin-top: -25px !important;
-    color: #fff;
-    text-shadow: 0px 0px 0.5px #fff;
-    background-color: #333;
+  padding: 50px 0px 50px 0px;
+  margin-top: -25px !important;
+  color: #fff;
+  text-shadow: 0px 0px 0.5px #fff;
+  background-color: #333;
 }
 
 #copyrght a {
-    color: #fff;
+  color: #fff;
 }
 
-#grand_totals+#copyright {
-    margin-top: -20px !important;
+#grand_totals + #copyright {
+  margin-top: -20px !important;
 }
 
 #copyright:hover {
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/longkantai.png);
-    background-size: 100%, 2160px;
-    background-position: 0 0, 0 0;
-    animation: cr 60s linear infinite;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/longkantai.png);
+  background-size: 100%, 2160px;
+  background-position: 0 0, 0 0;
+  animation: cr 60s linear infinite;
 }
 
 @keyframes cr {
-    0% {
-        background-position: 0 0, 0px 0;
-    }
-    100% {
-        background-position: 0 0, -2160px 0;
-    }
+  0% {
+    background-position: 0 0, 0px 0;
+  }
+  100% {
+    background-position: 0 0, -2160px 0;
+  }
 }
-
 
 /*----- MAL strip -----*/
 
 #mal_control_strip {
-    background-image: none !important;
-    background-color: transparent !important;
-    height: 100px;
-    position: absolute;
-    width: 922px !important;
-    top: 0px;
-    margin: 0 auto !important;
-    left: 0px !important;
-    right: 22px !important;
+  background-image: none !important;
+  background-color: transparent !important;
+  height: 100px;
+  position: absolute;
+  width: 922px !important;
+  top: 0px;
+  margin: 0 auto !important;
+  left: 0px !important;
+  right: 22px !important;
 }
 
 #mal_control_strip td {
-    border: 0px;
+  border: 0px;
 }
 
 #mal_control_strip td div,
 #mal_control_strip td div a,
 #mal_control_strip td div span {
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura, "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,
+    "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
 }
 
 #mal_control_strip #mal_cs_listinfo div a {
-    position: absolute;
-    top: 50px;
-    left: 0px;
-    height: 50px;
-    width: 169px;
-    border-right: 1px dashed rgba(0, 0, 0, .1);
-    text-align: center;
-    line-height: 50px;
-    font-size: 16px;
-    color: #555;
-    transition: .2s;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  height: 50px;
+  width: 169px;
+  border-right: 1px dashed rgba(0, 0, 0, 0.1);
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  color: #555;
+  transition: 0.2s;
 }
 
 #mal_control_strip #mal_cs_listinfo div a:hover {
-    box-shadow: 5px 0px 0px 0px #333 inset !important;
+  box-shadow: 5px 0px 0px 0px #333 inset !important;
 }
 
 #mal_control_strip #mal_cs_listinfo div strong a {
-    top: 0px;
-    font-size: 16px;
+  top: 0px;
+  font-size: 16px;
 }
 
 #mal_control_strip #mal_cs_links div a {
-    position: absolute;
-    top: 0px;
-    left: 170px;
-    height: 25px;
-    width: 79px;
-    border-right: 1px dashed rgba(0, 0, 0, .1);
-    text-align: center;
-    line-height: 25px;
-    font-size: 12px;
-    color: #555;
-    transition: .2s;
+  position: absolute;
+  top: 0px;
+  left: 170px;
+  height: 25px;
+  width: 79px;
+  border-right: 1px dashed rgba(0, 0, 0, 0.1);
+  text-align: center;
+  line-height: 25px;
+  font-size: 12px;
+  color: #555;
+  transition: 0.2s;
 }
 
 #mal_control_strip #mal_cs_links div:first-child a:first-child {
-    top: 0px;
+  top: 0px;
 }
 
 #mal_control_strip #mal_cs_links div:first-child a:nth-child(2) {
-    top: 25px;
+  top: 25px;
 }
 
 #mal_control_strip #mal_cs_links div:nth-child(2) a:first-child {
-    top: 50px;
+  top: 50px;
 }
 
 #mal_control_strip #mal_cs_links div:nth-child(2) a:nth-child(2) {
-    top: 75px;
+  top: 75px;
 }
 
 #mal_control_strip #mal_cs_links div a:hover {
-    box-shadow: 5px 0px 0px 0px #333 inset !important;
+  box-shadow: 5px 0px 0px 0px #333 inset !important;
 }
 
 #mal_control_strip #mal_cs_otherlinks div:first-child {
-    position: absolute;
-    top: 0px;
-    left: 250px;
-    margin: 0px;
-    height: 12px;
-    padding: 19px 0px;
-    width: 250px;
-    text-align: center;
-    line-height: 12px;
-    font-size: 12px;
-    font-weight: 100 !important;
-    color: #555;
+  position: absolute;
+  top: 0px;
+  left: 250px;
+  margin: 0px;
+  height: 12px;
+  padding: 19px 0px;
+  width: 250px;
+  text-align: center;
+  line-height: 12px;
+  font-size: 12px;
+  font-weight: 100 !important;
+  color: #555;
 }
 
 #mal_control_strip #mal_cs_otherlinks div:first-child a {
-    color: #555;
-    font-weight: bold;
-    transition: .2s;
+  color: #555;
+  font-weight: bold;
+  transition: 0.2s;
 }
 
 #mal_control_strip #mal_cs_otherlinks div:nth-child(2) a {
-    position: absolute;
-    top: 50px;
-    left: 250px;
-    margin: 0px;
-    height: 50px;
-    width: 110px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 12px;
-    color: #555;
-    transition: .2s;
-    z-index: 2;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  margin: 0px;
+  height: 50px;
+  width: 110px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 12px;
+  color: #555;
+  transition: 0.2s;
+  z-index: 2;
 }
 
-#mal_control_strip #mal_cs_otherlinks div:nth-child(2) a[href*="/sharedanime.php"] {
-    line-height: 35px;
+#mal_control_strip
+  #mal_cs_otherlinks
+  div:nth-child(2)
+  a[href*="/sharedanime.php"] {
+  line-height: 35px;
 }
 
 #mal_control_strip #mal_cs_otherlinks div:nth-child(2) span {
-    position: absolute;
-    top: 75px;
-    left: 250px;
-    margin: 0px;
-    height: 25px;
-    width: 110px;
-    text-align: center;
-    line-height: 20px;
-    font-size: 12px;
-    color: #555;
-    z-index: 1;
-    transition: .2s;
+  position: absolute;
+  top: 75px;
+  left: 250px;
+  margin: 0px;
+  height: 25px;
+  width: 110px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #555;
+  z-index: 1;
+  transition: 0.2s;
 }
 
 #mal_control_strip #mal_cs_otherlinks div:nth-child(2) {
-    color: transparent !important;
+  color: transparent !important;
 }
 
 #mal_control_strip #mal_cs_otherlinks div:nth-child(2) a:first-child:hover {
-    box-shadow: 0px -5px 0px 0px #333 inset;
+  box-shadow: 0px -5px 0px 0px #333 inset;
 }
 
 #mal_control_strip #mal_cs_otherlinks div:nth-child(2) a:nth-of-type(2) {
-    left: 360px;
-    width: 70px;
-    line-height: 50px;
+  left: 360px;
+  width: 70px;
+  line-height: 50px;
 }
 
 #mal_control_strip #mal_cs_otherlinks div:nth-child(2) a:nth-of-type(3) {
-    left: 430px;
-    width: 70px;
-    line-height: 50px;
+  left: 430px;
+  width: 70px;
+  line-height: 50px;
 }
 
-#mal_control_strip #mal_cs_otherlinks div:nth-child(2) a:nth-of-type(n+2):hover {
-    box-shadow: 0px -5px 0px 0px #333 inset;
+#mal_control_strip
+  #mal_cs_otherlinks
+  div:nth-child(2)
+  a:nth-of-type(n + 2):hover {
+  box-shadow: 0px -5px 0px 0px #333 inset;
 }
 
 #mal_control_strip #mal_cs_otherlinks:nth-child(2) div:first-child {
-    left: 160px;
-    width: 340px;
+  left: 160px;
+  width: 340px;
 }
 
 #mal_control_strip #mal_cs_otherlinks:nth-child(2) div:nth-child(2) a {
-    left: 160px;
-    width: 100px;
+  left: 160px;
+  width: 100px;
 }
 
-#mal_control_strip #mal_cs_otherlinks:nth-child(2) div:nth-child(2) a:nth-of-type(2) {
-    left: 260px;
-    width: 140px;
+#mal_control_strip
+  #mal_cs_otherlinks:nth-child(2)
+  div:nth-child(2)
+  a:nth-of-type(2) {
+  left: 260px;
+  width: 140px;
 }
 
-#mal_control_strip #mal_cs_otherlinks:nth-child(2) div:nth-child(2) a:nth-of-type(3) {
-    left: 400px;
-    width: 100px;
+#mal_control_strip
+  #mal_cs_otherlinks:nth-child(2)
+  div:nth-child(2)
+  a:nth-of-type(3) {
+  left: 400px;
+  width: 100px;
 }
 
 #mal_cs_powered {
-    margin-top: 500px;
-    margin-right: -175px;
+  margin-top: 500px;
+  margin-right: -175px;
 }
 
 #mal_cs_powered a img,
 #mal_cs_powered #search img {
-    display: none;
+  display: none;
 }
 
 #mal_cs_powered #search #searchBox {
-    font-family: "Century Gothic";
-    color: transparent;
-    font-size: 20px;
-    width: 30px !important;
-    height: 30px;
-    background: rgba(255, 255, 255, .8) url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png) no-repeat right top;
-    background-size: auto 30px;
-    border: solid 1px white;
-    box-shadow: inset 0px 0px 5px 0px #fff, 0px 0px 5px 0px #000;
+  font-family: "Century Gothic";
+  color: transparent;
+  font-size: 20px;
+  width: 30px !important;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.8)
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png)
+    no-repeat right top;
+  background-size: auto 30px;
+  border: solid 1px white;
+  box-shadow: inset 0px 0px 5px 0px #fff, 0px 0px 5px 0px #000;
 }
 
 #mal_cs_powered #search #searchBox:hover {
-    width: 200px !important;
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/z.png) no-repeat, rgba(255, 255, 255, .8) url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png) no-repeat;
-    background-size: 200px, auto 30px;
-    background-position: 50% 120px, right top;
-    color: #333;
-    font-size: 20px;
-    animation: searchbox 5s ease-in-out;
+  width: 200px !important;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/z.png)
+      no-repeat,
+    rgba(255, 255, 255, 0.8)
+      url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png)
+      no-repeat;
+  background-size: 200px, auto 30px;
+  background-position: 50% 120px, right top;
+  color: #333;
+  font-size: 20px;
+  animation: searchbox 5s ease-in-out;
 }
 
 #mal_cs_pic {
-    background-color: #333;
+  background-color: #333;
 }
 
 @keyframes searchbox {
-    0% {
-        width: 30px;
-        color: transparent;
-        background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/z.png) no-repeat, rgba(255, 255, 255, .8) url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png) no-repeat;
-        background-size: 200px, auto 30px;
-        background-position: 50% 120px, right top;
-    }
-    10% {
-        width: 200px;
-        color: #333;
-        background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/z.png) no-repeat, rgba(255, 255, 255, .8) url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png) no-repeat;
-        background-size: 200px, auto 30px;
-        background-position: 50% 120px, right top;
-    }
-    70% {
-        background-position: right bottom, right top;
-    }
-    80% {
-        background-position: right bottom, right top;
-    }
-    100% {
-        background-position: 50% 120px, right top;
-    }
+  0% {
+    width: 30px;
+    color: transparent;
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/z.png)
+        no-repeat,
+      rgba(255, 255, 255, 0.8)
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png)
+        no-repeat;
+    background-size: 200px, auto 30px;
+    background-position: 50% 120px, right top;
+  }
+  10% {
+    width: 200px;
+    color: #333;
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/z.png)
+        no-repeat,
+      rgba(255, 255, 255, 0.8)
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png)
+        no-repeat;
+    background-size: 200px, auto 30px;
+    background-position: 50% 120px, right top;
+  }
+  70% {
+    background-position: right bottom, right top;
+  }
+  80% {
+    background-position: right bottom, right top;
+  }
+  100% {
+    background-position: 50% 120px, right top;
+  }
 }
-
 
 /*----- main code ends here -----/*
 
@@ -933,429 +949,423 @@ td small a {
 /*----- expanding fields -----*/
 
 @keyframes trli {
-    0% {
-        height: 100px
-    }
-    100% {
-        height: 420px
-    }
+  0% {
+    height: 100px;
+  }
+  100% {
+    height: 420px;
+  }
 }
 
 @keyframes trba {
-    0% {
-        height: 420px
-    }
-    100% {
-        height: 17px
-    }
-}
-
-#list_surround .hide+table:active tr,
-#list_surround .hide+table tr:hover,
-#list_surround table[class*=header]+table+table:active tr,
-#list_surround table[class*=header]+table+table tr:hover {
-    background-color: #333;
-    display: block;
-    position: relative;
-    left: 0;
-    top: -5px;
-    width: 100%;
+  0% {
     height: 420px;
-    margin-top: 0px;
-    margin-bottom: -5px;
-    margin-left: 0%;
-    margin-right: 0%;
-    pointer-events: auto !important;
-    border-top: 0px dashed #fff;
-    border-bottom: 0px dashed #fff;
-    cursor: auto;
-    animation: trli .2s !important;
-    z-index: 1 !important;
+  }
+  100% {
+    height: 17px;
+  }
 }
 
-#list_surround .hide+table,
-#list_surround table[class*=header]+table+table {
-    cursor: pointer;
+#list_surround .hide + table:active tr,
+#list_surround .hide + table tr:hover,
+#list_surround table[class*="header"] + table + table:active tr,
+#list_surround table[class*="header"] + table + table tr:hover {
+  background-color: #333;
+  display: block;
+  position: relative;
+  left: 0;
+  top: -5px;
+  width: 100%;
+  height: 420px;
+  margin-top: 0px;
+  margin-bottom: -5px;
+  margin-left: 0%;
+  margin-right: 0%;
+  pointer-events: auto !important;
+  border-top: 0px dashed #fff;
+  border-bottom: 0px dashed #fff;
+  cursor: auto;
+  animation: trli 0.2s !important;
+  z-index: 1 !important;
 }
 
-#list_surround .hide+table tr,
-#list_surround table[class*=header]+table+table tr {
-    pointer-events: none;
-    z-index: -1 !important;
-    height: 0px;
-    animation: trba .2s !important;
-    -webkit-animation: trba .2s !important;
+#list_surround .hide + table,
+#list_surround table[class*="header"] + table + table {
+  cursor: pointer;
 }
 
+#list_surround .hide + table tr,
+#list_surround table[class*="header"] + table + table tr {
+  pointer-events: none;
+  z-index: -1 !important;
+  height: 0px;
+  animation: trba 0.2s !important;
+  -webkit-animation: trba 0.2s !important;
+}
 
 /*----- anime titles -----*/
 
 .animetitle:hover {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 @keyframes one {
-    0% {
-        margin-top: 35px;
-        padding-top: 0px;
-        height: 0px;
-        width: 0px;
-        box-shadow: 0px 0px 0px 0px #555;
-        font-size: 0px;
-    }
-    50% {
-        margin-top: 15px;
-        padding-top: 20px;
-        height: 40px;
-        width: 60px;
-        font-size: 4px;
-    }
-    85% {
-        box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, .4);
-        width: 800px;
-    }
-    90% {
-        width: 810px;
-        font-size: 18px;
-    }
-    100% {
-        box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, .4);
-        width: 800px;
-    }
+  0% {
+    margin-top: 35px;
+    padding-top: 0px;
+    height: 0px;
+    width: 0px;
+    box-shadow: 0px 0px 0px 0px #555;
+    font-size: 0px;
+  }
+  50% {
+    margin-top: 15px;
+    padding-top: 20px;
+    height: 40px;
+    width: 60px;
+    font-size: 4px;
+  }
+  85% {
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.4);
+    width: 800px;
+  }
+  90% {
+    width: 810px;
+    font-size: 18px;
+  }
+  100% {
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.4);
+    width: 800px;
+  }
 }
 
-#list_surround table tr:hover td[class*=td] {
-    background-color: transparent;
-    border: none;
-    box-shadow: 0px 0px 0px transparent;
-    z-index: 1;
+#list_surround table tr:hover td[class*="td"] {
+  background-color: transparent;
+  border: none;
+  box-shadow: 0px 0px 0px transparent;
+  z-index: 1;
 }
 
 tr:hover .td1 .animetitle,
 tr:hover .td2 .animetitle {
-    height: 40px;
-    width: 800px;
-    animation: one .5s ease-in-out;
-    -webkit-animation: one .5s ease-in-out;
-    border-bottom: 1px solid #eee;
-    position: absolute;
-    margin: 0 auto;
-    right: 0px;
-    left: 0px;
-    color: #eee;
-    padding-top: 20px;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 0px;
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 15px;
+  height: 40px;
+  width: 800px;
+  animation: one 0.5s ease-in-out;
+  -webkit-animation: one 0.5s ease-in-out;
+  border-bottom: 1px solid #eee;
+  position: absolute;
+  margin: 0 auto;
+  right: 0px;
+  left: 0px;
+  color: #eee;
+  padding-top: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 0px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 15px;
 }
-
 
 /*----- airing/edit -----*/
 
 @keyframes airing {
-    0% {
-        color: transparent;
-    }
-    50% {
-        color: transparent;
-    }
-    100% {
-        color: #eee;
-    }
+  0% {
+    color: transparent;
+  }
+  50% {
+    color: transparent;
+  }
+  100% {
+    color: #eee;
+  }
 }
 
 @keyframes edit {
-    0% {
-        color: transparent;
-    }
-    50% {
-        color: transparent;
-    }
-    100% {
-        color: #eee;
-    }
-}
-
-tr:hover .td1>small,
-tr:hover .td2>small {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 20px;
-    text-align: center;
-    top: 66px;
-    font-weight: bold;
+  0% {
+    color: transparent;
+  }
+  50% {
+    color: transparent;
+  }
+  100% {
     color: #eee;
-    animation: airing 2s ease-in-out;
+  }
 }
 
-tr:hover td[class*=td] div small a:first-child {
-    display: block;
-    position: absolute;
-    width: 50px;
-    height: 25px;
-    right: 207px;
-    margin: 0 auto;
-    top: 78px;
-    font-weight: bold;
-    color: #eee;
-    animation: edit 2s ease-in-out;
-    z-index: 1;
-    font-size: 12px;
-    text-align: center;
-    line-height: 25px;
-    visibility: visible;
+tr:hover .td1 > small,
+tr:hover .td2 > small {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  top: 66px;
+  font-weight: bold;
+  color: #eee;
+  animation: airing 2s ease-in-out;
 }
 
-tr:hover td[class*=td] div small a:first-child:hover {
-    transition: .2s;
-    box-shadow: 0px 3px 0px 0px #eee inset !important;
+tr:hover td[class*="td"] div small a:first-child {
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  right: 207px;
+  margin: 0 auto;
+  top: 78px;
+  font-weight: bold;
+  color: #eee;
+  animation: edit 2s ease-in-out;
+  z-index: 1;
+  font-size: 12px;
+  text-align: center;
+  line-height: 25px;
+  visibility: visible;
 }
 
+tr:hover td[class*="td"] div small a:first-child:hover {
+  transition: 0.2s;
+  box-shadow: 0px 3px 0px 0px #eee inset !important;
+}
 
 /*----- score -----*/
 
 @keyframes score {
-    0% {
-        font-size: 0px;
-        margin-top: 170px;
-    }
-    70% {
-        font-size: 240px;
-    }
-    80% {
-        margin-top: 87px;
-    }
-    100% {
-        margin-top: 90px;
-    }
+  0% {
+    font-size: 0px;
+    margin-top: 170px;
+  }
+  70% {
+    font-size: 240px;
+  }
+  80% {
+    margin-top: 87px;
+  }
+  100% {
+    margin-top: 90px;
+  }
 }
 
-tr:hover .td1:nth-of-type(n+3) a,
-tr:hover .td2:nth-of-type(n+3) a {
-    color: #eee;
+tr:hover .td1:nth-of-type(n + 3) a,
+tr:hover .td2:nth-of-type(n + 3) a {
+  color: #eee;
 }
 
-tr:hover .td1:nth-of-type(n+3) a:hover,
-tr:hover .td2:nth-of-type(n+3) a:hover {
-    color: #fff;
+tr:hover .td1:nth-of-type(n + 3) a:hover,
+tr:hover .td2:nth-of-type(n + 3) a:hover {
+  color: #fff;
 }
 
 tr:hover .td1:nth-of-type(3),
 tr:hover .td2:nth-of-type(3) {
-    display: block;
-    height: 200px;
-    width: 300px;
-    animation: score .7s ease-in-out;
-    background-color: transparent;
-    position: absolute;
-    margin: 0 auto;
-    left: 0px;
-    right: 600px;
-    color: #eee;
-    margin-top: 90px;
-    font-size: 220px;
-    padding: 0px;
-    line-height: 220px !important;
-    text-align: center;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura, "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
-    font-weight: bold;
-    border: none;
-    overflow: visible;
+  display: block;
+  height: 200px;
+  width: 300px;
+  animation: score 0.7s ease-in-out;
+  background-color: transparent;
+  position: absolute;
+  margin: 0 auto;
+  left: 0px;
+  right: 600px;
+  color: #eee;
+  margin-top: 90px;
+  font-size: 220px;
+  padding: 0px;
+  line-height: 220px !important;
+  text-align: center;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,
+    "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
+  font-weight: bold;
+  border: none;
+  overflow: visible;
 }
 
 tr:hover div[id*="scorediv"] {
-    position: absolute;
-    bottom: -78px;
-    right: 100px;
+  position: absolute;
+  bottom: -78px;
+  right: 100px;
 }
 
-tr:hover div[id*="scorediv"] input[type=text],
-tr:hover input[id*='epID'] {
-    background-color: transparent;
-    border: solid 1px white;
-    width: 50%;
-    margin-bottom: 10px;
-    color: white;
-    font-family: "Century Gothic";
-    text-align: center;
+tr:hover div[id*="scorediv"] input[type="text"],
+tr:hover input[id*="epID"] {
+  background-color: transparent;
+  border: solid 1px white;
+  width: 50%;
+  margin-bottom: 10px;
+  color: white;
+  font-family: "Century Gothic";
+  text-align: center;
 }
 
-tr:hover div[id*="scorediv"] input[type=button],
-tr:hover span[id*='epLayer'] input:last-of-type {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    outline: inherit;
-    color: white;
+tr:hover div[id*="scorediv"] input[type="button"],
+tr:hover span[id*="epLayer"] input:last-of-type {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  color: white;
 }
 
-tr:hover span[id*='epLayer'] {
-    position: absolute;
-    width: 100px;
-    top: 1px;
-    right: 50px;
+tr:hover span[id*="epLayer"] {
+  position: absolute;
+  width: 100px;
+  top: 1px;
+  right: 50px;
 }
 
-tr:hover input[id*='epID'] {
-    width: 50px;
+tr:hover input[id*="epID"] {
+  width: 50px;
 }
 
-tr:hover span[id*='epLayer'] input:last-of-type {
-    width: 50px;
-    position: absolute;
-    right: 0px;
-    top: 5px;
+tr:hover span[id*="epLayer"] input:last-of-type {
+  width: 50px;
+  position: absolute;
+  right: 0px;
+  top: 5px;
 }
-
 
 /*----- number -----*/
 
 @keyframes number {
-    0% {
-        font-size: 0px;
-        height: 0px;
-        width: 0px;
-        margin-top: 43px;
-        padding: 0px;
-    }
-    70% {
-        font-size: 16px;
-    }
-    80% {
-        height: 30px;
-        width: 30px;
-        margin-top: 21px;
-        padding: 12px;
-    }
-    100% {
-        height: 30px;
-        width: 30px;
-        margin-top: 23px;
-        padding: 10px;
-    }
+  0% {
+    font-size: 0px;
+    height: 0px;
+    width: 0px;
+    margin-top: 43px;
+    padding: 0px;
+  }
+  70% {
+    font-size: 16px;
+  }
+  80% {
+    height: 30px;
+    width: 30px;
+    margin-top: 21px;
+    padding: 12px;
+  }
+  100% {
+    height: 30px;
+    width: 30px;
+    margin-top: 23px;
+    padding: 10px;
+  }
 }
 
 tr:hover .td1:nth-of-type(1),
 tr:hover .td2:nth-of-type(1) {
-    display: block;
-    height: 30px;
-    width: 30px;
-    animation: number .5s ease-in-out;
-    position: absolute;
-    left: 0px;
-    right: 900px;
-    margin: 0 auto;
-    color: #eee;
-    margin-top: 23px;
-    font-size: 16px;
-    padding: 10px;
-    line-height: 30px !important;
-    text-align: center;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura, "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
-    font-weight: bold;
-    border: none;
-    border-radius: 0px;
+  display: block;
+  height: 30px;
+  width: 30px;
+  animation: number 0.5s ease-in-out;
+  position: absolute;
+  left: 0px;
+  right: 900px;
+  margin: 0 auto;
+  color: #eee;
+  margin-top: 23px;
+  font-size: 16px;
+  padding: 10px;
+  line-height: 30px !important;
+  text-align: center;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,
+    "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
+  font-weight: bold;
+  border: none;
+  border-radius: 0px;
 }
-
 
 /*----- other columns -----*/
 
 @keyframes rest {
-    0% {
-        font-size: 0px;
-    }
-    100% {
-        font-size: 16px;
-    }
+  0% {
+    font-size: 0px;
+  }
+  100% {
+    font-size: 16px;
+  }
 }
 
-tr:hover .td1:nth-of-type(n+4),
-tr:hover .td2:nth-of-type(n+4) {
-    font-weight: 400 !important;
-    display: block;
-    height: 26px;
-    width: 300px;
-    margin: 0 auto;
-    left: 600px;
-    right: 0px;
-    animation: rest .8s ease-in-out;
-    background-color: transparent !important;
-    color: #eee;
-    position: absolute;
-    font-family: calibri, sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    font-weight: bold;
-    border: none;
-    text-align: left;
-    overflow: hidden;
+tr:hover .td1:nth-of-type(n + 4),
+tr:hover .td2:nth-of-type(n + 4) {
+  font-weight: 400 !important;
+  display: block;
+  height: 26px;
+  width: 300px;
+  margin: 0 auto;
+  left: 600px;
+  right: 0px;
+  animation: rest 0.8s ease-in-out;
+  background-color: transparent !important;
+  color: #eee;
+  position: absolute;
+  font-family: calibri, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  text-align: left;
+  overflow: hidden;
 }
 
 tr:hover .td1:nth-of-type(6),
 tr:hover .td2:nth-of-type(6) {
-    width: 250px !important;
-    left: 550px;
-    right: 0px;
-    text-align: justify;
-    text-justify: inter-word;
-    height: 230px !important;
+  width: 250px !important;
+  left: 550px;
+  right: 0px;
+  text-align: justify;
+  text-justify: inter-word;
+  height: 230px !important;
 }
-
 
 /*----- covers -----*/
 
 @keyframes covers {
-    0% {
-        height: 0px;
-        top: 226px;
-    }
-    20% {
-        height: 40px;
-        top: 206px;
-    }
-    50% {
-        height: 50px;
-        top: 201px;
-    }
-    100% {
-        height: 298px;
-        top: 77px;
-    }
+  0% {
+    height: 0px;
+    top: 226px;
+  }
+  20% {
+    height: 40px;
+    top: 206px;
+  }
+  50% {
+    height: 50px;
+    top: 201px;
+  }
+  100% {
+    height: 298px;
+    top: 77px;
+  }
 }
 
 .animetitle:before {
-    height: 0px;
-    top: 226px;
+  height: 0px;
+  top: 226px;
 }
 
 tr:hover .animetitle:before {
-    content: '';
-    position: absolute;
-    margin-left: 50%;
-    left: -105px;
-    top: 77px;
-    width: 206px;
-    height: 291px;
-    background: #999;
-    z-index: 10;
-    border: 1px solid #ddd;
-    border-radius: 0px;
-    pointer-events: none;
-    background-position: center center;
-    background-repeat: no-repeat;
-    animation: covers .5s linear;
-    box-shadow: 0px 0px 10px -4px #000 inset;
+  content: "";
+  position: absolute;
+  margin-left: 50%;
+  left: -105px;
+  top: 77px;
+  width: 206px;
+  height: 291px;
+  background: #999;
+  z-index: 10;
+  border: 1px solid #ddd;
+  border-radius: 0px;
+  pointer-events: none;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation: covers 0.5s linear;
+  box-shadow: 0px 0px 10px -4px #000 inset;
 }
 
-
 /*----- loading -----*/
-
 
 /*
 .header_cw:before,
