@@ -179,6 +179,42 @@
 @\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Expander/mainmanga.css";
 ```
 
+<h2 align=center>Expander Dark</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander-Dark/images/sample.png></p>
+
+![Classic][classiclogo]
+
+**Based template**: [dzikibambus](https://myanimelist.net/profile/dzikibambus)
+
+**List type**: Anime and Manga list
+
+**Anime List recommended setting**:
+- [x] Numbers
+- [x] Score
+- [x] Type
+- [x] Episodes
+- [x] Tags
+
+**Manga List recommended setting**:
+- [x] Numbers
+- [x] Score
+- [x] Chapters
+- [x] Volumes
+- [x] Tags
+- [x] Type
+
+**How to use**
+* **For anime**:
+```css
+@\import "https://cover.mal.rl404.com/[MAL_USERNAME]/anime?style=tr%3Ahover%20.animetitle%5Bhref%2A%3D%27%2F%7Bid%7D%2F%27%5D%3Abefore%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Expander-Dark/main-anime.css";
+```
+* **For manga**:
+```css
+@\import "https://cover.mal.rl404.com/[MAL_USERNAME]/manga?style=tr%3Ahover%20.animetitle%5Bhref%2A%3D%27%2F%7Bid%7D%2F%27%5D%3Abefore%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@master/Expander-Dark/main-manga.css";
+```
+
 <h2 align=center>Bakemonogatari</h2>
 <p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/sample.png></p>
 
