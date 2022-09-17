@@ -200,6 +200,10 @@ table:hover td[class*="td"] {
   padding: 0px 0px 10px 0px;
 }
 
+.grecaptcha-badge {
+  display: none !important;
+}
+
 /* HEADER */
 
 .header_cw,
