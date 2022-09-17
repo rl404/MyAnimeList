@@ -1,0 +1,429 @@
+/* NAV BAR */
+
+body:before {
+  content: "";
+  background-color: var(--nav-bg-color);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 10px 0px #000;
+  position: absolute;
+  margin-top: 0px !important;
+  width: 100%;
+  min-width: 935px;
+  height: 100px;
+  z-index: 0;
+  display: block;
+}
+
+#list_surround table:first-of-type {
+  position: absolute;
+  top: -550px;
+  margin: 0 auto;
+  left: 478px;
+  right: 0px;
+  width: 420px;
+  height: 100px;
+  z-index: 3;
+}
+
+#list_surround table:first-of-type td,
+#list_surround table:first-of-type td a {
+  display: block;
+  color: transparent;
+  width: 70px;
+  height: 80px;
+  font-size: 0px;
+  transition: 0.2s;
+  float: left;
+}
+
+#list_surround table:first-of-type td a {
+  padding-top: 20px;
+}
+
+#list_surround table:first-of-type td a:before {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--inactive-color);
+  border: 3px solid var(--inactive-color);
+  border-radius: 18px;
+  display: block;
+  height: 30px;
+  width: 30px;
+  line-height: 28px;
+}
+
+#list_surround table:first-of-type td:nth-of-type(1) a:hover:before,
+#list_surround table:first-of-type td:nth-of-type(1) a:hover:after,
+#list_surround table:first-of-type td:nth-of-type(1).status_selected a:before,
+#list_surround table:first-of-type td:nth-of-type(1).status_selected a:after {
+  color: var(--green-color);
+  border-color: var(--green-color);
+}
+
+#list_surround table:first-of-type td:nth-of-type(2) a:hover:before,
+#list_surround table:first-of-type td:nth-of-type(2) a:hover:after,
+#list_surround table:first-of-type td:nth-of-type(2).status_selected a:after,
+#list_surround table:first-of-type td:nth-of-type(2).status_selected a:before {
+  color: var(--blue-color);
+  border-color: var(--blue-color);
+}
+
+#list_surround table:first-of-type td:nth-of-type(3) a:hover:before,
+#list_surround table:first-of-type td:nth-of-type(3) a:hover:after,
+#list_surround table:first-of-type td:nth-of-type(3).status_selected a:after,
+#list_surround table:first-of-type td:nth-of-type(3).status_selected a:before {
+  color: var(--yellow-color);
+  border-color: var(--yellow-color);
+}
+
+#list_surround table:first-of-type td:nth-of-type(4) a:hover:before,
+#list_surround table:first-of-type td:nth-of-type(4) a:hover:after,
+#list_surround table:first-of-type td:nth-of-type(4).status_selected a:after,
+#list_surround table:first-of-type td:nth-of-type(4).status_selected a:before {
+  color: var(--red-color);
+  border-color: var(--red-color);
+}
+
+#list_surround table:first-of-type td:nth-of-type(5) a:hover:before,
+#list_surround table:first-of-type td:nth-of-type(5) a:hover:after,
+#list_surround table:first-of-type td:nth-of-type(5).status_selected a:after,
+#list_surround table:first-of-type td:nth-of-type(5).status_selected a:before {
+  color: var(--white-color);
+  border-color: var(--white-color);
+}
+
+#list_surround table:first-of-type td:nth-of-type(6) a:hover:before,
+#list_surround table:first-of-type td:nth-of-type(6) a:hover:after,
+#list_surround table:first-of-type td:nth-of-type(6).status_selected a:after,
+#list_surround table:first-of-type td:nth-of-type(6).status_selected a:before {
+  color: var(--white-color);
+  border-color: var(--white-color);
+}
+
+#list_surround table:first-of-type td a:hover:after,
+.status_selected a:after {
+  font-size: 12px;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 18px;
+  margin-top: 10px;
+}
+
+#list_surround table:first-of-type td:nth-of-type(1) a:before {
+  content: "W";
+}
+
+#list_surround table:first-of-type td:nth-of-type(1) a:after {
+  content: "Watching";
+}
+
+#list_surround table:first-of-type td:nth-of-type(2) a:before {
+  content: "C";
+}
+
+#list_surround table:first-of-type td:nth-of-type(2) a:after {
+  content: "Completed";
+}
+
+#list_surround table:first-of-type td:nth-of-type(3) a:before {
+  content: "H";
+}
+
+#list_surround table:first-of-type td:nth-of-type(3) a:after {
+  content: "On Hold";
+}
+
+#list_surround table:first-of-type td:nth-of-type(4) a:before {
+  content: "D";
+}
+
+#list_surround table:first-of-type td:nth-of-type(4) a:after {
+  content: "Dropped";
+}
+
+#list_surround table:first-of-type td:nth-of-type(5) a:before {
+  content: "P";
+}
+
+#list_surround table:first-of-type td:nth-of-type(5) a:after {
+  content: "Planned";
+}
+
+#list_surround table:first-of-type td:nth-of-type(6) a:before {
+  content: "A";
+}
+
+#list_surround table:first-of-type td:nth-of-type(6) a:after {
+  content: "All Anime";
+}
+
+.status_selected a {
+  background-color: var(--row-hover-bg-color);
+}
+
+#list_surround table:first-of-type td:nth-of-type(1) a:hover,
+#list_surround table:first-of-type td:nth-of-type(1).status_selected a {
+  box-shadow: 0px -5px 0px 0px var(--green-color) inset !important;
+}
+
+#list_surround table:first-of-type td:nth-of-type(2) a:hover,
+#list_surround table:first-of-type td:nth-of-type(2).status_selected a {
+  box-shadow: 0px -5px 0px 0px var(--blue-color) inset !important;
+}
+
+#list_surround table:first-of-type td:nth-of-type(3) a:hover,
+#list_surround table:first-of-type td:nth-of-type(3).status_selected a {
+  box-shadow: 0px -5px 0px 0px var(--yellow-color) inset !important;
+}
+
+#list_surround table:first-of-type td:nth-of-type(4) a:hover,
+#list_surround table:first-of-type td:nth-of-type(4).status_selected a {
+  box-shadow: 0px -5px 0px 0px var(--red-color) inset !important;
+}
+
+#list_surround table:first-of-type td:nth-of-type(5) a:hover,
+#list_surround table:first-of-type td:nth-of-type(5).status_selected a {
+  box-shadow: 0px -5px 0px 0px var(--white-color) inset !important;
+}
+
+#list_surround table:first-of-type td:nth-of-type(6) a:hover,
+#list_surround table:first-of-type td:nth-of-type(6).status_selected a {
+  box-shadow: 0px -5px 0px 0px var(--white-color) inset !important;
+}
+
+/* STRIP */
+
+#mal_control_strip {
+  background-image: none !important;
+  background-color: transparent !important;
+  height: 100px;
+  position: absolute;
+  width: 922px !important;
+  top: 0px;
+  margin: 0 auto !important;
+  left: 0px !important;
+  right: 22px !important;
+}
+
+#mal_control_strip td {
+  border: 0px;
+}
+
+#mal_control_strip td div,
+#mal_control_strip td div a,
+#mal_control_strip td div span {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,
+    "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
+}
+
+#mal_control_strip #mal_cs_listinfo div a {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  height: 50px;
+  width: 169px;
+  border-right: 1px dashed var(--divider-color);
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  color: var(--text-color);
+  transition: 0.2s;
+}
+
+#mal_control_strip #mal_cs_listinfo div a:hover {
+  color: var(--white-color);
+  box-shadow: 5px 0px 0px 0px var(--white-color) inset !important;
+}
+
+#mal_control_strip #mal_cs_listinfo div strong a {
+  top: 0px;
+  font-size: 16px;
+}
+
+#mal_control_strip #mal_cs_links div a {
+  position: absolute;
+  top: 0px;
+  left: 170px;
+  height: 25px;
+  width: 79px;
+  border-right: 1px dashed var(--divider-color);
+  text-align: center;
+  line-height: 25px;
+  font-size: 12px;
+  color: var(--text-color);
+  transition: 0.2s;
+}
+
+#mal_control_strip #mal_cs_links div:first-child a:first-child {
+  top: 0px;
+}
+
+#mal_control_strip #mal_cs_links div:first-child a:nth-child(2) {
+  top: 25px;
+}
+
+#mal_control_strip #mal_cs_links div:nth-child(2) a:first-child {
+  top: 50px;
+}
+
+#mal_control_strip #mal_cs_links div:nth-child(2) a:nth-child(2) {
+  top: 75px;
+}
+
+#mal_control_strip #mal_cs_links div a:hover {
+  color: var(--white-color);
+  box-shadow: 5px 0px 0px 0px var(--white-color) inset !important;
+}
+
+#mal_control_strip #mal_cs_otherlinks div:first-child {
+  position: absolute;
+  top: 0px;
+  left: 250px;
+  margin: 0px;
+  height: 12px;
+  padding: 19px 0px;
+  width: 250px;
+  text-align: center;
+  line-height: 12px;
+  font-size: 12px;
+  font-weight: 100 !important;
+  color: var(--text-color);
+}
+
+#mal_control_strip #mal_cs_otherlinks div:first-child a {
+  color: var(--text-color);
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+#mal_control_strip #mal_cs_otherlinks div:nth-child(2) a {
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  margin: 0px;
+  height: 50px;
+  width: 110px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 12px;
+  color: var(--text-color);
+  transition: 0.2s;
+  z-index: 2;
+}
+
+#mal_control_strip
+  #mal_cs_otherlinks
+  div:nth-child(2)
+  a[href*="/sharedanime.php"] {
+  line-height: 35px;
+}
+
+#mal_control_strip #mal_cs_otherlinks div:nth-child(2) span {
+  position: absolute;
+  top: 75px;
+  left: 250px;
+  margin: 0px;
+  height: 25px;
+  width: 110px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: var(--text-color);
+  z-index: 1;
+  transition: 0.2s;
+}
+
+#mal_control_strip #mal_cs_otherlinks div:nth-child(2) {
+  color: transparent !important;
+}
+
+#mal_control_strip #mal_cs_otherlinks div:nth-child(2) a:first-child:hover {
+  color: var(--white-color);
+  box-shadow: 0px -5px 0px 0px var(--white-color) inset;
+}
+
+#mal_control_strip #mal_cs_otherlinks div:nth-child(2) a:nth-of-type(2) {
+  left: 360px;
+  width: 70px;
+  line-height: 50px;
+}
+
+#mal_control_strip #mal_cs_otherlinks div:nth-child(2) a:nth-of-type(3) {
+  left: 430px;
+  width: 70px;
+  line-height: 50px;
+}
+
+#mal_control_strip
+  #mal_cs_otherlinks
+  div:nth-child(2)
+  a:nth-of-type(n + 2):hover {
+  color: var(--white-color);
+  box-shadow: 0px -5px 0px 0px var(--white-color) inset;
+}
+
+#mal_control_strip #mal_cs_otherlinks:nth-child(2) div:first-child {
+  left: 160px;
+  width: 340px;
+}
+
+#mal_control_strip #mal_cs_otherlinks:nth-child(2) div:nth-child(2) a {
+  left: 160px;
+  width: 100px;
+}
+
+#mal_control_strip
+  #mal_cs_otherlinks:nth-child(2)
+  div:nth-child(2)
+  a:nth-of-type(2) {
+  left: 260px;
+  width: 140px;
+}
+
+#mal_control_strip
+  #mal_cs_otherlinks:nth-child(2)
+  div:nth-child(2)
+  a:nth-of-type(3) {
+  left: 400px;
+  width: 100px;
+}
+
+#mal_cs_powered {
+  margin-top: 500px;
+  margin-right: -175px;
+}
+
+#mal_cs_pic:hover {
+  box-shadow: 0px -5px 0px 0px var(--white-color) inset;
+}
+
+/* SEARCH */
+
+#mal_cs_powered a img,
+#mal_cs_powered #search img {
+  display: none;
+}
+
+#mal_cs_powered #search #searchBox {
+  font-family: "Century Gothic";
+  color: transparent;
+  font-size: 20px;
+  width: 30px !important;
+  height: 30px;
+  background: var(--table-bg-color)
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png)
+    no-repeat right top;
+  background-size: auto 30px;
+  border: solid 1px var(--divider-color);
+  padding-left: 8px;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+
+#mal_cs_powered #search #searchBox:hover {
+  width: 200px !important;
+  color: var(--title-color);
+}
