@@ -77,8 +77,8 @@
 #scoreval30355,
 #scoreval18499,
 #scoreval12437 {
-    position: relative;
-    left: -5px;
+  position: relative;
+  left: -5px;
 }
 
 #scoreval11111:after,
@@ -158,10 +158,10 @@
 #scoreval30355:after,
 #scoreval18499:after,
 #scoreval12437:after {
-    position: absolute;
-    left: 7px;
-    text-align: left;
-    content: ".5";
+  position: absolute;
+  left: 7px;
+  text-align: left;
+  content: ".5";
 }
 
 tr:hover #scoreval11111,
@@ -241,8 +241,8 @@ tr:hover #scoreval34902,
 tr:hover #scoreval30355,
 tr:hover #scoreval18499,
 tr:hover #scoreval12437 {
-    position: relative;
-    left: -90px;
+  position: relative;
+  left: -90px;
 }
 
 tr:hover #scoreval11111:after,
@@ -322,11 +322,10 @@ tr:hover #scoreval34902:after,
 tr:hover #scoreval30355:after,
 tr:hover #scoreval18499:after,
 tr:hover #scoreval12437:after {
-    position: absolute;
-    font-size: 220px;
-    left: 123px;
+  position: absolute;
+  font-size: 220px;
+  left: 123px;
 }
-
 
 /* .25 */
 
@@ -337,8 +336,8 @@ tr:hover #scoreval12437:after {
 #scoreval33255,
 #scoreval36548,
 #scoreval22273 {
-    position: relative;
-    left: -8px;
+  position: relative;
+  left: -8px;
 }
 
 #scoreval34427:after,
@@ -348,10 +347,10 @@ tr:hover #scoreval12437:after {
 #scoreval33255:after,
 #scoreval36548:after,
 #scoreval22273:after {
-    position: absolute;
-    left: 7px;
-    text-align: left;
-    content: ".25";
+  position: absolute;
+  left: 7px;
+  text-align: left;
+  content: ".25";
 }
 
 tr:hover #scoreval34427,
@@ -361,8 +360,8 @@ tr:hover #scoreval27989,
 tr:hover #scoreval36548,
 tr:hover #scoreval33255,
 tr:hover #scoreval22273 {
-    position: relative;
-    left: -190px;
+  position: relative;
+  left: -190px;
 }
 
 tr:hover #scoreval34427:after,
@@ -372,63 +371,61 @@ tr:hover #scoreval27989:after,
 tr:hover #scoreval33255:after,
 tr:hover #scoreval36548:after,
 tr:hover #scoreval22273:after {
-    position: absolute;
-    font-size: 220px;
-    left: 123px;
+  position: absolute;
+  font-size: 220px;
+  left: 123px;
 }
-
 
 /* .75 */
 
 #scoreval35507 {
-    position: relative;
-    left: -8px;
+  position: relative;
+  left: -8px;
 }
 
 #scoreval35507:after {
-    position: absolute;
-    left: 7px;
-    text-align: left;
-    content: ".75";
+  position: absolute;
+  left: 7px;
+  text-align: left;
+  content: ".75";
 }
 
 tr:hover #scoreval35507 {
-    position: relative;
-    left: -190px;
+  position: relative;
+  left: -190px;
 }
 
 tr:hover #scoreval35507:after {
-    position: absolute;
-    font-size: 220px;
-    left: 123px;
+  position: absolute;
+  font-size: 220px;
+  left: 123px;
 }
-
 
 /* 10+ */
 
 #scoreval4181,
 #scoreval9253,
 #scoreval2001 {
-    position: relative;
-    color: transparent;
+  position: relative;
+  color: transparent;
 }
 
 #scoreval4181:after,
 #scoreval9253:after,
 #scoreval2001:after {
-    color: black;
-    position: absolute;
-    left: 0px;
-    text-align: left;
-    content: "10+";
+  color: black;
+  position: absolute;
+  left: 0px;
+  text-align: left;
+  content: "10+";
 }
 
 tr:hover #scoreval4181:after,
 tr:hover #scoreval9253:after,
 tr:hover #scoreval2001:after {
-    color: white;
-    position: absolute;
-    font-size: 220px;
-    top: 20px;
-    left: -130px;
+  color: white;
+  position: absolute;
+  font-size: 220px;
+  top: 20px;
+  left: -130px;
 }

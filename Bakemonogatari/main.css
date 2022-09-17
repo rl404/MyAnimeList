@@ -5,1338 +5,1395 @@
  */
 
 @font-face {
-    font-family: 'FontAwesome';
-    src: url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.eot?v=4.4.0');
-    src: url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "FontAwesome";
+  src: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.eot?v=4.4.0");
+  src: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0")
+      format("embedded-opentype"),
+    url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.woff2?v=4.4.0")
+      format("woff2"),
+    url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.woff?v=4.4.0")
+      format("woff"),
+    url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.ttf?v=4.4.0")
+      format("truetype"),
+    url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
-    color: #777 !important;
-    font: 13px/1.4 "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, sans-serif !important;
-    text-decoration: none !important;
+  color: #777 !important;
+  font: 13px/1.4 "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
+    Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, sans-serif !important;
+  text-decoration: none !important;
 }
 
 body {
-    background: transparent url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/5mkTHSA.gif) repeat center top;
+  background: transparent
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/5mkTHSA.gif)
+    repeat center top;
 }
 
 #mal_control_strip {
-    background: transparent !important;
-    height: 1020px !important;
-    left: calc(50% - 480px) !important;
-    position: absolute;
-    width: 360px !important;
-    z-index: 1;
+  background: transparent !important;
+  height: 1020px !important;
+  left: calc(50% - 480px) !important;
+  position: absolute;
+  width: 360px !important;
+  z-index: 1;
 }
 
 #mal_control_strip td {
-    border: 0;
+  border: 0;
 }
 
 #mal_control_strip td:first-of-type {
-    background-image: url(https://api.randomizer.rl404.com/user/rl404bake/image.jpg), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/1.jpg), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/2.jpg), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/3.jpg), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/4.jpg), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/5.jpg), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/6.jpg), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/7.jpg), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/8.jpg), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/9.jpg);
-    background-position: 30px, 30px, 30px, 30px, 30px, 30px, 30px, 30px, 30px, 30px;
-    background-size: 300px;
-    background-repeat: no-repeat;
-    box-shadow: inset 10px 0 0 #fff, inset -10px 0 0 #fff, inset 0 1px 0 #efefef;
-    height: 360px;
-    padding: 0;
-    position: absolute;
-    top: 240px;
-    width: 360px;
-    animation: profilescroll 10s ease-out;
+  background-image: url(https://api.randomizer.rl404.com/user/rl404bake/image.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/1.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/2.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/3.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/4.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/5.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/6.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/7.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/8.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/9.jpg);
+  background-position: 30px, 30px, 30px, 30px, 30px, 30px, 30px, 30px, 30px,
+    30px;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  box-shadow: inset 10px 0 0 #fff, inset -10px 0 0 #fff, inset 0 1px 0 #efefef;
+  height: 360px;
+  padding: 0;
+  position: absolute;
+  top: 240px;
+  width: 360px;
+  animation: profilescroll 10s ease-out;
 }
 
 @keyframes profilescroll {
-    0% {
-        background-position: 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0;
-    }
-    10% {
-        background-position: 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 30px;
-    }
-    20% {
-        background-position: 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 30px, 30px;
-    }
-    30% {
-        background-position: 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 30px, 30px, 30px;
-    }
-    40% {
-        background-position: 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 30px, 30px, 30px, 30px;
-    }
-    50% {
-        background-position: 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 30px, 30px, 30px, 30px, 30px;
-    }
-    60% {
-        background-position: 360px 0, 360px 0, 360px 0, 360px 0, 30px, 30px, 30px, 30px, 30px, 30px;
-    }
-    70% {
-        background-position: 360px 0, 360px 0, 360px 0, 30px, 30px, 30px, 30px, 30px, 30px, 30px;
-    }
-    80% {
-        background-position: 360px 0, 360px 0, 30px, 30px, 30px, 30px, 30px, 30px, 30px, 30px;
-    }
-    90% {
-        background-position: 360px 0, 30px, 30px, 30px, 30px, 30px, 30px, 30px, 30px, 30px;
-    }
-    100% {
-        background-position: 30px, 30px, 30px, 30px, 30px, 30px, 30px, 30px, 30px, 30px;
-    }
+  0% {
+    background-position: 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0,
+      360px 0, 360px 0, 360px 0, 360px 0;
+  }
+  10% {
+    background-position: 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0,
+      360px 0, 360px 0, 360px 0, 30px;
+  }
+  20% {
+    background-position: 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0,
+      360px 0, 360px 0, 30px, 30px;
+  }
+  30% {
+    background-position: 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0,
+      360px 0, 30px, 30px, 30px;
+  }
+  40% {
+    background-position: 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 360px 0,
+      30px, 30px, 30px, 30px;
+  }
+  50% {
+    background-position: 360px 0, 360px 0, 360px 0, 360px 0, 360px 0, 30px, 30px,
+      30px, 30px, 30px;
+  }
+  60% {
+    background-position: 360px 0, 360px 0, 360px 0, 360px 0, 30px, 30px, 30px,
+      30px, 30px, 30px;
+  }
+  70% {
+    background-position: 360px 0, 360px 0, 360px 0, 30px, 30px, 30px, 30px, 30px,
+      30px, 30px;
+  }
+  80% {
+    background-position: 360px 0, 360px 0, 30px, 30px, 30px, 30px, 30px, 30px,
+      30px, 30px;
+  }
+  90% {
+    background-position: 360px 0, 30px, 30px, 30px, 30px, 30px, 30px, 30px, 30px,
+      30px;
+  }
+  100% {
+    background-position: 30px, 30px, 30px, 30px, 30px, 30px, 30px, 30px, 30px,
+      30px;
+  }
 }
 
 #mal_cs_pic a {
-    display: block;
-    height: 60px;
-    pointer-events: all;
-    position: absolute;
-    top: 540px;
-    width: 360px;
+  display: block;
+  height: 60px;
+  pointer-events: all;
+  position: absolute;
+  top: 540px;
+  width: 360px;
 }
 
 #mal_cs_pic a img {
-    background-position: calc(100% - 5px) !important;
-    background-repeat: no-repeat !important;
-    background-size: 0, auto 100px !important;
-    box-shadow: inset 0 1px 0 #efefef;
-    height: 0;
-    padding: 0 360px 120px 0;
-    pointer-events: none;
-    position: absolute;
-    top: -120px;
+  background-position: calc(100% - 5px) !important;
+  background-repeat: no-repeat !important;
+  background-size: 0, auto 100px !important;
+  box-shadow: inset 0 1px 0 #efefef;
+  height: 0;
+  padding: 0 360px 120px 0;
+  pointer-events: none;
+  position: absolute;
+  top: -120px;
 }
 
 #mal_cs_listinfo div {
-    height: 60px;
-    margin: 0 !important;
-    margin-top: -60px !important;
-    position: absolute;
-    width: 360px;
+  height: 60px;
+  margin: 0 !important;
+  margin-top: -60px !important;
+  position: absolute;
+  width: 360px;
 }
 
 #mal_cs_listinfo strong a {
-    box-shadow: inset 10px 0 0 #fff, inset -10px 0 0 #fff, inset 0 10px 0 #fff, inset 0 11px 0 #efefef;
-    display: block;
-    height: 60px;
-    letter-spacing: 1px;
-    pointer-events: none;
-    text-align: center;
-    text-transform: uppercase;
-    width: 360px;
+  box-shadow: inset 10px 0 0 #fff, inset -10px 0 0 #fff, inset 0 10px 0 #fff,
+    inset 0 11px 0 #efefef;
+  display: block;
+  height: 60px;
+  letter-spacing: 1px;
+  pointer-events: none;
+  text-align: center;
+  text-transform: uppercase;
+  width: 360px;
 }
 
 #mal_cs_listinfo a strong,
-#mal_cs_pic+#mal_cs_otherlinks:before {
-    color: #8b4e80 !important;
-    display: inline-block;
-    font-size: 14px !important;
-    height: 30px;
-    line-height: 50px !important;
-    pointer-events: all;
+#mal_cs_pic + #mal_cs_otherlinks:before {
+  color: #8b4e80 !important;
+  display: inline-block;
+  font-size: 14px !important;
+  height: 30px;
+  line-height: 50px !important;
+  pointer-events: all;
 }
 
 #mal_cs_listinfo div:last-of-type {
-    background: #fff;
-    top: 420px;
+  background: #fff;
+  top: 420px;
 }
 
 #mal_cs_listinfo form a,
 #mal_cs_otherlinks a[href*="/login.php"]:before {
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/8YeOXnn.gif) no-repeat center top;
-    color: #b7b7b7 !important;
-    display: block;
-    font-size: 25px !important;
-    height: 60px;
-    line-height: 50px !important;
-    text-indent: 220px;
-    transition: all .3s ease-in-out;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/8YeOXnn.gif)
+    no-repeat center top;
+  color: #b7b7b7 !important;
+  display: block;
+  font-size: 25px !important;
+  height: 60px;
+  line-height: 50px !important;
+  text-indent: 220px;
+  transition: all 0.3s ease-in-out;
 }
 
 #mal_cs_otherlinks a[href*="/login.php"]:before {
-    content: "Login";
-    left: -240px;
-    position: absolute;
-    top: 540px;
-    width: 360px;
+  content: "Login";
+  left: -240px;
+  position: absolute;
+  top: 540px;
+  width: 360px;
 }
 
 #mal_cs_listinfo form a:hover,
 #mal_cs_otherlinks a[href*="/login.php"]:hover:before {
-    opacity: .5;
+  opacity: 0.5;
 }
 
 #mal_cs_links {
-    height: 180px !important;
-    padding: 0 !important;
-    position: absolute;
-    top: 660px;
-    width: 360px !important;
+  height: 180px !important;
+  padding: 0 !important;
+  position: absolute;
+  top: 660px;
+  width: 360px !important;
 }
 
 #mal_cs_links div {
-    background: #fff;
-    height: 120px;
-    margin: 0 !important;
-    position: absolute;
-    width: 360px;
+  background: #fff;
+  height: 120px;
+  margin: 0 !important;
+  position: absolute;
+  width: 360px;
 }
 
 #mal_cs_links .List_LightBox {
-    box-shadow: inset 0 1px 0 #efefef;
-    display: block;
-    font-size: 0 !important;
-    height: 120px;
-    line-height: 120px !important;
-    pointer-events: none;
-    text-indent: 20px;
+  box-shadow: inset 0 1px 0 #efefef;
+  display: block;
+  font-size: 0 !important;
+  height: 120px;
+  line-height: 120px !important;
+  pointer-events: none;
+  text-indent: 20px;
 }
 
 #mal_cs_links .List_LightBox:before {
-    content: "ADD";
-    font-size: 25px !important;
-    letter-spacing: 10px;
+  content: "ADD";
+  font-size: 25px !important;
+  letter-spacing: 10px;
 }
 
 #mal_cs_links .List_LightBox:after,
 #mal_cs_pic a img {
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/88cFBBL.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/Et4WhCa.jpg) center;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/88cFBBL.png),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/Et4WhCa.jpg)
+      center;
 }
 
 #mal_cs_links .List_LightBox:after {
-    background-size: cover;
-    content: " ";
-    height: 90px;
-    pointer-events: all;
-    position: absolute;
-    right: 10px;
-    top: 15px;
-    transition: all .3s ease-in-out;
-    width: 160px;
+  background-size: cover;
+  content: " ";
+  height: 90px;
+  pointer-events: all;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  transition: all 0.3s ease-in-out;
+  width: 160px;
 }
 
 #mal_cs_links .List_LightBox:hover:after {
-    opacity: .4;
+  opacity: 0.4;
 }
 
 #mal_cs_links a[href="/"],
 #mal_cs_pic a {
-    background: transparent url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/5mkTHSA.gif) repeat 0 60px !important;
+  background: transparent
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/5mkTHSA.gif)
+    repeat 0 60px !important;
 }
 
 #mal_cs_links a[href="/"] {
-    box-shadow: 0 1px 0 #efefef, inset 0 1px 0 #efefef;
-    display: block;
-    font-size: 0 !important;
-    height: 60px;
-    position: absolute;
-    top: 120px;
-    width: 360px;
+  box-shadow: 0 1px 0 #efefef, inset 0 1px 0 #efefef;
+  display: block;
+  font-size: 0 !important;
+  height: 60px;
+  position: absolute;
+  top: 120px;
+  width: 360px;
 }
 
 #mal_cs_links a[href="/"]:before,
 #mal_cs_pic a:before {
-    background: #e2f0f6 url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/Wu1QsEA.png) no-repeat 250px center;
-    background-size: 100px;
-    box-shadow: inset 0 1px 0 #efefef, inset 3px 3px 0 #fff, inset -3px -3px 0 #fff;
-    color: #659fb5;
-    content: "MyAnimeList.net";
-    display: block;
-    font-size: 18px;
-    height: 60px;
-    line-height: 60px;
-    text-indent: 20px;
-    transition: all .3s ease-in-out;
+  background: #e2f0f6
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/Wu1QsEA.png)
+    no-repeat 250px center;
+  background-size: 100px;
+  box-shadow: inset 0 1px 0 #efefef, inset 3px 3px 0 #fff,
+    inset -3px -3px 0 #fff;
+  color: #659fb5;
+  content: "MyAnimeList.net";
+  display: block;
+  font-size: 18px;
+  height: 60px;
+  line-height: 60px;
+  text-indent: 20px;
+  transition: all 0.3s ease-in-out;
 }
 
 #mal_cs_links a[href="/"]:hover:before,
 #mal_cs_pic a:hover:before {
-    opacity: .5;
+  opacity: 0.5;
 }
 
 #mal_cs_links div:last-of-type {
-    height: 60px;
-    left: 240px;
-    top: -600px;
-    width: 240px;
-    z-index: 2;
+  height: 60px;
+  left: 240px;
+  top: -600px;
+  width: 240px;
+  z-index: 2;
 }
 
 #mal_cs_links div:last-of-type a {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/Oo7OngZ.gif);
-    display: inline-block;
-    font-size: 0 !important;
-    height: 60px !important;
-    position: absolute;
-    transition: all .25s ease-out;
-    width: 120px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/Oo7OngZ.gif);
+  display: inline-block;
+  font-size: 0 !important;
+  height: 60px !important;
+  position: absolute;
+  transition: all 0.25s ease-out;
+  width: 120px;
 }
 
 #mal_cs_links a[href*="/mangalist/"] {
-    left: 120px;
+  left: 120px;
 }
 
 #mal_cs_otherlinks {
-    height: 180px !important;
-    left: 0;
-    padding: 0 !important;
-    position: absolute;
-    top: 840px;
-    width: 360px;
+  height: 180px !important;
+  left: 0;
+  padding: 0 !important;
+  position: absolute;
+  top: 840px;
+  width: 360px;
 }
 
-#mal_cs_pic+#mal_cs_otherlinks:before {
-    content: "USERNAME";
-    cursor: default;
-    height: 30px;
-    left: 10px;
-    letter-spacing: 1px;
-    position: absolute;
-    text-align: center;
-    top: -660px;
-    width: 340px;
+#mal_cs_pic + #mal_cs_otherlinks:before {
+  content: "USERNAME";
+  cursor: default;
+  height: 30px;
+  left: 10px;
+  letter-spacing: 1px;
+  position: absolute;
+  text-align: center;
+  top: -660px;
+  width: 340px;
 }
 
 #mal_cs_otherlinks div:first-of-type {
-    height: 30px;
-    margin: 0;
-    overflow: hidden;
-    position: absolute;
-    text-align: center;
-    top: -630px;
-    width: 360px;
+  height: 30px;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  top: -630px;
+  width: 360px;
 }
 
 #mal_cs_otherlinks strong {
-    display: inline-block;
-    color: #e2e2e2 !important;
-    height: 30px;
-    letter-spacing: 1px;
-    line-height: 30px !important;
-    max-width: 340px;
-    text-transform: uppercase;
-    width: 340px;
+  display: inline-block;
+  color: #e2e2e2 !important;
+  height: 30px;
+  letter-spacing: 1px;
+  line-height: 30px !important;
+  max-width: 340px;
+  text-transform: uppercase;
+  width: 340px;
 }
 
 #mal_cs_otherlinks strong a {
-    color: #e2e2e2 !important;
-    text-transform: uppercase;
+  color: #e2e2e2 !important;
+  text-transform: uppercase;
 }
 
 #mal_cs_otherlinks div:last-of-type {
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/bakemono.gif), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/5mkTHSA.gif);
-    background-position: right bottom, 360px 180px;
-    background-repeat: no-repeat, repeat;
-    background-size: cover, auto;
-    box-shadow: inset 0 1px 0 #efefef, inset 3px 4px 0 #fff, inset -3px -3px 0 #fff;
-    color: #5e6a61 !important;
-    cursor: default;
-    font-size: 18px !important;
-    font-weight: bold !important;
-    height: 180px !important;
-    letter-spacing: 2px;
-    line-height: 325px !important;
-    text-indent: 10px;
-    margin: 0;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/bakemono.gif),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/5mkTHSA.gif);
+  background-position: right bottom, 360px 180px;
+  background-repeat: no-repeat, repeat;
+  background-size: cover, auto;
+  box-shadow: inset 0 1px 0 #efefef, inset 3px 4px 0 #fff,
+    inset -3px -3px 0 #fff;
+  color: #5e6a61 !important;
+  cursor: default;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  height: 180px !important;
+  letter-spacing: 2px;
+  line-height: 325px !important;
+  text-indent: 10px;
+  margin: 0;
 }
 
 #mal_cs_otherlinks div:last-of-type:before {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/kcE1Ufw.gif), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/kcE1Ufw.gif), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/kcE1Ufw.gif);
-    background-position: -240px -60px, -120px -60px, 0 -60px;
-    background-repeat: no-repeat;
-    content: " ";
-    height: 60px;
-    left: 240px;
-    position: absolute;
-    top: -780px;
-    width: 720px !important;
-    z-index: 1;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/kcE1Ufw.gif),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/kcE1Ufw.gif),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/kcE1Ufw.gif);
+  background-position: -240px -60px, -120px -60px, 0 -60px;
+  background-repeat: no-repeat;
+  content: " ";
+  height: 60px;
+  left: 240px;
+  position: absolute;
+  top: -780px;
+  width: 720px !important;
+  z-index: 1;
 }
 
 #mal_cs_otherlinks div:last-of-type a {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/Oo7OngZ.gif);
-    display: inline-block;
-    font-size: 0 !important;
-    height: 60px !important;
-    left: 480px;
-    position: absolute;
-    transition: all .25s ease-out;
-    top: -780px;
-    width: 120px;
-    z-index: 1;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/Oo7OngZ.gif);
+  display: inline-block;
+  font-size: 0 !important;
+  height: 60px !important;
+  left: 480px;
+  position: absolute;
+  transition: all 0.25s ease-out;
+  top: -780px;
+  width: 120px;
+  z-index: 1;
 }
 
 #mal_cs_otherlinks a[href*="/forum/"],
 #mal_cs_otherlinks a[href*="/sharedanime.php"],
 #mal_cs_otherlinks a[href*="/sharedmanga.php"] {
-    left: 600px !important;
+  left: 600px !important;
 }
 
 #mal_cs_otherlinks a[href*="/panel.php?go=export"] {
-    left: 720px !important;
+  left: 720px !important;
 }
 
 #mal_cs_otherlinks a[href*="/sharedanime.php"],
 #mal_cs_otherlinks a[href*="/sharedmanga.php"] {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/H53e8nQ.gif) !important;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/H53e8nQ.gif) !important;
 }
 
 #mal_cs_otherlinks a[href*="/animelist/"],
 #mal_cs_otherlinks a[href*="/mangalist/"] {
-    background: transparent url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/5mkTHSA.gif) repeat 0 60px !important;
-    box-shadow: 0 3px 0 #fff;
-    left: 0 !important;
-    top: 0 !important;
-    width: 360px !important;
+  background: transparent
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/5mkTHSA.gif)
+    repeat 0 60px !important;
+  box-shadow: 0 3px 0 #fff;
+  left: 0 !important;
+  top: 0 !important;
+  width: 360px !important;
 }
 
-#mal_cs_pic+#mal_cs_otherlinks div:last-of-type a {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/5iNDEZf.gif);
+#mal_cs_pic + #mal_cs_otherlinks div:last-of-type a {
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/5iNDEZf.gif);
 }
 
 #mal_cs_otherlinks a[href*="/login.php"] {
-    left: 240px !important;
+  left: 240px !important;
 }
 
 #mal_cs_otherlinks a[href*="/register.php"] {
-    left: 360px !important;
+  left: 360px !important;
 }
 
 #mal_cs_otherlinks a[href*="/forum/?topicid=515949"] {
-    left: 480px !important;
+  left: 480px !important;
 }
 
 #mal_cs_otherlinks a[href*="/animelist/"]:before,
 #mal_cs_otherlinks a[href*="/mangalist/"]:before {
-    background: #f6e2eb;
-    box-shadow: inset 0 1px 0 #efefef, inset 3px 3px 0 #fff, inset -3px -3px 0 #fff;
-    color: #b8899e;
-    content: attr(href);
-    font-size: 13px;
-    height: 60px;
-    left: 0;
-    line-height: 40px;
-    position: absolute;
-    text-indent: 20px;
-    top: 0;
-    transition: all .3s ease-in-out;
-    width: 360px;
+  background: #f6e2eb;
+  box-shadow: inset 0 1px 0 #efefef, inset 3px 3px 0 #fff,
+    inset -3px -3px 0 #fff;
+  color: #b8899e;
+  content: attr(href);
+  font-size: 13px;
+  height: 60px;
+  left: 0;
+  line-height: 40px;
+  position: absolute;
+  text-indent: 20px;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  width: 360px;
 }
 
 #mal_cs_otherlinks a[href*="/animelist/"]:after,
 #mal_cs_otherlinks a[href*="/mangalist/"]:after {
-    content: " ";
-    color: #b8899e;
-    font-size: 20px;
-    height: 60px;
-    left: 0;
-    line-height: 80px;
-    position: absolute;
-    text-indent: 20px;
-    transition: all .3s ease-in-out;
-    width: 360px;
+  content: " ";
+  color: #b8899e;
+  font-size: 20px;
+  height: 60px;
+  left: 0;
+  line-height: 80px;
+  position: absolute;
+  text-indent: 20px;
+  transition: all 0.3s ease-in-out;
+  width: 360px;
 }
 
 #mal_cs_otherlinks a[href*="/animelist/"]:after {
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/p2ii2iL.png) no-repeat 280px center;
-    background-size: 40px;
-    content: "VIEW MY ANIMELIST";
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/p2ii2iL.png)
+    no-repeat 280px center;
+  background-size: 40px;
+  content: "VIEW MY ANIMELIST";
 }
 
 #mal_cs_otherlinks a[href*="/mangalist/"]:after {
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/8cYiZB6.png) no-repeat 280px center;
-    background-size: 40px;
-    content: "VIEW MY MANGALIST";
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/8cYiZB6.png)
+    no-repeat 280px center;
+  background-size: 40px;
+  content: "VIEW MY MANGALIST";
 }
 
 #mal_cs_otherlinks a[href*="/animelist/"]:hover:before,
 #mal_cs_otherlinks a[href*="/mangalist/"]:hover:before,
 #mal_cs_otherlinks a[href*="/animelist/"]:hover:after,
 #mal_cs_otherlinks a[href*="/mangalist/"]:hover:after {
-    opacity: .5;
+  opacity: 0.5;
 }
 
 #mal_cs_otherlinks span {
-    color: #5e6a61 !important;
-    cursor: default;
-    display: inline-block;
-    font-size: 18px !important;
-    font-weight: bold !important;
-    letter-spacing: 2px;
-    pointer-events: none;
+  color: #5e6a61 !important;
+  cursor: default;
+  display: inline-block;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  letter-spacing: 2px;
+  pointer-events: none;
 }
 
 #mal_cs_otherlinks span:before {
-    border-bottom: 3px dashed #5e6a61;
-    content: "Compatibility";
-    display: inline-block;
-    height: 20px;
-    left: 10px;
-    position: absolute;
-    text-indent: -0;
-    text-transform: uppercase;
-    top: 125px;
+  border-bottom: 3px dashed #5e6a61;
+  content: "Compatibility";
+  display: inline-block;
+  height: 20px;
+  left: 10px;
+  position: absolute;
+  text-indent: -0;
+  text-transform: uppercase;
+  top: 125px;
 }
 
 #mal_cs_otherlinks span:after {
-    box-shadow: 0 3px 0 #5e6a61;
-    content: " ";
-    height: 20px;
-    left: 10px;
-    position: absolute;
-    text-transform: uppercase;
-    top: 150px;
-    width: 150px;
+  box-shadow: 0 3px 0 #5e6a61;
+  content: " ";
+  height: 20px;
+  left: 10px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 150px;
+  width: 150px;
 }
 
 #mal_cs_powered {
-    height: 120px !important;
-    left: 0;
-    top: 0 !important;
-    width: 240px;
+  height: 120px !important;
+  left: 0;
+  top: 0 !important;
+  width: 240px;
 }
 
 #mal_cs_powered a {
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/Wlh8C1T.jpg) !important;
-    height: 120px;
-    left: 0 !important;
-    position: absolute;
-    width: 240px;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/Wlh8C1T.jpg) !important;
+  height: 120px;
+  left: 0 !important;
+  position: absolute;
+  width: 240px;
 }
 
 #mal_cs_powered a img {
-    height: 0;
-    padding: 0 240px 120px 0;
+  height: 0;
+  padding: 0 240px 120px 0;
 }
 
 #search {
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/PXs3m51.gif);
-    height: 60px;
-    margin: 0 !important;
-    padding: 0 !important;
-    position: absolute;
-    right: -720px;
-    top: 120px;
-    width: 240px;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/PXs3m51.gif);
+  height: 60px;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: absolute;
+  right: -720px;
+  top: 120px;
+  width: 240px;
 }
 
 #search:before {
-    background: #fff;
-    box-shadow: inset 0 1px 0 #efefef;
-    content: "";
-    font: 15px FontAwesome !important;
-    line-height: 30px !important;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    width: 30px;
+  background: #fff;
+  box-shadow: inset 0 1px 0 #efefef;
+  content: "";
+  font: 15px FontAwesome !important;
+  line-height: 30px !important;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 30px;
 }
 
 #searchBox {
-    background: transparent;
-    border: 0;
-    font-size: 14px !important;
-    height: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    width: 240px !important;
+  background: transparent;
+  border: 0;
+  font-size: 14px !important;
+  height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 240px !important;
 }
 
 #searchListButton {
-    height: 0;
-    padding: 0 30px 30px 0 !important;
-    position: absolute;
-    right: 0;
-    top: 0;
+  height: 0;
+  padding: 0 30px 30px 0 !important;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 #list_surround {
-    background-color: #fff;
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/939Kagq.gif), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/8z6nBVs.gif);
-    background-repeat: no-repeat, repeat;
-    background-position: center bottom, center, top;
-    left: calc(50% - 480px);
-    min-height: 1020px;
-    padding-left: 360px;
-    padding-top: 180px;
-    position: absolute;
-    width: calc(960px - 360px);
+  background-color: #fff;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/939Kagq.gif),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/8z6nBVs.gif);
+  background-repeat: no-repeat, repeat;
+  background-position: center bottom, center, top;
+  left: calc(50% - 480px);
+  min-height: 1020px;
+  padding-left: 360px;
+  padding-top: 180px;
+  position: absolute;
+  width: calc(960px - 360px);
 }
 
 #list_surround br {
-    display: none;
+  display: none;
 }
 
-#list_surround table[align=center]:first-of-type {
-    background: transparent url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/kcE1Ufw.gif) no-repeat scroll 0px 0px;
-    height: 60px;
-    margin-left: -120px;
-    position: absolute;
-    top: 0;
-    width: 720px;
-    z-index: 2;
+#list_surround table[align="center"]:first-of-type {
+  background: transparent
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/kcE1Ufw.gif)
+    no-repeat scroll 0px 0px;
+  height: 60px;
+  margin-left: -120px;
+  position: absolute;
+  top: 0;
+  width: 720px;
+  z-index: 2;
 }
 
-#list_surround table[align=center]:first-of-type td {
-    width: 120px;
+#list_surround table[align="center"]:first-of-type td {
+  width: 120px;
 }
 
-td[class*=status_] a {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/3FAohKm.gif);
-    display: block;
-    font-size: 0 !important;
-    height: 60px !important;
-    transition: all .25s ease-out;
+td[class*="status_"] a {
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/3FAohKm.gif);
+  display: block;
+  font-size: 0 !important;
+  height: 60px !important;
+  transition: all 0.25s ease-out;
 }
 
-td[class*=status_] a[href*="status=1"],
+td[class*="status_"] a[href*="status=1"],
 #mal_cs_links a[href*="/animelist/"],
 #mal_cs_otherlinks a[href*="/sharedanime.php"],
 #mal_cs_otherlinks a[href*="/login.php"] {
-    background-position: 0 0;
+  background-position: 0 0;
 }
 
-td[class*=status_] a[href*="status=1"]:hover,
+td[class*="status_"] a[href*="status=1"]:hover,
 #mal_cs_links a[href*="/animelist/"]:hover,
 #mal_cs_otherlinks a[href*="/sharedanime.php"]:hover,
 #mal_cs_otherlinks a[href*="/login.php"]:hover {
-    background-position: 0 -60px;
+  background-position: 0 -60px;
 }
 
-td[class*=status_] a[href*="status=2"],
+td[class*="status_"] a[href*="status=2"],
 #mal_cs_links a[href*="/mangalist/"],
 #mal_cs_otherlinks a[href*="/sharedmanga.php"],
 #mal_cs_otherlinks a[href*="/register.php"] {
-    background-position: -120px 0;
+  background-position: -120px 0;
 }
 
-td[class*=status_] a[href*="status=2"]:hover,
+td[class*="status_"] a[href*="status=2"]:hover,
 #mal_cs_links a[href*="/mangalist/"]:hover,
 #mal_cs_otherlinks a[href*="/sharedmanga.php"]:hover,
 #mal_cs_otherlinks a[href*="/register.php"]:hover {
-    background-position: -120px -60px;
+  background-position: -120px -60px;
 }
 
-td[class*=status_] a[href*="status=3"],
+td[class*="status_"] a[href*="status=3"],
 #mal_cs_otherlinks a[href*="/history/"],
 #mal_cs_otherlinks a[href*="/forum/?topicid=515949"] {
-    background-position: -240px 0 !important;
+  background-position: -240px 0 !important;
 }
 
-td[class*=status_] a[href*="status=3"]:hover,
+td[class*="status_"] a[href*="status=3"]:hover,
 #mal_cs_otherlinks a[href*="/history/"]:hover,
 #mal_cs_otherlinks a[href*="/forum/?topicid=515949"]:hover {
-    background-position: -240px -60px !important;
+  background-position: -240px -60px !important;
 }
 
-td[class*=status_] a[href*="status=4"],
+td[class*="status_"] a[href*="status=4"],
 #mal_cs_otherlinks a[href*="/forum/"] {
-    background-position: -360px 0;
+  background-position: -360px 0;
 }
 
-td[class*=status_] a[href*="status=4"]:hover,
+td[class*="status_"] a[href*="status=4"]:hover,
 #mal_cs_otherlinks a[href*="/forum/"]:hover {
-    background-position: -360px -60px;
+  background-position: -360px -60px;
 }
 
-td[class*=status_] a[href*="status=6"],
+td[class*="status_"] a[href*="status=6"],
 #mal_cs_otherlinks a[href*="/panel.php?go=export"] {
-    background-position: -480px 0;
+  background-position: -480px 0;
 }
 
-td[class*=status_] a[href*="status=6"]:hover,
+td[class*="status_"] a[href*="status=6"]:hover,
 #mal_cs_otherlinks a[href*="/panel.php?go=export"]:hover {
-    background-position: -480px -60px;
+  background-position: -480px -60px;
 }
 
-td[class*=status_] a[href*="status=7"] {
-    background-position: -600px 0;
+td[class*="status_"] a[href*="status=7"] {
+  background-position: -600px 0;
 }
 
-td[class*=status_] a[href*="status=7"]:hover {
-    background-position: -600px -60px;
+td[class*="status_"] a[href*="status=7"]:hover {
+  background-position: -600px -60px;
 }
 
-td[class*=status_] a:before,
-td[class*=status_] a:after {
-    color: #b8b8b8;
-    content: attr(title);
-    display: block;
-    font-size: 9px;
-    position: absolute;
-    text-align: left;
-    text-indent: 12px;
-    text-transform: uppercase;
-    top: 36px !important;
-    transition: all .25s ease-out;
+td[class*="status_"] a:before,
+td[class*="status_"] a:after {
+  color: #b8b8b8;
+  content: attr(title);
+  display: block;
+  font-size: 9px;
+  position: absolute;
+  text-align: left;
+  text-indent: 12px;
+  text-transform: uppercase;
+  top: 36px !important;
+  transition: all 0.25s ease-out;
 }
 
-td[class*=status_]:last-of-type a[href*="/animelist/"]:before,
-td[class*=status_]:last-of-type a[href*="/animelist/"]:after {
-    content: "Anime";
+td[class*="status_"]:last-of-type a[href*="/animelist/"]:before,
+td[class*="status_"]:last-of-type a[href*="/animelist/"]:after {
+  content: "Anime";
 }
 
-td[class*=status_]:last-of-type a[href*="/mangalist/"]:before,
-td[class*=status_]:last-of-type a[href*="/mangalist/"]:after {
-    content: "Manga";
+td[class*="status_"]:last-of-type a[href*="/mangalist/"]:before,
+td[class*="status_"]:last-of-type a[href*="/mangalist/"]:after {
+  content: "Manga";
 }
 
-td[class*=status_] a:after {
-    color: transparent;
-    top: calc(60px + 36px) !important;
-    visibility: hidden;
+td[class*="status_"] a:after {
+  color: transparent;
+  top: calc(60px + 36px) !important;
+  visibility: hidden;
 }
 
-td[class*=status_] a:hover:before {
-    top: -36px !important;
+td[class*="status_"] a:hover:before {
+  top: -36px !important;
 }
 
-td[class*=status_] a:hover:after {
-    color: #fff;
-    top: 36px !important;
-    visibility: visible;
+td[class*="status_"] a:hover:after {
+  color: #fff;
+  top: 36px !important;
+  visibility: visible;
 }
 
-#list_surround table[align=center]:nth-of-type(n+2) {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/4oyM5of.gif);
-    height: 60px;
-    margin-left: -360px;
-    position: absolute;
-    top: 120px;
-    width: 720px;
-    z-index: 1;
+#list_surround table[align="center"]:nth-of-type(n + 2) {
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/4oyM5of.gif);
+  height: 60px;
+  margin-left: -360px;
+  position: absolute;
+  top: 120px;
+  width: 720px;
+  z-index: 1;
 }
 
 .header_cw {
-    background-position: 0 0;
+  background-position: 0 0;
 }
 
 .header_completed {
-    background-position: 0 -60px;
+  background-position: 0 -60px;
 }
 
 .header_onhold {
-    background-position: 0 -120px;
+  background-position: 0 -120px;
 }
 
 .header_dropped {
-    background-position: 0 -180px;
+  background-position: 0 -180px;
 }
 
 .header_ptw {
-    background-position: 0 -240px;
+  background-position: 0 -240px;
 }
 
 .header_title span {
-    color: #fff !important;
-    cursor: default;
-    display: block;
-    font-size: 20px !important;
-    height: 60px;
-    letter-spacing: 10px;
-    line-height: 65px !important;
-    text-indent: 70px;
-    text-transform: uppercase;
+  color: #fff !important;
+  cursor: default;
+  display: block;
+  font-size: 20px !important;
+  height: 60px;
+  letter-spacing: 10px;
+  line-height: 65px !important;
+  text-indent: 70px;
+  text-transform: uppercase;
 }
 
-#list_surround table:not([align=center]) {
-    display: block;
-    border-bottom: 1px dashed #e2e2e2;
-    height: 60px;
-    margin-left: 10px;
-    width: 580px;
+#list_surround table:not([align="center"]) {
+  display: block;
+  border-bottom: 1px dashed #e2e2e2;
+  height: 60px;
+  margin-left: 10px;
+  width: 580px;
 }
 
-#list_surround table:not([align=center]):nth-of-type(n+3) tr {
-    display: block;
-    height: 60px;
-    width: 580px;
+#list_surround table:not([align="center"]):nth-of-type(n + 3) tr {
+  display: block;
+  height: 60px;
+  width: 580px;
 }
 
-#list_surround table:not([align=center]):nth-of-type(n+3) tr:hover {
-    background: #d7efff;
-    opacity: 1;
+#list_surround table:not([align="center"]):nth-of-type(n + 3) tr:hover {
+  background: #d7efff;
+  opacity: 1;
 }
 
-table[class*="header_"]+table {
-    border-bottom: 1px solid #efefef !important;
+table[class*="header_"] + table {
+  border-bottom: 1px solid #efefef !important;
 }
 
-table[class*="header_"]+table tbody,
-table[class*="header_"]+table tr {
-    display: block;
-    height: 40px !important;
-    margin-left: -10px;
-    width: 600px !important;
+table[class*="header_"] + table tbody,
+table[class*="header_"] + table tr {
+  display: block;
+  height: 40px !important;
+  margin-left: -10px;
+  width: 600px !important;
 }
 
-table[class*="header_"]+table tr:hover {
-    background: none !important;
-    opacity: 1 !important;
-    transition: none !important;
+table[class*="header_"] + table tr:hover {
+  background: none !important;
+  opacity: 1 !important;
+  transition: none !important;
 }
 
-.header_cw+table tbody {
-    background: #f4eef9;
+.header_cw + table tbody {
+  background: #f4eef9;
 }
 
-.header_completed+table tbody {
-    background: #ffebc8;
+.header_completed + table tbody {
+  background: #ffebc8;
 }
 
-.header_onhold+table tbody {
-    background: #e8f5d1;
+.header_onhold + table tbody {
+  background: #e8f5d1;
 }
 
-.header_dropped+table tbody {
-    background: #fbe7f8;
+.header_dropped + table tbody {
+  background: #fbe7f8;
 }
 
-.header_ptw+table tbody {
-    background: #e1f3fd;
+.header_ptw + table tbody {
+  background: #e1f3fd;
 }
 
-table[class*="header_"]+table tr {
-    margin-left: 0;
+table[class*="header_"] + table tr {
+  margin-left: 0;
 }
 
-table[class*="header_"]+table td {
-    height: 40px;
-    text-align: left;
-    text-indent: 5px;
-    width: 120px;
+table[class*="header_"] + table td {
+  height: 40px;
+  text-align: left;
+  text-indent: 5px;
+  width: 120px;
 }
 
-table[class*="header_"]+table td:nth-of-type(n+8) {
-    display: none;
+table[class*="header_"] + table td:nth-of-type(n + 8) {
+  display: none;
 }
 
-table[class*="header_"]+table a {
-    border-left: 5px solid #fff;
-    font-size: 14px !important;
-    font-weight: bold !important;
-    letter-spacing: 1px;
-    padding-left: 5px;
-    text-transform: uppercase;
+table[class*="header_"] + table a {
+  border-left: 5px solid #fff;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  letter-spacing: 1px;
+  padding-left: 5px;
+  text-transform: uppercase;
 }
 
 .table_header:nth-of-type(2) a:before {
-    content: "TITLE";
+  content: "TITLE";
 }
 
-table[class*="header_"]+table strong {
-    font-weight: bold !important;
+table[class*="header_"] + table strong {
+  font-weight: bold !important;
 }
 
 .table_header:nth-of-type(2) strong {
-    font-size: 0 !important;
+  font-size: 0 !important;
 }
 
-.header_cw+table a {
-    color: #8b4e80 !important;
+.header_cw + table a {
+  color: #8b4e80 !important;
 }
 
-.header_completed+table a {
-    color: #ffa422 !important;
+.header_completed + table a {
+  color: #ffa422 !important;
 }
 
-.header_onhold+table a {
-    color: #6fba12 !important;
+.header_onhold + table a {
+  color: #6fba12 !important;
 }
 
-.header_dropped+table a {
-    color: #f86fbe !important;
+.header_dropped + table a {
+  color: #f86fbe !important;
 }
 
-.header_ptw+table a {
-    color: #71b3ec !important;
+.header_ptw + table a {
+  color: #71b3ec !important;
 }
 
 .table_header:first-of-type {
-    display: none;
+  display: none;
 }
 
 .table_header[width="125"] {
-    text-indent: 0;
-    width: 0;
+  text-indent: 0;
+  width: 0;
 }
 
 .table_header[width="125"] * {
-    font-size: 0 !important;
+  font-size: 0 !important;
 }
 
 .table_header[width="125"] strong a {
-    background: #fff;
-    bottom: 10px;
-    box-shadow: -1px -1px 0, 1px -1px 0, 1px 1px 0, -1px 1px 0;
-    color: #ffa4b6 !important;
-    display: block;
-    font-size: 0 !important;
-    height: 40px;
-    line-height: 40px !important;
-    position: fixed;
-    right: 10px;
+  background: #fff;
+  bottom: 10px;
+  box-shadow: -1px -1px 0, 1px -1px 0, 1px 1px 0, -1px 1px 0;
+  color: #ffa4b6 !important;
+  display: block;
+  font-size: 0 !important;
+  height: 40px;
+  line-height: 40px !important;
+  position: fixed;
+  right: 10px;
 }
 
 .table_header[width="125"] strong a:before {
-    content: "Reset Tags";
-    font-size: 14px !important;
+  content: "Reset Tags";
+  font-size: 14px !important;
 }
 
-td[class^=td] {
-    height: 20px;
-    position: absolute;
-    text-align: left;
+td[class^="td"] {
+  height: 20px;
+  position: absolute;
+  text-align: left;
 }
 
-td[class^=td]:nth-of-type(n+8) {
-    display: none;
+td[class^="td"]:nth-of-type(n + 8) {
+  display: none;
 }
 
-td[class^=td]:first-of-type {
-    color: #8fc1e1 !important;
-    float: left;
-    line-height: 20px !important;
-    width: auto;
-    position: relative;
+td[class^="td"]:first-of-type {
+  color: #8fc1e1 !important;
+  float: left;
+  line-height: 20px !important;
+  width: auto;
+  position: relative;
 }
 
-td[class^=td]:first-of-type:after {
-    content: " ";
-    font: 13px FontAwesome !important;
+td[class^="td"]:first-of-type:after {
+  content: " ";
+  font: 13px FontAwesome !important;
 }
 
-td[class^=td]:nth-of-type(2) {
-    display: inline-block;
-    float: left;
+td[class^="td"]:nth-of-type(2) {
+  display: inline-block;
+  float: left;
 }
 
-td[class^=td]:nth-of-type(2) div {
-    height: 20px;
-    margin-left: 5px;
-    margin-top: -1px;
-    opacity: 0;
-    transition: all .3s ease-in-out;
-    visibility: hidden;
+td[class^="td"]:nth-of-type(2) div {
+  height: 20px;
+  margin-left: 5px;
+  margin-top: -1px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
 }
 
-td[class^=td]:nth-of-type(2):hover div {
-    opacity: 1;
-    visibility: visible;
+td[class^="td"]:nth-of-type(2):hover div {
+  opacity: 1;
+  visibility: visible;
 }
 
-td[class^=td]:nth-of-type(2) div:before {
-    content: "::";
+td[class^="td"]:nth-of-type(2) div:before {
+  content: "::";
 }
 
-td[class^=td]:nth-of-type(2) div small {
-    font-size: 0 !important;
-    line-height: 20px !important;
+td[class^="td"]:nth-of-type(2) div small {
+  font-size: 0 !important;
+  line-height: 20px !important;
 }
 
-td[class^=td]:nth-of-type(2) div a:last-of-type {
-    margin-left: 5px;
+td[class^="td"]:nth-of-type(2) div a:last-of-type {
+  margin-left: 5px;
 }
 
-td[class^=td]:nth-of-type(2) div a:before {
-    font: 13px FontAwesome !important;
-    line-height: 20px !important;
+td[class^="td"]:nth-of-type(2) div a:before {
+  font: 13px FontAwesome !important;
+  line-height: 20px !important;
 }
 
-td[class^=td]:nth-of-type(2) div a[href*="edit"]:before {
-    content: " ";
+td[class^="td"]:nth-of-type(2) div a[href*="edit"]:before {
+  content: " ";
 }
 
-td[class^=td]:nth-of-type(2) div a[href*="add"]:before {
-    content: " ";
+td[class^="td"]:nth-of-type(2) div a[href*="add"]:before {
+  content: " ";
 }
 
-td[class^=td]:nth-of-type(2) div a:last-of-type:before {
-    content: " ";
+td[class^="td"]:nth-of-type(2) div a:last-of-type:before {
+  content: " ";
 }
 
 small {
-    text-transform: lowercase;
+  text-transform: lowercase;
 }
 
 .animetitle {
-    display: inline-block;
-    max-width: 430px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  display: inline-block;
+  max-width: 430px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .animetitle span {
-    line-height: 20px !important;
-    padding-left: 5px;
+  line-height: 20px !important;
+  padding-left: 5px;
 }
 
-.animetitle+small {
-    cursor: default;
-    font-size: 13px !important;
-    left: calc(100% - 95px);
-    line-height: 20px !important;
-    margin-left: 5px;
-    position: absolute;
-    top: 0;
-    transition: all .3s ease-in-out;
-    white-space: nowrap;
+.animetitle + small {
+  cursor: default;
+  font-size: 13px !important;
+  left: calc(100% - 95px);
+  line-height: 20px !important;
+  margin-left: 5px;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  white-space: nowrap;
 }
 
-td[class^=td]:nth-of-type(2):hover .animetitle+small {
-    opacity: 0;
-    visibility: hidden;
+td[class^="td"]:nth-of-type(2):hover .animetitle + small {
+  opacity: 0;
+  visibility: hidden;
 }
 
-.animetitle+small:before {
-    content: ":: ";
+.animetitle + small:before {
+  content: ":: ";
 }
 
-td[class^=td][width="45"] {
-    margin-left: 120px;
-    margin-top: 40px;
-    width: 100px;
+td[class^="td"][width="45"] {
+  margin-left: 120px;
+  margin-top: 40px;
+  width: 100px;
 }
 
-td[class^=td][width="45"]:before {
-    content: "Score: ";
+td[class^="td"][width="45"]:before {
+  content: "Score: ";
 }
 
 input[type="text"] {
-    background: #e2e2e2;
-    border: 0;
-    left: 65px;
-    position: absolute;
-    top: 0;
-    width: 34px;
+  background: #e2e2e2;
+  border: 0;
+  left: 65px;
+  position: absolute;
+  top: 0;
+  width: 34px;
 }
 
 input[value="Go"] {
-    display: none;
+  display: none;
 }
 
-td[class^=td][width="50"] {
-    line-height: 20px !important;
-    margin-left: 240px;
-    margin-top: 40px;
-    width: 100px;
+td[class^="td"][width="50"] {
+  line-height: 20px !important;
+  margin-left: 240px;
+  margin-top: 40px;
+  width: 100px;
 }
 
-td[class^=td][width="50"]:before {
-    content: "Type: ";
+td[class^="td"][width="50"]:before {
+  content: "Type: ";
 }
 
-td[class^=td][width="70"] {
-    margin-left: 360px;
-    margin-top: 40px;
-    white-space: nowrap;
-    width: 100px;
+td[class^="td"][width="70"] {
+  margin-left: 360px;
+  margin-top: 40px;
+  white-space: nowrap;
+  width: 100px;
 }
 
-td[class^=td][width="70"]:before {
-    content: "Eps: ";
+td[class^="td"][width="70"]:before {
+  content: "Eps: ";
 }
 
-td[class^=td][width="70"] input[type="text"] {
-    left: -9px;
-    width: 35px;
+td[class^="td"][width="70"] input[type="text"] {
+  left: -9px;
+  width: 35px;
 }
 
-td[class^=td][width="125"] {
-    height: 20px;
-    margin-top: 20px;
-    width: 580px;
+td[class^="td"][width="125"] {
+  height: 20px;
+  margin-top: 20px;
+  width: 580px;
 }
 
-td[class^=td][width="125"] div:first-of-type {
-    margin-top: 20px;
-    opacity: 0;
-    position: absolute;
-    transition: all .3s ease-in-out;
-    visibility: hidden;
+td[class^="td"][width="125"] div:first-of-type {
+  margin-top: 20px;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
 }
 
-tr:hover td[class^=td][width="125"] div {
-    opacity: 1;
-    visibility: visible;
+tr:hover td[class^="td"][width="125"] div {
+  opacity: 1;
+  visibility: visible;
 }
 
-td[class^=td][width="125"] div small {
-    font-size: 0 !important;
+td[class^="td"][width="125"] div small {
+  font-size: 0 !important;
 }
 
-td[class^=td][width="125"] div small:before {
-    content: "";
-    font: 13px FontAwesome !important;
-    line-height: 20px !important;
+td[class^="td"][width="125"] div small:before {
+  content: "";
+  font: 13px FontAwesome !important;
+  line-height: 20px !important;
 }
 
-td[class^=td][width="125"] div small:after {
-    content: " Edit Tags";
-    font-size: 13px;
-    text-transform: none;
+td[class^="td"][width="125"] div small:after {
+  content: " Edit Tags";
+  font-size: 13px;
+  text-transform: none;
 }
 
 .inputtext {
-    border: 0;
-    box-shadow: inset 0 -1px 0 #efefef;
-    color: #f9c !important;
-    height: 40px !important;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    width: 580px !important;
-    z-index: 1;
+  border: 0;
+  box-shadow: inset 0 -1px 0 #efefef;
+  color: #f9c !important;
+  height: 40px !important;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 580px !important;
+  z-index: 1;
 }
 
 tr:hover .inputtext,
-tr:hover .inputtext+div {
-    background: #d7efff;
+tr:hover .inputtext + div {
+  background: #d7efff;
 }
 
-.inputtext+div {
-    background: #fff;
-    top: -20px;
-    margin: 0 !important;
-    opacity: 1 !important;
-    right: 0;
-    transition: none !important;
-    visibility: visible !important;
+.inputtext + div {
+  background: #fff;
+  top: -20px;
+  margin: 0 !important;
+  opacity: 1 !important;
+  right: 0;
+  transition: none !important;
+  visibility: visible !important;
 }
 
 input[type="button"] {
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-    height: 20px;
-    padding: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  height: 20px;
+  padding: 0;
 }
 
-.inputtext+div span:first-of-type:before {
-    content: "";
-    font: 13px FontAwesome !important;
-    margin-left: 5px;
+.inputtext + div span:first-of-type:before {
+  content: "";
+  font: 13px FontAwesome !important;
+  margin-left: 5px;
 }
 
-.inputtext+div span:last-of-type:before {
-    content: "";
-    font: 13px FontAwesome !important;
-    padding-left: 5px;
+.inputtext + div span:last-of-type:before {
+  content: "";
+  font: 13px FontAwesome !important;
+  padding-left: 5px;
 }
 
-td[class^=td][width="125"]>span {
-    display: inline-block;
-    height: 20px;
-    overflow: hidden;
-    width: 580px;
+td[class^="td"][width="125"] > span {
+  display: inline-block;
+  height: 20px;
+  overflow: hidden;
+  width: 580px;
 }
 
-td[class^=td][width="125"] span a {
-    color: #f9c !important;
+td[class^="td"][width="125"] span a {
+  color: #f9c !important;
 }
 
-td[class^=td][width="50"]:nth-of-type(n+5) {
-    margin-left: 480px;
+td[class^="td"][width="50"]:nth-of-type(n + 5) {
+  margin-left: 480px;
 }
 
-td[class^=td][width="50"]:nth-of-type(n+5):before {
-    content: "Rating: ";
+td[class^="td"][width="50"]:nth-of-type(n + 5):before {
+  content: "Rating: ";
 }
 
-td[class^=td][width="45"]+td[class^=td][width="70"] {
-    margin-left: 240px;
+td[class^="td"][width="45"] + td[class^="td"][width="70"] {
+  margin-left: 240px;
 }
 
-td[class^=td][width="45"]+td[class^=td][width="70"] input[type="text"] {
-    width: 45px;
+td[class^="td"][width="45"] + td[class^="td"][width="70"] input[type="text"] {
+  width: 45px;
 }
 
-td[class^=td][width="45"]+td[class^=td][width="70"]:before {
-    content: "Chap: ";
+td[class^="td"][width="45"] + td[class^="td"][width="70"]:before {
+  content: "Chap: ";
 }
 
-td[class^=td][width="70"]+td[class^=td][width="70"]:before {
-    content: "Vol: ";
+td[class^="td"][width="70"] + td[class^="td"][width="70"]:before {
+  content: "Vol: ";
 }
 
-td[class^=td][width="90"] {
-    line-height: 20px !important;
-    margin-left: 480px;
-    margin-top: 40px;
-    width: 100px;
+td[class^="td"][width="90"] {
+  line-height: 20px !important;
+  margin-left: 480px;
+  margin-top: 40px;
+  width: 100px;
 }
 
-td[class^=td][width="90"]:before {
-    content: "Type: ";
+td[class^="td"][width="90"]:before {
+  content: "Type: ";
 }
 
 .hide {
-    background-position: 10px 20px;
-    background-repeat: no-repeat;
-    background-size: 140px auto;
+  background-position: 10px 20px;
+  background-repeat: no-repeat;
+  background-size: 140px auto;
 }
 
 .hide table {
-    height: 300px !important;
+  height: 300px !important;
 }
 
 .hide td[class^="td"] {
-    color: #777 !important;
-    height: 290px !important;
-    overflow: hidden;
-    padding-left: 190px;
-    padding-top: 10px;
-    width: 400px !important;
+  color: #777 !important;
+  height: 290px !important;
+  overflow: hidden;
+  padding-left: 190px;
+  padding-top: 10px;
+  width: 400px !important;
 }
 
 .hide td[class^="td"]:after {
-    display: none;
+  display: none;
 }
 
 .borderRBL div,
 .borderRBL div a {
-    height: 280px;
-    margin-left: -190px;
-    position: absolute;
-    top: 10px;
-    width: 180px;
-    background-size: 180px;
+  height: 280px;
+  margin-left: -190px;
+  position: absolute;
+  top: 10px;
+  width: 180px;
+  background-size: 180px;
 }
 
 .borderRBL div a {
-    background-position: center;
-    background-size: cover;
-    box-shadow: inset 1px 1px 0 #f2f2f2, inset -1px -1px 0 #f2f2f2, inset 2px 2px 0 #fff, inset -2px -2px 0 #fff, inset 0 -30px 0 rgba(255, 255, 255, .8);
-    font-size: 0 !important;
-    margin-left: 0;
-    pointer-events: none;
-    top: 0;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 1px 1px 0 #f2f2f2, inset -1px -1px 0 #f2f2f2,
+    inset 2px 2px 0 #fff, inset -2px -2px 0 #fff,
+    inset 0 -30px 0 rgba(255, 255, 255, 0.8);
+  font-size: 0 !important;
+  margin-left: 0;
+  pointer-events: none;
+  top: 0;
 }
 
 .borderRBL div a:hover:before {
-    opacity: .5;
-    transition: all .3s ease-in-out;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
 }
 
 .borderRBL div a:before {
-    border-left: 5px solid #777;
-    bottom: 5px !important;
-    font-size: 14px !important;
-    font-weight: bold !important;
-    left: 5px;
-    padding-left: 5px;
-    pointer-events: all;
-    position: absolute;
-    text-transform: uppercase;
+  border-left: 5px solid #777;
+  bottom: 5px !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  left: 5px;
+  padding-left: 5px;
+  pointer-events: all;
+  position: absolute;
+  text-transform: uppercase;
 }
 
 .borderRBL div a[href*="anime"]:before {
-    content: "Discuss Anime";
+  content: "Discuss Anime";
 }
 
 .borderRBL div a[href*="manga"]:before {
-    content: "Discuss Manga";
+  content: "Discuss Manga";
 }
 
 .borderRBL br {
-    display: block !important;
+  display: block !important;
 }
 
 .borderRBL small {
-    display: none;
+  display: none;
 }
 
 .category_totals {
-    background: #fff;
-    box-shadow: 0 1px 0 #efefef, -9px 0 0 #fff, -9px 20px 0 #fff, 9px 20px 0 #fff, 9px 0 0 #fff;
-    height: 40px;
-    text-align: center;
-    font-size: 14px !important;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+  background: #fff;
+  box-shadow: 0 1px 0 #efefef, -9px 0 0 #fff, -9px 20px 0 #fff, 9px 20px 0 #fff,
+    9px 0 0 #fff;
+  height: 40px;
+  text-align: center;
+  font-size: 14px !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .category_totals:hover {
-    background: #d7efff;
+  background: #d7efff;
 }
 
 #grand_totals {
-    background: #f8f8f8;
-    box-shadow: inset 0 -14px 0 #f8f8f8, inset 0 -15px 0 #f2f2f2;
-    display: block;
-    font-size: 14px !important;
-    height: 60px;
-    line-height: 80px !important;
-    margin-left: -360px;
-    padding-right: 10px;
-    text-align: right;
-    text-transform: uppercase;
-    width: 950px;
+  background: #f8f8f8;
+  box-shadow: inset 0 -14px 0 #f8f8f8, inset 0 -15px 0 #f2f2f2;
+  display: block;
+  font-size: 14px !important;
+  height: 60px;
+  line-height: 80px !important;
+  margin-left: -360px;
+  padding-right: 10px;
+  text-align: right;
+  text-transform: uppercase;
+  width: 950px;
 }
 
 #grand_totals span {
-    font-size: 14px !important;
+  font-size: 14px !important;
 }
 
 #grand_totals:before {
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/4oyM5of.gif);
-    background-position: 0 -300px;
-    color: #fff;
-    content: "ALL ENTRY";
-    font-size: 20px;
-    height: 60px;
-    left: 0;
-    letter-spacing: 10px;
-    line-height: 65px;
-    position: absolute;
-    text-align: left;
-    text-indent: 70px;
-    top: 120px;
-    width: 720px;
-    z-index: 1;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Bakemonogatari/images/4oyM5of.gif);
+  background-position: 0 -300px;
+  color: #fff;
+  content: "ALL ENTRY";
+  font-size: 20px;
+  height: 60px;
+  left: 0;
+  letter-spacing: 10px;
+  line-height: 65px;
+  position: absolute;
+  text-align: left;
+  text-indent: 70px;
+  top: 120px;
+  width: 720px;
+  z-index: 1;
 }
 
 #grand_totals:after {
-    content: "TOTALS";
-    font-size: 18px !important;
-    left: 20px;
-    position: absolute;
+  content: "TOTALS";
+  font-size: 18px !important;
+  left: 20px;
+  position: absolute;
 }
 
 #copyright {
-    background: #e9e9e9;
-    bottom: 0;
-    color: #999 !important;
-    display: block;
-    height: 60px;
-    line-height: 30px !important;
-    margin: 0 !important;
-    margin-left: -360px !important;
-    margin-bottom: -60px !important;
-    position: absolute;
-    width: 960px;
+  background: #e9e9e9;
+  bottom: 0;
+  color: #999 !important;
+  display: block;
+  height: 60px;
+  line-height: 30px !important;
+  margin: 0 !important;
+  margin-left: -360px !important;
+  margin-bottom: -60px !important;
+  position: absolute;
+  width: 960px;
 }
 
 #copyright:before {
-    content: "©西尾維新／講談社・アニプレックス・シャフト | Layout by. Kiokuzoku. | Modified by. rl404.";
-    display: block;
-    height: 20px !important;
-    margin-top: 5px;
+  content: "©西尾維新／講談社・アニプレックス・シャフト | Layout by. Kiokuzoku. | Modified by. rl404.";
+  display: block;
+  height: 20px !important;
+  margin-top: 5px;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    td[class^=td]:nth-of-type(2) div {
-        left: -1.5px;
-        position: relative;
-        top: 1px;
-    }
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  td[class^="td"]:nth-of-type(2) div {
+    left: -1.5px;
+    position: relative;
+    top: 1px;
+  }
 }
 
 @media all and (max-width: 960px) {
-    #mal_control_strip {
-        left: 0 !important;
-    }
-    #list_surround {
-        left: 0;
-    }
+  #mal_control_strip {
+    left: 0 !important;
+  }
+  #list_surround {
+    left: 0;
+  }
 }

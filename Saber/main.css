@@ -9,112 +9,110 @@
 /* MAIN */
 
 body {
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/NNolCA1.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Crimson Text', serif;
-    font-size: 14px;
-    color: #ddc38b;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/NNolCA1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Crimson Text", serif;
+  font-size: 14px;
+  color: #ddc38b;
 }
 
 a {
-    color: #ddc38b;
-    text-decoration: none;
+  color: #ddc38b;
+  text-decoration: none;
 }
 
 #list_surround {
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/xtvWgHg.png) no-repeat center 0 !important;
-    margin: 20px auto 5px;
-    padding: 310px 0 2px;
-    width: 690px;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/xtvWgHg.png)
+    no-repeat center 0 !important;
+  margin: 20px auto 5px;
+  padding: 310px 0 2px;
+  width: 690px;
 }
 
 #list_surround br {
-    display: none;
+  display: none;
 }
 
 .td1,
 .td2 {
-    color: #ddc38b;
-    background-color: rgba(0, 0, 0, .3);
+  color: #ddc38b;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .borderRBL,
 .borderRBL a {
-    text-align: center !important;
+  text-align: center !important;
 }
 
 .borderRBL {
-    color: #FFFFFF !important;
-    border-top: solid 1px #ddc38b !important;
+  color: #ffffff !important;
+  border-top: solid 1px #ddc38b !important;
 }
 
 .borderRBL small {
-    visibility: visible !important;
+  visibility: visible !important;
 }
 
-tr:hover td[class^='td']:not(.borderRBL) {
-    text-shadow: 0 0 10px #FF0;
-    transition: all .5s ease !important;
-    -webkit-transition: all .5s ease !important;
+tr:hover td[class^="td"]:not(.borderRBL) {
+  text-shadow: 0 0 10px #ff0;
+  transition: all 0.5s ease !important;
+  -webkit-transition: all 0.5s ease !important;
 }
 
-td[class^='td']:first-child,
-td[class^='td']:last-child {
-    width: 50px !important;
+td[class^="td"]:first-child,
+td[class^="td"]:last-child {
+  width: 50px !important;
 }
 
-td[class^='td']:first-child {
-    text-align: left;
-    padding-left: 5px;
-    border-left: double 4px #ddc38b !important;
+td[class^="td"]:first-child {
+  text-align: left;
+  padding-left: 5px;
+  border-left: double 4px #ddc38b !important;
 }
 
-td[class^='td']:last-child {
-    text-align: right;
-    padding-right: 5px;
-    border-right: double 4px #ddc38b !important;
+td[class^="td"]:last-child {
+  text-align: right;
+  padding-right: 5px;
+  border-right: double 4px #ddc38b !important;
 }
 
-.animetitle+small {
-    visibility: visible !important;
-    text-transform: lowercase;
-    font-size: 13px;
-    color: #e6ca8b;
-    margin-left: 5px;
-    opacity: 0.5;
+.animetitle + small {
+  visibility: visible !important;
+  text-transform: lowercase;
+  font-size: 13px;
+  color: #e6ca8b;
+  margin-left: 5px;
+  opacity: 0.5;
 }
 
-.animetitle+small:before {
-    content: "[";
+.animetitle + small:before {
+  content: "[";
 }
 
-.animetitle+small:after {
-    content: "]";
+.animetitle + small:after {
+  content: "]";
 }
-
 
 /* EDIT-MORE */
 
 #list_surround small {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 #list_surround tr:hover small,
 #list_surround tr:hover small a {
-    visibility: visible;
+  visibility: visible;
 }
-
 
 /* HEADERS */
 
 .header_title {
-    pointer-events: none;
-    display: inline-block;
-    height: 100px;
+  pointer-events: none;
+  display: inline-block;
+  height: 100px;
 }
-
 
 /* Headers pics */
 
@@ -123,197 +121,231 @@ td[class^='td']:last-child {
 .header_onhold span,
 .header_dropped span,
 .header_ptw span {
-    position: absolute;
-    display: inline-block;
-    width: 730px;
-    height: 78px;
-    margin-left: -20px;
-    margin-top: 22px;
-    font-size: 0;
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/xApmJde.png);
-    background-repeat: no-repeat;
-    z-index: -1;
+  position: absolute;
+  display: inline-block;
+  width: 730px;
+  height: 78px;
+  margin-left: -20px;
+  margin-top: 22px;
+  font-size: 0;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/xApmJde.png);
+  background-repeat: no-repeat;
+  z-index: -1;
 }
 
 .header_cw span {
-    background-position: center 0;
+  background-position: center 0;
 }
 
 .header_completed span {
-    background-position: center -78px;
+  background-position: center -78px;
 }
 
 .header_onhold span {
-    background-position: center -156px;
+  background-position: center -156px;
 }
 
 .header_dropped span {
-    background-position: center -234px;
+  background-position: center -234px;
 }
 
 .header_ptw span {
-    background-position: center -312px;
+  background-position: center -312px;
 }
 
 .category_totals:before {
-    position: absolute;
-    display: block;
-    content: '';
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/eTMjl9W.png) no-repeat;
-    width: 730px;
-    height: 78px;
-    margin-left: -20px;
-    margin-top: -20px;
-    z-index: -1;
+  position: absolute;
+  display: block;
+  content: "";
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/eTMjl9W.png)
+    no-repeat;
+  width: 730px;
+  height: 78px;
+  margin-left: -20px;
+  margin-top: -20px;
+  z-index: -1;
 }
 
 .category_totals {
-    padding: 20px 0;
-    color: #ddc38b;
-    text-align: center;
-    text-transform: lowercase !important;
+  padding: 20px 0;
+  color: #ddc38b;
+  text-align: center;
+  text-transform: lowercase !important;
 }
 
 #grand_totals {
-    display: none;
+  display: none;
 }
 
 .borderRBL {
-    color: #FFFFFF !important;
-    line-height: 1;
-    background-color: rgba(0, 0, 0, .3) !important;
+  color: #ffffff !important;
+  line-height: 1;
+  background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 #copyright:before {
-    display: block;
-    content: 'Designed by Hahaido | Modified by rl404';
-    line-height: 1;
+  display: block;
+  content: "Designed by Hahaido | Modified by rl404";
+  line-height: 1;
 }
 
 #copyright {
-    color: #fff;
-    height: 15px;
-    padding: 100px 0;
-    font-size: 10px;
-    text-transform: uppercase;
+  color: #fff;
+  height: 15px;
+  padding: 100px 0;
+  font-size: 10px;
+  text-transform: uppercase;
 }
 
 #copyright a {
-    font-size: 10px;
-    color: #FFFFFF;
+  font-size: 10px;
+  color: #ffffff;
 }
 
 #inlineContent {
-    display: inline !important;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
+  display: inline !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 @keyframes sparkle {
-    0% {
-        background-position: 0 0, 0 0;
-    }
-    100% {
-        background-position: -150px -300px, 150px -300px;
-    }
+  0% {
+    background-position: 0 0, 0 0;
+  }
+  100% {
+    background-position: -150px -300px, 150px -300px;
+  }
 }
 
 @-webkit-keyframes sparkle {
-    0% {
-        background-position: 0 0, 0 0;
-    }
-    100% {
-        background-position: -150px -300px, 150px -300px;
-    }
+  0% {
+    background-position: 0 0, 0 0;
+  }
+  100% {
+    background-position: -150px -300px, 150px -300px;
+  }
 }
 
 #inlineContent:before {
-    position: fixed;
-    display: block;
-    content: '';
-    left: 50%;
-    bottom: 0;
-    margin-left: -40%;
-    width: 80%;
-    height: 100%;
-    background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/sWW0xCu.png), url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/KzNIhqF.png);
-    border-radius: 50em;
-    animation: sparkle 15s linear infinite;
-    -webkit-animation: sparkle 15s linear infinite;
+  position: fixed;
+  display: block;
+  content: "";
+  left: 50%;
+  bottom: 0;
+  margin-left: -40%;
+  width: 80%;
+  height: 100%;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/sWW0xCu.png),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/KzNIhqF.png);
+  border-radius: 50em;
+  animation: sparkle 15s linear infinite;
+  -webkit-animation: sparkle 15s linear infinite;
 }
-
 
 /* TOP MENU */
 
 #mal\_control_strip:before,
 #mal\_control_strip a:after {
-    font-family: 'Oswald', sans-serif;
-    color: #e2de9a !important;
-    font-size: 24px !important;
-    text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #e2de9a !important;
+  font-size: 24px !important;
+  text-align: center;
 }
 
 #mal\_control_strip:before {
-    opacity: 1;
-    position: absolute;
-    display: block;
-    content: 'Menu';
-    margin-top: 100px;
-    right: 135px;
-    width: 50px;
-    font-size: 16px !important;
-    background-image: -moz-linear-gradient(top, rgb(38, 70, 185) 40%, rgb(13, 23, 76) 60%);
-    background-image: -webkit-linear-gradient(top, rgb(38, 70, 185) 40%, rgb(13, 23, 76) 60%);
-    background-image: linear-gradient(top, rgb(38, 70, 185) 40%, rgb(13, 23, 76) 60%);
-    box-shadow: 0 0 2px #000000 inset;
-    border-style: solid;
-    border-color: #ddc38b;
-    border-width: 0 0 1px 1px;
-    border-bottom-left-radius: 6px;
-    -webkit-transition: opacity .5s linear .3s;
-    transition: opacity .5s linear .3s;
+  opacity: 1;
+  position: absolute;
+  display: block;
+  content: "Menu";
+  margin-top: 100px;
+  right: 135px;
+  width: 50px;
+  font-size: 16px !important;
+  background-image: -moz-linear-gradient(
+    top,
+    rgb(38, 70, 185) 40%,
+    rgb(13, 23, 76) 60%
+  );
+  background-image: -webkit-linear-gradient(
+    top,
+    rgb(38, 70, 185) 40%,
+    rgb(13, 23, 76) 60%
+  );
+  background-image: linear-gradient(
+    top,
+    rgb(38, 70, 185) 40%,
+    rgb(13, 23, 76) 60%
+  );
+  box-shadow: 0 0 2px #000000 inset;
+  border-style: solid;
+  border-color: #ddc38b;
+  border-width: 0 0 1px 1px;
+  border-bottom-left-radius: 6px;
+  -webkit-transition: opacity 0.5s linear 0.3s;
+  transition: opacity 0.5s linear 0.3s;
 }
 
 #mal\_control_strip:hover:before {
-    opacity: 0;
+  opacity: 0;
 }
 
 #mal\_control_strip {
-    position: fixed !important;
-    display: block !important;
-    margin-top: -100px !important;
-    height: 100px !important;
-    left: 0;
-    top: 0;
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png) left center no-repeat, -moz-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%) !important;
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png) left center no-repeat, -webkit-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%) !important;
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png) left center no-repeat, linear-gradient(to top, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%) !important;
-    -webkit-transition: margin-top .5s ease-out, z-index .5s linear .2s;
-    transition: margin-top .5s ease-out, z-index .5s linear .2s;
-    z-index: 1;
+  position: fixed !important;
+  display: block !important;
+  margin-top: -100px !important;
+  height: 100px !important;
+  left: 0;
+  top: 0;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png)
+      left center no-repeat,
+    -moz-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(
+            255,
+            255,
+            255
+          )
+          100%) !important;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png)
+      left center no-repeat,
+    -webkit-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(
+            255,
+            255,
+            255
+          )
+          100%) !important;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png)
+      left center no-repeat,
+    linear-gradient(
+      to top,
+      rgb(48, 48, 48) 1%,
+      rgb(255, 255, 255) 3%,
+      rgb(255, 255, 255) 100%
+    ) !important;
+  -webkit-transition: margin-top 0.5s ease-out, z-index 0.5s linear 0.2s;
+  transition: margin-top 0.5s ease-out, z-index 0.5s linear 0.2s;
+  z-index: 1;
 }
 
 #mal\_control_strip a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 #mal\_control_strip:hover {
-    margin-top: 0 !important;
-    -webkit-transition: all .5s ease-out;
-    transition: all .5s ease-out;
-    z-index: 5;
+  margin-top: 0 !important;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  z-index: 5;
 }
 
 #mal\_control_strip a:hover:after {
-    color: #dbd352 !important;
-    -webkit-transition: color .3s linear;
-    transition: color .3s linear;
+  color: #dbd352 !important;
+  -webkit-transition: color 0.3s linear;
+  transition: color 0.3s linear;
 }
 
 #mal\_control_strip td {
-    display: inline !important;
+  display: inline !important;
 }
 
 #mal\_control_strip img,
@@ -321,13 +353,13 @@ td[class^='td']:last-child {
 #mal\_cs_powered img,
 #mal\_cs_pic,
 #mal\_cs_otherlinks strong {
-    display: none;
+  display: none;
 }
 
 #mal_cs_pic,
 #mal_cs_listinfo,
 #mal_cs_links {
-    border-right: none !important;
+  border-right: none !important;
 }
 
 #mal_cs_otherlinks div a[href*="history"],
@@ -337,7 +369,7 @@ td[class^='td']:last-child {
 #mal\_cs_links div a[href$="/"],
 #mal\_cs_otherlinks div a[href*="shared"],
 #mal\_cs_otherlinks div span[title*="Compatibility Score"] {
-    display: none;
+  display: none;
 }
 
 #mal\_cs_otherlinks div a,
@@ -346,13 +378,13 @@ td[class^='td']:last-child {
 #mal_cs_links div a[href*="addtolist"],
 #mal\_cs_links div:last-of-type a:first-of-type,
 #mal\_cs_links div:last-of-type a:last-of-type {
-    position: absolute !important;
-    display: block;
-    left: 100% !important;
-    top: 40px !important;
-    width: 100px !important;
-    font-size: 0 !important;
-    color: transparent;
+  position: absolute !important;
+  display: block;
+  left: 100% !important;
+  top: 40px !important;
+  width: 100px !important;
+  font-size: 0 !important;
+  color: transparent;
 }
 
 #mal\_cs_otherlinks div a:after,
@@ -361,344 +393,397 @@ td[class^='td']:last-child {
 #mal_cs_links div a[href*="addtolist"]:after,
 #mal\_cs_links div:last-of-type a:first-of-type:after,
 #mal\_cs_links div:last-of-type a:last-of-type:after {
-    position: absolute;
-    display: block;
-    width: 100px;
-    border-right: solid 1px #dbd352;
+  position: absolute;
+  display: block;
+  width: 100px;
+  border-right: solid 1px #dbd352;
 }
-
 
 /*  USERNAME */
 
 #mal\_cs_listinfo div:first-of-type a:after {
-    content: 'Profile';
-    margin-left: -500px;
+  content: "Profile";
+  margin-left: -500px;
 }
-
 
 /* ADD */
 
 #mal\_cs_links div a[href*="addtolist"]:after {
-    content: 'Add';
-    margin-left: -400px;
+  content: "Add";
+  margin-left: -400px;
 }
-
 
 /* MANGALIST */
 
 #mal\_cs_links div:last-of-type a:last-of-type {
-    margin-left: -200px;
+  margin-left: -200px;
 }
 
 #mal\_cs_links div:last-of-type a:last-of-type:after {
-    content: 'Manga';
+  content: "Manga";
 }
-
 
 /* ANIMELIST */
 
 #mal\_cs_links div:last-of-type a:first-of-type {
-    margin-left: -300px;
+  margin-left: -300px;
 }
 
 #mal\_cs_links div:last-of-type a:first-of-type:after {
-    content: 'Anime';
+  content: "Anime";
 }
-
 
 /* LOGOUT */
 
 #mal\_cs_listinfo div:last-of-type a {
-    margin-left: -100px;
+  margin-left: -100px;
 }
 
 #mal\_cs_listinfo div:last-of-type a:after {
-    content: 'Logout';
-    border: none;
+  content: "Logout";
+  border: none;
 }
-
 
 /* LOGIN */
 
 #mal\_cs_otherlinks div a[href*="login"]:after {
-    content: 'Login';
-    margin-left: -300px;
+  content: "Login";
+  margin-left: -300px;
 }
-
 
 /* CREATE A LIST */
 
 #mal\_cs_otherlinks div a[href*="register"] {
-    margin-left: -200px;
+  margin-left: -200px;
 }
 
 #mal\_cs_otherlinks div a[href*="register"]:after {
-    content: 'Register';
+  content: "Register";
 }
-
 
 /* FAQ */
 
 #mal\_cs_otherlinks div a[href*="forum"] {
-    margin-left: -100px;
+  margin-left: -100px;
 }
 
 #mal\_cs_otherlinks div a[href*="forum"]:after {
-    content: 'Help';
-    border: none;
+  content: "Help";
+  border: none;
 }
 
 #search {
-    position: absolute;
-    display: block !important;
-    margin: 5px 0 0 -150px !important;
+  position: absolute;
+  display: block !important;
+  margin: 5px 0 0 -150px !important;
 }
 
 #searchBox {
-    position: absolute;
-    display: block !important;
-    width: 124px !important;
-    padding-right: 2px;
-    height: 13px !important;
-    border: solid 1px #303030 !important;
-    text-align: right !important;
-    background-color: rgb(255, 255, 255);
+  position: absolute;
+  display: block !important;
+  width: 124px !important;
+  padding-right: 2px;
+  height: 13px !important;
+  border: solid 1px #303030 !important;
+  text-align: right !important;
+  background-color: rgb(255, 255, 255);
 }
 
 #searchListButton {
-    position: absolute;
-    display: block !important;
-    margin-left: 128px !important;
-    padding: 0 2px 3px 2px !important;
-    background-color: rgb(48, 48, 48) !important;
+  position: absolute;
+  display: block !important;
+  margin-left: 128px !important;
+  padding: 0 2px 3px 2px !important;
+  background-color: rgb(48, 48, 48) !important;
 }
-
 
 /* SORT */
 
-#list_surround>table:nth-of-type(n+4)~.header_cw+table,
-#list_surround>table:nth-of-type(n+4)~.header_completed+table,
-#list_surround>table:nth-of-type(n+4)~.header_onhold+table,
-#list_surround>table:nth-of-type(n+4)~.header_dropped+table,
-#list_surround>table:nth-of-type(n+4)~.header_ptw+table {
-    display: none;
+#list_surround > table:nth-of-type(n + 4) ~ .header_cw + table,
+#list_surround > table:nth-of-type(n + 4) ~ .header_completed + table,
+#list_surround > table:nth-of-type(n + 4) ~ .header_onhold + table,
+#list_surround > table:nth-of-type(n + 4) ~ .header_dropped + table,
+#list_surround > table:nth-of-type(n + 4) ~ .header_ptw + table {
+  display: none;
 }
 
 .table_header span {
-    display: none;
+  display: none;
 }
-
 
 /* Disable Tags in the Sort Options */
 
 .table_header[width="125"] {
-    display: none !important;
+  display: none !important;
 }
 
 #list_surround table:nth-of-type(3):before,
 .table_header a,
 .table_headerLink strong {
-    font-family: 'Oswald', sans-serif;
-    color: #e2de9a;
-    font-size: 24px;
-    text-align: center;
-    font-weight: normal !important;
+  font-family: "Oswald", sans-serif;
+  color: #e2de9a;
+  font-size: 24px;
+  text-align: center;
+  font-weight: normal !important;
 }
 
 #list_surround table:nth-of-type(3):before {
-    opacity: 1;
-    position: absolute;
-    display: block;
-    content: 'Sort';
-    margin-top: 100px;
-    right: 36px;
-    width: 50px;
-    font-size: 16px;
-    background-image: linear-gradient(top, rgb(38, 70, 185) 40%, rgb(13, 23, 76) 60%);
-    background-image: -moz-linear-gradient(top, rgb(38, 70, 185) 40%, rgb(13, 23, 76) 60%);
-    background-image: -webkit-linear-gradient(top, rgb(38, 70, 185) 40%, rgb(13, 23, 76) 60%);
-    box-shadow: 0 0 2px #000000 inset;
-    border-style: solid;
-    border-color: #ddc38b;
-    border-width: 0 1px 1px 0;
-    border-bottom-right-radius: 6px;
-    transition: opacity .5s linear .3s;
-    -webkit-transition: opacity .5s linear .3s;
+  opacity: 1;
+  position: absolute;
+  display: block;
+  content: "Sort";
+  margin-top: 100px;
+  right: 36px;
+  width: 50px;
+  font-size: 16px;
+  background-image: linear-gradient(
+    top,
+    rgb(38, 70, 185) 40%,
+    rgb(13, 23, 76) 60%
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    rgb(38, 70, 185) 40%,
+    rgb(13, 23, 76) 60%
+  );
+  background-image: -webkit-linear-gradient(
+    top,
+    rgb(38, 70, 185) 40%,
+    rgb(13, 23, 76) 60%
+  );
+  box-shadow: 0 0 2px #000000 inset;
+  border-style: solid;
+  border-color: #ddc38b;
+  border-width: 0 1px 1px 0;
+  border-bottom-right-radius: 6px;
+  transition: opacity 0.5s linear 0.3s;
+  -webkit-transition: opacity 0.5s linear 0.3s;
 }
 
 #list_surround table:nth-of-type(3) {
-    position: fixed !important;
-    display: block;
-    margin-top: -100px;
-    height: 100px;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png) left center no-repeat, linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%);
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png) left center no-repeat, -moz-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%);
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png) left center no-repeat, -webkit-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%);
-    transition: all .5s ease-out;
-    -webkit-transition: all .5s ease-out;
-    z-index: 1;
+  position: fixed !important;
+  display: block;
+  margin-top: -100px;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png)
+      left center no-repeat,
+    linear-gradient(
+      bottom,
+      rgb(48, 48, 48) 1%,
+      rgb(255, 255, 255) 3%,
+      rgb(255, 255, 255) 100%
+    );
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png)
+      left center no-repeat,
+    -moz-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(
+            255,
+            255,
+            255
+          )
+          100%);
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png)
+      left center no-repeat,
+    -webkit-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(
+            255,
+            255,
+            255
+          )
+          100%);
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  z-index: 1;
 }
 
 #list_surround table:nth-of-type(3) tr {
-    position: absolute;
-    display: block;
-    left: calc(100% - 360px);
+  position: absolute;
+  display: block;
+  left: calc(100% - 360px);
 }
 
 #list_surround table:nth-of-type(3):hover:before {
-    opacity: 0;
+  opacity: 0;
 }
 
 #list_surround table:nth-of-type(3):hover {
-    margin-top: 0 !important;
-    z-index: 5;
+  margin-top: 0 !important;
+  z-index: 5;
 }
 
 .table_headerLink {
-    display: inline-block;
-    margin-top: 40px;
-    width: 120px;
-    border-right: solid 1px #dbd352;
+  display: inline-block;
+  margin-top: 40px;
+  width: 120px;
+  border-right: solid 1px #dbd352;
 }
 
 .table_headerLink:lst-child {
-    border: none;
+  border: none;
 }
 
 .table_header a:hover,
 .table_headerLink strong:hover {
-    color: #dbd352 !important;
-    transition: color .3s linear;
-    -webkit-transition: color .3s linear;
+  color: #dbd352 !important;
+  transition: color 0.3s linear;
+  -webkit-transition: color 0.3s linear;
 }
-
 
 /* CATEGORY MENU */
 
-#list_surround>table:first-of-type:before,
-#list_surround>table:first-of-type a,
-#list_surround>table:first-of-type a:after {
-    font-family: 'Oswald', sans-serif;
-    color: #e2de9a;
-    font-size: 24px;
-    text-align: center;
+#list_surround > table:first-of-type:before,
+#list_surround > table:first-of-type a,
+#list_surround > table:first-of-type a:after {
+  font-family: "Oswald", sans-serif;
+  color: #e2de9a;
+  font-size: 24px;
+  text-align: center;
 }
 
-#list_surround>table:first-of-type:before {
-    opacity: 1;
-    position: absolute;
-    display: block;
-    content: 'Sheets';
-    margin-top: 100px;
-    right: 86px;
-    width: 50px;
-    font-size: 16px;
-    background-image: linear-gradient(top, rgb(38, 70, 185) 40%, rgb(13, 23, 76) 60%);
-    background-image: -moz-linear-gradient(top, rgb(38, 70, 185) 40%, rgb(13, 23, 76) 60%);
-    background-image: -webkit-linear-gradient(top, rgb(38, 70, 185) 40%, rgb(13, 23, 76) 60%);
-    box-shadow: 0 0 2px #000000 inset;
-    border-style: solid;
-    border-color: #ddc38b;
-    border-width: 0 0 1px 0;
-    transition: opacity .5s linear .3s;
-    -webkit-transition: opacity .5s linear .3s;
+#list_surround > table:first-of-type:before {
+  opacity: 1;
+  position: absolute;
+  display: block;
+  content: "Sheets";
+  margin-top: 100px;
+  right: 86px;
+  width: 50px;
+  font-size: 16px;
+  background-image: linear-gradient(
+    top,
+    rgb(38, 70, 185) 40%,
+    rgb(13, 23, 76) 60%
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    rgb(38, 70, 185) 40%,
+    rgb(13, 23, 76) 60%
+  );
+  background-image: -webkit-linear-gradient(
+    top,
+    rgb(38, 70, 185) 40%,
+    rgb(13, 23, 76) 60%
+  );
+  box-shadow: 0 0 2px #000000 inset;
+  border-style: solid;
+  border-color: #ddc38b;
+  border-width: 0 0 1px 0;
+  transition: opacity 0.5s linear 0.3s;
+  -webkit-transition: opacity 0.5s linear 0.3s;
 }
 
-#list_surround>table:first-of-type:hover:before {
-    opacity: 0;
+#list_surround > table:first-of-type:hover:before {
+  opacity: 0;
 }
 
-#list_surround>table:first-of-type {
-    position: fixed !important;
-    display: block;
-    margin-top: -100px;
-    height: 100px;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png) left center no-repeat, linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%);
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png) left center no-repeat, -moz-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%);
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png) left center no-repeat, -webkit-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%);
-    transition: margin-top .5s ease-out, z-index .5s linear .2s;
-    -webkit-transition: margin-top .5s ease-out, z-index .5s linear .2s;
-    z-index: 1;
+#list_surround > table:first-of-type {
+  position: fixed !important;
+  display: block;
+  margin-top: -100px;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png)
+      left center no-repeat,
+    linear-gradient(
+      bottom,
+      rgb(48, 48, 48) 1%,
+      rgb(255, 255, 255) 3%,
+      rgb(255, 255, 255) 100%
+    );
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png)
+      left center no-repeat,
+    -moz-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(
+            255,
+            255,
+            255
+          )
+          100%);
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Saber/images/DV3hytm.png)
+      left center no-repeat,
+    -webkit-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(
+            255,
+            255,
+            255
+          )
+          100%);
+  transition: margin-top 0.5s ease-out, z-index 0.5s linear 0.2s;
+  -webkit-transition: margin-top 0.5s ease-out, z-index 0.5s linear 0.2s;
+  z-index: 1;
 }
 
-#list_surround>table:first-of-type tr {
-    position: absolute;
-    display: block;
-    left: calc(100% - 737px);
+#list_surround > table:first-of-type tr {
+  position: absolute;
+  display: block;
+  left: calc(100% - 737px);
 }
 
-#list_surround>table:first-of-type:hover {
-    margin-top: 0 !important;
-    transition: all .5s ease-out;
-    -webkit-transition: all .5s ease-out;
-    z-index: 5;
+#list_surround > table:first-of-type:hover {
+  margin-top: 0 !important;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  z-index: 5;
 }
 
 .status_selected,
 .status_not_selected {
-    position: relative !important;
-    display: inline-block;
-    width: 120px;
+  position: relative !important;
+  display: inline-block;
+  width: 120px;
 }
 
 .status_selected a,
 .status_not_selected a {
-    margin-top: 40px;
-    border-right: solid 1px #dbd352;
+  margin-top: 40px;
+  border-right: solid 1px #dbd352;
 }
 
 .status_selected a,
 .status_not_selected a,
 .status_selected a:after,
 .status_not_selected a:after {
-    display: inline-block;
-    width: 120px;
+  display: inline-block;
+  width: 120px;
 }
 
 .status_not_selected a[href*="status=1"],
 .status_selected a[href*="status=1"],
 .status_not_selected a[href*="status=6"],
 .status_selected a[href*="status=6"] {
-    font-size: 0 !important;
+  font-size: 0 !important;
 }
-
 
 /* Currently watching */
 
 .status_not_selected a[href*="status=1"]:after,
 .status_selected a[href*="status=1"]:after {
-    content: 'Current';
+  content: "Current";
 }
-
 
 /* Planned */
 
 .status_not_selected a[href*="status=6"]:after,
 .status_selected a[href*="status=6"]:after {
-    content: 'Planned';
+  content: "Planned";
 }
 
 .status_not_selected a[href*="status=7"],
 .status_selected a[href*="status=7"] {
-    border: none;
+  border: none;
 }
 
 .status_not_selected a:hover,
 .status_not_selected a:hover:after {
-    color: #dbd352 !important;
-    transition: color .3s linear;
-    -webkit-transition: color .3s linear;
+  color: #dbd352 !important;
+  transition: color 0.3s linear;
+  -webkit-transition: color 0.3s linear;
 }
 
 .status_selected a[href*="status=7"],
 .status_not_selected a[href*="status=7"] {
-    top: -68px;
-    left: 620px;
-    position: absolute;
+  top: -68px;
+  left: 620px;
+  position: absolute;
 }

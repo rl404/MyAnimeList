@@ -7,342 +7,342 @@
 /* COVER AREA */
 
 .list-block {
-	/* variables used in calc (explicit names), change both values to 0px to hide the covers */
-	--height-img: 272px;
-	--width-img: 192px;
+  /* variables used in calc (explicit names), change both values to 0px to hide the covers */
+  --height-img: 272px;
+  --width-img: 192px;
 }
 
 /* BACKGROUND */
 
 body {
-	background-attachment: fixed;
-	background-color: var(--main-background) !important;
-	background-image: url('https://raw.githubusercontent.com/rl404/MyAnimeList/master/Night-Shift/images/background.jpeg');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-attachment: fixed;
+  background-color: var(--main-background) !important;
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Night-Shift/images/background.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 :root {
-	--text-color: #fff;
-	--secondary-text-color: #ffffffde;
-	--disabled-text-color: #fff9;
+  --text-color: #fff;
+  --secondary-text-color: #ffffffde;
+  --disabled-text-color: #fff9;
 
-	--airing-color: #000;
-	--airing-background: #ff0;
+  --airing-color: #000;
+  --airing-background: #ff0;
 
-	--link-color: #fff;
-	--link-color-hover: #ffffffBF;
-	--link-background-hover: #313131BF;
-	--secondary-link-color: #fff9;
-	--secondary-link-color-hover: #fff;
-	--secondary-link-background-hover: #313131;
+  --link-color: #fff;
+  --link-color-hover: #ffffffbf;
+  --link-background-hover: #313131bf;
+  --secondary-link-color: #fff9;
+  --secondary-link-color-hover: #fff;
+  --secondary-link-background-hover: #313131;
 
-	--main-background: #000;
-	--menu-background: #272727;
-	--content-background: #27272799;
-	--content-border: #aaa;
+  --main-background: #000;
+  --menu-background: #272727;
+  --content-background: #27272799;
+  --content-border: #aaa;
 
-	--disabled-window-background: #27272761;
+  --disabled-window-background: #27272761;
 
-	--progress-more-background: #272727DE;
+  --progress-more-background: #272727de;
 
-	--height-text-section: 272px;
-	--height-top-section: 40px;
-	--height-bottom-section: 20px;
-	--width-text-section: 300px;
+  --height-text-section: 272px;
+  --height-top-section: 40px;
+  --height-bottom-section: 20px;
+  --width-text-section: 300px;
 }
 
 /* LINKS */
 
 a {
-	text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 /* HEADER */
 
 .header {
-	margin-top: 50px;
-	width: auto;
+  margin-top: 50px;
+  width: auto;
 }
 
 @media screen and (max-width: 775px) {
-	.header {
-		margin-top: 80px;
-	}
+  .header {
+    margin-top: 80px;
+  }
 }
 
 .header .header-title {
-	/* uncomment to force white MAL logo */
-	/*background-image: url(https://myanimelist.net/img/pc/ownlist/logo_mal.png);*/
-	filter: drop-shadow(1px 1px 1px black);
-	margin-left: 15px;
+  /* uncomment to force white MAL logo */
+  /*background-image: url(https://myanimelist.net/img/pc/ownlist/logo_mal.png);*/
+  filter: drop-shadow(1px 1px 1px black);
+  margin-left: 15px;
 }
 
 .header .header-menu {
-	filter: drop-shadow(1px 1px 1px black);
-	padding-right: 15px;
+  filter: drop-shadow(1px 1px 1px black);
+  padding-right: 15px;
 }
 
 .header .header-menu .btn-menu,
 .header .header-menu .header-info {
-	color: var(--text-color) !important;
+  color: var(--text-color) !important;
 }
 
 .header .header-menu .btn-menu a,
 .header .header-menu .header-info a {
-	color: var(--link-color) !important;
+  color: var(--link-color) !important;
 }
 
 .header .header-menu .btn-menu a:hover,
 .header .header-menu .header-info a:hover {
-	color: var(--link-color-hover) !important;
+  color: var(--link-color-hover) !important;
 }
 
 .header .header-menu .btn-menu {
-	display: inline;
+  display: inline;
 }
 
 .header .header-menu .btn-menu #header-menu-button {
-	font-weight: normal;
-	pointer-events: none;
+  font-weight: normal;
+  pointer-events: none;
 }
 
 .header .header-menu .btn-menu .fa-angle-down:before {
-	content: "-";
+  content: "-";
 }
 
 .header .header-menu .header-info {
-	display: block;
-	position: absolute;
-	text-align: center;
-	width: 100%;
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: 100%;
 }
 
 #header-menu-dropdown {
-	display: inline;
-	position: unset;
+  display: inline;
+  position: unset;
 }
 
 #header-menu-dropdown .icon-menu {
-	background: none !important;
-	display: inline;
-	transition: none !important;
+  background: none !important;
+  display: inline;
+  transition: none !important;
 }
 
 #header-menu-dropdown .icon-menu:before {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 #header-menu-dropdown .icon-menu.manga-list:before {
-	content: "View Manga List";
+  content: "View Manga List";
 }
 
 #header-menu-dropdown .icon-menu.anime-list:before {
-	content: "View Anime List";
+  content: "View Anime List";
 }
 
 .header .header-menu .icon-menu .icon {
-	fill: var(--link-color) !important;
-	position: unset !important;
+  fill: var(--link-color) !important;
+  position: unset !important;
 }
 
 .header .header-menu .icon-menu:hover .icon {
-	fill: var(--link-color-hover) !important;
+  fill: var(--link-color-hover) !important;
 }
 
 .header .header-menu .icon-menu span {
-	display: none !important;
+  display: none !important;
 }
 
 /* div to other list */
 .header .header-menu .list-menu {
-	background-color: transparent;
-	border: none;
-	box-shadow: none;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
 }
 
 /* link to other list */
 .header .header-menu .list-menu .icon-menu {
-	color: var(--link-color) !important;
+  color: var(--link-color) !important;
 }
 
 .header .header-menu .list-menu .icon-menu:hover {
-	color: var(--link-color-hover) !important;
+  color: var(--link-color-hover) !important;
 }
 
 .header-info {
-	display: inline-block;
+  display: inline-block;
 }
 
 /* LIST MENU */
 
 .header:before {
-	/* menu icon for click simulation */
-	box-sizing: border-box;
-	color: var(--link-color);
-	content: "";
-	cursor: pointer;
-	font-family: FontAwesome;
-	font-size: 25px;
-	height: 46px;
-	left: 0;
-	padding: 7px;
-	position: fixed;
-	top: 0;
-	width: 46px;
-	z-index: 98;
+  /* menu icon for click simulation */
+  box-sizing: border-box;
+  color: var(--link-color);
+  content: "";
+  cursor: pointer;
+  font-family: FontAwesome;
+  font-size: 25px;
+  height: 46px;
+  left: 0;
+  padding: 7px;
+  position: fixed;
+  top: 0;
+  width: 46px;
+  z-index: 98;
 }
 
 .header:active:before {
-	pointer-events: none;
+  pointer-events: none;
 }
 
 .list-menu-float {
-	background: var(--menu-background);
-	border: none;
-	bottom: 0;
-	display: block;
-	flex-direction: column;
-	margin-left: -300px;
-	overflow: hidden;
-	top: 0 !important;
-	transition: margin 0.2s ease 0s, z-index 0s ease 0s;
-	width: 300px;
-	z-index: 97;
+  background: var(--menu-background);
+  border: none;
+  bottom: 0;
+  display: block;
+  flex-direction: column;
+  margin-left: -300px;
+  overflow: hidden;
+  top: 0 !important;
+  transition: margin 0.2s ease 0s, z-index 0s ease 0s;
+  width: 300px;
+  z-index: 97;
 }
 
 .list-menu-float:before {
-	box-sizing: border-box;
-	color: var(--link-color);
-	content: "\f0c9";
-	cursor: pointer;
-	font-family: FontAwesome;
-	font-size: 25px;
-	height: 46px;
-	left: 0;
-	padding: 7px;
-	position: fixed;
-	top: 0;
-	transition: left 0.2s ease 0s, background 0.2s ease 0s;
-	width: 46px;
+  box-sizing: border-box;
+  color: var(--link-color);
+  content: "\f0c9";
+  cursor: pointer;
+  font-family: FontAwesome;
+  font-size: 25px;
+  height: 46px;
+  left: 0;
+  padding: 7px;
+  position: fixed;
+  top: 0;
+  transition: left 0.2s ease 0s, background 0.2s ease 0s;
+  width: 46px;
 }
 
 .list-menu-float:hover {
-	margin-left: 0px;
-	z-index: 99;
+  margin-left: 0px;
+  z-index: 99;
 }
 
 .list-menu-float:hover:before {
-	background: var(--disabled-window-background);
-	content: "";
-	height: 100%;
-	left: 300px;
-	width: 100%;
+  background: var(--disabled-window-background);
+  content: "";
+  height: 100%;
+  left: 300px;
+  width: 100%;
 }
 
 .list-menu-float:active:before {
-	cursor: initial;
-	pointer-events: none;
-	transition: 0s;
+  cursor: initial;
+  pointer-events: none;
+  transition: 0s;
 }
 
 .list-menu-float .icon-menu,
 .list-menu-float form {
-	/* All list menu buttons */
-	transition: none;
+  /* All list menu buttons */
+  transition: none;
 }
 
 .list-menu-float .icon-menu:not(.profile),
 .list-menu-float form {
-	background: transparent !important;
-	width: 100% !important;
+  background: transparent !important;
+  width: 100% !important;
 }
 
 .list-menu-float .icon-menu:not(.profile):hover,
 .list-menu-float form:hover {
-	background: var(--secondary-link-background-hover) !important;
+  background: var(--secondary-link-background-hover) !important;
 }
 
 .list-menu-float .icon-menu .text {
-	/* text display */
-	left: 110px;
-	opacity: 1 !important;
-	transition: none;
-	width: auto !important;
+  /* text display */
+  left: 110px;
+  opacity: 1 !important;
+  transition: none;
+  width: auto !important;
 }
 
 .list-menu-float .icon {
-	/* All list menu icons */
-	fill: var(--secondary-link-color) !important;
-	left: 75px !important;
+  /* All list menu icons */
+  fill: var(--secondary-link-color) !important;
+  left: 75px !important;
 }
 
 .list-menu-float .icon-menu .text,
 .list-menu-float .icon-menu.setting a {
-	color: var(--secondary-link-color) !important;
+  color: var(--secondary-link-color) !important;
 }
 
 .list-menu-float .icon-menu:hover .text,
 .list-menu-float .icon-menu.setting .text a:hover {
-	color: var(--secondary-link-color-hover) !important;
+  color: var(--secondary-link-color-hover) !important;
 }
 
 .list-menu-float .icon-menu:hover .icon {
-	fill: var(--secondary-link-color-hover) !important;
+  fill: var(--secondary-link-color-hover) !important;
 }
 
 .list-menu-float .icon-menu.profile {
-	border: 2px solid var(--text-color);
-	border-radius: 50%;
-	height: 80px;
-	left: 15px;
-	pointer-events: none;
-	position: absolute;
-	top: 15px;
-	width: 80px;
+  border: 2px solid var(--text-color);
+  border-radius: 50%;
+  height: 80px;
+  left: 15px;
+  pointer-events: none;
+  position: absolute;
+  top: 15px;
+  width: 80px;
 }
 
 .icon-menu.profile::before {
-	color: var(--secondary-text-color);
-	content: attr(href);
-	display: block;
-	font-size: 16px;
-	left: 100%;
-	margin-left: 15px;
-	overflow: hidden;
-	pointer-events: none;
-	position: absolute;
-	text-align: left;
-	text-indent: -256px;
-	top: 12px;
-	width: 180px;
+  color: var(--secondary-text-color);
+  content: attr(href);
+  display: block;
+  font-size: 16px;
+  left: 100%;
+  margin-left: 15px;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  text-align: left;
+  text-indent: -256px;
+  top: 12px;
+  width: 180px;
 }
 
 .icon-menu.profile::after {
-	border-top: 1px solid var(--text-color);
-	content: "View my profile";
-	color: var(--link-color);
-	display: block;
-	font-weight: bold;
-	left: 100%;
-	margin-left: 5px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	padding-top: 7px;
-	pointer-events: all;
-	position: absolute;
-	text-align: left;
-	top: 40px;
-	width: 180px;
+  border-top: 1px solid var(--text-color);
+  content: "View my profile";
+  color: var(--link-color);
+  display: block;
+  font-weight: bold;
+  left: 100%;
+  margin-left: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 7px;
+  pointer-events: all;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: 180px;
 }
 
 .icon-menu.profile:hover::after {
-	color: var(--link-color-hover);
+  color: var(--link-color-hover);
 }
 
 .list-menu-float .icon-menu.quick-add {
-	margin-top: 115px;
+  margin-top: 115px;
 }
 
 /* logout */
@@ -350,536 +350,573 @@ a {
 /* when own list */
 
 .icon-logout {
-	top: 16px !important;
+  top: 16px !important;
 }
 
 .list-menu-float .icon-menu.setting {
-	opacity: 1 !important;
+  opacity: 1 !important;
 }
 
 /* Settings */
 
 .list-menu-float .icon-menu.setting .text {
-	/* setting button (owner only) */
-	height: 50px !important;
-	opacity: 1 !important;
-	text-align: left;
-	width: 110px !important;
+  /* setting button (owner only) */
+  height: 50px !important;
+  opacity: 1 !important;
+  text-align: left;
+  width: 110px !important;
 }
 
 .list-menu-float .icon-menu.setting .text a {
-	background: transparent !important;
-	border: none !important;
-	height: auto !important;
-	line-height: initial !important;
-	opacity: 1 !important;
-	padding-bottom: 10px;
-	position: relative !important;
-	top: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  height: auto !important;
+  line-height: initial !important;
+  opacity: 1 !important;
+  padding-bottom: 10px;
+  position: relative !important;
+  top: 0 !important;
 }
 
 /* LIST CONTAINER */
 
 #list-container {
-	background-color: transparent !important;
-	border: none;
-	width: 100%;
+  background-color: transparent !important;
+  border: none;
+  width: 100%;
 }
 
 /* IMAGE BLOCK */
 
 .cover-block .image-container {
-	/* fix cover edit button not reachable */
-	position: relative;
+  /* fix cover edit button not reachable */
+  position: relative;
 }
 
 .cover-block .image-container .btn-list-setting {
-	color: var(--link-color);
+  color: var(--link-color);
 }
 
 .cover-block .image-container .btn-list-setting:hover {
-	color: var(--link-color-hover);
+  color: var(--link-color-hover);
 }
 
 /* STATUS MENU */
 
 #status-menu {
-	background: var(--menu-background);
-	border-bottom: none;
-	box-shadow: 5px 5px 5px #0000005c;
-	height: auto;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 3;
+  background: var(--menu-background);
+  border-bottom: none;
+  box-shadow: 5px 5px 5px #0000005c;
+  height: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
 }
 
 .status-menu {
-	/* category menu */
-	display: flex !important;
-	gap: 15px;
-	justify-content: center;
-	margin-left: 50px !important;
-	margin-right: 150px !important;
+  /* category menu */
+  display: flex !important;
+  gap: 15px;
+  justify-content: center;
+  margin-left: 50px !important;
+  margin-right: 150px !important;
 }
 
 .status-menu .status-button {
-	/* category button */
-	color: var(--secondary-link-color) !important;
-	padding: 10px 10px !important;
+  /* category button */
+  color: var(--secondary-link-color) !important;
+  padding: 10px 10px !important;
 }
 
 .status-menu .status-button.on,
 .status-menu .status-button:hover {
-	color: var(--secondary-link-color-hover) !important;
-	background: var(--secondary-link-background-hover);
+  color: var(--secondary-link-color-hover) !important;
+  background: var(--secondary-link-background-hover);
 }
 
 .status-menu .status-button::after {
-	display: none !important;
+  display: none !important;
 }
 
 /* SEARCH */
 
 .status-menu-container .search-container #search-button {
-	color: var(--link-color);
+  color: var(--link-color);
 }
 
 .status-menu-container .search-container #search-button:hover {
-	color: var(--link-color-hover);
+  color: var(--link-color-hover);
 }
 
 .status-menu-container .search-container #search-box input {
-	background: var(--progress-more-background);
-	border: none;
-	border-bottom: 1px solid var(--content-border);
-	color: var(--text-color);
-	outline: none !important;
+  background: var(--progress-more-background);
+  border: none;
+  border-bottom: 1px solid var(--content-border);
+  color: var(--text-color);
+  outline: none !important;
 }
 
 /* STATUS TITLE */
 
 .list-unit .list-status-title {
-	background: transparent;
-	margin: 0 auto;
-	width: auto;
+  background: transparent;
+  margin: 0 auto;
+  width: auto;
 }
 
 .list-unit .list-status-title .text {
-	color: var(--text-color) !important;
-	filter: drop-shadow(1px 2px 2px black);
-	font-size: 65px;
+  color: var(--text-color) !important;
+  filter: drop-shadow(1px 2px 2px black);
+  font-size: 65px;
 }
 
 .list-unit .list-status-title .stats a {
-	color: var(--link-color) !important;
-	filter: drop-shadow(1px 2px 2px black);
+  color: var(--link-color) !important;
+  filter: drop-shadow(1px 2px 2px black);
 }
 
 .list-unit .list-status-title .stats a:hover {
-	color: var(--link-color-hover) !important;
+  color: var(--link-color-hover) !important;
 }
 
 /* STATS */
 
 .stats {
-	right:12px !important;
+  right: 12px !important;
 }
 
 .list-unit .list-stats {
-	/* Stat bar */
-	background-color: transparent;
-	color: var(--text-color) !important;
-	filter: drop-shadow(1px 2px 2px black);
-	font-size: 14px;
-	margin: 0 auto;
+  /* Stat bar */
+  background-color: transparent;
+  color: var(--text-color) !important;
+  filter: drop-shadow(1px 2px 2px black);
+  font-size: 14px;
+  margin: 0 auto;
 }
 
 /* FILTER */
 
 #advanced-options {
-	background: var(--menu-background) none repeat scroll 0% 0%;
-	border: unset;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	color: var(--text-color);
-	/* fix for window out of screen*/
-	position: fixed;
+  background: var(--menu-background) none repeat scroll 0% 0%;
+  border: unset;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: var(--text-color);
+  /* fix for window out of screen*/
+  position: fixed;
 }
 
 #advanced-options .sort-widget input[type="radio"]:checked + label {
-	background-color: var(--link-background-hover);
-	border: 1px solid var(--content-border);
+  background-color: var(--link-background-hover);
+  border: 1px solid var(--content-border);
 }
 
 #advanced-options .btn-apply,
 #advanced-options .btn-clear {
-	background-color: transparent;
-	border: 1px solid var(--content-border);
-	color: var(--secondary-link-color);
-	transition: none;
+  background-color: transparent;
+  border: 1px solid var(--content-border);
+  color: var(--secondary-link-color);
+  transition: none;
 }
 
 #advanced-options .btn-apply:hover,
 #advanced-options .btn-clear:hover {
-	background-color: var(--secondary-link-background-hover);
-	color: var(--secondary-link-color-hover);
+  background-color: var(--secondary-link-background-hover);
+  color: var(--secondary-link-color-hover);
 }
 
 /* LIST TABLE */
 
 .list-block {
-	margin-top: 0px !important;
+  margin-top: 0px !important;
 }
 
 .list-unit {
-	width: 100%;
+  width: 100%;
 }
 
 .list-table {
-	border: none;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Sort row */
 
-.list-table>tbody:first-child {
-	background-color: transparent;
-	flex-basis: 100%;
-	padding: 15px 0px;
+.list-table > tbody:first-child {
+  background-color: transparent;
+  flex-basis: 100%;
+  padding: 15px 0px;
 }
 
 .list-table .list-table-header {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 20px;
-	justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
-.list-table .list-table-header .header-title:not(.title):not(.score):not(.type):not(.progress):not(.chapters):not(.volumes):not(.rated):not(.started):not(.finished):not(.storage):not(.priority) {
-	/* hide not sortable headers */
-	display: none;
+.list-table
+  .list-table-header
+  .header-title:not(.title):not(.score):not(.type):not(.progress):not(.chapters):not(.volumes):not(.rated):not(.started):not(.finished):not(.storage):not(.priority) {
+  /* hide not sortable headers */
+  display: none;
 }
 
 .list-table .list-table-header .header-title {
-	background: transparent;
-	border-bottom: none;
-	display: inline-block;
-	/* "fix" for premiered header still appearing */
-	font-size: 0;
-	height: 100%;
-	padding: 0 !important;
-	width: auto !important;
+  background: transparent;
+  border-bottom: none;
+  display: inline-block;
+  /* "fix" for premiered header still appearing */
+  font-size: 0;
+  height: 100%;
+  padding: 0 !important;
+  width: auto !important;
 }
 
 .list-table .list-table-header .header-title .link {
-	color: var(--link-color) !important;
-	filter: drop-shadow(1px 2px 2px black);
-	padding: 9px 17px !important;
-	text-align: center;
-	transition: none !important;
+  color: var(--link-color) !important;
+  filter: drop-shadow(1px 2px 2px black);
+  padding: 9px 17px !important;
+  text-align: center;
+  transition: none !important;
 }
 
 .list-table .list-table-header .header-title .link:hover {
-	color: var(--link-color-hover) !important;
+  color: var(--link-color-hover) !important;
 }
 
 .list-table .list-table-header .header-title .link .sort-icon {
-	color: var(--link-color);
+  color: var(--link-color);
 }
 
 /* "fix" to correctly remove the empty space from the "Premiered" header */
-.anime .header-title.started { margin-left: -20px; }
-.anime .header-title.started a { margin-left: 20px; }
+.anime .header-title.started {
+  margin-left: -20px;
+}
+.anime .header-title.started a {
+  margin-left: 20px;
+}
 
 /* MAIN LIST */
 
 /* Data rows */
 .list-table tbody.list-item {
-	background: var(--content-background);
-	box-sizing: border-box;
-	height: var(--height-text-section);
-	margin: 10px;
-	overflow: hidden;
-	padding-left: var(--width-img);
-	position: relative;
-	width: calc(var(--width-img) + var(--width-text-section));
+  background: var(--content-background);
+  box-sizing: border-box;
+  height: var(--height-text-section);
+  margin: 10px;
+  overflow: hidden;
+  padding-left: var(--width-img);
+  position: relative;
+  width: calc(var(--width-img) + var(--width-text-section));
 }
 
 .list-table-data {
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	margin-top: var(--height-top-section);
-	max-height: calc(var(--height-text-section) - var(--height-top-section) - var(--height-bottom-section));
-	overflow: hidden;
-	padding: 5px;
-	text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: var(--height-top-section);
+  max-height: calc(
+    var(--height-text-section) - var(--height-top-section) -
+      var(--height-bottom-section)
+  );
+  overflow: hidden;
+  padding: 5px;
+  text-align: center;
 }
 
 .list-table-data:hover {
-	/* display scrollbar on hover */
-	overflow-y:auto;
+  /* display scrollbar on hover */
+  overflow-y: auto;
 }
 
 .list-table .list-table-data .data {
-	border: none !important;
-	color: var(--secondary-text-color);
-	display: inline-block;
-	padding: 0px !important;
-	text-align: left;
+  border: none !important;
+  color: var(--secondary-text-color);
+  display: inline-block;
+  padding: 0px !important;
+  text-align: left;
 }
 
 .list-table .list-table-data .data a {
-	/* remove color conflicts with default themes */
-	color: var(--link-color) !important;
+  /* remove color conflicts with default themes */
+  color: var(--link-color) !important;
 }
 
 .list-table .list-table-data a:hover:not(.edit-disabled) {
-	color: var(--link-color-hover) !important;
+  color: var(--link-color-hover) !important;
 }
 
 /* row number */
 
 .data.number {
-	bottom: 0px;
-	height: var(--height-bottom-section);
-	line-height: var(--height-bottom-section);
-	padding: 0px !important;
-	position: absolute;
-	right: 5px;
+  bottom: 0px;
+  height: var(--height-bottom-section);
+  line-height: var(--height-bottom-section);
+  padding: 0px !important;
+  position: absolute;
+  right: 5px;
 }
 
 /* status */
 
 .data.status {
-	/* color-coded category status bar (repurposed as bottom section background) */
-	bottom: 0;
-	height: var(--height-bottom-section);
-	left: var(--width-img);
-	padding: 0 !important;
-	position: absolute;
-	width: calc(100% - var(--width-img)) !important;
+  /* color-coded category status bar (repurposed as bottom section background) */
+  bottom: 0;
+  height: var(--height-bottom-section);
+  left: var(--width-img);
+  padding: 0 !important;
+  position: absolute;
+  width: calc(100% - var(--width-img)) !important;
 }
 
 /* categories colors */
 
 .data.status.watching,
 .data.status.reading {
-	background: linear-gradient(to right, #00280061 0%, #23B23061 100%) !important;
+  background: linear-gradient(
+    to right,
+    #00280061 0%,
+    #23b23061 100%
+  ) !important;
 }
 
 .data.status.completed {
-	background: linear-gradient(to right, #00002861 0%, #26448f61 100%) !important;
+  background: linear-gradient(
+    to right,
+    #00002861 0%,
+    #26448f61 100%
+  ) !important;
 }
 
 .data.status.onhold {
-	background: linear-gradient(to right, #28280061 0%, #f1c83e61 100%) !important;
+  background: linear-gradient(
+    to right,
+    #28280061 0%,
+    #f1c83e61 100%
+  ) !important;
 }
 
 .data.status.dropped {
-	background: linear-gradient(to right, #28000061 0%, #a12f3161 100%) !important;
+  background: linear-gradient(
+    to right,
+    #28000061 0%,
+    #a12f3161 100%
+  ) !important;
 }
 
 .data.status.plantowatch,
 .data.status.plantoread {
-	background: linear-gradient(to right, #28282861 0%, #c3c3c361 100%) !important;
+  background: linear-gradient(
+    to right,
+    #28282861 0%,
+    #c3c3c361 100%
+  ) !important;
 }
 
 /* image */
 
 .data.image {
-	bottom: 0;
-	height: var(--height-img);
-	left: 0;
-	padding: 0px !important;
-	pointer-events: none;
-	position: absolute;
-	width: var(--width-img);
+  bottom: 0;
+  height: var(--height-img);
+  left: 0;
+  padding: 0px !important;
+  pointer-events: none;
+  position: absolute;
+  width: var(--width-img);
 }
 
 .data.image a {
-	height: 100%;
-	left: 0px;
-	position: relative;
-	top: 0px;
-	width: 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
 }
 
 .data.image a:before {
-	/* anime cover (generated) */
-	background-position: center center;
-	background-size: cover;
-	content: "";
-	display: block;
-	height: 100%;
-	position: absolute;
-	transition: all 0.2s;
-	width: 100%;
+  /* anime cover (generated) */
+  background-position: center center;
+  background-size: cover;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s;
+  width: 100%;
 }
 
 .data.image img {
-	border: none !important;
-	height: auto !important;
-	width: 100% !important;
+  border: none !important;
+  height: auto !important;
+  width: 100% !important;
 }
 
 .list-table tbody.list-item::before {
-	/* default empty picture when "image" is not checked in the list settings */
-	background: var(--content-background);
-	content: "\f1c5";
-	font-family: FontAwesome;
-	font-size: 10em;
-	height: var(--height-img);
-	left: 0;
-	line-height: 2.5;
-	overflow: hidden;
-	position: absolute;
-	text-align: center;
-	top: 0;
-	width: var(--width-img);
-	z-index: -1;
+  /* default empty picture when "image" is not checked in the list settings */
+  background: var(--content-background);
+  content: "\f1c5";
+  font-family: FontAwesome;
+  font-size: 10em;
+  height: var(--height-img);
+  left: 0;
+  line-height: 2.5;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: var(--width-img);
+  z-index: -1;
 }
 
 /* title */
 
 .data.title {
-	box-sizing: border-box;
-	display: block;
-	height: 40px;
-	order: 1;
-	padding: 5px !important;
-	position: absolute;
-	right: 0;
-	text-align: center !important;
-	top: 0;
-	width: calc(100% - var(--width-img));
+  box-sizing: border-box;
+  display: block;
+  height: 40px;
+  order: 1;
+  padding: 5px !important;
+  position: absolute;
+  right: 0;
+  text-align: center !important;
+  top: 0;
+  width: calc(100% - var(--width-img));
 }
 
 /* horizontal separator */
 .data.title::after {
-	border-top: 1px solid var(--content-border);
-	content: "";
-	left: 5%;
-	position: absolute;
-	top: var(--height-top-section);
-	visibility: visible;
-	width: 90%;
+  border-top: 1px solid var(--content-border);
+  content: "";
+  left: 5%;
+  position: absolute;
+  top: var(--height-top-section);
+  visibility: visible;
+  width: 90%;
 }
 
 .data.title .link {
-	/* Anime title */
-	box-sizing: border-box;
-	display: -webkit-box;
-	font-size: 1.5em !important;
-	overflow: hidden;
-	padding: 2px !important;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	transition: text-shadow 0.2s ease;
-	width: 100%;
-	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 2;
+  /* Anime title */
+  box-sizing: border-box;
+  display: -webkit-box;
+  font-size: 1.5em !important;
+  overflow: hidden;
+  padding: 2px !important;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: text-shadow 0.2s ease;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 /* "Airing" / "Rewatching" banner */
 .data.title .rewatching,
 .data.title .rereading,
 .data.title .content-status {
-	background: var(--airing-background);
-	color: var(--airing-color) !important;
-	left: calc(-1 * var(--width-img) - 45px);
-	position: absolute;
-	top: 12px;
-	transform: rotateZ(325deg);
-	width: 150px;
+  background: var(--airing-background);
+  color: var(--airing-color) !important;
+  left: calc(-1 * var(--width-img) - 45px);
+  position: absolute;
+  top: 12px;
+  transform: rotateZ(325deg);
+  width: 150px;
 }
 
 /* watch icon (broadcast) under the title */
 .data.title .icon-watch2 {
-	height: var(--height-bottom-section);
-	position: absolute;
-	right: 45px;
-	top: calc(var(--height-text-section) - var(--height-bottom-section));
-	width: 20px;
+  height: var(--height-bottom-section);
+  position: absolute;
+  right: 45px;
+  top: calc(var(--height-text-section) - var(--height-bottom-section));
+  width: 20px;
 }
 
 .icon-watch2 .malicon.malicon-streaming {
-	color: var(--link-color) !important;
-	display: block;
-	margin-top: 2.5px;
+  color: var(--link-color) !important;
+  display: block;
+  margin-top: 2.5px;
 }
 
 .icon-watch2 .malicon.malicon-streaming:hover {
-	color: var(--link-color-hover) !important;
+  color: var(--link-color-hover) !important;
 }
 
 .add-edit-more {
-	display: flex;
-	height: var(--height-bottom-section);
-	justify-content: space-between;
-	left: 5px;
-	line-height: 2em;
-	margin: 0 !important;
-	position: absolute;
-	top: calc(var(--height-text-section) - var(--height-bottom-section));
-	width: 40px;
+  display: flex;
+  height: var(--height-bottom-section);
+  justify-content: space-between;
+  left: 5px;
+  line-height: 2em;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(var(--height-text-section) - var(--height-bottom-section));
+  width: 40px;
 }
 
 .add-edit-more span {
-	height: 100%;
-	pointer-events: none;
-	width: 49%;
+  height: 100%;
+  pointer-events: none;
+  width: 49%;
 }
 
 .add-edit-more a {
-	box-sizing: border-box;
-	display: block;
-	/* hide the text */
-	font-size: 0px !important;
-	height: 100%;
-	pointer-events: all;
-	width: 100%;
+  box-sizing: border-box;
+  display: block;
+  /* hide the text */
+  font-size: 0px !important;
+  height: 100%;
+  pointer-events: all;
+  width: 100%;
 }
 
 /* add/edit/more icons */
 .add-edit-more span:first-child a::before,
 .add-edit-more .more a::before {
-	display: block;
-	font-family: FontAwesome;
-	line-height: 20px;
-	font-size: 14px;
+  display: block;
+  font-family: FontAwesome;
+  line-height: 20px;
+  font-size: 14px;
 }
 
-.add-edit-more span:first-child a::before { content: "\f044"; }
-.add-edit-more .more a::before { content: "\f129"; }
+.add-edit-more span:first-child a::before {
+  content: "\f044";
+}
+.add-edit-more .more a::before {
+  content: "\f129";
+}
 
 /* score */
 
 .data.score {
-	bottom: 0;
-	height: var(--height-bottom-section);
-	line-height: var(--height-bottom-section);
-	padding: 2px 5px !important;
-	position: absolute;
+  bottom: 0;
+  height: var(--height-bottom-section);
+  line-height: var(--height-bottom-section);
+  padding: 2px 5px !important;
+  position: absolute;
 }
 
-.anime .data.score { left: calc(var(--width-img) + 75px); }
-.manga .data.score { right: 215px; }
+.anime .data.score {
+  left: calc(var(--width-img) + 75px);
+}
+.manga .data.score {
+  right: 215px;
+}
 
 .data.score a {
-	font-weight: normal !important;
+  font-weight: normal !important;
 }
 
 .data.score a:before {
-	content: "\f006";
-	font-family: FontAwesome;
-	font-size: 13px;
+  content: "\f006";
+  font-family: FontAwesome;
+  font-size: 13px;
 }
 
 /* progress */
@@ -887,61 +924,73 @@ a {
 .data.progress,
 .data.chapter,
 .data.volume {
-	bottom: 0;
-	height: var(--height-bottom-section);
-	line-height: var(--height-bottom-section);
-	padding: 0px !important;
-	position: absolute;
+  bottom: 0;
+  height: var(--height-bottom-section);
+  line-height: var(--height-bottom-section);
+  padding: 0px !important;
+  position: absolute;
 }
 
-.data.progress { right: 90px; }
-.data.chapter { left: calc(var(--width-img) + 175px); }
-.data.volume { right: 135px; }
+.data.progress {
+  right: 90px;
+}
+.data.chapter {
+  left: calc(var(--width-img) + 175px);
+}
+.data.volume {
+  right: 135px;
+}
 
 .data.progress span:first-child:before,
 .data.chapter span:first-child:before,
 .data.volume span:first-child:before {
-	font-family: FontAwesome;
-	font-size: 13px;
-	padding-right: 5px;
+  font-family: FontAwesome;
+  font-size: 13px;
+  padding-right: 5px;
 }
 
-.data.progress span:first-child:before { content: "\f008"; }
-.data.chapter span:first-child:before { content: "\f097"; }
-.data.volume span:first-child:before { content: "\f02d"; }
+.data.progress span:first-child:before {
+  content: "\f008";
+}
+.data.chapter span:first-child:before {
+  content: "\f097";
+}
+.data.volume span:first-child:before {
+  content: "\f02d";
+}
 
 /* editing field */
 .data.progress span:first-child input,
 .data.chapter span:first-child input,
 .data.volume span:first-child input {
-	background: var(--progress-more-background);
-	border: none;
-	color: var(--text-color);
-	position: absolute;
+  background: var(--progress-more-background);
+  border: none;
+  color: var(--text-color);
+  position: absolute;
 }
 
 /* genres */
 
 .data.genre,
 .data.demographic {
-	font-size: 0px;
-	line-height: 16.5px;
-	text-align: center !important;
+  font-size: 0px;
+  line-height: 16.5px;
+  text-align: center !important;
 }
 
 .data.genre span,
 .data.demographic span {
-	height: 20px;
-	display: inline-block;
+  height: 20px;
+  display: inline-block;
 }
 
 .data.genre a,
 .data.demographic a {
-	border: 1px solid var(--content-border);
-	border-radius: 10px;
-	font-size: 11px;
-	margin: 0px 2px;
-	padding: 0px 5px !important;
+  border: 1px solid var(--content-border);
+  border-radius: 10px;
+  font-size: 11px;
+  margin: 0px 2px;
+  padding: 0px 5px !important;
 }
 
 /* studio */
@@ -949,86 +998,122 @@ a {
 .data.studio:before,
 .data.licensor:before,
 .data.magazine:before {
-	padding-right: 4px;
+  padding-right: 4px;
 }
 
 .data.finished::before,
 .data.airing-finished::before {
-	padding-right: 25px;
+  padding-right: 25px;
 }
 
 /* tags */
 
 .data.tags {
-	/* margin-top: 15px; */
-	padding: 0 !important;
-	z-index: 1;
+  /* margin-top: 15px; */
+  padding: 0 !important;
+  z-index: 1;
 }
 
-.data.tags>div:empty::before {
-	color: var(--disabled-text-color);
-	content: "No tags.";
-	font-style: italic;
+.data.tags > div:empty::before {
+  color: var(--disabled-text-color);
+  content: "No tags.";
+  font-style: italic;
 }
 
 .data.tags textarea {
-	max-width: calc(var(--width-text-section) - 10px);
+  max-width: calc(var(--width-text-section) - 10px);
 }
 
 /* edit button */
 .list-table .list-table-data .tags a.edit {
-	color: var(--link-color) !important;
-	margin: 0 auto;
-	width: 25px;
+  color: var(--link-color) !important;
+  margin: 0 auto;
+  width: 25px;
 }
 .list-table .list-table-data .tags a.edit:hover {
-	color: var(--link-color-hover) !important;
+  color: var(--link-color-hover) !important;
 }
 
 /* more-info section */
 
 .more-info {
-	background: var(--progress-more-background);
-	border: none !important;
-	bottom: var(--height-bottom-section);
-	color: var(--secondary-text-color);
-	left: var(--width-img);
-	overflow-y: auto;
-	position: absolute;
-	right: 0;
-	top: 0;
-	z-index: 1;
+  background: var(--progress-more-background);
+  border: none !important;
+  bottom: var(--height-bottom-section);
+  color: var(--secondary-text-color);
+  left: var(--width-img);
+  overflow-y: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
 }
 
 .more-info a {
-	color: var(--link-color) !important;
+  color: var(--link-color) !important;
 }
 
 .more-info a:hover {
-	color: var(--link-color-hover) !important;
+  color: var(--link-color-hover) !important;
 }
 
-.data.number::before { content: "#"; }
+.data.number::before {
+  content: "#";
+}
 
-.data.type::before { content:"Type:"; }
-.data.rated::before { content:"Rated:"; }
-.data.season::before { content: "Premiered:"; }
-.data.studio::before { content: "Studios:"; }
-.data.licensor::before { content: "Licensors:"; }
-.data.magazine::before {content: "Serialized:"; }
-.anime .data.airing-started::before {content: "Aired:"; }
-.manga .data.airing-started::before {content: "Published:"; }
-.data.airing-finished::before {content: "-"; }
+.data.type::before {
+  content: "Type:";
+}
+.data.rated::before {
+  content: "Rated:";
+}
+.data.season::before {
+  content: "Premiered:";
+}
+.data.studio::before {
+  content: "Studios:";
+}
+.data.licensor::before {
+  content: "Licensors:";
+}
+.data.magazine::before {
+  content: "Serialized:";
+}
+.anime .data.airing-started::before {
+  content: "Aired:";
+}
+.manga .data.airing-started::before {
+  content: "Published:";
+}
+.data.airing-finished::before {
+  content: "-";
+}
 
-.anime .data.started::before {content: "Watched:"; }
-.manga .data.started::before {content: "Read:"; }
-.data.finished::before {content: "-"; }
-.data.days::before {content: "Days:"; }
-.data.storage::before {content: "Storage:"; }
-.data.retail::before {content: "Retail:"; }
-.data.priority::before {content: "Priority:"; }
+.anime .data.started::before {
+  content: "Watched:";
+}
+.manga .data.started::before {
+  content: "Read:";
+}
+.data.finished::before {
+  content: "-";
+}
+.data.days::before {
+  content: "Days:";
+}
+.data.storage::before {
+  content: "Storage:";
+}
+.data.retail::before {
+  content: "Retail:";
+}
+.data.priority::before {
+  content: "Priority:";
+}
 
-.data.tags::before { content: "Tags:"; }
+.data.tags::before {
+  content: "Tags:";
+}
 
 /* DATA ORDER */
 
@@ -1042,80 +1127,80 @@ a {
 
 .data.genre,
 .data.demographic {
-	flex: 1 1 100%;
-	order: 2;
+  flex: 1 1 100%;
+  order: 2;
 }
 
 .data.season {
-	flex: 1 1 100%;
-	order: 3;
+  flex: 1 1 100%;
+  order: 3;
 }
 
 .data.type,
 .data.rated {
-	flex: 1 1 50%;
-	order: 4;
+  flex: 1 1 50%;
+  order: 4;
 }
 
 .data.studio,
 .data.licensor,
 .data.magazine {
-	flex: 1 1 100%;
-	order: 5;
+  flex: 1 1 100%;
+  order: 5;
 }
 
 .data.airing-started,
 .data.airing-finished {
-	flex: 1 1 50%;
-	order: 6;
+  flex: 1 1 50%;
+  order: 6;
 }
 
 .list-table .list-table-data::before {
-	order: 10;
+  order: 10;
 }
 
 .data.started,
 .data.finished {
-	flex: 1 1 50%;
-	order: 12;
+  flex: 1 1 50%;
+  order: 12;
 }
 
 .data.days {
-	flex: 1 1 50%;
-	order: 13;
+  flex: 1 1 50%;
+  order: 13;
 }
 
 .data.priority {
-	flex: 1 1 50%;
-	order: 14;
+  flex: 1 1 50%;
+  order: 14;
 }
 
 .data.retail,
 .data.storage {
-	flex: 1 1 25%;
-	order: 15;
+  flex: 1 1 25%;
+  order: 15;
 }
 
 /* separator here, with margin-top: 15px on .data.tags */
 
 .data.tags {
-	flex: 1 1 100%;
-	order: 21;
+  flex: 1 1 100%;
+  order: 21;
 }
 
 /* FOOTER */
 
 #footer-block {
-	background: transparent;
+  background: transparent;
 }
 
 #copyright {
-	color: var(--text-color);
-	filter: drop-shadow(1px 1px 1px black);
-	font-size: 17px;
+  color: var(--text-color);
+  filter: drop-shadow(1px 1px 1px black);
+  font-size: 17px;
 }
 
 /* Custom copyright text */
 #copyright:after {
-	content: "Night Shift Layout by Cateinya. Modified by rl404.";
+  content: "Night Shift Layout by Cateinya. Modified by rl404.";
 }
