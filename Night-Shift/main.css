@@ -17,7 +17,7 @@
 body {
   background-attachment: fixed;
   background-color: var(--main-background) !important;
-  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Night-Shift/images/background.jpeg");
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Night-Shift/images/background.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -560,7 +560,9 @@ a {
 
 .list-table
   .list-table-header
-  .header-title:not(.title):not(.score):not(.type):not(.progress):not(.chapters):not(.volumes):not(.rated):not(.started):not(.finished):not(.storage):not(.priority) {
+  .header-title:not(.title):not(.score):not(.type):not(.progress):not(.chapters):not(.volumes):not(.rated):not(
+    .started
+  ):not(.finished):not(.storage):not(.priority) {
   /* hide not sortable headers */
   display: none;
 }
@@ -621,10 +623,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-top: var(--height-top-section);
-  max-height: calc(
-    var(--height-text-section) - var(--height-top-section) -
-      var(--height-bottom-section)
-  );
+  max-height: calc(var(--height-text-section) - var(--height-top-section) - var(--height-bottom-section));
   overflow: hidden;
   padding: 5px;
   text-align: center;
@@ -679,44 +678,24 @@ a {
 
 .data.status.watching,
 .data.status.reading {
-  background: linear-gradient(
-    to right,
-    #00280061 0%,
-    #23b23061 100%
-  ) !important;
+  background: linear-gradient(to right, #00280061 0%, #23b23061 100%) !important;
 }
 
 .data.status.completed {
-  background: linear-gradient(
-    to right,
-    #00002861 0%,
-    #26448f61 100%
-  ) !important;
+  background: linear-gradient(to right, #00002861 0%, #26448f61 100%) !important;
 }
 
 .data.status.onhold {
-  background: linear-gradient(
-    to right,
-    #28280061 0%,
-    #f1c83e61 100%
-  ) !important;
+  background: linear-gradient(to right, #28280061 0%, #f1c83e61 100%) !important;
 }
 
 .data.status.dropped {
-  background: linear-gradient(
-    to right,
-    #28000061 0%,
-    #a12f3161 100%
-  ) !important;
+  background: linear-gradient(to right, #28000061 0%, #a12f3161 100%) !important;
 }
 
 .data.status.plantowatch,
 .data.status.plantoread {
-  background: linear-gradient(
-    to right,
-    #28282861 0%,
-    #c3c3c361 100%
-  ) !important;
+  background: linear-gradient(to right, #28282861 0%, #c3c3c361 100%) !important;
 }
 
 /* image */

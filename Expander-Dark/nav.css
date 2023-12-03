@@ -216,8 +216,7 @@ body:before {
 #mal_control_strip td div,
 #mal_control_strip td div a,
 #mal_control_strip td div span {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,
-    "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura, "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
 }
 
 #mal_control_strip #mal_cs_listinfo div a {
@@ -315,10 +314,7 @@ body:before {
   z-index: 2;
 }
 
-#mal_control_strip
-  #mal_cs_otherlinks
-  div:nth-child(2)
-  a[href*="/sharedanime.php"] {
+#mal_control_strip #mal_cs_otherlinks div:nth-child(2) a[href*="/sharedanime.php"] {
   line-height: 35px;
 }
 
@@ -358,10 +354,7 @@ body:before {
   line-height: 50px;
 }
 
-#mal_control_strip
-  #mal_cs_otherlinks
-  div:nth-child(2)
-  a:nth-of-type(n + 2):hover {
+#mal_control_strip #mal_cs_otherlinks div:nth-child(2) a:nth-of-type(n + 2):hover {
   color: var(--white-color);
   box-shadow: 0px -5px 0px 0px var(--white-color) inset;
 }
@@ -376,18 +369,12 @@ body:before {
   width: 100px;
 }
 
-#mal_control_strip
-  #mal_cs_otherlinks:nth-child(2)
-  div:nth-child(2)
-  a:nth-of-type(2) {
+#mal_control_strip #mal_cs_otherlinks:nth-child(2) div:nth-child(2) a:nth-of-type(2) {
   left: 260px;
   width: 140px;
 }
 
-#mal_control_strip
-  #mal_cs_otherlinks:nth-child(2)
-  div:nth-child(2)
-  a:nth-of-type(3) {
+#mal_control_strip #mal_cs_otherlinks:nth-child(2) div:nth-child(2) a:nth-of-type(3) {
   left: 400px;
   width: 100px;
 }
@@ -415,8 +402,7 @@ body:before {
   width: 20px !important;
   height: 30px;
   background: var(--table-bg-color)
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png)
-    no-repeat right top;
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Expander/images/search_icon.png) no-repeat right top;
   background-size: auto 30px;
   border: solid 1px var(--divider-color);
   padding-left: 8px;
