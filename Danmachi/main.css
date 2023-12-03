@@ -2,10 +2,8 @@
   font-family: "Caudex";
   font-style: normal;
   font-weight: 400;
-  src: url(http://fonts.gstatic.com/s/caudex/v6/tEyJJhH5jnB2yxr-0TBTSg.woff2)
-      format("woff2"),
-    url(http://fonts.gstatic.com/s/caudex/v6/C-hZH3TxxgxqDzJuctPSSw.woff)
-      format("woff");
+  src: url(http://fonts.gstatic.com/s/caudex/v6/tEyJJhH5jnB2yxr-0TBTSg.woff2) format("woff2"),
+    url(http://fonts.gstatic.com/s/caudex/v6/C-hZH3TxxgxqDzJuctPSSw.woff) format("woff");
 }
 
 body {
@@ -99,7 +97,7 @@ a {
   width: 551px;
   height: 250px;
   font-size: 0;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Danmachi/images/title.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Danmachi/images/title.png);
   background-repeat: no-repeat;
 }
 
@@ -239,21 +237,9 @@ a {
   font-size: 14px;
   color: #1e1e1e;
   text-align: center;
-  background: linear-gradient(
-    top,
-    rgb(252, 245, 238) 0%,
-    rgb(206, 203, 208) 100%
-  );
-  background: -moz-linear-gradient(
-    top,
-    rgb(252, 245, 238) 0%,
-    rgb(206, 203, 208) 100%
-  );
-  background: -webkit-linear-gradient(
-    top,
-    rgb(252, 245, 238) 0%,
-    rgb(206, 203, 208) 100%
-  );
+  background: linear-gradient(top, rgb(252, 245, 238) 0%, rgb(206, 203, 208) 100%);
+  background: -moz-linear-gradient(top, rgb(252, 245, 238) 0%, rgb(206, 203, 208) 100%);
+  background: -webkit-linear-gradient(top, rgb(252, 245, 238) 0%, rgb(206, 203, 208) 100%);
   border: solid 1px #1e1e1e;
   border-radius: 16px;
   transition: all 0.3s linear;
@@ -484,42 +470,18 @@ td[class^="td"]:last-child {
   text-align: center;
   color: #1e1e1e;
   text-shadow: 1px 1px 0 #ffffff;
-  background: linear-gradient(
-    top,
-    rgb(252, 245, 238) 0%,
-    rgb(206, 203, 208) 100%
-  );
-  background: -moz-linear-gradient(
-    top,
-    rgb(252, 245, 238) 0%,
-    rgb(206, 203, 208) 100%
-  );
-  background: -webkit-linear-gradient(
-    top,
-    rgb(252, 245, 238) 0%,
-    rgb(206, 203, 208) 100%
-  );
+  background: linear-gradient(top, rgb(252, 245, 238) 0%, rgb(206, 203, 208) 100%);
+  background: -moz-linear-gradient(top, rgb(252, 245, 238) 0%, rgb(206, 203, 208) 100%);
+  background: -webkit-linear-gradient(top, rgb(252, 245, 238) 0%, rgb(206, 203, 208) 100%);
   border: solid 1px #ffffff;
   border-radius: 4px;
   z-index: 2;
 }
 
 #list_surround > table:first-of-type:hover:after {
-  background: linear-gradient(
-    bottom,
-    rgb(252, 245, 238) 0%,
-    rgb(206, 203, 208) 100%
-  );
-  background: -moz-linear-gradient(
-    bottom,
-    rgb(252, 245, 238) 0%,
-    rgb(206, 203, 208) 100%
-  );
-  background: -webkit-linear-gradient(
-    bottom,
-    rgb(252, 245, 238) 0%,
-    rgb(206, 203, 208) 100%
-  );
+  background: linear-gradient(bottom, rgb(252, 245, 238) 0%, rgb(206, 203, 208) 100%);
+  background: -moz-linear-gradient(bottom, rgb(252, 245, 238) 0%, rgb(206, 203, 208) 100%);
+  background: -webkit-linear-gradient(bottom, rgb(252, 245, 238) 0%, rgb(206, 203, 208) 100%);
 }
 
 #list_surround > table:first-of-type {
@@ -528,21 +490,9 @@ td[class^="td"]:last-child {
   bottom: -100px;
   width: 100px;
   padding-bottom: 5px;
-  background: linear-gradient(
-    top,
-    rgb(252, 245, 238) 0%,
-    rgb(206, 203, 208) 100%
-  );
-  background: -moz-linear-gradient(
-    top,
-    rgb(252, 245, 238) 0%,
-    rgb(206, 203, 208) 100%
-  );
-  background: -webkit-linear-gradient(
-    top,
-    rgb(252, 245, 238) 0%,
-    rgb(206, 203, 208) 100%
-  );
+  background: linear-gradient(top, rgb(252, 245, 238) 0%, rgb(206, 203, 208) 100%);
+  background: -moz-linear-gradient(top, rgb(252, 245, 238) 0%, rgb(206, 203, 208) 100%);
+  background: -webkit-linear-gradient(top, rgb(252, 245, 238) 0%, rgb(206, 203, 208) 100%);
   border: solid 1px #000000;
   transition: all linear 0.5s;
   -webkit-transition: all linear 0.5s;

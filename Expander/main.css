@@ -17,8 +17,7 @@
 
 body {
   background-color: #f2f2f2 !important;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,
-    "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura, "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
   font-size: 13px;
   background-image: url(https://api.randomizer.rl404.com/user/rl404/image.jpg);
   background-repeat: repeat;
@@ -61,8 +60,7 @@ body:before {
   font-weight: bold;
   letter-spacing: 20px;
   color: #333;
-  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5),
-    -1px 1px 0px rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5), -1px 1px 0px rgba(255, 255, 255, 0.5);
   text-shadow: 0px 0px 1px #000;
   z-index: -1;
 }
@@ -561,27 +559,27 @@ td small a {
 }
 
 #list_surround table:first-of-type td:nth-of-type(1) a:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/chino.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Expander/images/chino.png);
 }
 
 #list_surround table:first-of-type td:nth-of-type(2) a:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/c.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Expander/images/c.png);
 }
 
 #list_surround table:first-of-type td:nth-of-type(3) a:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/etotama.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Expander/images/etotama.png);
 }
 
 #list_surround table:first-of-type td:nth-of-type(4) a:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/gg.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Expander/images/gg.png);
 }
 
 #list_surround table:first-of-type td:nth-of-type(5) a:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/index.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Expander/images/index.png);
 }
 
 #list_surround table:first-of-type td:nth-of-type(6) a:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/km.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Expander/images/km.png);
 }
 
 @keyframes statusbutton {
@@ -655,8 +653,8 @@ td small a {
 }
 
 #copyright:hover {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/ubw2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/longkantai.png);
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Expander/images/ubw2.png),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Expander/images/longkantai.png);
   background-size: 100%, 2160px;
   background-position: 0 0, 0 0;
   animation: cr 60s linear infinite;
@@ -692,8 +690,7 @@ td small a {
 #mal_control_strip td div,
 #mal_control_strip td div a,
 #mal_control_strip td div span {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,
-    "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura, "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
 }
 
 #mal_control_strip #mal_cs_listinfo div a {
@@ -789,10 +786,7 @@ td small a {
   z-index: 2;
 }
 
-#mal_control_strip
-  #mal_cs_otherlinks
-  div:nth-child(2)
-  a[href*="/sharedanime.php"] {
+#mal_control_strip #mal_cs_otherlinks div:nth-child(2) a[href*="/sharedanime.php"] {
   line-height: 35px;
 }
 
@@ -831,10 +825,7 @@ td small a {
   line-height: 50px;
 }
 
-#mal_control_strip
-  #mal_cs_otherlinks
-  div:nth-child(2)
-  a:nth-of-type(n + 2):hover {
+#mal_control_strip #mal_cs_otherlinks div:nth-child(2) a:nth-of-type(n + 2):hover {
   box-shadow: 0px -5px 0px 0px #333 inset;
 }
 
@@ -848,18 +839,12 @@ td small a {
   width: 100px;
 }
 
-#mal_control_strip
-  #mal_cs_otherlinks:nth-child(2)
-  div:nth-child(2)
-  a:nth-of-type(2) {
+#mal_control_strip #mal_cs_otherlinks:nth-child(2) div:nth-child(2) a:nth-of-type(2) {
   left: 260px;
   width: 140px;
 }
 
-#mal_control_strip
-  #mal_cs_otherlinks:nth-child(2)
-  div:nth-child(2)
-  a:nth-of-type(3) {
+#mal_control_strip #mal_cs_otherlinks:nth-child(2) div:nth-child(2) a:nth-of-type(3) {
   left: 400px;
   width: 100px;
 }
@@ -881,8 +866,7 @@ td small a {
   width: 30px !important;
   height: 30px;
   background: rgba(255, 255, 255, 0.8)
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png)
-    no-repeat right top;
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Expander/images/search_icon.png) no-repeat right top;
   background-size: auto 30px;
   border: solid 1px white;
   box-shadow: inset 0px 0px 5px 0px #fff, 0px 0px 5px 0px #000;
@@ -890,11 +874,9 @@ td small a {
 
 #mal_cs_powered #search #searchBox:hover {
   width: 200px !important;
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/z.png)
-      no-repeat,
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Expander/images/z.png) no-repeat,
     rgba(255, 255, 255, 0.8)
-      url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png)
-      no-repeat;
+      url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Expander/images/search_icon.png) no-repeat;
   background-size: 200px, auto 30px;
   background-position: 50% 120px, right top;
   color: #333;
@@ -910,22 +892,18 @@ td small a {
   0% {
     width: 30px;
     color: transparent;
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/z.png)
-        no-repeat,
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Expander/images/z.png) no-repeat,
       rgba(255, 255, 255, 0.8)
-        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png)
-        no-repeat;
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Expander/images/search_icon.png) no-repeat;
     background-size: 200px, auto 30px;
     background-position: 50% 120px, right top;
   }
   10% {
     width: 200px;
     color: #333;
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/z.png)
-        no-repeat,
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Expander/images/z.png) no-repeat,
       rgba(255, 255, 255, 0.8)
-        url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Expander/images/search_icon.png)
-        no-repeat;
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Expander/images/search_icon.png) no-repeat;
     background-size: 200px, auto 30px;
     background-position: 50% 120px, right top;
   }
@@ -1174,8 +1152,7 @@ tr:hover .td2:nth-of-type(3) {
   padding: 0px;
   line-height: 220px !important;
   text-align: center;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,
-    "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura, "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
   font-weight: bold;
   border: none;
   overflow: visible;
@@ -1269,8 +1246,7 @@ tr:hover .td2:nth-of-type(1) {
   padding: 10px;
   line-height: 30px !important;
   text-align: center;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,
-    "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura, "Futura Bk BT", "Trebuchet MS", Arial, sans-serif !important;
   font-weight: bold;
   border: none;
   border-radius: 0px;

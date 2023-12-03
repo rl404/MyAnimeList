@@ -52,7 +52,7 @@ body:after {
 }
 
 body:before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgtop.jpg);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Anohana/images/bgtop.jpg);
   background-position: right top;
   background-repeat: repeat-x;
   animation: Slide 50s linear infinite;
@@ -61,7 +61,7 @@ body:before {
 }
 
 body:after {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgbot.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Anohana/images/bgbot.png);
   background-position: center -6px;
   background-repeat: no-repeat;
   box-shadow: inset 0 -6px 0 #557ec2;
@@ -123,21 +123,9 @@ td[class^="td"]:last-child {
 .header_ptw {
   display: inline-block;
   font-size: 0;
-  background: linear-gradient(
-    right,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(85, 126, 194, 1) 100%
-  );
-  background: -moz-linear-gradient(
-    right,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(85, 126, 194, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    right,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(85, 126, 194, 1) 100%
-  );
+  background: linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(85, 126, 194, 1) 100%);
+  background: -moz-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(85, 126, 194, 1) 100%);
+  background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(85, 126, 194, 1) 100%);
 }
 
 .header_cw span:after,
@@ -177,37 +165,37 @@ td[class^="td"]:last-child {
 /* CURRENTLY WATCHING BACKGROUND */
 
 .status_selected:first-child:before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgwatching.jpg);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Anohana/images/bgwatching.jpg);
 }
 
 /* COMPLETED BACKGROUND */
 
 .status_selected:nth-child(2):before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgcompleted.jpg);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Anohana/images/bgcompleted.jpg);
 }
 
 /* ON-HOLD BACKGROUND */
 
 .status_selected:nth-child(3):before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgonhold.jpg);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Anohana/images/bgonhold.jpg);
 }
 
 /* DROPPED BACKGROUND */
 
 .status_selected:nth-child(4):before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgdropped.jpg);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Anohana/images/bgdropped.jpg);
 }
 
 /* PLANNED BACKGROUND */
 
 .status_selected:nth-child(5):before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgplanned.jpg);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Anohana/images/bgplanned.jpg);
 }
 
 /* ALL BACKGROUND */
 
 .status_selected:last-child:before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/bgall.jpg);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Anohana/images/bgall.jpg);
 }
 
 .category_totals,
@@ -237,8 +225,8 @@ td[class^="td"]:last-child {
 #list_surround:after {
   content: "";
   height: 50px;
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/table.png)
-    left bottom repeat-x;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Anohana/images/table.png) left bottom
+    repeat-x;
   z-index: 0;
 }
 
@@ -528,21 +516,9 @@ td[class^="td"]:last-child {
 /* TAB CONTENT */
 
 #list_surround table tbody:hover td[class^="td"]:last-child {
-  background: linear-gradient(
-    right,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(85, 126, 194, 1) 100%
-  );
-  background: -moz-linear-gradient(
-    right,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(85, 126, 194, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    right,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(85, 126, 194, 1) 100%
-  );
+  background: linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(85, 126, 194, 1) 100%);
+  background: -moz-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(85, 126, 194, 1) 100%);
+  background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(85, 126, 194, 1) 100%);
 }
 
 tr:hover > .td1,
@@ -643,7 +619,7 @@ tr:hover > .td2 a {
   margin-left: 14px;
   width: 26px;
   height: 220px;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/menu.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Anohana/images/menu.png);
   background-repeat: no-repeat;
   transition: background-position 0.3s linear;
   -webkit-transition: background-position 0.3s linear;
@@ -695,7 +671,7 @@ tr:hover > .td2 a {
   top: 65px;
   width: 26px;
   height: 220px;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Anohana/images/menu2.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Anohana/images/menu2.png);
   background-repeat: no-repeat;
   font-size: 0;
   transition: background-position 0.3s linear;

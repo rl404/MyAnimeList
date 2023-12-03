@@ -23,7 +23,7 @@ Determines the positioning of your list
   left: 330px !important;
   width: 690px;
   padding-top: 260px;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/title.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/title.png);
   background-repeat: no-repeat;
   background-position: top;
   border-radius: 25px 25px 0px 0px;
@@ -216,7 +216,7 @@ CURRENT BUTTON (INACTIVE)
 */
 
 .status_not_selected a[href*="status=1"] {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/watching.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/watching.png);
   bottom: 295px;
   right: -180px;
   border-radius: 10px 0px 0px 0px;
@@ -228,7 +228,7 @@ CURRENT BUTTON (ACTIVE, HOVER)
 
 .status_selected a[href*="status=1"],
 .status_not_selected a[href*="status=1"]:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/watching.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/watching.png);
   bottom: 295px;
   right: -35px;
   border-radius: 10px 0px 0px 0px;
@@ -239,7 +239,7 @@ COMPLETED (INACTIVE)
 */
 
 .status_not_selected a[href*="status=2"] {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/completed.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/completed.png);
   bottom: 240px;
   right: -180px;
 }
@@ -250,7 +250,7 @@ COMPLETED (ACTIVE, HOVER)
 
 .status_selected a[href*="status=2"],
 .status_not_selected a[href*="status=2"]:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/completed.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/completed.png);
   bottom: 240px;
   right: -35px;
 }
@@ -260,7 +260,7 @@ ON-HOLD (INACTIVE)
 */
 
 .status_not_selected a[href*="status=3"] {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/onhold.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/onhold.png);
   bottom: 185px;
   right: -180px;
 }
@@ -271,7 +271,7 @@ ON-HOLD (ACTIVE, HOVER)
 
 .status_selected a[href*="status=3"],
 .status_not_selected a[href*="status=3"]:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/onhold.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/onhold.png);
   bottom: 185px;
   right: -35px;
 }
@@ -281,7 +281,7 @@ DROPPED (INACTIVE)
 */
 
 .status_not_selected a[href*="status=4"] {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/dropped.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/dropped.png);
   bottom: 130px;
   right: -180px;
 }
@@ -292,7 +292,7 @@ DROPPED (ACTIVE, HOVER)
 
 .status_selected a[href*="status=4"],
 .status_not_selected a[href*="status=4"]:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/dropped.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/dropped.png);
   right: -35px;
   bottom: 130px;
 }
@@ -302,7 +302,7 @@ PLANNED (INACTIVE)
 */
 
 .status_not_selected a[href*="status=6"] {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/planning.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/planning.png);
   bottom: 75px;
   right: -180px;
 }
@@ -313,7 +313,7 @@ PLANNED (ACTIVE, HOVER)
 
 .status_selected a[href*="status=6"],
 .status_not_selected a[href*="status=6"]:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/planning.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/planning.png);
   right: -35px;
   bottom: 75px;
 }
@@ -323,7 +323,7 @@ ALL ANIME (INACTIVE)
 */
 
 .status_not_selected a[href*="status=7"] {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/allanime.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/allanime.png);
   bottom: 20px;
   right: -180px;
   border-radius: 0px 0px 0px 11px;
@@ -335,7 +335,7 @@ ALL ANIME (ACTIVE, HOVER)
 
 .status_selected a[href*="status=7"],
 .status_not_selected a[href*="status=7"]:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/allanime.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/allanime.png);
   right: -35px;
   bottom: 20px;
   border-radius: 0px 0px 0px 11px;
@@ -394,31 +394,31 @@ Header classes for Currently Watching, Completed, Dropped, etc...
 .header_cw {
   height: 115px;
   width: 690px;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/watching%20title.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/watching%20title.png);
 }
 
 .header_completed {
   height: 115px;
   width: 690px;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/completed%20title.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/completed%20title.png);
 }
 
 .header_onhold {
   height: 115px;
   width: 690px;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/onhold%20title.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/onhold%20title.png);
 }
 
 .header_dropped {
   height: 115px;
   width: 690px;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/drop%20title.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/drop%20title.png);
 }
 
 .header_ptw {
   height: 115px;
   width: 690px;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/plan%20title.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/plan%20title.png);
 }
 
 .header_title {
@@ -434,7 +434,7 @@ Header classes for Currently Watching, Completed, Dropped, etc...
   color: transparent;
   width: 690px;
   height: 45px;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/bottom.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/bottom.png);
 }
 
 .category_totals:hover {
@@ -812,7 +812,7 @@ If you want to change out the icon images themselves, you can scroll down throug
 }
 
 #mal\_cs\_powered a img {
-  background: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/myanimelist%20menu.png")
+  background: url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/myanimelist%20menu.png")
     no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
   border-radius: 3px 3px 3px 3px;
   display: block;
@@ -856,7 +856,7 @@ If you want to change out the icon images themselves, you can scroll down throug
 }
 
 #mal\_cs\_powered #search #searchListButton {
-  background: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/search%20button.png")
+  background: url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/search%20button.png")
     no-repeat scroll 0 0 transparent;
   border-radius: 3px 3px 3px 3px;
   height: 0;
@@ -869,42 +869,42 @@ If you want to change out the icon images themselves, you can scroll down throug
 }
 
 #mal\_cs\_listinfo {
-  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/list%20menu1.png");
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/list%20menu1.png");
   right: 106px;
 }
 
 #mal\_cs\_listinfo:hover {
-  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/list%20menu2.png");
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/list%20menu2.png");
 }
 
 #mal\_cs\_links {
-  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/link%20menu1.png");
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/link%20menu1.png");
   right: 72px;
   z-index: 9;
 }
 
 #mal\_cs\_links:hover {
-  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/link%20menu2.png");
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/link%20menu2.png");
 }
 
 #mal\_cs\_otherlinks {
-  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/other%20menu1.png");
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/other%20menu1.png");
   right: 38px;
   z-index: 8;
 }
 
 #mal\_cs\_otherlinks:hover {
-  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/other%20menu2.png");
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/other%20menu2.png");
 }
 
 #mal\_cs\_powered {
-  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/power%20menu1.png");
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/power%20menu1.png");
   right: 4px !important;
   z-index: 7;
 }
 
 #mal\_cs\_powered:hover {
-  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/list%20menu2.png");
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/list%20menu2.png");
 }
 
 td#mal\_cs\_pic a img {
@@ -1009,8 +1009,8 @@ Sparkle
 */
 
 body {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/star1.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Madoka/images/star2.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/star1.png),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Madoka/images/star2.png);
   border-radius: 50em;
   animation: sparkle 15s linear infinite;
   -webkit-animation: sparkle 15s linear infinite;

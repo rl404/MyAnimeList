@@ -244,8 +244,7 @@ body {
 }
 
 .header .header-title:before {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Nhentai/logo.png)
-    no-repeat;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Nhentai/logo.png) no-repeat;
   background-size: 100%;
   content: "";
   height: 30px;
@@ -1130,8 +1129,7 @@ footer {
 }
 
 #footer-block:before {
-  background: url(https://myanimelist.cdn-dena.com/images/userimages/2807943.jpg)
-    top;
+  background: url(https://myanimelist.cdn-dena.com/images/userimages/2807943.jpg) top;
   background-size: 100% auto;
   content: "";
   height: 50px;

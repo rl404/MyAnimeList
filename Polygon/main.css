@@ -37,7 +37,7 @@ a {
 
 body {
   background-color: #d9d9d9;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/master/Polygon/images/background.jpg);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Polygon/images/background.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -1051,16 +1051,7 @@ body {
   padding: 0px 10px 0px 20px;
   visibility: visible;
   background: #ffc95c;
-  clip-path: polygon(
-    9px 0%,
-    0% 100%,
-    5px 100%,
-    10px 0%,
-    15px 0%,
-    10px 100%,
-    calc(100% - 3px) 100%,
-    100% 0%
-  );
+  clip-path: polygon(9px 0%, 0% 100%, 5px 100%, 10px 0%, 15px 0%, 10px 100%, calc(100% - 3px) 100%, 100% 0%);
 }
 
 .data.tags > div {
