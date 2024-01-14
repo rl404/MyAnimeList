@@ -19,6 +19,7 @@
   - [Polygon](#polygon)
   - [Night Shift](#night-shift)
   - [Blackout](#blackout)
+  - [Tilt](#tilt)
   - [NHentai](#nhentai)
 - [Other](#other)
   - [Guides](#guides)
@@ -488,6 +489,38 @@
 
 ```css
 @\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.2.0/Blackout/main.css";
+```
+
+<h2 align=center>Tilt</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Tilt/images/sample.jpg></p>
+
+![Modern][modernlogo]
+
+**Based template**: [Valerio_Lyndon](https://myanimelist.net/profile/Valerio_Lyndon)
+
+**List type**: Anime and Manga list
+
+**Anime List recommended setting**:
+
+- [x] Score
+- [x] Episodes
+- [x] Tags
+- [x] Image
+- [x] Premiered
+- [x] Studios
+
+**Manga List recommended setting**:
+
+- [x] Score
+- [x] Chapters
+- [x] Volumes
+- [x] Tags
+- [x] Image
+
+**How to use (for anime and manga)**:
+
+```css
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.2.0/Tilt/main.css";
 ```
 
 <h2 align=center>Nhentai</h2>
