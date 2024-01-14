@@ -1,0 +1,1480 @@
+/*
+ * BAKEMONOGATARI 2 LAYOUT THEME
+ * List Designed by Valerio Lyndon (https://myanimelist.net/profile/Valerio_Lyndon)
+ * Modified by rl404 (https://myanimelist.net/profile/rl404)
+ */
+
+/* ROOTS */
+
+:root {
+  --maintext: #eee;
+  --secondtext: #999;
+  --footer: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/footer.png);
+  --watching: #588934;
+  --completed: #366c9b;
+  --dropped: #9b3636;
+  --onhold: #c5a01a;
+  --plantowatch: #6e6e6e;
+  --favorite: #e9788c;
+  --allanime: #70318b;
+  --kissshot: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/kissshot.png);
+  --hitagi: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/hitagi.png);
+  --araragi: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/araragi.png);
+  --hachikuji: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/hachikuji.png);
+  --nadeko: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/nadeko);
+  --hanekawa: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/hanekawa.png);
+  --mainbg: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/mainbg.png);
+  --headerbg: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/headerbg.png);
+  --nickname: "rl404";
+  --tagsTop: -100px;
+  --tagsLeft: -200px;
+  --tagsbg: #111;
+  --tagscolor: #999;
+}
+
+/* LOCAL VARIABLES FOR HOVER */
+
+body[data-query^='{"status":7'] {
+  --hovercolor: var(--allanime);
+  --statustext: "ひたぎクラブ";
+}
+body[data-query='{"status":1}'] {
+  --hovercolor: var(--watching);
+  --statustext: "まよいマイマイ";
+}
+body[data-query^='{"status":2'] {
+  --hovercolor: var(--completed);
+  --statustext: "つばさキャット";
+}
+body[data-query='{"status":3}'] {
+  --hovercolor: var(--onhold);
+  --statustext: "しのぶタイムト";
+}
+body[data-query='{"status":4}'] {
+  --hovercolor: var(--dropped);
+  --statustext: "こよみヴァンプ,";
+}
+body[data-query='{"status":6}'] {
+  --hovercolor: var(--plantowatch);
+  --statustext: "なでこスネイク";
+}
+
+/* EDITING ORIGINAL CSS */
+
+.notes textarea {
+  position: relative;
+  top: 15px;
+  z-index: 4;
+  max-width: 165px;
+  min-width: 165px;
+  border: 0 !important;
+  background-color: #222;
+  color: #eee;
+  font-size: 11px !important;
+}
+.tags textarea {
+  position: relative;
+  bottom: 15px;
+  z-index: 4;
+  max-width: 165px;
+  min-width: 165px;
+  border: 0 !important;
+  background-color: #222;
+  color: #eee;
+  font-size: 11px !important;
+}
+.status-menu-container.fixed + div.list-block,
+div.list-block {
+  margin-top: 0 !important;
+}
+.list-block {
+  min-height: 450px !important;
+}
+table.list-table tbody:first-child {
+  display: none !important;
+}
+.list-table > tbody:nth-of-type(2n + 1) {
+  background-color: #333;
+}
+.list-table .list-table-data .data {
+  padding: auto !important;
+  text-align: auto !important;
+  vertical-align: middle;
+  border-bottom: 0;
+}
+.list-table-data {
+  width: 200px;
+  height: auto !important;
+  display: block !important;
+  border: 0 !important;
+}
+.list-table-data td {
+  display: block !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.data.status.plantowatch ~ .list-item .data.progress span a {
+  display: none !important;
+}
+.data.status.plantowatch ~ .list-item:hover .data.progress span a {
+  display: initial;
+}
+
+.list-table .list-table-data .a:hover {
+  color: inherit !important;
+}
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* ----- GODDAMN THIS ROYABLUE HOVER THINGY ----- */
+.data.genre a:not(.edit-disabled):hover,
+.data.progress a:not(.edit-disabled):hover {
+  color: #eee !important;
+}
+.data.tags a:not(.edit-disabled):hover {
+  color: #444 !important;
+}
+.list-table .list-table-data .data.season a:not(.edit-disabled):hover {
+  color: #999 !important;
+}
+.data.tags div span a:not(:hover) {
+  color: initial !important;
+}
+
+/* CONDITIONALS FOR ALL */
+
+.data.status.watching,
+.data.status.watching ~ .data.genre span a,
+.data.status.watching ~ .data.tags a.edit:before,
+.data.status.watching ~ .data.title .notes:before {
+  background-color: var(--watching) !important;
+}
+.data.status.completed,
+.data.status.completed ~ .data.genre span a,
+.data.status.completed ~ .data.tags a.edit:before,
+.data.status.completed ~ .data.title .notes:before {
+  background-color: var(--completed) !important;
+}
+.data.status.onhold,
+.data.status.onhold ~ .data.genre span a,
+.data.status.onhold ~ .data.tags a.edit:before,
+.data.status.onhold ~ .data.title .notes:before {
+  background-color: var(--onhold) !important;
+}
+.data.status.dropped,
+.data.status.dropped ~ .data.genre span a,
+.data.status.dropped ~ .data.tags a.edit:before,
+.data.status.dropped ~ .data.title .notes:before {
+  background-color: var(--dropped) !important;
+}
+.data.status.plantowatch,
+.data.status.plantowatch ~ .data.genre span a,
+.data.status.plantowatch ~ .data.tags a.edit:before,
+.data.status.plantowatch ~ .data.title .notes:before {
+  background-color: var(--plantowatch) !important;
+}
+
+/* MAIN */
+
+body.ownlist {
+  background-image: var(--mainbg);
+  background-repeat: repeat !important;
+  background-color: #272727 !important;
+}
+body.ownlist:after {
+  content: "";
+  position: fixed;
+  width: 120px;
+  height: 100%;
+  background: radial-gradient(circle, #222222 20%, #222 80%);
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  margin-left: -550px;
+  overflow: hidden;
+}
+.list-container,
+.list-unit {
+  width: 1100px;
+  background-color: #333;
+  border: 0 !important;
+}
+.list-unit {
+  padding-bottom: 75px;
+  background-size: 500px;
+  background-image: var(--footer);
+  background-repeat: repeat no-repeat;
+  background-position: center bottom;
+}
+.list-container {
+  position: relative;
+  left: 60px;
+  padding-bottom: 10px;
+}
+
+/* HEADER */
+
+.header {
+  width: 1100px;
+  background-color: #272727;
+  left: 60px;
+  height: 60px;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/header.png);
+  background-position: right center;
+  padding-bottom: 15px;
+}
+.header-menu {
+  top: auto !important;
+  right: auto !important;
+  bottom: 35px;
+  left: 0;
+  width: 1060px;
+  padding-left: 40px;
+  text-align: justify;
+}
+.header .header-menu .btn-menu,
+.header .header-menu .header-info {
+  font-size: 12px;
+  font-family: "Roboto";
+  padding: 5px 10px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  display: inline-block;
+}
+.header .header-menu .btn-menu,
+.header .header-menu .btn-menu > a,
+.header-info,
+.header-info > a {
+  color: #eee !important;
+}
+.header-menu .btn-menu a i {
+  display: none;
+}
+.header:before {
+  content: "";
+  display: block;
+  height: 35px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 0;
+  width: 1100px;
+}
+.header-menu:before,
+.header-menu:after,
+.btn-menu:before {
+  position: absolute;
+  width: 24px;
+  height: 17px;
+  background-color: #333;
+  border: 1px solid #222;
+  top: -10px;
+  color: #999;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 10px;
+  line-height: 17px;
+  text-align: center;
+  cursor: pointer;
+}
+.header-menu:before {
+  content: "\58";
+  right: 5px;
+}
+.header-menu:after {
+  content: "\f0c8";
+  right: 36px;
+}
+.btn-menu:before {
+  content: "\e404";
+  right: 67px;
+}
+.header .header-menu .list-menu {
+  position: relative;
+  display: inline-block !important;
+  border: 0;
+  background: transparent;
+  top: auto;
+  right: auto;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.header .header-menu .list-menu .icon-menu {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  color: #eee !important;
+  font-family: Roboto;
+  white-space: nowrap;
+  font-size: 12px;
+}
+svg.icon.icon-manga-list {
+  display: none;
+}
+.header .header-menu .list-menu .icon-menu .text {
+  position: initial !important;
+}
+.header .header-menu .list-menu .icon-menu:hover {
+  background-color: transparent;
+}
+a#header-menu-button {
+  pointer-events: none;
+}
+.icon-menu.manga-list .text:before {
+  font-weight: normal !important;
+}
+div.cover-block {
+  display: block;
+  width: 1100px;
+  padding: 0;
+  margin: 0 !important;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  background: #333;
+}
+div.cover-block:before {
+  content: "新品ぐぞー善料ひたぜ際図ルノテ特果高ウロヘネ外劇か渡出っまち投域ホワハ極輔職チ解餌ほづト橋年ヲア歳辺説びン面乙吟噛も。表ユロケ囲光ぱ拡生五セ性充禁と利芸りわひ囲県ずみづね職理れねそ批治キマ覧大ぜうげつ年宮ユカクイ折立トテマ定原ヨムメフ午藤各成そラ。来発づあ探提がむル殖悦コレセキ隔盟にへ寄大スナマ工掛ばはじ際善ノウ方黒トヌク正植元しゅ件薄真トんみぱ庭限ひおつ。新品ぐぞー善料ひたぜ際図ルノテ特果高ウロヘネ外劇か渡出っまち投域ホワハ極輔職チ解餌ほづト橋年ヲア歳辺説びン面乙吟噛も。表ユロケ囲光ぱ拡生五セ性充禁と利芸りわひ囲県ずみづね職理れねそ批治キマ覧大ぜうげつ年宮ユカクイ折立トテマ定原ヨムメフ午藤各成そラ。来発づあ探提がむル殖悦コレセキ隔盟にへ寄大スナマ工掛ばはじ際善ノウ方黒トヌク正植元しゅ件薄真トんみぱ庭限ひおつ。新品ぐぞー善料ひたぜ際図ルノテ特果高ウロヘネ外劇か渡出っまち投域ホワハ極輔職チ解餌ほづト橋年ヲア歳辺説びン面乙吟噛も。表ユロケ囲光ぱ拡生五セ性充禁と利芸りわひ囲県ずみづね職理れねそ批治キマ覧大ぜうげつ年宮ユカクイ折立トテマ定原ヨムメフ午藤各成そラ。来発づあ探提がむル殖悦コレセキ隔盟にへ寄大スナマ工掛ばはじ際善ノウ方黒トヌク正植元しゅ件薄真トんみぱ庭限ひおつ。新品ぐぞー善料ひたぜ際図ルノテ特果高ウロヘネ外劇か渡出っまち投域ホワハ極輔職チ解餌ほづト橋年ヲア歳辺説びン面乙吟噛も。表ユロケ囲光ぱ拡生五セ性充禁と利芸りわひ囲県ずみづね職理れねそ批治キマ覧大ぜうげつ年宮ユカクイ折立トテマ定原ヨムメフ午藤各成そラ。来発づあ探提がむル殖悦コレセキ隔盟にへ寄大スナマ工掛ばはじ際善ノウ方黒トヌク正植元しゅ件薄真トんみぱ庭限ひおつ。新品ぐぞー善料ひたぜ際図ルノテ特果高ウロヘネ外劇か渡出っまち投域ホワハ極輔職チ解餌ほづト橋年ヲア歳辺説びン面乙吟噛も。表ユロケ囲光ぱ拡生五セ性充禁と利芸りわひ囲県ずみづね職理れねそ批治キマ覧大ぜうげつ年宮ユカクイ折立トテマ定原ヨムメフ午藤各成そラ。来発づあ探提がむル殖悦コレセキ隔盟にへ寄大スナマ工掛ばはじ際善ノウ方黒トヌク正植元しゅ件薄真トんみぱ庭限ひおつ。新品ぐぞー善料ひたぜ際図ルノテ特果高ウロヘネ外劇か渡出っまち投域ホワハ極輔職チ解餌ほづト橋年ヲア歳辺説びン面乙吟噛も。表ユロケ囲光ぱ拡生五セ性充禁と利芸りわひ囲県ずみづね職理れねそ批治キマ覧大ぜうげつ年宮ユカクイ折立トテマ定原ヨムメフ午藤各成そラ。来発づあ探提がむル殖悦コレセキ隔盟にへ寄大スナマ工掛ばはじ際善ノウ方黒トヌク正植元しゅ件薄真トんみぱ庭限ひおつ。新品ぐぞー善料ひたぜ際図ルノテ特果高ウロヘネ外劇か渡出っまち投域ホワハ極輔職チ解餌ほづト橋年ヲア歳辺説びン面乙吟噛も。表ユロケ囲光ぱ拡生五セ性充禁と利芸りわひ囲県ずみづね職理れねそ批治キマ覧大ぜうげつ年宮ユカクイ折立トテマ定原ヨムメフ午藤各成そラ。来発づあ探提がむル殖悦コレセキ隔盟にへ寄大スナマ工掛ばはじ際善ノウ方黒トヌク正植元しゅ件薄真トんみぱ庭限ひおつ";
+  width: 600px;
+  height: 400px;
+  color: #444;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 20px;
+  position: absolute;
+  right: 0;
+  text-align: justify;
+  padding: 5px 15px;
+  background-color: #333;
+  z-index: 1;
+}
+div#cover-image-container {
+  width: 500px;
+  height: 400px;
+  position: relative;
+}
+a.btn-list-setting {
+  display: none !important;
+}
+#cover-image-container img {
+  display: none;
+}
+div#cover-image-container:before {
+  content: "";
+  width: 500px;
+  height: 400px;
+  background-image: var(--headerbg);
+  position: absolute;
+  left: 0;
+  top: 0;
+  filter: grayscale(100%) contrast(400%);
+  mix-blend-mode: overlay;
+  opacity: 10%;
+  background-size: 800px;
+}
+div#cover-image-container:after {
+  content: "animelist";
+  font-family: "Roboto";
+  font-size: 40px;
+  color: #ddd;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 45px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  margin-top: -30px;
+  z-index: 1;
+}
+.list-status-title {
+  display: block;
+  width: 1060px !important;
+  padding-left: 40px;
+  background-color: var(--hovercolor) !important;
+  height: 60px !important;
+  text-align: justify !important;
+}
+.list-status-title:before {
+  content: var(--statustext);
+  font-size: 80px;
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 5px;
+  line-height: 60px;
+  position: absolute;
+  width: 600px;
+  height: 60px;
+  background-color: #222;
+  top: 0;
+  right: 0;
+  display: block;
+  overflow: hidden;
+  padding-left: 20px;
+  text-indent: 20px;
+  text-align: center;
+}
+.list-unit .list-status-title:after {
+  content: "getNORTED";
+  font-family: Roboto;
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: -5px;
+  position: absolute;
+  top: -315px;
+  right: 640px;
+  z-index: 1;
+}
+.list-unit.all_anime .list-status-title:after {
+  color: var(--allanime);
+}
+.list-unit.watching .list-status-title:after {
+  color: var(--watching);
+}
+.list-unit.completed .list-status-title:after {
+  color: var(--completed);
+}
+.list-unit.onhold .list-status-title:after {
+  color: var(--onhold);
+}
+.list-unit.dropped .list-status-title:after {
+  color: var(--dropped);
+}
+.list-unit.plantowatch .list-status-title:after {
+  color: var(--plantowatch);
+}
+.list-unit .list-status-title .text {
+  width: auto !important;
+  display: inline-block !important;
+  height: auto !important;
+  padding: 10px 10px 10px 45px;
+  color: #222;
+  letter-spacing: -1px;
+  font-family: Roboto;
+  font-size: 20px !important;
+  line-height: 20px !important;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -20px;
+}
+.list-unit .list-status-title .text:before {
+  font-family: "Font Awesome 6 Pro";
+  font-size: 17px !important;
+  color: var(--hovercolor);
+  display: block;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: #222;
+  line-height: 25px;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+.list-unit.all_anime .list-status-title .text:before {
+  content: "\f008";
+}
+.list-unit.watching .list-status-title .text:before {
+  content: "\f04b";
+  font-weight: normal;
+}
+.list-unit.completed .list-status-title .text:before {
+  content: "\f00c";
+  font-weight: normal;
+}
+.list-unit.onhold .list-status-title .text:before {
+  content: "\f04c";
+}
+.list-unit.dropped .list-status-title .text:before {
+  content: "\f1f8";
+  font-weight: normal;
+}
+.list-unit.plantowatch .list-status-title .text:before {
+  content: "\f02e";
+  font-weight: normal;
+}
+.list-unit .list-status-title .text:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 35px;
+  height: 60px;
+  background-color: var(--hovercolor);
+  transform: skewX(20deg);
+  left: 440px;
+  top: -10px;
+}
+.list-unit .list-status-title .stats {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 610px !important;
+}
+
+.list-unit .list-status-title .stats a {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--hovercolor);
+  background-color: #222;
+  padding: 5px 10px;
+  position: relative;
+  margin-right: 15px;
+}
+.list-unit .list-status-title .stats a:before,
+.list-unit .list-status-title .stats a:after {
+  content: "";
+  position: absolute;
+  transform: skew(20deg);
+  background-color: #222;
+  width: 10px;
+  height: 27px;
+  top: 0;
+}
+.list-unit .list-status-title .stats a:before {
+  left: -5px;
+}
+.list-unit .list-status-title .stats a:after {
+  right: -5px;
+}
+.list-unit .list-status-title .stats a i {
+  margin-right: 3px;
+}
+a#advanced-options-button i:before {
+  content: "\f1de" !important;
+}
+a#show-stats-button i:before {
+  content: "\e473" !important;
+  font-family: "Font Awesome 6 Sharp";
+}
+.list-stats {
+  position: absolute;
+  top: 415px;
+  right: 50px;
+  background-color: #444 !important;
+  font-family: Roboto;
+  font-size: 12px;
+  width: auto !important;
+  padding: 0 10px;
+  white-space: nowrap;
+}
+.list-stats:after,
+.list-stats:before {
+  content: "";
+  position: absolute;
+  transform: skew(20deg);
+  background-color: #444;
+  width: 10px;
+  height: 30px;
+  top: 0;
+}
+.list-stats:before {
+  left: -5px;
+}
+.list-stats:after {
+  right: -5px;
+}
+
+/* CHARACTERS */
+
+.list-unit:before {
+  content: "";
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+.list-unit.all_anime:before {
+  background-image: var(--hitagi);
+  filter: contrast(90%) brightness(105%) drop-shadow(-10px 0px 0px var(--allanime));
+}
+.list-unit.watching:before {
+  background-image: var(--hachikuji);
+  filter: contrast(90%) brightness(105%) drop-shadow(-10px 0px 0px var(--watching));
+}
+.list-unit.completed:before {
+  background-image: var(--hanekawa);
+  filter: contrast(90%) brightness(105%) drop-shadow(-10px 0px 0px var(--completed));
+}
+.list-unit.onhold:before {
+  background-image: var(--kissshot);
+  filter: contrast(90%) brightness(105%) drop-shadow(-10px 0px 0px var(--onhold));
+}
+.list-unit.dropped:before {
+  background-image: var(--araragi);
+  filter: contrast(90%) brightness(105%) drop-shadow(-10px 0px 0px var(--dropped));
+}
+.list-unit.plantowatch:before {
+  background-image: var(--nadeko);
+  filter: contrast(90%) brightness(105%) drop-shadow(-10px 0px 0px var(--plantowatch));
+}
+
+/* TABLE */
+
+table.list-table {
+  vertical-align: top;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  justify-items: center;
+  justify-content: space-evenly;
+  padding-top: 17px;
+  border: 0 !important;
+}
+tbody.list-item {
+  width: 200px;
+  background-color: #333;
+  position: relative;
+  border: 1px solid #444;
+  margin-bottom: 17px;
+}
+.data.status {
+  width: 180px !important;
+  color: #eee;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: bold;
+  padding: 5px !important;
+  line-height: 15px;
+  position: relative;
+  border: 5px solid #333 !important;
+  text-align: left !important;
+}
+.status.watching:after {
+  content: "watching";
+}
+.status.completed:after {
+  content: "completed";
+}
+.status.onhold:after {
+  content: "on hold";
+}
+.status.dropped:after {
+  content: "dropped";
+}
+.status.plantowatch:after {
+  content: "plan to watch";
+}
+
+.data.number {
+  display: none !important;
+}
+.data.image {
+  width: 190px;
+  height: 269px;
+  mix-blend-mode: lighten;
+  filter: grayscale(1) contrast(0.5) brightness(0.5);
+  background-size: 200px;
+  background-position: center;
+  transition: 0.7s all ease-in-out;
+  margin-left: 5px;
+  padding: 0 !important;
+  overflow: hidden;
+}
+.data.image a {
+  width: 100%;
+  height: 100%;
+  display: block !important;
+}
+
+.data.image a img.image {
+  width: 100% !important;
+  height: auto !important;
+  border: 0 !important;
+}
+.list-item:hover .data.image {
+  filter: grayscale(0);
+  transition: 0.7s all ease-in-out;
+}
+.data.title {
+  padding: 10px 5px 3px !important;
+  text-align: justify !important;
+  max-height: 46px;
+  overflow: hidden;
+}
+.data.title a.link.sort {
+  font-size: 14px;
+  font-weight: bold;
+  color: #eee !important;
+  font-family: Roboto;
+  line-height: 17px !important;
+}
+.data.title .content-status,
+.data.title a.mal-icon.ml4.ga-click {
+  display: none;
+}
+div.add-edit-more {
+  position: absolute;
+  top: 40px;
+  right: 5px;
+  font-size: 0 !important;
+  display: none;
+}
+tbody.list-item:hover div.add-edit-more {
+  display: block !important;
+}
+.data.status.watching ~ .data.title .add-edit-more span a:before {
+  background-color: var(--watching);
+}
+.data.status.completed ~ .data.title .add-edit-more span a:before {
+  background-color: var(--completed);
+}
+.data.status.onhold ~ .data.title .add-edit-more span a:before {
+  background-color: var(--onhold);
+}
+.data.status.dropped ~ .data.title .add-edit-more span a:before {
+  background-color: var(--dropped);
+}
+.data.status.plantowatch ~ .data.title .add-edit-more span a:before {
+  background-color: var(--plantowatch);
+}
+.add-edit-more span.edit a:before {
+  content: "\f044";
+}
+.add-edit-more span.add a:before {
+  content: "\2b";
+}
+.add-edit-more span.edit a:after {
+  content: "EDIT";
+}
+.add-edit-more span.add a:after {
+  content: "ADD";
+}
+.add-edit-more span.edit a:before,
+.add-edit-more span.add a:before {
+  font-family: "Font Awesome 6 Pro";
+  font-size: 12px;
+  font-weight: 900;
+  color: #eee;
+  padding: 7px;
+  border-radius: 3px;
+  line-height: 12px;
+  text-align: center;
+  display: block;
+}
+.add-edit-more span.edit a:after,
+.add-edit-more span.add a:after {
+  font-family: "Font Awesome 6 Pro";
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Roboto;
+  padding: 5px;
+  line-height: 10px;
+  position: absolute;
+  top: 2px;
+  right: 26px;
+  background-color: #333;
+  color: #999;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.notes {
+  position: absolute;
+  left: 15px;
+  top: 35px;
+}
+.notes {
+  display: none;
+  width: auto !important;
+  height: auto;
+  top: 40px !important;
+}
+.list-item:hover .data.title .notes {
+  display: inline-block;
+}
+.notes:hover {
+  width: 100px !important;
+  height: 80px !important;
+}
+.notes:after {
+  content: "NOTES";
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Roboto;
+  padding: 5px;
+  line-height: 10px;
+  position: absolute;
+  top: 2px;
+  left: 26px;
+  background-color: #333;
+  color: #999;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.notes:before {
+  content: "\f075";
+  font-family: "Font Awesome 6 Pro";
+  font-size: 12px;
+  font-weight: bold;
+  padding: 7px;
+  color: #eee;
+  border-radius: 3px;
+  position: relative;
+  top: 5px;
+}
+.notes .text {
+  width: 170px;
+  padding: 5px;
+  font-size: 11px !important;
+  position: absolute;
+  background-color: #333;
+  left: -5px;
+  top: 35px;
+  font-family: "Roboto";
+  color: #999 !important;
+  z-index: 2;
+  line-height: 14px;
+  min-height: 14px;
+}
+
+.notes .edit {
+  padding: 5px;
+  position: absolute;
+  z-index: 2;
+  font-family: "Roboto";
+  font-size: 11px !important;
+  line-height: 14px;
+  color: #999 !important;
+  top: 35px;
+  white-space: nowrap;
+}
+
+.notes .text:before {
+  content: "";
+  position: absolute;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid #333;
+  top: -7px;
+  left: 7px;
+}
+.notes:hover .text:before {
+  border-bottom-width: 10px;
+  transition-delay: 2s;
+}
+.notes .text,
+.notes .edit {
+  opacity: 0;
+  pointer-events: none;
+}
+.notes:hover .text,
+.notes:hover .edit {
+  opacity: 1;
+  pointer-events: auto;
+}
+.notes:not(:hover) .text,
+.notes:not(:hover) .edit {
+  opacity: 0;
+}
+.data.score {
+  position: absolute;
+  top: 133px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 1;
+}
+.data.score a span {
+  font-size: 70px;
+  font-family: "Roboto";
+  line-height: 70px;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #eee;
+}
+
+span.score-label.score-na {
+  -webkit-text-stroke: transparent !important;
+}
+.data.type {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #999;
+  font-weight: bold;
+  font-family: "Roboto";
+  padding: 0 0 0 5px !important;
+  display: inline-block !important;
+  position: relative;
+}
+.data.type:after {
+  content: ",";
+  padding: 0 !important;
+  text-align: left !important;
+  position: absolute;
+  right: -2px;
+}
+.data.progress {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  line-height: 25px;
+  background-color: #2222223d;
+  font-family: Roboto;
+  font-weight: bold;
+  height: 25px;
+  padding: 0 5px 0 5px !important;
+}
+.data.progress a,
+.data.progress span {
+  color: #eee !important;
+}
+.data.progress span:first-child {
+  font-size: 0;
+}
+.data.progress span a:after {
+  content: " of ";
+}
+.data.progress span a,
+.progress span:last-child {
+  font-size: 10px !important;
+}
+.data.progress span:last-of-type:after {
+  content: " ep";
+  font-size: 10px;
+}
+.data.progress a.icon-add-episode i {
+  display: none;
+}
+.data.progress a.icon-add-episode:before {
+  content: "\f0fe";
+  font-family: "Font Awesome 6 Pro";
+  font-size: 10px;
+  margin-left: 3px;
+  color: #eee;
+}
+.data.season {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Roboto";
+  padding: 0 0 0 2px !important;
+  display: inline-block !important;
+  position: relative;
+}
+.data.season a {
+  color: #999 !important;
+}
+.data.studio,
+.data.licensor {
+  display: none !important;
+}
+.data.genre {
+  width: 190px;
+  padding: 3px 5px !important;
+  text-align: left !important;
+}
+
+.data.genre span {
+  font-size: 0;
+}
+.data.genre span a {
+  font-size: 11px;
+  font-family: "Roboto";
+  font-weight: normal !important;
+  background-color: #222;
+  color: #eee !important;
+  padding: 3px 5px !important;
+  border-radius: 3px;
+  margin-right: 3px;
+  line-height: 27px;
+}
+
+.data.tags {
+  width: 190px;
+  left: 5px;
+  top: 253px;
+  height: 50px;
+  position: absolute;
+  pointer-events: none;
+  padding: 0 !important;
+}
+.data.tags div,
+.data.tags a,
+.data.tags textarea {
+  pointer-events: auto !important;
+}
+.data.tags span {
+  font-size: 0 !important;
+}
+.data.tags a.edit {
+  position: absolute;
+  font-size: 0 !important;
+  display: none !important;
+  width: auto !important;
+  right: 5px;
+  bottom: 10px;
+  height: 26px !important;
+}
+.data.tags a.edit:before {
+  content: "\f02b";
+  font-family: "Font Awesome 6 Pro";
+  font-size: 12px;
+  font-weight: 900;
+  color: #eee;
+  padding: 7px;
+  border-radius: 3px;
+  line-height: 12px;
+  text-align: center;
+  display: block;
+}
+.data.tags a.edit:after {
+  content: "TAGS";
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Roboto;
+  padding: 5px;
+  line-height: 10px;
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  background-color: #333;
+  color: #999;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.data.tags span a[href^="?status="][href*="tag="]:before {
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  border: 5px solid var(--tagsbg);
+}
+.list-item:hover .data.tags span a {
+  display: block;
+}
+.data.tags div {
+  height: 0;
+}
+.list-item:hover .data.tags a.edit {
+  display: inline-block !important;
+}
+
+/* VERTICAL MENU */
+
+.list-menu-float {
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: -550px;
+  width: 120px;
+  top: 225px;
+  border: 0;
+}
+
+.list-menu-float .icon-menu:not(.setting, .profile) {
+  display: block;
+  background-color: initial;
+  width: 94px;
+  height: auto;
+  overflow: initial;
+  margin-left: 13px;
+  border-left: 3px solid #333;
+}
+.list-menu-float .icon-menu .icon,
+.list-menu-float form .icon {
+  display: none;
+}
+.list-menu-float .icon-menu:not(.profile, .setting) .text {
+  position: initial !important;
+  opacity: 1 !important;
+  display: block;
+  font-family: Roboto;
+  font-weight: bold;
+  width: 94px;
+  line-height: 35px;
+  color: #777;
+  font-size: 13px;
+  box-sizing: border-box;
+  text-align: left;
+  text-indent: 5px;
+  letter-spacing: -1px;
+}
+.list-menu-float .icon-menu:not(.profile, .setting):hover {
+  background-color: #333 !important;
+  width: 94px !important;
+  box-sizing: border-box;
+  border-left: 5px solid var(--hovercolor);
+}
+.list-menu-float .icon-menu:not(.profile, .setting):hover .text {
+  color: var(--hovercolor);
+}
+a.icon-menu.profile {
+  width: 70px;
+  height: 70px;
+  border: 12px solid #333;
+  margin-left: 13px;
+  margin-bottom: 7px;
+  display: block !important;
+  background-color: #222;
+  margin-top: 35px;
+}
+a.icon-menu.profile:after {
+  content: "USER MENU";
+  position: absolute;
+  top: -50px;
+  left: -12px;
+  font-size: 17px;
+  font-family: Roboto;
+  border-bottom: 3px solid #333;
+  color: #999;
+  font-weight: bold;
+  white-space: nowrap;
+  min-width: 94px;
+  padding-bottom: 5px;
+  letter-spacing: -1px;
+  pointer-events: none !important;
+}
+.icon-menu .text:before,
+.link-list-setting:before,
+.link-style-setting:before {
+  font-family: "Font Awesome 6 Pro";
+  margin-right: 5px;
+}
+.icon-menu.quick-add .text:before {
+  content: "\f5ff";
+  font-weight: bold;
+}
+.icon-menu.anime-list .text:before {
+  content: "\f008";
+  font-weight: bold;
+}
+.icon-menu.manga-list .text:before {
+  content: "\f5db";
+  font-family: "Font Awesome 6 Sharp";
+}
+.icon-menu.history .text:before {
+  content: "\f1da";
+}
+.icon-menu.export .text:before {
+  content: "\f56e";
+}
+.icon-menu.logout .text:before {
+  content: "\f2f5";
+}
+.link-list-setting:before {
+  content: "\f022";
+  font-weight: 900;
+}
+.link-style-setting:before {
+  content: "\e267";
+  font-weight: 400;
+}
+.list-menu-float .icon-menu.setting {
+  opacity: 1 !important;
+  display: block;
+  background-color: initial;
+  width: 94px;
+  height: auto;
+  overflow: initial;
+  margin-left: 13px;
+}
+.list-menu-float .icon-menu.setting .text .link-list-setting,
+.list-menu-float .icon-menu.setting .text .link-style-setting {
+  width: 94px !important;
+  position: initial !important;
+  opacity: 1 !important;
+  display: block;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 35px;
+  color: #777;
+  font-size: 13px;
+  box-sizing: border-box;
+  text-align: left;
+  text-indent: 5px;
+  letter-spacing: -1px;
+  border-left: 3px solid #333;
+  transition: ease-in-out 0.3s all;
+}
+.list-menu-float .icon-menu.setting:hover {
+  background-color: inherit !important;
+  width: 94px !important;
+  border: 0 !important;
+  height: auto !important;
+}
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting,
+.list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+  position: initial;
+  background-color: inherit;
+  display: block;
+  width: 94px !important;
+  height: auto !important;
+  line-height: 35px !important;
+  text-decoration: none;
+  opacity: 1;
+  border-top: 0 !important;
+  color: #777;
+}
+.list-menu-float .icon-menu.setting .text a:hover {
+  background-color: #333 !important;
+  width: 94px !important;
+  box-sizing: border-box;
+  border-left: 5px solid var(--hovercolor);
+  line-height: 35px !important;
+  color: var(--hovercolor) !important;
+  transition: ease-in-out 0.3s all;
+}
+.list-menu-float .icon-menu.setting .text {
+  position: initial !important;
+  opacity: 1 !important;
+  width: 94px !important;
+  height: auto !important;
+  border: 0 !important;
+}
+.header .header-title {
+  position: fixed;
+  top: 15px;
+  z-index: 3;
+  width: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: -550px;
+  background-position: center;
+  background-size: cover;
+  height: 25px;
+  opacity: 0.9;
+}
+div#status-menu:before {
+  content: "STATUS MENU";
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 17px;
+  font-family: Roboto;
+  border-bottom: 3px solid #333;
+  color: #999;
+  font-weight: bold;
+  white-space: nowrap;
+  text-indent: 5px;
+  padding-bottom: 5px;
+  letter-spacing: -1px;
+}
+div.status-menu-container {
+  width: 110px;
+  background-color: #222;
+  border: 0;
+  position: fixed;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: -550px;
+  height: 110px;
+}
+.status-menu-container,
+.status-menu-container.fixed {
+  top: 100px !important;
+}
+
+.status-menu-container .status-menu {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 30px 30px 30px;
+  position: relative;
+}
+.status-menu-container .status-menu a.status-button {
+  height: 30px;
+  font-size: 0;
+  border: 2px solid #333;
+  padding: 0;
+  line-height: 30px;
+  box-sizing: border-box;
+  margin-bottom: 7px;
+  text-align: right;
+  padding-top: 4px;
+  font-weight: bold;
+  color: #777;
+  transition: 0.5s ease-in-out all;
+}
+.status-menu-container .status-menu a.status-button:first-letter {
+  font-size: 15px;
+}
+.status-menu a.status-button.watching:first-letter {
+  font-size: 0;
+}
+.status-menu a.status-button.watching:before {
+  content: "W";
+  font-size: 15px !important;
+  line-height: 30px !important;
+  position: absolute;
+  right: 0;
+}
+.status-button:after,
+.status-button.on:after,
+.status-menu .status-button:after {
+  background-color: #444 !important;
+  opacity: 0 !important;
+  top: -30px;
+  left: 50% !important;
+  transform: translateX(-50%);
+  z-index: 9;
+  padding: 5px 7px;
+  line-height: 11px;
+  font-size: 11px;
+  width: auto !important;
+  height: 11px !important;
+  pointer-events: none;
+  color: #eee;
+  white-space: nowrap;
+}
+.status-button:nth-child(4):after,
+.status-button:nth-child(5):after,
+.status-button:nth-child(6):after {
+  bottom: -30px !important;
+  top: initial !important;
+}
+.status-button:hover:after {
+  opacity: 1 !important;
+}
+.status-button.all_anime:after {
+  content: "All Anime" !important;
+}
+.status-button.watching:after {
+  content: "Watching" !important;
+}
+.status-button.completed:after {
+  content: "Completed" !important;
+}
+.status-button.onhold:after {
+  content: "On Hold" !important;
+}
+.status-button.dropped:after {
+  content: "Dropped" !important;
+}
+.status-button.plantowatch:after {
+  content: "Plan to Watch" !important;
+}
+.status-menu-container .status-menu .status-button.on,
+.status-menu-container .status-menu .status-button:hover {
+  border-color: #02020257;
+  color: #eee;
+  transition: 0.5s ease-in-out all;
+}
+a.status-button.all_anime.on,
+a.status-button.all_anime:hover,
+a.status-button.all_anime:after {
+  background-color: var(--allanime) !important;
+}
+a.status-button.watching.on,
+a.status-button.watching:hover,
+a.status-button.watching:after {
+  background-color: var(--watching) !important;
+}
+a.status-button.completed.on,
+a.status-button.completed:hover,
+a.status-button.completed:after {
+  background-color: var(--completed) !important;
+}
+a.status-button.onhold.on,
+a.status-button.onhold:hover,
+a.status-button.onhold:after {
+  background-color: var(--onhold) !important;
+}
+a.status-button.dropped.on,
+a.status-button.dropped:hover,
+a.status-button.dropped:after {
+  background-color: var(--dropped) !important;
+}
+a.status-button.plantowatch.on,
+a.status-button.plantowatch:hover,
+a.status-button.plantowatch:after {
+  background-color: var(--plantowatch) !important;
+}
+
+.search-container {
+  bottom: -30px;
+  right: auto !important;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+div#search-box {
+  width: 100px !important;
+  margin-top: 0 !important;
+  display: block !important;
+}
+
+#search-box input {
+  background-color: #333;
+  border: 0 !important;
+  color: #eee;
+  width: 83px !important;
+}
+#search-box:after {
+  content: "\f002";
+  font-family: "Font Awesome 6 Pro";
+  font-size: 14px;
+  line-height: 22px;
+  position: absolute;
+  color: #999;
+  opacity: 1;
+  background-color: #333;
+  padding-left: 3px;
+}
+#search-box input:focus-visible {
+  outline: 0 !important;
+}
+a#search-button {
+  display: none !important;
+}
+
+/* FOOTER */
+
+div#footer-block {
+  width: 1100px !important;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 60px;
+  background-color: #272727;
+  border-top: 10px solid var(--hovercolor);
+  font-family: Roboto;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/footer2.png);
+}
+
+footer {
+  margin-top: -10px;
+}
+
+div#copyright {
+  font-size: 14px;
+}
+
+div#recaptcha-terms {
+  font-size: 11px;
+}
+
+/* FANCYBOX */
+
+#advanced-options {
+  filter: invert(1);
+  box-shadow: none !important;
+}
+#advanced-options .btn-apply,
+#advanced-options .btn-clear {
+  filter: invert();
+  background-color: var(--hovercolor);
+}
+div#fancybox-overlay {
+  background-color: #000 !important;
+}
