@@ -9,7 +9,7 @@
 /* MAIN */
 
 body {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Saber/images/NNolCA1.jpg);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Saber/images/NNolCA1.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -24,7 +24,7 @@ a {
 }
 
 #list_surround {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Saber/images/xtvWgHg.png) no-repeat center
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Saber/images/xtvWgHg.png) no-repeat center
     0 !important;
   margin: 20px auto 5px;
   padding: 310px 0 2px;
@@ -128,7 +128,7 @@ td[class^="td"]:last-child {
   margin-left: -20px;
   margin-top: 22px;
   font-size: 0;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Saber/images/xApmJde.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Saber/images/xApmJde.png);
   background-repeat: no-repeat;
   z-index: -1;
 }
@@ -157,7 +157,7 @@ td[class^="td"]:last-child {
   position: absolute;
   display: block;
   content: "";
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Saber/images/eTMjl9W.png) no-repeat;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Saber/images/eTMjl9W.png) no-repeat;
   width: 730px;
   height: 78px;
   margin-left: -20px;
@@ -236,8 +236,8 @@ td[class^="td"]:last-child {
   margin-left: -40%;
   width: 80%;
   height: 100%;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Saber/images/sWW0xCu.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Saber/images/KzNIhqF.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Saber/images/sWW0xCu.png),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Saber/images/KzNIhqF.png);
   border-radius: 50em;
   animation: sparkle 15s linear infinite;
   -webkit-animation: sparkle 15s linear infinite;
@@ -285,13 +285,13 @@ td[class^="td"]:last-child {
   height: 100px !important;
   left: 0;
   top: 0;
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Saber/images/DV3hytm.png) left center
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Saber/images/DV3hytm.png) left center
       no-repeat,
     -moz-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%) !important;
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Saber/images/DV3hytm.png) left center
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Saber/images/DV3hytm.png) left center
       no-repeat,
     -webkit-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%) !important;
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Saber/images/DV3hytm.png) left center
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Saber/images/DV3hytm.png) left center
       no-repeat,
     linear-gradient(to top, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%) !important;
   -webkit-transition: margin-top 0.5s ease-out, z-index 0.5s linear 0.2s;
@@ -528,13 +528,13 @@ td[class^="td"]:last-child {
   width: 100%;
   left: 0;
   top: 0;
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Saber/images/DV3hytm.png) left center
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Saber/images/DV3hytm.png) left center
       no-repeat,
     linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%);
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Saber/images/DV3hytm.png) left center
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Saber/images/DV3hytm.png) left center
       no-repeat,
     -moz-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%);
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Saber/images/DV3hytm.png) left center
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Saber/images/DV3hytm.png) left center
       no-repeat,
     -webkit-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%);
   transition: all 0.5s ease-out;
@@ -618,13 +618,13 @@ td[class^="td"]:last-child {
   width: 100%;
   left: 0;
   top: 0;
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Saber/images/DV3hytm.png) left center
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Saber/images/DV3hytm.png) left center
       no-repeat,
     linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%);
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Saber/images/DV3hytm.png) left center
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Saber/images/DV3hytm.png) left center
       no-repeat,
     -moz-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%);
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Saber/images/DV3hytm.png) left center
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Saber/images/DV3hytm.png) left center
       no-repeat,
     -webkit-linear-gradient(bottom, rgb(48, 48, 48) 1%, rgb(255, 255, 255) 3%, rgb(255, 255, 255) 100%);
   transition: margin-top 0.5s ease-out, z-index 0.5s linear 0.2s;

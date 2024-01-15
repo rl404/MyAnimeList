@@ -559,27 +559,27 @@ td small a {
 }
 
 #list_surround table:first-of-type td:nth-of-type(1) a:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Expander/images/chino.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/chino.png);
 }
 
 #list_surround table:first-of-type td:nth-of-type(2) a:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Expander/images/c.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/c.png);
 }
 
 #list_surround table:first-of-type td:nth-of-type(3) a:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Expander/images/etotama.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/etotama.png);
 }
 
 #list_surround table:first-of-type td:nth-of-type(4) a:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Expander/images/gg.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/gg.png);
 }
 
 #list_surround table:first-of-type td:nth-of-type(5) a:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Expander/images/index.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/index.png);
 }
 
 #list_surround table:first-of-type td:nth-of-type(6) a:hover {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Expander/images/km.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/km.png);
 }
 
 @keyframes statusbutton {
@@ -653,8 +653,8 @@ td small a {
 }
 
 #copyright:hover {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Expander/images/ubw2.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Expander/images/longkantai.png);
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/ubw2.png),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/longkantai.png);
   background-size: 100%, 2160px;
   background-position: 0 0, 0 0;
   animation: cr 60s linear infinite;
@@ -866,7 +866,7 @@ td small a {
   width: 30px !important;
   height: 30px;
   background: rgba(255, 255, 255, 0.8)
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Expander/images/search_icon.png) no-repeat right top;
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/search_icon.png) no-repeat right top;
   background-size: auto 30px;
   border: solid 1px white;
   box-shadow: inset 0px 0px 5px 0px #fff, 0px 0px 5px 0px #000;
@@ -874,9 +874,9 @@ td small a {
 
 #mal_cs_powered #search #searchBox:hover {
   width: 200px !important;
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Expander/images/z.png) no-repeat,
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/z.png) no-repeat,
     rgba(255, 255, 255, 0.8)
-      url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Expander/images/search_icon.png) no-repeat;
+      url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/search_icon.png) no-repeat;
   background-size: 200px, auto 30px;
   background-position: 50% 120px, right top;
   color: #333;
@@ -892,18 +892,18 @@ td small a {
   0% {
     width: 30px;
     color: transparent;
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Expander/images/z.png) no-repeat,
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/z.png) no-repeat,
       rgba(255, 255, 255, 0.8)
-        url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Expander/images/search_icon.png) no-repeat;
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/search_icon.png) no-repeat;
     background-size: 200px, auto 30px;
     background-position: 50% 120px, right top;
   }
   10% {
     width: 200px;
     color: #333;
-    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Expander/images/z.png) no-repeat,
+    background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/z.png) no-repeat,
       rgba(255, 255, 255, 0.8)
-        url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Expander/images/search_icon.png) no-repeat;
+        url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/search_icon.png) no-repeat;
     background-size: 200px, auto 30px;
     background-position: 50% 120px, right top;
   }

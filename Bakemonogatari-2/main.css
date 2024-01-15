@@ -3,7 +3,7 @@
 :root {
   --maintext: #eee;
   --secondtext: #999;
-  --footer: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Bakemonogatari-2/images/footer.png);
+  --footer: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari-2/images/footer.png);
   --watching: #588934;
   --completed: #366c9b;
   --dropped: #9b3636;
@@ -11,14 +11,14 @@
   --plantowatch: #6e6e6e;
   --favorite: #e9788c;
   --allanime: #70318b;
-  --kissshot: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Bakemonogatari-2/images/kissshot.png);
-  --hitagi: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Bakemonogatari-2/images/hitagi.png);
-  --araragi: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Bakemonogatari-2/images/araragi.png);
-  --hachikuji: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Bakemonogatari-2/images/hachikuji.png);
-  --nadeko: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Bakemonogatari-2/images/nadeko.png);
-  --hanekawa: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Bakemonogatari-2/images/hanekawa.png);
-  --mainbg: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Bakemonogatari-2/images/mainbg.png);
-  --headerbg: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Bakemonogatari-2/images/headerbg.png);
+  --kissshot: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari-2/images/kissshot.png);
+  --hitagi: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari-2/images/hitagi.png);
+  --araragi: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari-2/images/araragi.png);
+  --hachikuji: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari-2/images/hachikuji.png);
+  --nadeko: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari-2/images/nadeko.png);
+  --hanekawa: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari-2/images/hanekawa.png);
+  --mainbg: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari-2/images/mainbg.png);
+  --headerbg: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari-2/images/headerbg.png);
   --nickname: "rl404";
   --tagsTop: -100px;
   --tagsLeft: -200px;
@@ -239,7 +239,7 @@ body.ownlist:after {
   background-color: #272727;
   left: 60px;
   height: 60px;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Bakemonogatari-2/images/header.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari-2/images/header.png);
   background-position: right center;
   padding-bottom: 15px;
 }
@@ -1472,7 +1472,7 @@ div#footer-block {
   background-color: #272727;
   border-top: 10px solid var(--hovercolor);
   font-family: Roboto;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Bakemonogatari-2/images/footer2.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari-2/images/footer2.png);
 }
 
 footer {
