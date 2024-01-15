@@ -1,0 +1,19 @@
+/*
+ * BAKEMONOGATARI 2 (ANIME) LAYOUT THEME
+ * List Designed by Valerio Lyndon (https://myanimelist.net/profile/Valerio_Lyndon)
+ * Modified by rl404 (https://myanimelist.net/profile/rl404)
+ */
+
+@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.2.0/Bakemonogatari-2/main.css);
+
+div#cover-image-container:after {
+  content: "animelist";
+}
+
+.data.type:after {
+  content: ",";
+  padding: 0 !important;
+  text-align: left !important;
+  position: absolute;
+  right: -2px;
+}
