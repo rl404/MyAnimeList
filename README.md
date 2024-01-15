@@ -535,7 +535,7 @@
 ```
 
 <h2 align=center>Tilt</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Tilt/images/sample.jpg></p>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Tilt/images/sample.png></p>
 
 ![Modern][modernlogo]
 
