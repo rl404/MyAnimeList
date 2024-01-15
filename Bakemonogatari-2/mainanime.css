@@ -9,3 +9,11 @@
 div#cover-image-container:after {
   content: "animelist";
 }
+
+.data.type:after {
+  content: ",";
+  padding: 0 !important;
+  text-align: left !important;
+  position: absolute;
+  right: -2px;
+}

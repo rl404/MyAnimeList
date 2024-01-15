@@ -921,13 +921,6 @@ span.score-label.score-na {
   display: inline-block !important;
   position: relative;
 }
-.data.type:after {
-  content: ",";
-  padding: 0 !important;
-  text-align: left !important;
-  position: absolute;
-  right: -2px;
-}
 .data.progress {
   position: absolute;
   top: 5px;
