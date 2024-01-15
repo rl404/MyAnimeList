@@ -272,7 +272,7 @@ body.ownlist:after {
   height: 17px;
   background-color: #333;
   border: 1px solid #222;
-  top: -10px;
+  top: 3px;
   color: #999;
   font-family: "Font Awesome 6 Pro";
   font-size: 10px;
@@ -1151,6 +1151,10 @@ a.icon-menu.profile:after {
   content: "\f5db";
   font-family: "Font Awesome 6 Sharp";
 }
+.icon-menu.statistics .text:before {
+  content: "\e473";
+  font-family: "Font Awesome 6 Sharp";
+}
 .icon-menu.history .text:before {
   content: "\f1da";
 }
@@ -1232,14 +1236,14 @@ a.icon-menu.profile:after {
 }
 .header .header-title {
   position: fixed;
-  top: 15px;
+  top: 26px;
   z-index: 3;
-  width: 60px;
+  width: 100px;
   left: 50%;
   transform: translateX(-50%);
   margin-left: -550px;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   height: 25px;
   opacity: 0.9;
 }
