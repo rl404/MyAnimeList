@@ -4,7 +4,7 @@
  * Modified by rl404 (https://myanimelist.net/profile/rl404)
  */
 
-@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.2.0/Danmachi/main.css);
+@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.0/Danmachi/main.css);
 
 /* LILI THEME */
 
@@ -14,17 +14,17 @@
 #mal_cs_links div a[href*="addtolist"],
 #mal\_cs_links div:last-of-type a:first-of-type,
 #mal\_cs_links div:last-of-type a:last-of-type {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Danmachi/images/lili/menu.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Danmachi/images/lili/menu.png);
 }
 
 body,
 a {
-  cursor: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Danmachi/images/lili/cursor.png) 1 1, auto !important;
+  cursor: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Danmachi/images/lili/cursor.png) 1 1, auto !important;
 }
 
 body {
   background-color: rgb(199, 145, 121);
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Danmachi/images/lili/bg.jpg);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Danmachi/images/lili/bg.jpg);
 }
 
 body,
@@ -37,7 +37,7 @@ a,
 }
 
 #list_surround > table:first-of-type:before {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Danmachi/images/lili/line.png) repeat-x;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Danmachi/images/lili/line.png) repeat-x;
 }
 
 #list_surround:before {
@@ -45,7 +45,7 @@ a,
 }
 
 #list_surround:after {
-  border-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Danmachi/images/lili/table.png) 118 52
+  border-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Danmachi/images/lili/table.png) 118 52
     111 47 round;
 }
 

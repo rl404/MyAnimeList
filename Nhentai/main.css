@@ -244,7 +244,7 @@ body {
 }
 
 .header .header-title:before {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Nhentai/logo.png) no-repeat;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.0/Nhentai/logo.png) no-repeat;
   background-size: 100%;
   content: "";
   height: 30px;
