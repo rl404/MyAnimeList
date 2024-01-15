@@ -303,7 +303,7 @@
 
 **Based template**: [Valerio Lyndon](https://myanimelist.net/profile/Valerio_Lyndon)
 
-**List type**: Anime list only
+**List type**: Anime and Manga list
 
 **Anime List recommended setting**:
 
@@ -315,10 +315,27 @@
 - [x] Image
 - [x] Premiered
 
+**Manga List recommended setting**:
+
+- [x] Score
+- [x] Tags
+- [x] Type
+- [x] Genres
+- [x] Notes
+- [x] Image
+
 **How to use**
 
+- **For anime**:
+
 ```css
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.2.0/Bakemonogatari-2/main.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.2.0/Bakemonogatari-2/mainanime.css";
+```
+
+- **For manga**:
+
+```css
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.2.0/Bakemonogatari-2/mainmanga.css";
 ```
 
 <h2 align=center>Rezero</h2>
