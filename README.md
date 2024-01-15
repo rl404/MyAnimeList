@@ -12,6 +12,7 @@
   - [Expander](#expander)
   - [Expander Dark](#expander-dark)
   - [Bakemonogatari](#bakemonogatari)
+  - [Bakemonogatari 2](#bakemonogatari-2)
   - [Rezero](#rezero)
   - [Modern Image](#modern-image)
   - [Nier:Automata](#nierautomata)
@@ -293,6 +294,31 @@
 ```css
 @\import "https://cover.mal.rl404.com/[MAL_USERNAME]/manga?style=%23more%7Bid%7D+.borderRBL+div%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D";
 @\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.2.0/Bakemonogatari/main.css";
+```
+
+<h2 align=center>Bakemonogatari 2</h2>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/sample.png></p>
+
+![Modern][modernlogo]
+
+**Based template**: [Valerio Lyndon](https://myanimelist.net/profile/Valerio_Lyndon)
+
+**List type**: Anime list only
+
+**Anime List recommended setting**:
+
+- [x] Score
+- [x] Type
+- [x] Tags
+- [x] Genre
+- [x] Notes
+- [x] Image
+- [x] Premiered
+
+**How to use**
+
+```css
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.2.0/Bakemonogatari-2/main.css";
 ```
 
 <h2 align=center>Rezero</h2>

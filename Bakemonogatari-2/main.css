@@ -21,7 +21,7 @@
   --hitagi: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/hitagi.png);
   --araragi: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/araragi.png);
   --hachikuji: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/hachikuji.png);
-  --nadeko: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/nadeko);
+  --nadeko: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/nadeko.png);
   --hanekawa: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/hanekawa.png);
   --mainbg: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/mainbg.png);
   --headerbg: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.2.0/Bakemonogatari-2/images/headerbg.png);
@@ -240,8 +240,6 @@ body.ownlist:after {
   padding-bottom: 15px;
 }
 .header-menu {
-  top: auto !important;
-  right: auto !important;
   bottom: 35px;
   left: 0;
   width: 1060px;
@@ -265,15 +263,6 @@ body.ownlist:after {
 }
 .header-menu .btn-menu a i {
   display: none;
-}
-.header:before {
-  content: "";
-  display: block;
-  height: 35px;
-  background-color: #2b2a2a;
-  position: absolute;
-  bottom: 0;
-  width: 1100px;
 }
 .header-menu:before,
 .header-menu:after,
@@ -402,7 +391,7 @@ div#cover-image-container:after {
   z-index: 1;
 }
 .list-status-title {
-  display: block;
+  display: block !important;
   width: 1060px !important;
   padding-left: 40px;
   background-color: var(--hovercolor) !important;
@@ -429,7 +418,7 @@ div#cover-image-container:after {
   text-align: center;
 }
 .list-unit .list-status-title:after {
-  content: "getNORTED";
+  content: var(--nickname);
   font-family: Roboto;
   font-size: 80px;
   font-weight: bold;
