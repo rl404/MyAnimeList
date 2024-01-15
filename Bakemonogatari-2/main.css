@@ -316,7 +316,8 @@ body.ownlist:after {
   white-space: nowrap;
   font-size: 12px;
 }
-svg.icon.icon-manga-list {
+svg.icon.icon-manga-list,
+svg.icon.icon-anime-list {
   display: none;
 }
 .header .header-menu .list-menu .icon-menu .text {
