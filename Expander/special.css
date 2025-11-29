@@ -1695,7 +1695,25 @@ tr:hover .animetitle[href*="/10620/"]:hover {
 
 /* frieren */
 
-tr:hover #xmenu52991 {
+tr:hover .animetitle[href*="/52991/"] {
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/ubw2.png),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/frieren.gif) center;
+  background-size: cover;
+  width: 100%;
+  height: 385px;
+  top: -15px;
+  padding-top: 35px;
+  min-width: 935px;
+  max-width: 1237px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr:hover .animetitle[href*="/52991/"]:before {
+  top: 100px;
+}
+
+tr:hover .animetitle[href*="/52991/"]:hover {
   background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/frierenbg.png) center;
   background-size: cover;
 }
