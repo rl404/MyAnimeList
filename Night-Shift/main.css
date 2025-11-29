@@ -17,7 +17,7 @@
 body {
   background-attachment: fixed;
   background-color: var(--main-background) !important;
-  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Night-Shift/images/background.jpeg");
+  background-image: url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Night-Shift/images/background.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

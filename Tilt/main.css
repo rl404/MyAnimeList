@@ -4,18 +4,18 @@
  * Modified by rl404 (https://myanimelist.net/profile/rl404)
  */
 
-@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.2/Tilt/font.css);
+@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Tilt/font.css);
 
 :root {
-  --background-img: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Tilt/images/oQ5LYfB.jpg);
-  --background-img-hd: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Tilt/images/IJrzYGP.jpg);
-  --logo-img: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Tilt/images/XOLKsEF.png);
-  --banner-img-all: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Tilt/images/2dNxOcM.png);
-  --banner-img-current: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Tilt/images/aPHWdRV.png);
-  --banner-img-completed: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Tilt/images/Dv7xyGN.png);
-  --banner-img-onhold: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Tilt/images/0HM7Vho.png);
-  --banner-img-dropped: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Tilt/images/dh42mXP.png);
-  --banner-img-planned: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Tilt/images/JQlB1VA.png);
+  --background-img: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Tilt/images/oQ5LYfB.jpg);
+  --background-img-hd: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Tilt/images/IJrzYGP.jpg);
+  --logo-img: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Tilt/images/XOLKsEF.png);
+  --banner-img-all: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Tilt/images/2dNxOcM.png);
+  --banner-img-current: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Tilt/images/aPHWdRV.png);
+  --banner-img-completed: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Tilt/images/Dv7xyGN.png);
+  --banner-img-onhold: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Tilt/images/0HM7Vho.png);
+  --banner-img-dropped: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Tilt/images/dh42mXP.png);
+  --banner-img-planned: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Tilt/images/JQlB1VA.png);
   --banner-pos-all: 20px center;
   --banner-pos-current: 115px center;
   --banner-pos-completed: 115px center;
