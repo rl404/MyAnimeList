@@ -1717,3 +1717,15 @@ tr:hover .animetitle[href*="/52991/"]:hover {
   background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/frierenbg.png) center;
   background-size: cover;
 }
+
+/* Solo Leveling */
+
+tr:hover #xmenu52299 {
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/sololeveling1.png);
+  background-size: cover;
+}
+
+tr:hover #xmenu58567 {
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/sololeveling2.png);
+  background-size: cover;
+}
