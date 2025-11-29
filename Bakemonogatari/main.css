@@ -6,16 +6,16 @@
 
 @font-face {
   font-family: "FontAwesome";
-  src: url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/fonts/fontawesome-webfont.eot?v=4.4.0");
-  src: url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0")
+  src: url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/fonts/fontawesome-webfont.eot?v=4.4.0");
+  src: url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0")
       format("embedded-opentype"),
-    url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/fonts/fontawesome-webfont.woff2?v=4.4.0")
+    url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/fonts/fontawesome-webfont.woff2?v=4.4.0")
       format("woff2"),
-    url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/fonts/fontawesome-webfont.woff?v=4.4.0")
+    url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/fonts/fontawesome-webfont.woff?v=4.4.0")
       format("woff"),
-    url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/fonts/fontawesome-webfont.ttf?v=4.4.0")
+    url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/fonts/fontawesome-webfont.ttf?v=4.4.0")
       format("truetype"),
-    url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular")
+    url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular")
       format("svg");
   font-weight: normal;
   font-style: normal;
@@ -30,7 +30,7 @@
 
 body {
   background: transparent
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/5mkTHSA.gif) repeat center top;
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/5mkTHSA.gif) repeat center top;
 }
 
 #mal_control_strip {
@@ -48,15 +48,15 @@ body {
 
 #mal_control_strip td:first-of-type {
   background-image: url(https://api.randomizer.rl404.com/user/rl404bake/image.jpg),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/1.jpg),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/2.jpg),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/3.jpg),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/4.jpg),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/5.jpg),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/6.jpg),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/7.jpg),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/8.jpg),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/9.jpg);
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/1.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/2.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/3.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/4.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/5.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/6.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/7.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/8.jpg),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/9.jpg);
   background-position: 30px, 30px, 30px, 30px, 30px, 30px, 30px, 30px, 30px, 30px;
   background-size: 300px;
   background-repeat: no-repeat;
@@ -162,7 +162,7 @@ body {
 
 #mal_cs_listinfo form a,
 #mal_cs_otherlinks a[href*="/login.php"]:before {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/8YeOXnn.gif)
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/8YeOXnn.gif)
     no-repeat center top;
   color: #b7b7b7 !important;
   display: block;
@@ -220,8 +220,8 @@ body {
 
 #mal_cs_links .List_LightBox:after,
 #mal_cs_pic a img {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/88cFBBL.png),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/Et4WhCa.jpg) center;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/88cFBBL.png),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/Et4WhCa.jpg) center;
 }
 
 #mal_cs_links .List_LightBox:after {
@@ -243,7 +243,7 @@ body {
 #mal_cs_links a[href="/"],
 #mal_cs_pic a {
   background: transparent
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/5mkTHSA.gif) repeat 0 60px !important;
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/5mkTHSA.gif) repeat 0 60px !important;
 }
 
 #mal_cs_links a[href="/"] {
@@ -258,7 +258,7 @@ body {
 
 #mal_cs_links a[href="/"]:before,
 #mal_cs_pic a:before {
-  background: #e2f0f6 url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/Wu1QsEA.png)
+  background: #e2f0f6 url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/Wu1QsEA.png)
     no-repeat 250px center;
   background-size: 100px;
   box-shadow: inset 0 1px 0 #efefef, inset 3px 3px 0 #fff, inset -3px -3px 0 #fff;
@@ -286,7 +286,7 @@ body {
 }
 
 #mal_cs_links div:last-of-type a {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/Oo7OngZ.gif);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/Oo7OngZ.gif);
   display: inline-block;
   font-size: 0 !important;
   height: 60px !important;
@@ -347,8 +347,8 @@ body {
 }
 
 #mal_cs_otherlinks div:last-of-type {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/bakemono.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/5mkTHSA.gif);
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/bakemono.gif),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/5mkTHSA.gif);
   background-position: right bottom, 360px 180px;
   background-repeat: no-repeat, repeat;
   background-size: cover, auto;
@@ -365,9 +365,9 @@ body {
 }
 
 #mal_cs_otherlinks div:last-of-type:before {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/kcE1Ufw.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/kcE1Ufw.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/kcE1Ufw.gif);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/kcE1Ufw.gif),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/kcE1Ufw.gif),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/kcE1Ufw.gif);
   background-position: -240px -60px, -120px -60px, 0 -60px;
   background-repeat: no-repeat;
   content: " ";
@@ -380,7 +380,7 @@ body {
 }
 
 #mal_cs_otherlinks div:last-of-type a {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/Oo7OngZ.gif);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/Oo7OngZ.gif);
   display: inline-block;
   font-size: 0 !important;
   height: 60px !important;
@@ -404,13 +404,13 @@ body {
 
 #mal_cs_otherlinks a[href*="/sharedanime.php"],
 #mal_cs_otherlinks a[href*="/sharedmanga.php"] {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/H53e8nQ.gif) !important;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/H53e8nQ.gif) !important;
 }
 
 #mal_cs_otherlinks a[href*="/animelist/"],
 #mal_cs_otherlinks a[href*="/mangalist/"] {
   background: transparent
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/5mkTHSA.gif) repeat 0 60px !important;
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/5mkTHSA.gif) repeat 0 60px !important;
   box-shadow: 0 3px 0 #fff;
   left: 0 !important;
   top: 0 !important;
@@ -418,7 +418,7 @@ body {
 }
 
 #mal_cs_pic + #mal_cs_otherlinks div:last-of-type a {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/5iNDEZf.gif);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/5iNDEZf.gif);
 }
 
 #mal_cs_otherlinks a[href*="/login.php"] {
@@ -465,14 +465,14 @@ body {
 }
 
 #mal_cs_otherlinks a[href*="/animelist/"]:after {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/p2ii2iL.png)
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/p2ii2iL.png)
     no-repeat 280px center;
   background-size: 40px;
   content: "VIEW MY ANIMELIST";
 }
 
 #mal_cs_otherlinks a[href*="/mangalist/"]:after {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/8cYiZB6.png)
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/8cYiZB6.png)
     no-repeat 280px center;
   background-size: 40px;
   content: "VIEW MY MANGALIST";
@@ -526,7 +526,7 @@ body {
 }
 
 #mal_cs_powered a {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/Wlh8C1T.jpg) !important;
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/Wlh8C1T.jpg) !important;
   height: 120px;
   left: 0 !important;
   position: absolute;
@@ -539,7 +539,7 @@ body {
 }
 
 #search {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/PXs3m51.gif);
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/PXs3m51.gif);
   height: 60px;
   margin: 0 !important;
   padding: 0 !important;
@@ -581,8 +581,8 @@ body {
 
 #list_surround {
   background-color: #fff;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/939Kagq.gif),
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/8z6nBVs.gif);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/939Kagq.gif),
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/8z6nBVs.gif);
   background-repeat: no-repeat, repeat;
   background-position: center bottom, center, top;
   left: calc(50% - 480px);
@@ -599,7 +599,7 @@ body {
 
 #list_surround table[align="center"]:first-of-type {
   background: transparent
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/kcE1Ufw.gif) no-repeat scroll
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/kcE1Ufw.gif) no-repeat scroll
     0px 0px;
   height: 60px;
   margin-left: -120px;
@@ -614,7 +614,7 @@ body {
 }
 
 td[class*="status_"] a {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/3FAohKm.gif);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/3FAohKm.gif);
   display: block;
   font-size: 0 !important;
   height: 60px !important;
@@ -730,7 +730,7 @@ td[class*="status_"] a:hover:after {
 }
 
 #list_surround table[align="center"]:nth-of-type(n + 2) {
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/4oyM5of.gif);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/4oyM5of.gif);
   height: 60px;
   margin-left: -360px;
   position: absolute;
@@ -1313,7 +1313,7 @@ td[class^="td"][width="90"]:before {
 }
 
 #grand_totals:before {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Bakemonogatari/images/4oyM5of.gif);
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.2/Bakemonogatari/images/4oyM5of.gif);
   background-position: 0 -300px;
   color: #fff;
   content: "ALL ENTRY";
