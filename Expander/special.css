@@ -1729,3 +1729,10 @@ tr:hover #xmenu58567 {
   background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/sololeveling2.png);
   background-size: cover;
 }
+
+/* Uma */
+
+tr:hover #xmenu57647 {
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/tachyon.png);
+  background-size: cover;
+}
