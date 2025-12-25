@@ -16,7 +16,7 @@ tr:hover #xmenu19815 {
     url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Madoka/images/star1.png),
     url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Madoka/images/star1.png),
     url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Madoka/images/star2.png),
-    url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/ngnl.png");
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/ngnl.png);
   background-size: 200px, auto, 420px, 1000px, cover;
   animation: shiro 15s linear infinite;
 }
@@ -70,7 +70,7 @@ tr:hover #xmenu16782 {
     url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/rain.gif),
     url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/rain.gif),
     url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/overlay.png),
-    url("https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/gow.jpg");
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/gow.jpg);
   background-size: 747px 5000px, 747px 1000px, 747px, 100%, cover;
   background-position: 0 0, 50% 0, 0 0, center;
 }
@@ -1111,7 +1111,7 @@ tr:hover .animetitle[href*="/20847/"]:hover:before {
   background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/seitokai.png)
       no-repeat,
     url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/ubw2.png),
-    url("https://myanimelist.cdn-dena.com/images/anime/9/56941.jpg");
+    url(https://myanimelist.cdn-dena.com/images/anime/9/56941.jpg);
   background-position: 0 0, 0 0, center;
   background-size: auto 291px, 100%, auto;
   animation: yuru 5s ease-out;
@@ -1738,7 +1738,7 @@ tr:hover .animetitle[href*="/11597/"]:hover {
 }
 
 tr:hover .animetitle[href*="/11597/"]:hover:before {
-  background: url("https://cdn.myanimelist.net/images/anime/1044/103654.jpg");
+  background: url(https://cdn.myanimelist.net/images/anime/1044/103654.jpg);
   background-size: cover;
 }
 
@@ -1805,19 +1805,22 @@ tr:hover .animetitle[href*="/52991/"]:hover {
 /* Solo Leveling */
 
 tr:hover #xmenu52299 {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/sololeveling1.png);
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/sololeveling1.png)
+    center;
   background-size: cover;
 }
 
 tr:hover #xmenu58567 {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/sololeveling2.png);
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/sololeveling2.png)
+    center;
   background-size: cover;
 }
 
 /* Uma */
 
 tr:hover #xmenu57647 {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/tachyon.png);
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/tachyon.png)
+    center;
   background-size: cover;
 }
 
