@@ -1354,6 +1354,14 @@ tr:hover #xmenu55701 {
   background-size: cover;
 }
 
+/* kimetsu no yaiba yuukaku */
+
+tr:hover #xmenu47778 {
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/uzui.png)
+    center;
+  background-size: cover;
+}
+
 /* non non biyori nonstop */
 
 tr:hover #xmenu39808 {
