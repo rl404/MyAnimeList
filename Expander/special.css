@@ -1852,6 +1852,21 @@ tr:hover .animetitle[href*="/44511/"]:hover {
 }
 
 tr:hover #xmenu57555 {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/reze.png);
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/reze.png)
+    center;
+  background-size: cover;
+}
+
+/* eminence shadow */
+
+tr:hover #xmenu48316 {
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/cid.png)
+    center;
+  background-size: cover;
+}
+
+tr:hover #xmenu54595 {
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/cid2.png)
+    center;
   background-size: cover;
 }
