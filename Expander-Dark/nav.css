@@ -402,7 +402,7 @@ body:before {
   width: 20px !important;
   height: 30px;
   background: var(--table-bg-color)
-    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/search_icon.png) no-repeat right top;
+    url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Expander/images/search_icon.png) no-repeat right top;
   background-size: auto 30px;
   border: solid 1px var(--divider-color);
   padding-left: 8px;

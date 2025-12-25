@@ -8,7 +8,7 @@
 
 body {
   background: center fixed !important;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/NierAutomata/images/bg.png) !important;
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/NierAutomata/images/bg.png) !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   scroll-snap-type: mandatory;
@@ -91,7 +91,7 @@ body {
   content: "";
   display: block;
   background: center fixed;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/NierAutomata/images/bg.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/NierAutomata/images/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: fixed;
@@ -106,7 +106,7 @@ body {
   content: "";
   display: block;
   background: center fixed;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/NierAutomata/images/bg.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/NierAutomata/images/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: fixed;
@@ -121,7 +121,7 @@ body {
   content: "";
   display: block;
   background: center;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/NierAutomata/images/leftline.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/NierAutomata/images/leftline.png);
   background-repeat: repeat-y;
   position: fixed;
   top: 190px;
@@ -134,7 +134,7 @@ body {
 .list-block::after {
   content: "";
   display: block;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/NierAutomata/images/line.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/NierAutomata/images/line.png);
   background-repeat: no-repeat;
   background-size: 100%;
   position: fixed;
@@ -212,7 +212,7 @@ body {
   content: "";
   display: block;
   background: center;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/NierAutomata/images/leftline.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/NierAutomata/images/leftline.png);
   background-repeat: repeat-y;
   position: absolute;
   top: 25px;
@@ -227,7 +227,7 @@ body {
   height: 30px;
   width: 100%;
   background: left;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/NierAutomata/images/line.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/NierAutomata/images/line.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -444,7 +444,7 @@ body {
 .list-table tbody.list-item::before {
   content: "";
   background-position: center;
-  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/NierAutomata/images/arrow.png);
+  background-image: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/NierAutomata/images/arrow.png);
   background-repeat: no-repeat;
   width: 42px;
   height: 50px;

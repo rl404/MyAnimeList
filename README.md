@@ -28,7 +28,7 @@
 - [Contact](#contact-me)
 
 <h2 align=center>Mahou Shoujo Madoka★Magica</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Madoka/images/sample.gif></p>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Madoka/images/sample.gif></p>
 
 ![Classic][classiclogo]
 
@@ -57,18 +57,18 @@
 
 ```css
 @\import "https://cover.mal.rl404.com/[MAL_USERNAME]/anime?style=%23more%7Bid%7D%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D%0D%0A";
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Madoka/mainanime.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Madoka/mainanime.css";
 ```
 
 - **For manga**:
 
 ```css
 @\import "https://cover.mal.rl404.com/[MAL_USERNAME]/manga?style=%23more%7Bid%7D%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D%0D%0A";
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Madoka/mainmanga.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Madoka/mainmanga.css";
 ```
 
 <h2 align=center>Saber</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Saber/images/sample.gif></p>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Saber/images/sample.gif></p>
 
 ![Classic][classiclogo]
 
@@ -93,14 +93,14 @@
 **How to use (for anime and manga)**:
 
 ```css
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Saber/main.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Saber/main.css";
 ```
 
 <h2 align=center>Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka (Danmachi)</h2>
 <p align=center>
-  <img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Danmachi/images/sample1.png>
-  <img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Danmachi/images/sample2.png>
-  <img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Danmachi/images/sample3.png>
+  <img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Danmachi/images/sample1.png>
+  <img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Danmachi/images/sample2.png>
+  <img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Danmachi/images/sample3.png>
 </p>
 
 ![Classic][classiclogo]
@@ -124,23 +124,23 @@
 - **Hestia theme**:
 
 ```css
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Danmachi/mainhestia.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Danmachi/mainhestia.css";
 ```
 
 - **Lili theme**:
 
 ```css
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Danmachi/mainlili.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Danmachi/mainlili.css";
 ```
 
 - **Ais theme**:
 
 ```css
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Danmachi/mainais.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Danmachi/mainais.css";
 ```
 
 <h2 align=center>Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai (Anohana)</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Anohana/images/sample.png></p>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Anohana/images/sample.png></p>
 
 ![Classic][classiclogo]
 
@@ -159,18 +159,18 @@
 
 ```css
 @\import "https://cover.mal.rl404.com/[MAL_USERNAME]/anime?style=%23more%7Bid%7D%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D%0D%0A";
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Anohana/main.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Anohana/main.css";
 ```
 
 - **For manga**:
 
 ```css
 @\import "https://cover.mal.rl404.com/[MAL_USERNAME]/manga?style=%23more%7Bid%7D%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D%0D%0A";
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Anohana/main.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Anohana/main.css";
 ```
 
 <h2 align=center>Expander</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/sample.png></p>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Expander/images/sample.png></p>
 
 ![Classic][classiclogo]
 
@@ -201,18 +201,18 @@
 
 ```css
 @\import "https://cover.mal.rl404.com/[MAL_USERNAME]/anime?style=tr%3Ahover%20.animetitle%5Bhref%2A%3D%27%2F%7Bid%7D%2F%27%5D%3Abefore%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D";
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Expander/mainanime.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Expander/mainanime.css";
 ```
 
 - **For manga**:
 
 ```css
 @\import "https://cover.mal.rl404.com/[MAL_USERNAME]/manga?style=tr%3Ahover%20.animetitle%5Bhref%2A%3D%27%2F%7Bid%7D%2F%27%5D%3Abefore%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D";
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Expander/mainmanga.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Expander/mainmanga.css";
 ```
 
 <h2 align=center>Expander Dark</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander-Dark/images/sample.png></p>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Expander-Dark/images/sample.png></p>
 
 ![Classic][classiclogo]
 
@@ -243,18 +243,18 @@
 
 ```css
 @\import "https://cover.mal.rl404.com/[MAL_USERNAME]/anime?style=tr%3Ahover%20.animetitle%5Bhref%2A%3D%27%2F%7Bid%7D%2F%27%5D%3Abefore%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D";
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Expander-Dark/main-anime.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Expander-Dark/main-anime.css";
 ```
 
 - **For manga**:
 
 ```css
 @\import "https://cover.mal.rl404.com/[MAL_USERNAME]/manga?style=tr%3Ahover%20.animetitle%5Bhref%2A%3D%27%2F%7Bid%7D%2F%27%5D%3Abefore%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D";
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Expander-Dark/main-manga.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Expander-Dark/main-manga.css";
 ```
 
 <h2 align=center>Bakemonogatari</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Bakemonogatari/images/sample.png></p>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Bakemonogatari/images/sample.png></p>
 
 ![Classic][classiclogo]
 
@@ -286,18 +286,18 @@
 
 ```css
 @\import "https://cover.mal.rl404.com/[MAL_USERNAME]/anime?style=%23more%7Bid%7D+.borderRBL+div%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D";
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Bakemonogatari/main.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Bakemonogatari/main.css";
 ```
 
 - **For manga**:
 
 ```css
 @\import "https://cover.mal.rl404.com/[MAL_USERNAME]/manga?style=%23more%7Bid%7D+.borderRBL+div%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D";
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Bakemonogatari/main.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Bakemonogatari/main.css";
 ```
 
 <h2 align=center>Bakemonogatari 2</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Bakemonogatari-2/images/sample.png></p>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Bakemonogatari-2/images/sample.png></p>
 
 ![Modern][modernlogo]
 
@@ -329,17 +329,17 @@
 - **For anime**:
 
 ```css
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Bakemonogatari-2/mainanime.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Bakemonogatari-2/mainanime.css";
 ```
 
 - **For manga**:
 
 ```css
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Bakemonogatari-2/mainmanga.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Bakemonogatari-2/mainmanga.css";
 ```
 
 <h2 align=center>Rezero</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Rezero/images/sample.png></p>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Rezero/images/sample.png></p>
 
 ![Classic][classiclogo]
 
@@ -362,11 +362,11 @@
 **How to use (for anime and manga)**:
 
 ```css
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Rezero/main.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Rezero/main.css";
 ```
 
 <h2 align=center>Modern Image</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Modern-Image/images/sample.jpg></p>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Modern-Image/images/sample.jpg></p>
 
 ![Modern][modernlogo]
 
@@ -396,18 +396,18 @@
 
 ```css
 @\import "https://cover.mal.rl404.com/[MAL_USERNAME]/anime?style=.data.image%20a%5Bhref%2A%3D%22%2F%7Bid%7D%2F%22%5D%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D";
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Modern-Image/main.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Modern-Image/main.css";
 ```
 
 - **For manga**:
 
 ```css
 @\import "https://cover.mal.rl404.com/[MAL_USERNAME]/manga?style=.data.image%20a%5Bhref%2A%3D%22%2F%7Bid%7D%2F%22%5D%7Bbackground-image%3Aurl%28%7Burl%7D%29%7D";
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Modern-Image/main.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Modern-Image/main.css";
 ```
 
 <h2 align=center>Nier:Automata</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/NierAutomata/images/sample.png></p>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/NierAutomata/images/sample.png></p>
 
 ![Modern][modernlogo]
 
@@ -436,11 +436,11 @@
 **How to use (for anime and manga)**:
 
 ```css
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/NierAutomata/main.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/NierAutomata/main.css";
 ```
 
 <h2 align=center>Persona 5</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Persona5/images/sample.png></p>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Persona5/images/sample.png></p>
 
 ![Modern][modernlogo]
 
@@ -465,11 +465,11 @@
 **How to use (for anime and manga)**:
 
 ```css
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Persona5/main.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Persona5/main.css";
 ```
 
 <h2 align=center>Polygon</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Polygon/images/sample.jpg></p>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Polygon/images/sample.jpg></p>
 
 ![Modern][modernlogo]
 
@@ -493,11 +493,11 @@
 **How to use**:
 
 ```css
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Polygon/main.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Polygon/main.css";
 ```
 
 <h2 align=center>Night Shift</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Night-Shift/images/sample.jpg></p>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Night-Shift/images/sample.jpg></p>
 
 ![Modern][modernlogo]
 
@@ -512,11 +512,11 @@
 **How to use (for anime and manga)**:
 
 ```css
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Night-Shift/main.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Night-Shift/main.css";
 ```
 
 <h2 align=center>Blackout</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Blackout/images/sample.jpg></p>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Blackout/images/sample.jpg></p>
 
 ![Modern][modernlogo]
 
@@ -531,11 +531,11 @@
 **How to use (for anime and manga)**:
 
 ```css
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Blackout/main.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Blackout/main.css";
 ```
 
 <h2 align=center>Tilt</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Tilt/images/sample.png></p>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Tilt/images/sample.png></p>
 
 ![Modern][modernlogo]
 
@@ -563,11 +563,11 @@
 **How to use (for anime and manga)**:
 
 ```css
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Tilt/main.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Tilt/main.css";
 ```
 
 <h2 align=center>Nhentai</h2>
-<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Nhentai/sample.png></p>
+<p align=center><img src=https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Nhentai/sample.png></p>
 
 ![Modern][modernlogo]
 
@@ -589,11 +589,11 @@
 
 ```css
 @\import "https://cover.mal.rl404.com/[MAL_USERNAME]/manga?style=.data.image+a%5Bhref%2A%3D%22%2F%7Bid%7D%2F%22%5D%7Bbackground-image%3A+url%28%7Burl%7D%29%7D";
-@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Nhentai/main.css";
+@\import "https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Nhentai/main.css";
 ```
 
-[classiclogo]: https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Images/classic.png
-[modernlogo]: https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Images/modern.png
+[classiclogo]: https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Images/classic.png
+[modernlogo]: https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.4/Images/modern.png
 
 ## Other
 

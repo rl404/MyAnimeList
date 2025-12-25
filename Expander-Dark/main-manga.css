@@ -4,9 +4,9 @@
  * Modified by rl404 (https://myanimelist.net/profile/rl404)
  */
 
-@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Expander-Dark/main.css);
-@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Expander-Dark/nav.css);
-@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.3/Expander-Dark/expand.css);
+@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Expander-Dark/main.css);
+@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Expander-Dark/nav.css);
+@import url(https://cdn.jsdelivr.net/gh/rl404/MyAnimeList@v1.3.4/Expander-Dark/expand.css);
 
 #list_surround:before {
   content: "";
