@@ -1873,3 +1873,17 @@ tr:hover #xmenu54595 {
     center;
   background-size: cover;
 }
+
+/* komi-san */
+
+tr:hover #xmenu48926 {
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/komi.png)
+    center;
+  background-size: cover;
+}
+
+tr:hover #xmenu50631 {
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/komi2.png)
+    center;
+  background-size: cover;
+}
