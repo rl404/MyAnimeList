@@ -1346,6 +1346,14 @@ tr:hover #xmenu40456 {
   background-size: cover;
 }
 
+/* kimetsu no yaiba geiko */
+
+tr:hover #xmenu55701 {
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/himejima.png)
+    center;
+  background-size: cover;
+}
+
 /* non non biyori nonstop */
 
 tr:hover #xmenu39808 {
@@ -1816,7 +1824,7 @@ tr:hover #xmenu57647 {
 /* Chainsaw-man */
 
 tr:hover .animetitle[href*="/44511/"] {
-  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.1/Expander/images/makima.png)
+  background: url(https://raw.githubusercontent.com/rl404/MyAnimeList/v1.3.3/Expander/images/makima.png)
     center;
   background-size: cover;
   width: 100%;
